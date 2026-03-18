@@ -23,6 +23,7 @@ WORKDIR /app
 COPY --from=deps /app/ ./
 COPY packages/db ./packages/db
 COPY apps/api ./apps/api
+COPY data/unified ./data/unified
 WORKDIR /app/packages/db
 RUN pnpm build
 WORKDIR /app/apps/api
@@ -45,8 +46,8 @@ COPY --from=builder /app/packages/db/dist ./packages/db/dist
 COPY --from=builder /app/packages/db/drizzle ./packages/db/drizzle
 COPY --from=builder /app/packages/db/package.json ./packages/db/package.json
 
-# Copy seed data files (directly from build context, not needed at build time)
-COPY data/unified ./data/unified
+# Copy seed data files from builder stage
+COPY --from=builder /app/data/unified ./data/unified
 
 # Copy prod node_modules
 COPY --from=prod-deps /app/node_modules ./node_modules
