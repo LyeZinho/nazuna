@@ -1,15 +1,8 @@
 <script lang="ts">
-  import StatCard from '$components/StatCard.svelte';
-  import CharacterCard from '$components/CharacterCard.svelte';
+  import CharacterCard from '$lib/components/CharacterCard.svelte';
+  import StatCard from '$lib/components/StatCard.svelte';
   
   let { data } = $props();
-  
-  const stats = [
-    { label: 'Total Characters', value: String(data.stats.totalCharacters || 0), icon: 'users', color: 'blue' as const },
-    { label: 'Active Users', value: String(data.stats.activeUsers || 0), icon: 'user-check', color: 'purple' as const },
-    { label: 'Servers', value: String(data.stats.servers || 0), icon: 'server', color: 'cyan' as const },
-    { label: 'Collections', value: String(data.stats.collections || 0), icon: 'box', color: 'pink' as const },
-  ];
 </script>
 
 <svelte:head>
@@ -17,77 +10,126 @@
 </svelte:head>
 
 <div class="home">
-  <header class="hero animate-slide-up">
+  <!-- Hero Section -->
+  <section class="hero">
     <div class="hero-content">
+      <div class="hero-tag">Vampire Vibes Only</div>
+      
       <h1 class="hero-title">
-        Collect Your <span class="gradient-text">Waifus</span>
+        Collect Your <br />
+        <span class="gradient-text">Waifus</span>
       </h1>
-      <p class="hero-subtitle">
-        Spin the roulette, collect anime characters, and build your collection!
+      
+      <p class="hero-description">
+        The most advanced character collection system. Inspired by the night, built for the bold. Join Nazuna in the ultimate anime hunt.
       </p>
+      
       <div class="hero-actions">
-        <a href="/characters" class="btn-primary">
-          <span>Explore Characters</span>
+        <a href="/characters" class="btn-explore">
+          EXPLORE CHARACTERS
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="5" y1="12" x2="19" y2="12"/>
             <polyline points="12 5 19 12 12 19"/>
           </svg>
         </a>
-        <a href="/rankings" class="btn-secondary">
-          View Rankings
+        <a href="/rankings" class="btn-rankings">
+          VIEW RANKINGS
         </a>
       </div>
     </div>
     
     <div class="hero-visual">
-      <div class="floating-cards">
-        <div class="floating-card card-1 animate-float">
-          <div class="card-glow"></div>
+      <div class="hero-image-wrapper">
+        <div class="hero-image neobrutal-card rotate-3 animate-float">
+          <img 
+            src="https://images.alphacoders.com/124/1246533.jpg" 
+            alt="Nazuna Hero"
+            referrerPolicy="no-referrer"
+          />
         </div>
-        <div class="floating-card card-2 animate-float" style="animation-delay: -1s"></div>
-        <div class="floating-card card-3 animate-float" style="animation-delay: -2s"></div>
+        <div class="hero-shadow"></div>
       </div>
-    </div>
-  </header>
-  
-  <section class="stats-section">
-    <div class="stats-grid">
-      {#each stats as stat, i}
-        <div class="animate-fade-in stagger-{i + 1}" style="opacity: 0">
-          <StatCard {...stat} />
-        </div>
-      {/each}
     </div>
   </section>
   
-  <section class="featured-section">
+  <!-- Stats Grid -->
+  <section class="stats-section">
+    <StatCard 
+      icon='<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>'
+      label="Total Characters"
+      value={data.stats.totalCharacters.toLocaleString()}
+      color="var(--accent-blue)"
+    />
+    <StatCard 
+      icon='<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>'
+      label="Active Users"
+      value={(data.stats.activeUsers / 1000).toFixed(1) + 'k'}
+      color="var(--accent-purple)"
+    />
+    <StatCard 
+      icon='<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>'
+      label="Total Servers"
+      value={data.stats.servers.toLocaleString()}
+      color="var(--accent-pink)"
+    />
+    <StatCard 
+      icon='<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>'
+      label="Collections"
+      value={(data.stats.collections / 1000000).toFixed(1) + 'M'}
+      color="var(--accent-cyan)"
+    />
+  </section>
+  
+  <!-- Top Characters -->
+  <section class="top-section">
     <div class="section-header">
-      <h2 class="section-title">
-        <span class="section-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-          </svg>
-        </span>
-        Top Characters
-      </h2>
+      <div class="section-title">
+        <h2>Popular Right Now</h2>
+        <p class="section-subtitle">Top trending characters this week</p>
+      </div>
       <a href="/rankings" class="see-all">
-        See All
+        SEE ALL
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <line x1="5" y1="12" x2="19" y2="12"/>
-          <polyline points="12 5 19 12 12 19"/>
+          <polyline points="9 18 15 12 9 6"/>
         </svg>
       </a>
     </div>
     
     <div class="characters-grid">
-      {#each data.topCharacters as char, i}
+      {#each data.topCharacters as char (char.id)}
         <CharacterCard 
-          name={char.name} 
-          work={char.work?.title || 'Unknown'} 
-          rank={i + 1}
-          image={char.imageUrl || ''}
+          id={char.id || char.anilistId}
+          name={char.name}
+          series={char.series || char.work?.title}
+          image={char.imageUrl || char.image}
+          rank={char.rank}
+          rating={char.score || char.rating || 0}
+          rarity={char.rarity || 'Common'}
         />
       {/each}
+    </div>
+  </section>
+  
+  <!-- Search Preview -->
+  <section class="search-section">
+    <div class="search-wrapper">
+      <div class="search-row">
+        <div class="search-input-wrapper">
+          <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <a href="/characters" class="search-input" style="display: block; text-decoration: none;">
+            SEARCH FOR A CHARACTER...
+          </a>
+        </div>
+        <a href="/characters" class="filter-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/>
+          </svg>
+          FILTERS
+        </a>
+      </div>
     </div>
   </section>
 </div>
@@ -96,230 +138,295 @@
   .home {
     display: flex;
     flex-direction: column;
-    gap: 64px;
+    gap: 80px;
   }
   
   .hero {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 48px;
     align-items: center;
-    min-height: 400px;
-    padding: 48px 0;
+  }
+  
+  @media (min-width: 1024px) {
+    .hero {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .hero-tag {
+    display: inline-block;
+    background: var(--accent-pink);
+    color: #000;
+    padding: 4px 12px;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    border: 2px solid #000;
+    box-shadow: 3px 3px 0 #000;
+    width: fit-content;
   }
   
   .hero-title {
-    font-size: 56px;
+    font-size: clamp(48px, 8vw, 80px);
     font-weight: 900;
-    line-height: 1.1;
-    margin-bottom: 16px;
-    letter-spacing: -2px;
+    text-transform: uppercase;
+    letter-spacing: -0.03em;
+    line-height: 0.95;
   }
   
-  .hero-subtitle {
+  .hero-description {
     font-size: 18px;
     color: var(--text-secondary);
-    margin-bottom: 32px;
+    font-weight: 500;
     max-width: 480px;
     line-height: 1.6;
-    font-weight: 500;
   }
   
   .hero-actions {
     display: flex;
+    flex-wrap: wrap;
     gap: 16px;
   }
   
-  .btn-primary {
+  .btn-explore {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: var(--accent-blue);
-    color: white;
-    padding: 14px 28px;
-    border: 3px solid #000;
-    border-radius: var(--radius-md);
+    padding: 16px 24px;
+    background: var(--accent-purple);
+    color: #000;
     font-weight: 700;
+    font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.05em;
+    border: var(--border-brutal);
     box-shadow: var(--shadow-brutal);
     transition: all var(--transition-fast);
   }
   
-  .btn-primary:hover {
+  .btn-explore:hover {
     transform: translate(-2px, -2px);
     box-shadow: var(--shadow-brutal-lg);
   }
   
-  .btn-primary:active {
-    transform: translate(2px, 2px);
-    box-shadow: 1px 1px 0 #000;
-  }
-  
-  .btn-secondary {
+  .btn-rankings {
     display: inline-flex;
     align-items: center;
-    padding: 14px 28px;
-    background: var(--bg-card);
-    color: var(--text-primary);
-    border: 3px solid var(--border-thick);
-    border-radius: var(--radius-md);
+    padding: 16px 24px;
+    background: white;
+    color: #000;
     font-weight: 700;
-    transition: all var(--transition-fast);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: var(--border-brutal);
     box-shadow: var(--shadow-brutal);
+    transition: all var(--transition-fast);
   }
   
-  .btn-secondary:hover {
-    border-color: var(--accent-purple);
-    transform: translate(-2px, -2px);
-    box-shadow: var(--shadow-brutal-lg);
-  }
-  
-  .btn-secondary:active {
+  .btn-rankings:hover {
+    box-shadow: none;
     transform: translate(2px, 2px);
-    box-shadow: 1px 1px 0 #000;
   }
   
   .hero-visual {
     position: relative;
-    height: 300px;
+    display: flex;
+    justify-content: center;
   }
   
-  .floating-cards {
+  .hero-image-wrapper {
     position: relative;
+    z-index: 10;
+  }
+  
+  .hero-image {
+    padding: 8px;
+    background: var(--accent-purple);
+    max-width: 400px;
+  }
+  
+  .hero-image img {
     width: 100%;
-    height: 100%;
+    height: auto;
+    border: var(--border-brutal);
   }
   
-  .floating-card {
-    position: absolute;
-    width: 180px;
-    height: 240px;
-    border-radius: var(--radius-lg);
-    background: var(--bg-card);
-    border: 3px solid var(--border-thick);
-    overflow: hidden;
-  }
-  
-  .card-1 {
-    top: 0;
-    left: 20%;
-    z-index: 3;
-    border-color: var(--accent-purple);
-    box-shadow: var(--shadow-brutal-accent);
-  }
-  
-  .card-2 {
-    top: 20px;
-    left: 40%;
-    z-index: 2;
-    transform: scale(0.9);
-    box-shadow: var(--shadow-brutal);
-  }
-  
-  .card-3 {
-    top: 40px;
-    left: 60%;
-    z-index: 1;
-    transform: scale(0.8);
-    box-shadow: var(--shadow-brutal);
-  }
-  
-  .card-glow {
+  .hero-shadow {
     position: absolute;
     inset: 0;
-    background: var(--accent-purple);
-    opacity: 0.15;
+    background: var(--accent-pink);
+    border: var(--border-brutal);
+    transform: rotate(-3deg) translate(16px, 16px);
+    z-index: -1;
+  }
+  
+  .rotate-3 {
+    transform: rotate(3deg);
   }
   
   .stats-section {
-    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
   }
   
-  .stats-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
+  @media (min-width: 640px) {
+    .stats-section {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .stats-section {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .top-section {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
   }
   
   .section-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 24px;
+    flex-direction: column;
+    gap: 8px;
   }
   
-  .section-title {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    font-size: 24px;
-    font-weight: 800;
+  @media (min-width: 768px) {
+    .section-header {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
   }
   
-  .section-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    background: var(--accent-purple);
-    border: 2px solid #000;
-    border-radius: var(--radius-md);
-    box-shadow: 2px 2px 0 #000;
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+  }
+  
+  .section-subtitle {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--text-secondary);
   }
   
   .see-all {
     display: flex;
     align-items: center;
     gap: 4px;
-    color: var(--accent-blue);
     font-weight: 700;
-    font-size: 14px;
+    color: var(--accent-purple);
     text-transform: uppercase;
-    letter-spacing: 0.5px;
-    border: 2px solid var(--accent-blue);
-    padding: 6px 14px;
-    border-radius: var(--radius-md);
-    box-shadow: 2px 2px 0 #000;
-    transition: all var(--transition-fast);
+    font-size: 12px;
+    letter-spacing: 0.1em;
   }
   
   .see-all:hover {
-    transform: translate(-1px, -1px);
-    box-shadow: 3px 3px 0 #000;
+    text-decoration: underline;
   }
   
   .characters-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
   }
   
-  @media (max-width: 1024px) {
-    .hero {
-      grid-template-columns: 1fr;
-      text-align: center;
-    }
-    
-    .hero-subtitle {
-      margin: 0 auto 32px;
-    }
-    
-    .hero-actions {
-      justify-content: center;
-    }
-    
-    .hero-visual {
-      display: none;
-    }
-    
-    .stats-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    
+  @media (min-width: 640px) {
     .characters-grid {
       grid-template-columns: repeat(2, 1fr);
     }
+  }
+  
+  @media (min-width: 1024px) {
+    .characters-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .search-section {
+    background: var(--bg-secondary);
+    border: var(--border-brutal);
+    box-shadow: var(--shadow-brutal);
+    padding: 32px;
+  }
+  
+  .search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .search-row {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  @media (min-width: 768px) {
+    .search-row {
+      flex-direction: row;
+    }
+  }
+  
+  .search-input-wrapper {
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 16px;
+    color: var(--text-secondary);
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 16px 16px 16px 48px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    background: var(--bg-primary);
+    color: var(--text-secondary);
+  }
+  
+  .filter-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px 32px;
+    background: white;
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: var(--border-brutal);
+    box-shadow: var(--shadow-brutal);
+    transition: all var(--transition-fast);
+    white-space: nowrap;
+  }
+  
+  .filter-btn:hover {
+    box-shadow: none;
+    transform: translate(2px, 2px);
   }
 </style>

@@ -1,692 +1,775 @@
 <script lang="ts">
-  import { page } from '$app/stores';
-  import { onMount } from 'svelte';
-  import StarRating from '$components/StarRating.svelte';
-  import { api } from '$lib/api';
+  import CharacterCard from '$lib/components/CharacterCard.svelte';
+  import StarRating from '$lib/components/StarRating.svelte';
+  import { enhance } from '$app/forms';
   
-  const characterId = Number($page.params.id);
+  let { data } = $props();
   
-  let loading = $state(true);
-  let error = $state<string | null>(null);
-  
-  let character = $state<any>(null);
-  let metrics = $state({ globalRank: 0, totalClaims: 0, totalFavorites: 0 });
-  let relatedCharacters = $state<any[]>([]);
-  let volumeData = $state<any[]>([]);
-  
-  let rating = $state({ average: 0, totalVotes: 0, userRating: 0 });
-  let isLoggedIn = $state(false);
-  let submitting = $state(false);
-  
-  onMount(async () => {
-    try {
-      const [charData, metricsData, relatedData, volumeResult] = await Promise.all([
-        api.characters.get(characterId),
-        api.characters.getMetrics(characterId),
-        api.characters.getRelated(characterId, 5),
-        api.characters.getVolume(characterId, 6),
-      ]);
-      
-      character = charData;
-      metrics = metricsData || { globalRank: 0, totalClaims: 0, totalFavorites: 0 };
-      relatedCharacters = relatedData || [];
-      volumeData = volumeResult || [];
-      
-      if (charData.rating) {
-        rating = {
-          average: charData.rating.averageRating || 0,
-          totalVotes: charData.rating.totalVotes || 0,
-          userRating: 0
-        };
-      }
-    } catch (e) {
-      error = 'Failed to load character data';
-      console.error(e);
-    } finally {
-      loading = false;
-    }
-  });
-  
-  async function submitRating(value: number) {
-    if (!isLoggedIn) return;
-    submitting = true;
-    try {
-      await api.ratings.submit('user-123', characterId, value);
-      rating = { ...rating, userRating: value };
-    } catch (e) {
-      console.error('Failed to submit rating:', e);
-    } finally {
-      submitting = false;
-    }
+  const char = $derived(data.character);
+  const charId = $derived(char.anilistId || char.id);
+
+  // Action feedback state
+  let collectionState = $state<'idle' | 'loading' | 'added'>('idle');
+  let favoriteState = $state<'idle' | 'loading' | 'added'>('idle');
+  let shareState = $state<'idle' | 'copied'>('idle');
+
+  function handleShare() {
+    const url = `${window.location.origin}/characters/${charId}`;
+    navigator.clipboard.writeText(url).then(() => {
+      shareState = 'copied';
+      setTimeout(() => (shareState = 'idle'), 2000);
+    });
   }
 </script>
 
 <svelte:head>
-  <title>{character?.name || 'Loading...'} - Nazuna Bot</title>
+  <title>{char.name} - Nazuna Bot</title>
 </svelte:head>
 
-{#if loading}
-  <div class="loading">Loading character...</div>
-{:else if error}
-  <div class="error">{error}</div>
-{:else}
-<div class="character-page">
+<main class="character-detail">
   <a href="/characters" class="back-link">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
       <line x1="19" y1="12" x2="5" y2="12"/>
       <polyline points="12 19 5 12 12 5"/>
     </svg>
-    Back to Characters
+    BACK TO CHARACTERS
   </a>
   
-  <div class="character-layout">
-    <div class="character-image-section animate-slide-up">
-      <div class="image-container">
-        <img src={character.imageUrl} alt={character.name} class="character-image" />
-        <div class="image-glow"></div>
+  <div class="detail-grid">
+    <!-- Character Image -->
+    <div class="image-section">
+      <div class="image-wrapper neobrutal-card rotate-1">
+        <img 
+          src={char.imageUrl || char.image || `https://picsum.photos/seed/${char.name}/600/800`}
+          alt={char.name}
+          referrerPolicy="no-referrer"
+        />
       </div>
-      
-      <div class="rating-card">
-        <h3 class="rating-title">Rate this Character</h3>
-        
-        {#if !isLoggedIn}
-          <p class="rating-hint">Login to vote</p>
-          <button class="login-btn">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M22.2 14.5c-.6 0-1.1.5-1.1 1.1V18H3V8.5c0-.6-.5-1.1-1.1-1.1s-1.1.5-1.1 1.1V18h18v-2.4c0-.6-.5-1.1-1.1-1.1zM8.5 15c.8 0 1.5-.7 1.5-1.5S9.3 12 8.5 12 7 12.7 7 13.5 7.7 15 8.5 15zm7.5 0c.8 0 1.5-.7 1.5-1.5S16.8 12 16 12s-1.5.7-1.5 1.5.7 15 1.5 15z"/>
-            </svg>
-            Login with Discord
-          </button>
-        {:else}
-          <StarRating value={rating.userRating} onChange={submitRating} disabled={submitting} />
-          {#if rating.userRating > 0}
-            <p class="rating-submitted">Your rating: {rating.userRating} ⭐</p>
-          {/if}
-        {/if}
-        
-        <div class="rating-stats">
-          <div class="stat">
-            <span class="stat-value">{rating.average.toFixed(1)}</span>
-            <span class="stat-label">Average</span>
-          </div>
-          <div class="stat-divider"></div>
-          <div class="stat">
-            <span class="stat-value">{rating.totalVotes.toLocaleString()}</span>
-            <span class="stat-label">Votes</span>
-          </div>
-        </div>
-      </div>
+      <div class="image-shadow"></div>
     </div>
     
-    <div class="character-info animate-slide-up" style="animation-delay: 0.1s">
-      <h1 class="character-name gradient-text">{character.name}</h1>
+    <!-- Character Info -->
+    <div class="info-section">
+      <div class="badges">
+        <div class="badge badge-rank">RANK #{data.metrics?.globalRank || char.rank || '?'}</div>
+        <div class="badge badge-rarity">{char.rarity || 'Common'}</div>
+      </div>
       
-      <div class="character-meta">
-        <span class="meta-item">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
-            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
-          </svg>
-          {character.work?.title || 'Unknown'}
-        </span>
-        <span class="meta-item">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <h1 class="character-name">{char.name}</h1>
+      <p class="character-series">{char.series || char.work?.title || 'Unknown Series'}</p>
+      
+      <!-- Stats -->
+      <div class="stats-grid">
+        <div class="stat-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
             <circle cx="12" cy="12" r="3"/>
           </svg>
-          #{character.popularity.toLocaleString()}
-        </span>
-        <span class="meta-item role-badge">
-          {character.role}
-        </span>
-      </div>
-      
-      <div class="character-description">
-        <p>{character.description}</p>
-      </div>
-      
-      <div class="character-tags">
-        {#if character.categories?.personality_trait?.length}
-          <div class="tag-section">
-            <h4 class="tag-title">Personality</h4>
-            <div class="tags">
-              {#each character.categories.personality_trait as trait}
-                <span class="tag personality">{trait}</span>
-              {/each}
-            </div>
-          </div>
-        {/if}
-        
-        {#if character.categories?.genre?.length}
-          <div class="tag-section">
-            <h4 class="tag-title">Genres</h4>
-            <div class="tags">
-              {#each character.categories.genre as genre}
-                <span class="tag genre">{genre}</span>
-              {/each}
-            </div>
-          </div>
-        {/if}
-        
-        {#if character.categories?.hair_color?.length || character.categories?.eye_color?.length}
-          <div class="tag-section">
-            <h4 class="tag-title">Appearance</h4>
-            <div class="tags">
-              {#if character.categories.hair_color?.length}
-                {#each character.categories.hair_color as hair}
-                  <span class="tag appearance">💇 {hair} hair</span>
-                {/each}
-              {/if}
-              {#if character.categories.eye_color?.length}
-                {#each character.categories.eye_color as eye}
-                  <span class="tag appearance">👁 {eye} eyes</span>
-                {/each}
-              {/if}
-            </div>
-          </div>
-        {/if}
-      </div>
-
-      <!-- Metrics Section -->
-      <div class="metrics-section">
-        <h2 class="metrics-title">📊 Statistics</h2>
-        
-        <div class="metrics-stats">
-          <div class="metric-card">
-            <span class="metric-value">#{metrics.globalRank || '-'}</span>
-            <span class="metric-label">Global Rank</span>
-          </div>
-          <div class="metric-card">
-            <span class="metric-value">{(metrics.totalClaims || 0).toLocaleString()}</span>
-            <span class="metric-label">Total Claims</span>
-          </div>
-          <div class="metric-card">
-            <span class="metric-value">{(metrics.totalFavorites || 0).toLocaleString()}</span>
-            <span class="metric-label">Favorites</span>
-          </div>
+          <span class="stat-label">Claims</span>
+          <span class="stat-value">{data.metrics?.totalClaims?.toLocaleString() || (char.views?.toLocaleString() || '0')}</span>
         </div>
-
-        <div class="chart-section">
-          <h3 class="chart-title">Claim Volume (Last 6 Months)</h3>
-          <div class="bar-chart">
-            {#each volumeData as data}
-              <div class="bar-container">
-                <div class="bar" style="height: {Math.max(4, (data.count / Math.max(...volumeData.map(v => v.count), 1)) * 80)}%"></div>
-                <span class="bar-label">{data.month}</span>
-                <span class="bar-value">{data.count}</span>
-              </div>
+        <div class="stat-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+          </svg>
+          <span class="stat-label">Score</span>
+          <span class="stat-value">{(char.score || char.rating || 0).toFixed(1)}</span>
+        </div>
+        <div class="stat-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+          <span class="stat-label">Favorites</span>
+          <span class="stat-value">{data.metrics?.totalFavorites?.toLocaleString() || '12.4k'}</span>
+        </div>
+        <div class="stat-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+            <polyline points="17 6 23 6 23 12"/>
+          </svg>
+          <span class="stat-label">Popularity</span>
+          <span class="stat-value">{(char.popularity || 0).toLocaleString()}</span>
+        </div>
+      </div>
+      
+      <!-- Rating Section -->
+      <div class="rating-section">
+        <div class="rating-header">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+          </svg>
+          <h3>Rate this character</h3>
+        </div>
+        <div class="rating-row">
+          <StarRating 
+            initialRating={Math.round(char.score || 0)} 
+            characterId={charId}
+            userId="mock-user-123"
+          />
+          <span class="rating-hint">Click to rate 1–5 stars</span>
+        </div>
+      </div>
+      
+      <!-- Description -->
+      {#if char.description}
+        <div class="description-card neobrutal-card">
+          <h3>Description</h3>
+          <p>{char.description}</p>
+        </div>
+      {/if}
+      
+      <!-- Details -->
+      <div class="details-grid">
+        {#if char.gender}
+          <div class="detail-item">
+            <span class="detail-label">Gender</span>
+            <span class="detail-value">{char.gender}</span>
+          </div>
+        {/if}
+        {#if char.role}
+          <div class="detail-item">
+            <span class="detail-label">Role</span>
+            <span class="detail-value">{char.role}</span>
+          </div>
+        {/if}
+        {#if char.hairColor}
+          <div class="detail-item">
+            <span class="detail-label">Hair Color</span>
+            <span class="detail-value">{char.hairColor}</span>
+          </div>
+        {/if}
+      </div>
+      
+      <!-- Volume Chart Preview -->
+      {#if data.volume && data.volume.length > 0}
+        <div class="chart-preview neobrutal-card">
+          <h3>Monthly Claims</h3>
+          <div class="mini-chart">
+            {#each data.volume as month}
+              <div class="chart-bar" style="height: {Math.min((month.count / 500) * 100, 100)}%"></div>
             {/each}
           </div>
         </div>
+      {/if}
+      
+      <!-- Actions -->
+      <div class="action-buttons">
+        <!-- Add to Collection -->
+        <form method="POST" action="?/addToCollection" use:enhance={() => {
+          collectionState = 'loading';
+          return async ({ result, update }) => {
+            if (result.type === 'success') {
+              collectionState = 'added';
+            } else {
+              collectionState = 'idle';
+            }
+            await update();
+            if (collectionState === 'added') {
+              setTimeout(() => (collectionState = 'idle'), 3000);
+            }
+          };
+        }}>
+          <input type="hidden" name="serverId" value="mock-server-456" />
+          <button 
+            type="submit" 
+            class="btn-collect"
+            class:btn-added={collectionState === 'added'}
+            disabled={collectionState === 'loading' || collectionState === 'added'}
+          >
+            {#if collectionState === 'loading'}
+              <div class="spinner-sm"></div>
+            {:else if collectionState === 'added'}
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              ADDED!
+            {:else}
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              ADD TO COLLECTION
+            {/if}
+          </button>
+        </form>
 
-        <div class="related-section">
-          <h3 class="related-title">🔥 Related Characters</h3>
-          <p class="related-subtitle">Based on shared tags</p>
-          <div class="related-grid">
-            {#each relatedCharacters as char}
-              <a href="/characters/{char.anilistId}" class="related-card">
-                <img src={char.imageUrl} alt={char.name} class="related-image" />
-                <div class="related-info">
-                  <span class="related-name">{char.name}</span>
-                  <span class="related-tags">{char.sharedTags} shared tags</span>
-                </div>
-              </a>
-            {/each}
-          </div>
-        </div>
+        <!-- Add to Favorites -->
+        <form method="POST" action="?/addToFavorites" use:enhance={() => {
+          favoriteState = 'loading';
+          return async ({ result, update }) => {
+            if (result.type === 'success') {
+              favoriteState = 'added';
+            } else {
+              favoriteState = 'idle';
+            }
+            await update();
+            if (favoriteState === 'added') {
+              setTimeout(() => (favoriteState = 'idle'), 3000);
+            }
+          };
+        }}>
+          <button 
+            type="submit" 
+            class="btn-favorite"
+            class:btn-added={favoriteState === 'added'}
+            disabled={favoriteState === 'loading' || favoriteState === 'added'}
+          >
+            {#if favoriteState === 'loading'}
+              <div class="spinner-sm"></div>
+            {:else if favoriteState === 'added'}
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              SAVED!
+            {:else}
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              ADD TO FAVORITES
+            {/if}
+          </button>
+        </form>
+
+        <!-- Share -->
+        <button 
+          class="btn-share"
+          class:btn-copied={shareState === 'copied'}
+          onclick={handleShare}
+        >
+          {#if shareState === 'copied'}
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            COPIED!
+          {:else}
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="18" cy="5" r="3"/>
+              <circle cx="6" cy="12" r="3"/>
+              <circle cx="18" cy="19" r="3"/>
+              <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+              <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+            </svg>
+            SHARE
+          {/if}
+        </button>
       </div>
+
+      {#if data.source === 'mock'}
+        <div class="demo-banner">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="12" y1="8" x2="12" y2="12"/>
+            <line x1="12" y1="16" x2="12.01" y2="16"/>
+          </svg>
+          Demo mode — action results are simulated. Connect to backend for real data.
+        </div>
+      {/if}
     </div>
   </div>
-</div>
-{/if}
+  
+  <!-- Related Characters -->
+  {#if data.related && data.related.length > 0}
+    <section class="related-section">
+      <div class="related-header">
+        <h2>Related Characters</h2>
+        <a href="/characters" class="see-all">
+          VIEW ALL
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="9 18 15 12 9 6"/>
+          </svg>
+        </a>
+      </div>
+      
+      <div class="related-grid">
+        {#each data.related as relatedChar (relatedChar.id || relatedChar.anilistId)}
+          <a href="/characters/{relatedChar.id || relatedChar.anilistId}" class="related-card neobrutal-card">
+            <div class="related-image">
+              <img 
+                src={relatedChar.imageUrl || relatedChar.image || `https://picsum.photos/seed/${relatedChar.name}/600/800`}
+                alt={relatedChar.name}
+                referrerPolicy="no-referrer"
+              />
+            </div>
+            <div class="related-info">
+              <h4>{relatedChar.name}</h4>
+              <p>{relatedChar.series || relatedChar.work?.title}</p>
+            </div>
+          </a>
+        {/each}
+      </div>
+    </section>
+  {/if}
+</main>
 
 <style>
-  .character-page {
-    max-width: 1000px;
-    margin: 0 auto;
+  .character-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
   }
   
   .back-link {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    color: var(--text-secondary);
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 24px;
-    transition: all var(--transition-fast);
-    padding: 8px 16px;
-    border: 2px solid var(--border-color);
-    border-radius: var(--radius-md);
-    box-shadow: 2px 2px 0 #000;
+    font-weight: 700;
+    color: var(--accent-purple);
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.1em;
   }
   
   .back-link:hover {
-    color: var(--accent-blue);
-    border-color: var(--accent-blue);
-    transform: translate(-1px, -1px);
-    box-shadow: 3px 3px 0 #000;
+    text-decoration: underline;
   }
   
-  .character-layout {
+  .detail-grid {
     display: grid;
-    grid-template-columns: 350px 1fr;
+    grid-template-columns: 1fr;
     gap: 48px;
   }
   
-  .character-image-section {
+  @media (min-width: 1024px) {
+    .detail-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .image-section {
+    position: relative;
+  }
+  
+  .image-wrapper {
+    position: relative;
+    z-index: 10;
+    padding: 8px;
+    background: var(--accent-purple);
+    max-width: 400px;
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: auto;
+    border: var(--border-brutal);
+  }
+  
+  .image-shadow {
+    position: absolute;
+    inset: 0;
+    background: var(--accent-pink);
+    border: var(--border-brutal);
+    transform: rotate(-3deg);
+    z-index: -1;
+    max-width: 400px;
+  }
+  
+  .rotate-1 {
+    transform: rotate(1deg);
+  }
+  
+  .info-section {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 32px;
   }
   
-  .image-container {
-    position: relative;
-    border-radius: var(--radius-xl);
-    overflow: hidden;
-    border: 3px solid var(--border-thick);
-    box-shadow: var(--shadow-brutal);
+  .badges {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
   }
   
-  .character-image {
-    width: 100%;
-    aspect-ratio: 3/4;
-    object-fit: cover;
+  .badge {
+    padding: 4px 12px;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    border: 2px solid #000;
+    box-shadow: 3px 3px 0 #000;
   }
   
-  .image-glow {
-    display: none;
+  .badge-rank {
+    background: var(--accent-yellow);
+    color: #000;
   }
   
-  .rating-card {
-    background: var(--bg-card);
-    border: 3px solid var(--border-thick);
-    border-radius: var(--radius-lg);
-    padding: 24px;
-    text-align: center;
-    box-shadow: var(--shadow-brutal);
+  .badge-rarity {
+    background: var(--accent-pink);
+    color: #000;
   }
   
-  .rating-title {
-    font-size: 14px;
+  .character-name {
+    font-size: clamp(36px, 6vw, 64px);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+  
+  .character-series {
+    font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 16px;
+    letter-spacing: 0.1em;
+    color: var(--accent-purple);
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  
+  @media (min-width: 640px) {
+    .stats-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .stat-item {
+    background: var(--bg-secondary);
+    border: 2px solid #000;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .stat-item :global(svg) {
+    color: var(--accent-purple);
+  }
+  
+  .stat-label {
+    font-size: 9px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    color: var(--text-secondary);
+  }
+  
+  .stat-value {
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+  }
+  
+  .rating-section {
+    padding: 20px 24px;
+    background: var(--bg-secondary);
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .rating-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--accent-yellow);
+  }
+  
+  .rating-header h3 {
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    color: var(--text-primary);
+  }
+  
+  .rating-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
   }
   
   .rating-hint {
-    font-size: 14px;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
     color: var(--text-secondary);
+  }
+  
+  .description-card {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .description-card h3 {
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+  }
+  
+  .description-card p {
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+  
+  .details-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  
+  .detail-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .detail-label {
+    font-size: 9px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    color: var(--text-secondary);
+  }
+  
+  .detail-value {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  
+  .chart-preview {
+    padding: 24px;
+  }
+  
+  .chart-preview h3 {
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
     margin-bottom: 16px;
   }
   
-  .login-btn {
+  .mini-chart {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
     gap: 8px;
-    width: 100%;
-    padding: 12px;
-    background: #5865F2;
-    color: white;
-    border: 3px solid #4752C4;
-    border-radius: var(--radius-md);
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    transition: all var(--transition-fast);
-    box-shadow: var(--shadow-brutal);
+    height: 60px;
   }
   
-  .login-btn:hover {
-    background: #4752C4;
+  .chart-bar {
+    flex: 1;
+    background: var(--accent-pink);
+    border: 2px solid #000;
+    min-height: 4px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .btn-collect {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 24px;
+    background: var(--accent-purple);
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: var(--border-brutal);
+    box-shadow: var(--shadow-brutal);
+    transition: all var(--transition-fast);
+  }
+  
+  .btn-collect:hover {
     transform: translate(-2px, -2px);
     box-shadow: var(--shadow-brutal-lg);
   }
   
-  .login-btn:active {
-    transform: translate(2px, 2px);
-    box-shadow: 1px 1px 0 #000;
-  }
-  
-  .rating-submitted {
-    font-size: 13px;
-    color: var(--accent-cyan);
-    margin-top: 8px;
-  }
-  
-  .rating-stats {
-    display: flex;
+  .btn-share {
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
-    gap: 24px;
-    margin-top: 20px;
-    padding-top: 20px;
-    border-top: 2px solid var(--border-thick);
-  }
-  
-  .stat {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .stat-value {
-    font-size: 24px;
+    gap: 8px;
+    padding: 16px 24px;
+    background: white;
+    color: #000;
     font-weight: 700;
-    color: var(--accent-purple-light);
-  }
-  
-  .stat-label {
-    font-size: 12px;
-    color: var(--text-secondary);
-  }
-  
-  .stat-divider {
-    width: 2px;
-    height: 40px;
-    background: var(--border-thick);
-  }
-  
-  .character-info {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-  }
-  
-  .character-name {
-    font-size: 40px;
-    font-weight: 800;
-    line-height: 1.1;
-  }
-  
-  .character-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-  }
-  
-  .meta-item {
-    display: flex;
-    align-items: center;
-    gap: 6px;
     font-size: 14px;
-    color: var(--text-secondary);
-  }
-  
-  .role-badge {
-    padding: 4px 12px;
-    background: var(--bg-card);
-    border: 2px solid var(--accent-purple);
-    color: var(--accent-purple-light);
-    border-radius: var(--radius-sm);
-    text-transform: capitalize;
-    font-weight: 700;
-  }
-  
-  .character-description {
-    font-size: 15px;
-    line-height: 1.7;
-    color: var(--text-secondary);
-  }
-  
-  .character-tags {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  }
-  
-  .tag-section {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-  
-  .tag-title {
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--text-muted);
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.05em;
+    border: var(--border-brutal);
+    box-shadow: var(--shadow-brutal);
+    transition: all var(--transition-fast);
   }
   
-  .tags {
+  .btn-share:hover {
+    box-shadow: none;
+    transform: translate(2px, 2px);
+  }
+  
+  .btn-favorite {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 24px;
+    background: var(--accent-pink);
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: var(--border-brutal);
+    box-shadow: var(--shadow-brutal);
+    transition: all var(--transition-fast);
+  }
+  
+  .btn-favorite:hover:not(:disabled) {
+    transform: translate(-2px, -2px);
+    box-shadow: var(--shadow-brutal-lg);
+  }
+  
+  .btn-added, .btn-copied {
+    background: var(--accent-green) !important;
+    color: #000 !important;
+  }
+  
+  .btn-collect:disabled, .btn-favorite:disabled, .btn-share:disabled {
+    cursor: not-allowed;
+  }
+  
+  .btn-share.btn-copied {
+    box-shadow: var(--shadow-brutal);
+  }
+  
+  .spinner-sm {
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-top-color: #000;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  
+  .demo-banner {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 14px;
+    background: rgba(255, 212, 0, 0.1);
+    border: 1px solid rgba(255, 212, 0, 0.3);
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--accent-yellow);
+  }
+  
+  .related-section {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 48px;
+    border-top: var(--border-brutal);
+  }
+  
+  .related-header {
+    display: flex;
+    flex-direction: column;
     gap: 8px;
   }
   
-  .tag {
-    padding: 6px 12px;
-    border-radius: var(--radius-sm);
-    font-size: 13px;
-    font-weight: 600;
-    border: 2px solid var(--border-color);
-  }
-  
-  .tag.personality {
-    background: var(--bg-card);
-    border-color: var(--accent-pink);
-    color: var(--accent-pink);
-  }
-  
-  .tag.genre {
-    background: var(--bg-card);
-    border-color: var(--accent-blue);
-    color: var(--accent-blue-light);
-  }
-  
-  .tag.appearance {
-    background: var(--bg-card);
-    border-color: var(--accent-purple);
-    color: var(--accent-purple-light);
-  }
-  
-  @media (max-width: 768px) {
-    .character-layout {
-      grid-template-columns: 1fr;
+  @media (min-width: 768px) {
+    .related-header {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
     }
   }
-
-  .loading, .error {
+  
+  .related-header h2 {
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+  }
+  
+  .see-all {
     display: flex;
     align-items: center;
-    justify-content: center;
-    min-height: 400px;
-    font-size: 18px;
-    color: var(--text-secondary);
-  }
-
-  .error {
-    color: #ef4444;
-  }
-
-  .metrics-section {
-    margin-top: 32px;
-    padding-top: 32px;
-    border-top: 3px solid var(--border-thick);
-  }
-
-  .metrics-title {
-    font-size: 24px;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 20px;
-  }
-
-  .metrics-stats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
-    margin-bottom: 32px;
-  }
-
-  .metric-card {
-    background: var(--bg-card);
-    border: 3px solid var(--border-thick);
-    border-radius: var(--radius-lg);
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
     gap: 4px;
-    box-shadow: var(--shadow-brutal);
-  }
-
-  .metric-value {
-    font-size: 28px;
-    font-weight: 800;
-    color: var(--accent-purple-light);
-  }
-
-  .metric-label {
-    font-size: 13px;
-    color: var(--text-secondary);
-  }
-
-  .chart-section {
-    background: var(--bg-card);
-    border: 3px solid var(--border-thick);
-    border-radius: var(--radius-lg);
-    padding: 24px;
-    margin-bottom: 32px;
-    box-shadow: var(--shadow-brutal);
-  }
-
-  .chart-title {
-    font-size: 14px;
     font-weight: 700;
+    color: var(--accent-purple);
     text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 20px;
-    color: var(--text-primary);
+    font-size: 12px;
+    letter-spacing: 0.1em;
   }
-
-  .bar-chart {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    height: 120px;
-    gap: 12px;
+  
+  .see-all:hover {
+    text-decoration: underline;
   }
-
-  .bar-container {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    position: relative;
-  }
-
-  .bar {
-    width: 100%;
-    background: var(--accent-purple);
-    border: 2px solid var(--border-thick);
-    border-radius: 2px 2px 0 0;
-    position: absolute;
-    bottom: 24px;
-    min-height: 4px;
-    transition: height 0.3s ease;
-  }
-
-  .bar-label {
-    position: absolute;
-    bottom: 8px;
-    font-size: 11px;
-    color: var(--text-muted);
-  }
-
-  .bar-value {
-    position: absolute;
-    top: 0;
-    font-size: 10px;
-    color: var(--text-secondary);
-  }
-
-  .related-section {
-    background: var(--bg-card);
-    border: 3px solid var(--border-thick);
-    border-radius: var(--radius-lg);
-    padding: 24px;
-    box-shadow: var(--shadow-brutal);
-  }
-
-  .related-title {
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 4px;
-  }
-
-  .related-subtitle {
-    font-size: 13px;
-    color: var(--text-secondary);
-    margin-bottom: 20px;
-  }
-
+  
   .related-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 12px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
   }
-
-  .related-card {
-    background: var(--bg-primary);
-    border: 2px solid var(--border-color);
-    border-radius: var(--radius-md);
-    padding: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    cursor: pointer;
-    transition: all var(--transition-fast);
-    text-decoration: none;
-  }
-
-  .related-card:hover {
-    border-color: var(--accent-purple-light);
-    transform: translate(-2px, -2px);
-    box-shadow: 3px 3px 0 var(--accent-purple);
-  }
-
-  .related-image {
-    width: 50px;
-    height: 70px;
-    object-fit: cover;
-    border-radius: var(--radius-sm);
-  }
-
-  .related-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2px;
-  }
-
-  .related-name {
-    font-size: 11px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 1.2;
-    color: var(--text-primary);
-  }
-
-  .related-tags {
-    font-size: 10px;
-    color: var(--accent-cyan);
-  }
-
-  @media (max-width: 768px) {
-    .metrics-stats {
-      grid-template-columns: 1fr;
-    }
+  
+  @media (min-width: 640px) {
     .related-grid {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
     }
+  }
+  
+  .related-card {
+    overflow: hidden;
+  }
+  
+  .related-card:hover .related-image img {
+    transform: scale(1.1);
+  }
+  
+  .related-image {
+    aspect-ratio: 3/4;
+    overflow: hidden;
+    border-bottom: var(--border-brutal);
+  }
+  
+  .related-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .related-info {
+    padding: 16px;
+  }
+  
+  .related-info h4 {
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .related-info p {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 </style>

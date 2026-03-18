@@ -1,112 +1,131 @@
 <script lang="ts">
   interface Props {
-    value?: number;
-    onChange?: (value: number) => void;
-    disabled?: boolean;
-    readonly?: boolean;
+    initialRating: number;
+    readOnly?: boolean;
+    characterId?: string | number;
+    userId?: string;
+    onRate?: (rating: number) => void;
   }
   
-  let { value = 0, onChange, disabled = false, readonly = false }: Props = $props();
+  let { initialRating, readOnly = false, characterId, userId = 'mock-user-123', onRate }: Props = $props();
   
-  let hoverValue = $state(0);
-  let isHovering = $state(false);
+  let rating = $state(initialRating);
+  let hover = $state(0);
+  let isSubmitting = $state(false);
   
-  function handleClick(star: number) {
-    if (disabled || readonly) return;
-    onChange?.(star);
-  }
-  
-  function handleMouseEnter(star: number) {
-    if (disabled || readonly) return;
-    isHovering = true;
-    hoverValue = star;
-  }
-  
-  function handleMouseLeave() {
-    isHovering = false;
-    hoverValue = 0;
+  async function handleRate(value: number) {
+    if (readOnly || isSubmitting) return;
+    
+    rating = value;
+    isSubmitting = true;
+    
+    try {
+      if (characterId) {
+        // Submit directly to API
+        const res = await fetch('/api/v1/ratings', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ userId, characterId, rating: value }),
+        });
+        
+        if (res.ok) {
+          if (onRate) onRate(value);
+        } else {
+          rating = initialRating;
+        }
+      } else {
+        await new Promise(resolve => setTimeout(resolve, 800));
+        if (onRate) onRate(value);
+      }
+    } catch {
+      rating = initialRating;
+    } finally {
+      isSubmitting = false;
+    }
   }
 </script>
 
-<div class="star-rating" class:readonly class:disabled>
-  {#each [1, 2, 3, 4, 5] as star}
-    <button
-      class="star"
-      class:filled={star <= (isHovering ? hoverValue : value)}
-      onclick={() => handleClick(star)}
-      onmouseenter={() => handleMouseEnter(star)}
-      onmouseleave={handleMouseLeave}
-      disabled={disabled || readonly}
-      type="button"
-    >
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-      </svg>
-    </button>
-  {/each}
+<div class="star-rating">
+  <div class="stars">
+    {#each [1, 2, 3, 4, 5] as star}
+      <button
+        type="button"
+        disabled={isSubmitting}
+        aria-label="Rate {star} star{star > 1 ? 's' : ''}"
+        onmouseenter={() => !readOnly && !isSubmitting && (hover = star)}
+        onmouseleave={() => !readOnly && !isSubmitting && (hover = 0)}
+        onclick={() => handleRate(star)}
+        class="star-btn"
+        class:disabled={isSubmitting}
+      >
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill={(hover || rating) >= star ? "currentColor" : "none"}
+          stroke="currentColor"
+          stroke-width="2"
+          class={(hover || rating) >= star ? "star-filled" : "star-empty"}
+        >
+          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+        </svg>
+      </button>
+    {/each}
+  </div>
+  
+  {#if !readOnly && rating > 0}
+    <span class="rating-text">
+      {isSubmitting ? 'SAVING...' : `${rating}.0`}
+    </span>
+  {/if}
 </div>
 
 <style>
   .star-rating {
     display: flex;
-    gap: 4px;
+    align-items: center;
+    gap: 8px;
   }
   
-  .star {
+  .stars {
+    display: flex;
+    gap: 2px;
+  }
+  
+  .star-btn {
     background: none;
-    border: 2px solid transparent;
-    border-radius: var(--radius-sm);
-    padding: 4px;
+    border: none;
+    padding: 0;
     cursor: pointer;
-    color: var(--border-color);
-    transition: all var(--transition-fast);
-    transform-origin: center;
+    transition: transform 0.1s ease;
   }
   
-  .star:hover {
-    transform: scale(1.15) translate(-1px, -1px);
+  .star-btn:not(.disabled):hover {
+    transform: scale(1.2);
   }
   
-  .star.filled {
-    color: #FFD700;
-    border-color: #FFD700;
-  }
-  
-  .star:not(.filled):hover {
-    color: #FFD700;
-    border-color: #FFD700;
-  }
-  
-  .star:disabled {
-    cursor: not-allowed;
-    opacity: 1;
-  }
-  
-  .star svg {
-    filter: drop-shadow(2px 2px 0 #000);
-    transition: all var(--transition-fast);
-  }
-  
-  .star.filled svg {
-    filter: drop-shadow(2px 2px 0 #b8860b);
-    animation: star-pop 0.3s ease;
-  }
-  
-  @keyframes star-pop {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.3); }
-    100% { transform: scale(1); }
-  }
-  
-  .disabled .star {
+  .star-btn.disabled {
+    opacity: 0.5;
     cursor: not-allowed;
   }
   
-  .readonly .star {
-    cursor: default;
+  .star-filled {
+    color: var(--accent-yellow);
   }
   
-  .readonly .star:hover {
-    transform: none;
+  .star-empty {
+    color: #4a4a5a;
+  }
+  
+  .rating-text {
+    font-size: 10px;
+    font-weight: 900;
+    color: var(--accent-yellow);
+    animation: pulse 1s ease infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.6; }
   }
 </style>
