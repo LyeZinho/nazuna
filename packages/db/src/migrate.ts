@@ -2,9 +2,17 @@ import { drizzle } from 'drizzle-orm/postgres-js';
 import { migrate } from 'drizzle-orm/postgres-js/migrator';
 import postgres from 'postgres';
 import { join } from 'path';
+import { resolve } from 'path';
+import { config } from 'dotenv';
+
+config({ path: resolve(__dirname, '../../.env') });
 
 async function main() {
-  const connectionString = process.env.DATABASE_URL || 'postgres://postgres:postgres@localhost:5432/anime_bot';
+  const connectionString = process.env.DATABASE_URL;
+  if (!connectionString) {
+    console.error('❌ DATABASE_URL not set in environment');
+    process.exit(1);
+  }
 
   console.log('🔄 Running database migrations...');
 
