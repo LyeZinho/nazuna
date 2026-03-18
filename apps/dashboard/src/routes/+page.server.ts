@@ -29,7 +29,13 @@ export const load: PageServerLoad = async ({ fetch }) => {
         };
         
         return {
-          topCharacters: rankings.data.slice(0, 4),
+          topCharacters: rankings.data.slice(0, 4).filter((char: any, idx: number, arr: any[]) => {
+            // Ensure unique IDs and filter out items without valid IDs
+            const id = char.id || char.anilistId;
+            if (!id) return false;
+            // Keep first occurrence of each unique ID
+            return arr.findIndex((c: any) => (c.id || c.anilistId) === id) === idx;
+          }),
           stats,
           source: 'api' as const,
         };

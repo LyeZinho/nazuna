@@ -1,4 +1,5 @@
 import type { PageServerLoad } from './$types';
+import { getServerApiUrl } from '$lib/api';
 import { getMockRankings, getMockStats, getMockDistribution, getMockLedger } from '$lib/mockData';
 
 export const load: PageServerLoad = async ({ url }) => {
@@ -7,12 +8,23 @@ export const load: PageServerLoad = async ({ url }) => {
   const limit = 50;
 
   try {
-    const response = await fetch(`/api/v1/rankings/${type}?page=${page}&limit=${limit}`);
+    const response = await fetch(getServerApiUrl(`/rankings/${type}?page=${page}&limit=${limit}`));
     
     if (response.ok) {
       const data = await response.json();
+      const rankings = (data.data || []).map((c: any) => ({ ...c, id: c.anilistId }));
+      
+      // Deduplicate by ID and filter out items without valid IDs
+      const seen = new Set();
+      const uniqueRankings = rankings.filter((char: any) => {
+        const id = char.id || char.anilistId;
+        if (!id || seen.has(id)) return false;
+        seen.add(id);
+        return true;
+      });
+      
       return {
-        rankings: (data.data || []).map((c: any) => ({ ...c, id: c.anilistId })),
+        rankings: uniqueRankings,
         pagination: data.pagination || { page, limit, total: 0, totalPages: 0 },
         currentType: type,
         source: 'api' as const,

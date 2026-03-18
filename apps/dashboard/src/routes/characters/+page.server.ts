@@ -19,13 +19,22 @@ export const load: PageServerLoad = async ({ url }) => {
     params.set('page', String(page));
     params.set('limit', String(limit));
     
-    const response = await fetch(getServerApiUrl(`/characters?${params.toString}`));
+    const response = await fetch(getServerApiUrl(`/characters?${params.toString()}`));
 
-    
     if (response.ok) {
       const data = await response.json();
+      
+      // Deduplicate by ID
+      const seen = new Set();
+      const uniqueCharacters = (data.data || []).filter((char: any) => {
+        const id = char.id || char.anilistId;
+        if (!id || seen.has(id)) return false;
+        seen.add(id);
+        return true;
+      });
+      
       return {
-        characters: data.data || [],
+        characters: uniqueCharacters,
         pagination: data.pagination || { page, limit, total: 0, totalPages: 0 },
         filters: { search, gender, hairColor, rarity, sortBy },
         source: 'api' as const,
