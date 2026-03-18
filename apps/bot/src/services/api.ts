@@ -30,7 +30,8 @@ export class ApiService {
         throw new Error(`API error: ${response.status} ${response.statusText}`);
       }
 
-      return response.json();
+      const data = await response.json() as T;
+      return data;
     } catch (error) {
       this.logger.error(`API request failed: ${endpoint}`, error);
       throw error;

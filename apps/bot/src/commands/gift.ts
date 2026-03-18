@@ -15,6 +15,11 @@ export const GiftCommand = {
       return;
     }
 
+    if (!targetUser) {
+      await interaction.editReply('❌ Invalid user specified.');
+      return;
+    }
+
     if (targetUser.id === interaction.user.id) {
       await interaction.editReply('❌ You cannot gift a character to yourself!');
       return;

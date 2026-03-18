@@ -13,7 +13,6 @@ export interface SafebooruPost {
   height: string;
   file_size: string;
   rating: string;
-  tags: string;
 }
 
 export class SafebooruService {
@@ -42,7 +41,7 @@ export class SafebooruService {
         throw new Error(`Safebooru API error: ${response.status}`);
       }
 
-      const data = await response.json();
+      const data = await response.json() as { posts?: SafebooruPost[] };
       return data.posts || [];
     } catch (error) {
       this.logger.error('Safebooru search failed', error);

@@ -1,6 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { db, characters, characterCategories, categoryValues, categoryTypes, characterRatings, works, userCollections, userFavorites, ledgerLogs, eq, desc, sql, and, inArray, count } from '@anime-bot/db';
-import { Character } from '@anime-bot/db';
+import { db, characters, characterCategories, categoryValues, categoryTypes, characterRatings, works, userCollections, userFavorites, ledgerLogs, eq, desc, sql, and, inArray, count, users } from '@anime-bot/db';
 
 export interface CharacterFilter {
   gender?: string;

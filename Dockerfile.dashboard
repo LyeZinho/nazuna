@@ -3,14 +3,16 @@ RUN corepack enable && corepack prepare pnpm@9.0.0 --activate
 
 FROM base AS deps
 WORKDIR /app
-COPY package.json pnpm-lock.yaml ./
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 COPY apps/dashboard/package.json apps/dashboard/
 RUN pnpm install --frozen-lockfile
 
 FROM base AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
-COPY . .
+COPY --from=deps /app/apps/dashboard/node_modules ./apps/dashboard/node_modules
+COPY apps/dashboard ./apps/dashboard
+WORKDIR /app/apps/dashboard
 RUN pnpm build
 
 FROM base AS runner

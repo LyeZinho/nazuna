@@ -1,4 +1,4 @@
-import { pgTable, varchar, text, timestamp, integer, float, boolean, jsonb, uuid, pgEnum } from 'drizzle-orm/pg-core';
+import { pgTable, varchar, text, timestamp, integer, real, boolean, jsonb, uuid, pgEnum } from 'drizzle-orm/pg-core';
 import { relations } from 'drizzle-orm';
 
 // Enums
@@ -101,7 +101,7 @@ export const characters = pgTable('characters', {
   role: roleEnum('role'),
   imageUrl: text('image_url'),
   popularity: integer('popularity').notNull().default(0),
-  score: float('score').notNull().default(0),
+  score: real('score').notNull().default(0),
   workId: varchar('work_id', { length: 100 }),
   createdAt: timestamp('created_at').defaultNow().notNull(),
   updatedAt: timestamp('updated_at').defaultNow().notNull(),
@@ -117,7 +117,7 @@ export const characterCategories = pgTable('character_categories', {
 export const characterRatings = pgTable('character_ratings', {
   characterId: integer('character_id').primaryKey(),
   totalVotes: integer('total_votes').notNull().default(0),
-  averageRating: float('average_rating').notNull().default(0),
+  averageRating: real('average_rating').notNull().default(0),
   sumRatings: integer('sum_ratings').notNull().default(0),
   updatedAt: timestamp('updated_at').defaultNow().notNull(),
 });
@@ -250,17 +250,14 @@ export const ledgerLogsRelations = relations(ledgerLogs, ({ one }) => ({
   user: one(users, {
     fields: [ledgerLogs.userId],
     references: [users.id],
-    nullable: true,
   }),
   server: one(servers, {
     fields: [ledgerLogs.serverId],
     references: [servers.id],
-    nullable: true,
   }),
   character: one(characters, {
     fields: [ledgerLogs.characterId],
     references: [characters.anilistId],
-    nullable: true,
   }),
 }));
 
@@ -271,14 +268,14 @@ export const charactersPopularityIndex = pgTable('characters_popularity_idx', {
   // Partial index for ranking queries
   characterId: integer('character_id').notNull(),
   popularity: integer('popularity').notNull(),
-  score: float('score').notNull(),
+  score: real('score').notNull(),
   gender: genderEnum('gender'),
   role: roleEnum('role'),
 });
 
 export const charactersRatingIndex = pgTable('characters_rating_idx', {
   characterId: integer('character_id').notNull(),
-  averageRating: float('average_rating').notNull(),
+  averageRating: real('average_rating').notNull(),
   totalVotes: integer('total_votes').notNull(),
 });
 

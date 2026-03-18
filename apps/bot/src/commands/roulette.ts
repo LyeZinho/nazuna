@@ -57,7 +57,7 @@ export const RouletteCommand = {
       if (character.categories) {
         const traits = character.categories.personality?.slice(0, 5) || [];
         if (traits.length > 0) {
-          embed.addFields({ name: '💫 Personality', value: traits.map(t => `\`${t}\``).join(', '), inline: false });
+          embed.addFields({ name: '💫 Personality', value: traits.map((t: string) => `\`${t}\``).join(', '), inline: false });
         }
 
         const hair = character.categories.hair_color;
@@ -116,5 +116,5 @@ function formatRole(role: string): string {
 }
 
 function formatTrait(trait: string): string {
-  return trait.split('_').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  return trait.split('_').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 }

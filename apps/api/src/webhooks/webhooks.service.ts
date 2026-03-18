@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { LedgerService } from './ledger.service';
+import { LedgerService } from '../ledger/ledger.service';
 
 @Injectable()
 export class WebhooksService {
