@@ -56,26 +56,37 @@ export async function seedCharacters() {
 
   for (const file of files) {
     try {
-      const data = JSON.parse(readFileSync(join(dataDir, file), 'utf-8'));
-      const anilistId = Math.round(Number(data.anilistId));
+      const data = JSON.parse(readFileSync(join(dataDir, file), 'utf-8')) as {
+        anilist_id: unknown; name: string; alt_names?: string[]; description?: string;
+        gender?: string; role?: string; images?: { url?: string }[];
+        works?: { internalId: string }[];
+        categories?: {
+          demographics?: { gender?: string }; work?: { popularity?: number; score?: number };
+          personality?: string[]; hair_color?: string; eye_color?: string; body_type?: string;
+          archetype?: string[]; genres?: string[];
+        };
+      };
+      const anilistId = Number(data.anilist_id);
 
-      if (!anilistId || !data.slug) {
-        throw new Error(`Missing required fields: anilistId=${anilistId}, slug=${data.slug}`);
+      if (!anilistId || !data.name) {
+        throw new Error(`Missing required fields: anilistId=${anilistId}, name=${data.name}`);
       }
+
+      const slug = data.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
       await db
         .insert(characters)
         .values({
           anilistId,
-          slug: data.slug,
+          slug,
           name: data.name,
           altNames: data.alt_names,
           description: data.description,
-          gender: data.categories?.demographics?.gender,
-          role: data.role,
+          gender: data.gender as any,
+          role: data.role as any,
           imageUrl: data.images?.[0]?.url,
           popularity: data.categories?.work?.popularity || 0,
-          score: 0,
+          score: data.categories?.work?.score || 0,
           workId: data.works?.[0]?.internalId,
         })
         .onConflictDoUpdate({
@@ -83,8 +94,8 @@ export async function seedCharacters() {
           set: {
             name: data.name,
             altNames: data.alt_names,
-            gender: data.categories?.demographics?.gender,
-            role: data.role,
+            gender: data.gender as any,
+            role: data.role as any,
             imageUrl: data.images?.[0]?.url,
             popularity: data.categories?.work?.popularity || 0,
           }
