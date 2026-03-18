@@ -1,12 +1,13 @@
 import type { PageServerLoad } from './$types';
+import { getServerApiUrl } from '$lib/api';
 import { getMockStats, getMockDistribution, getMockLedger } from '$lib/mockData';
 
 export const load: PageServerLoad = async ({ fetch }) => {
   try {
     // Try to fetch stats from multiple endpoints
     const [charactersRes, rankingsRes] = await Promise.all([
-      fetch('/api/v1/characters?limit=1'),
-      fetch('/api/v1/rankings/combined?limit=1'),
+      fetch(getServerApiUrl('/characters?limit=1')),
+      fetch(getServerApiUrl('/rankings/combined?limit=1')),
     ]);
     
     if (charactersRes.ok) {

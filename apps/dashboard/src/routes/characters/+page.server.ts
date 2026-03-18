@@ -1,5 +1,5 @@
 import type { PageServerLoad } from './$types';
-import { api } from '$lib/api';
+import { api, getServerApiUrl } from '$lib/api';
 import { getMockCharacters, filterCharacters } from '$lib/mockData';
 
 export const load: PageServerLoad = async ({ url }) => {
@@ -19,7 +19,8 @@ export const load: PageServerLoad = async ({ url }) => {
     params.set('page', String(page));
     params.set('limit', String(limit));
     
-    const response = await fetch(`/api/v1/characters?${params.toString()}`);
+    const response = await fetch(getServerApiUrl(`/characters?${params.toString}`));
+
     
     if (response.ok) {
       const data = await response.json();

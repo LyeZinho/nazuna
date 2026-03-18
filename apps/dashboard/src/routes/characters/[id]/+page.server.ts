@@ -1,5 +1,6 @@
 import type { PageServerLoad, Actions } from './$types';
 import { error, fail } from '@sveltejs/kit';
+import { getServerApiUrl } from '$lib/api';
 import { getMockCharacter, getMockRelatedCharacters, getMockMetrics, getMockVolume } from '$lib/mockData';
 
 const MOCK_USER_ID = 'mock-user-123';
@@ -14,10 +15,10 @@ export const load: PageServerLoad = async ({ params, fetch }) => {
 
   try {
     const [characterRes, metricsRes, relatedRes, volumeRes] = await Promise.all([
-      fetch(`/api/v1/characters/${id}`),
-      fetch(`/api/v1/characters/${id}/metrics`),
-      fetch(`/api/v1/characters/${id}/related?limit=3`),
-      fetch(`/api/v1/characters/${id}/volume?months=6`),
+      fetch(getServerApiUrl(`/characters/${id}`)),
+      fetch(getServerApiUrl(`/characters/${id}/metrics`)),
+      fetch(getServerApiUrl(`/characters/${id}/related?limit=3`)),
+      fetch(getServerApiUrl(`/characters/${id}/volume?months=6`)),
     ]);
 
     if (characterRes.ok) {
@@ -64,7 +65,7 @@ export const actions: Actions = {
     const serverId = (formData.get('serverId') as string) || MOCK_SERVER_ID;
     
     try {
-      const res = await fetch('/api/v1/collections', {
+      const res = await fetch(getServerApiUrl('/collections'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ userId: MOCK_USER_ID, serverId, characterId }),
@@ -85,7 +86,7 @@ export const actions: Actions = {
     const characterId = parseInt(params.id);
     
     try {
-      const res = await fetch('/api/v1/favorites', {
+      const res = await fetch(getServerApiUrl('/favorites'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ userId: MOCK_USER_ID, characterId }),
@@ -111,7 +112,7 @@ export const actions: Actions = {
     }
     
     try {
-      const res = await fetch('/api/v1/ratings', {
+      const res = await fetch(getServerApiUrl('/ratings'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ userId: MOCK_USER_ID, characterId, rating }),

@@ -1,13 +1,13 @@
 import type { PageServerLoad } from './$types';
-import { api } from '$lib/api';
+import { api, getServerApiUrl } from '$lib/api';
 import { getMockCharacters, getMockRankings, getMockStats } from '$lib/mockData';
 
 export const load: PageServerLoad = async ({ fetch }) => {
   try {
     // Try to fetch from API
     const [rankingsRes, charactersRes] = await Promise.all([
-      fetch('/api/v1/rankings/combined?page=1&limit=4'),
-      fetch('/api/v1/characters?page=1&limit=50'),
+      fetch(getServerApiUrl('/rankings/combined?page=1&limit=4')),
+      fetch(getServerApiUrl('/characters?page=1&limit=50')),
     ]);
 
     if (rankingsRes.ok && charactersRes.ok) {

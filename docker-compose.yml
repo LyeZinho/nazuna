@@ -49,7 +49,7 @@ services:
       DATABASE_URL: postgres://${POSTGRES_USER:-waifu}:${POSTGRES_PASSWORD:-changeme}@postgres:5432/${POSTGRES_DB:-waifubot}
       REDIS_URL: redis://redis:6379
       JWT_SECRET: ${JWT_SECRET:-changeme}
-      CORS_ORIGIN: ${DOMAIN:-https://your-domain.com}
+      CORS_ORIGIN: ${DASHBOARD_URL:-https://your-domain.com}
       DISCORD_CLIENT_ID: ${DISCORD_CLIENT_ID}
       DISCORD_CLIENT_SECRET: ${DISCORD_CLIENT_SECRET}
       DISCORD_BOT_TOKEN: ${DISCORD_BOT_TOKEN}
