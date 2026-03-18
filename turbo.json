@@ -21,6 +21,18 @@
       "cache": false,
       "dependsOn": ["db:push"],
       "inputs": ["packages/db/src/**", "data/**"]
+    },
+    "db:seed:categories": {
+      "cache": false,
+      "inputs": ["packages/db/src/**", "data/**"]
+    },
+    "db:seed:works": {
+      "cache": false,
+      "inputs": ["packages/db/src/**", "data/**"]
+    },
+    "db:seed:characters": {
+      "cache": false,
+      "inputs": ["packages/db/src/**", "data/**"]
     }
   }
 }
