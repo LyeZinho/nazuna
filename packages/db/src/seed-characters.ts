@@ -47,8 +47,8 @@ export async function seedCharacters() {
     try {
       const data = JSON.parse(readFileSync(join(dataDir, file), 'utf-8'));
       
-      // Use anilistId from data file, not from filename
-      const anilistId = data.anilistId;
+      // Use anilistId from data file, convert to integer if float
+      const anilistId = Math.round(Number(data.anilistId));
       
       // Validate required fields
       if (!anilistId || !data.slug) {
