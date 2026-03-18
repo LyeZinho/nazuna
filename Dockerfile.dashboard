@@ -37,9 +37,8 @@ RUN addgroup -g 1001 -S nodejs && \
 COPY --from=builder /app/apps/dashboard/build ./build
 COPY --from=builder /app/apps/dashboard/package.json ./package.json
 
-# Copy prod node_modules
+# Copy prod node_modules (full pnpm virtual store from root)
 COPY --from=prod-deps /app/node_modules ./node_modules
-COPY --from=prod-deps /app/apps/dashboard/node_modules ./apps/dashboard/node_modules
 COPY --from=prod-deps /app/package.json ./package.json
 COPY --from=prod-deps /app/pnpm-workspace.yaml ./pnpm-workspace.yaml
 
