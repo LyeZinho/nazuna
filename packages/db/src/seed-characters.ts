@@ -42,56 +42,72 @@ export async function seedCharacters() {
   });
 
   let count = 0;
+  let errors = 0;
   for (const file of files) {
-    const anilistId = parseInt(file.replace('.json', ''));
-    const data = JSON.parse(readFileSync(join(dataDir, file), 'utf-8'));
+    try {
+      const anilistId = parseInt(file.replace('.json', ''));
+      const data = JSON.parse(readFileSync(join(dataDir, file), 'utf-8'));
 
-    await db
-      .insert(characters)
-      .values({
-        anilistId,
-        slug: data.id,
-        name: data.name,
-        altNames: data.alt_names,
-        description: data.description,
-        gender: data.categories?.demographics?.gender,
-        role: data.role,
-        imageUrl: data.images?.[0]?.url,
-        popularity: data.categories?.work?.popularity || 0,
-        score: 0,
-        workId: data.works?.[0]?.internalId,
-      })
-      .onConflictDoUpdate({
-        target: characters.anilistId,
-        set: {
+      await db
+        .insert(characters)
+        .values({
+          anilistId,
+          slug: data.id,
           name: data.name,
           altNames: data.alt_names,
+          description: data.description,
           gender: data.categories?.demographics?.gender,
           role: data.role,
           imageUrl: data.images?.[0]?.url,
           popularity: data.categories?.work?.popularity || 0,
-        }
-      });
-
-    await db
-      .insert(characterRatings)
-      .values({
-        characterId: anilistId,
-        totalVotes: 0,
-        averageRating: 0,
-        sumRatings: 0,
-      })
-      .onConflictDoNothing();
-
-    if (data.categories) {
-      const cats = data.categories;
-
-      if (cats.personality?.length && personalityType) {
-        const values = await db.query.categoryValues.findMany({
-          where: eq(categoryValues.typeId, personalityType.id)
+          score: 0,
+          workId: data.works?.[0]?.internalId,
+        })
+        .onConflictDoUpdate({
+          target: characters.anilistId,
+          set: {
+            name: data.name,
+            altNames: data.alt_names,
+            gender: data.categories?.demographics?.gender,
+            role: data.role,
+            imageUrl: data.images?.[0]?.url,
+            popularity: data.categories?.work?.popularity || 0,
+          }
         });
-        for (const trait of cats.personality) {
-          const found = values.find(v => v.value === trait);
+
+      await db
+        .insert(characterRatings)
+        .values({
+          characterId: anilistId,
+          totalVotes: 0,
+          averageRating: 0,
+          sumRatings: 0,
+        })
+        .onConflictDoNothing();
+
+      if (data.categories) {
+        const cats = data.categories;
+
+        if (cats.personality?.length && personalityType) {
+          const values = await db.query.categoryValues.findMany({
+            where: eq(categoryValues.typeId, personalityType.id)
+          });
+          for (const trait of cats.personality) {
+            const found = values.find(v => v.value === trait);
+            if (found) {
+              await db.insert(characterCategories).values({
+                characterId: anilistId,
+                categoryValueId: found.id
+              }).onConflictDoNothing();
+            }
+          }
+        }
+
+        if (cats.hair_color && hairColorType) {
+          const values = await db.query.categoryValues.findMany({
+            where: eq(categoryValues.typeId, hairColorType.id)
+          });
+          const found = values.find(v => v.value === cats.hair_color);
           if (found) {
             await db.insert(characterCategories).values({
               characterId: anilistId,
@@ -99,53 +115,12 @@ export async function seedCharacters() {
             }).onConflictDoNothing();
           }
         }
-      }
 
-      if (cats.hair_color && hairColorType) {
-        const values = await db.query.categoryValues.findMany({
-          where: eq(categoryValues.typeId, hairColorType.id)
-        });
-        const found = values.find(v => v.value === cats.hair_color);
-        if (found) {
-          await db.insert(characterCategories).values({
-            characterId: anilistId,
-            categoryValueId: found.id
-          }).onConflictDoNothing();
-        }
-      }
-
-      if (cats.eye_color && eyeColorType) {
-        const values = await db.query.categoryValues.findMany({
-          where: eq(categoryValues.typeId, eyeColorType.id)
-        });
-        const found = values.find(v => v.value === cats.eye_color);
-        if (found) {
-          await db.insert(characterCategories).values({
-            characterId: anilistId,
-            categoryValueId: found.id
-          }).onConflictDoNothing();
-        }
-      }
-
-      if (cats.body_type && bodyTypeType) {
-        const values = await db.query.categoryValues.findMany({
-          where: eq(categoryValues.typeId, bodyTypeType.id)
-        });
-        const found = values.find(v => v.value === cats.body_type);
-        if (found) {
-          await db.insert(characterCategories).values({
-            characterId: anilistId,
-            categoryValueId: found.id
-          }).onConflictDoNothing();
-        }
-      }
-
-      if (cats.archetype?.length && archetypeType) {
-        const values = await db.query.categoryValues.findMany({
-          where: eq(categoryValues.typeId, archetypeType.id)
-        });
-        for (const arch of cats.archetype) {
-          const found = values.find(v => v.value === arch);
+        if (cats.eye_color && eyeColorType) {
+          const values = await db.query.categoryValues.findMany({
+            where: eq(categoryValues.typeId, eyeColorType.id)
+          });
+          const found = values.find(v => v.value === cats.eye_color);
           if (found) {
             await db.insert(characterCategories).values({
               characterId: anilistId,
@@ -153,14 +128,12 @@ export async function seedCharacters() {
             }).onConflictDoNothing();
           }
         }
-      }
 
-      if (cats.genres?.length && genreType) {
-        const values = await db.query.categoryValues.findMany({
-          where: eq(categoryValues.typeId, genreType.id)
-        });
-        for (const genre of cats.genres) {
-          const found = values.find(v => v.value === genre);
+        if (cats.body_type && bodyTypeType) {
+          const values = await db.query.categoryValues.findMany({
+            where: eq(categoryValues.typeId, bodyTypeType.id)
+          });
+          const found = values.find(v => v.value === cats.body_type);
           if (found) {
             await db.insert(characterCategories).values({
               characterId: anilistId,
@@ -168,14 +141,47 @@ export async function seedCharacters() {
             }).onConflictDoNothing();
           }
         }
+
+        if (cats.archetype?.length && archetypeType) {
+          const values = await db.query.categoryValues.findMany({
+            where: eq(categoryValues.typeId, archetypeType.id)
+          });
+          for (const arch of cats.archetype) {
+            const found = values.find(v => v.value === arch);
+            if (found) {
+              await db.insert(characterCategories).values({
+                characterId: anilistId,
+                categoryValueId: found.id
+              }).onConflictDoNothing();
+            }
+          }
+        }
+
+        if (cats.genres?.length && genreType) {
+          const values = await db.query.categoryValues.findMany({
+            where: eq(categoryValues.typeId, genreType.id)
+          });
+          for (const genre of cats.genres) {
+            const found = values.find(v => v.value === genre);
+            if (found) {
+              await db.insert(characterCategories).values({
+                characterId: anilistId,
+                categoryValueId: found.id
+              }).onConflictDoNothing();
+            }
+          }
+        }
       }
+
+      count++;
+      if (count % 100 === 0) console.log(`   Processed ${count}/${files.length} characters`);
+    } catch (e) {
+      errors++;
+      console.error(`   ❌ Error processing ${file}: ${(e as Error).message}`);
     }
-
-    count++;
-    if (count % 100 === 0) console.log(`   Processed ${count}/${files.length} characters`);
   }
 
-  console.log(`✅ Seeded ${count} characters!`);
+  console.log(`✅ Seeded ${count} characters!${errors > 0 ? ` (${errors} errors)` : ''}`);
 }
 
 // Allow running standalone: node dist/seed-characters.js

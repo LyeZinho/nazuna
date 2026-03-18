@@ -2,9 +2,18 @@
   import CharacterCard from '$lib/components/CharacterCard.svelte';
   import StatCard from '$lib/components/StatCard.svelte';
   
+  interface Stats {
+    totalCharacters: number;
+    activeUsers: number;
+    servers: number;
+    collections: number;
+  }
+  
   let { data } = $props();
   
-  const stats = data?.stats ?? { totalCharacters: 0, activeUsers: 0, servers: 0, collections: 0 };
+  const defaultStats: Stats = { totalCharacters: 0, activeUsers: 0, servers: 0, collections: 0 };
+  const stats: Stats = (data?.stats as Stats) ?? defaultStats;
+
 </script>
 
 <svelte:head>
@@ -59,25 +68,25 @@
     <StatCard 
       icon='<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>'
       label="Total Characters"
-      value={((stats as any)?.totalCharacters ?? 0).toLocaleString()}
+      value={(stats.totalCharacters ?? 0).toLocaleString()}
       color="var(--accent-blue)"
     />
     <StatCard 
       icon='<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>'
       label="Active Users"
-      value={(((stats as any)?.activeUsers ?? 0) / 1000).toFixed(1) + 'k'}
+      value={((stats.activeUsers ?? 0) / 1000).toFixed(1) + 'k'}
       color="var(--accent-purple)"
     />
     <StatCard 
       icon='<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>'
       label="Total Servers"
-      value={((stats as any)?.servers ?? 0).toLocaleString()}
+      value={(stats.servers ?? 0).toLocaleString()}
       color="var(--accent-pink)"
     />
     <StatCard 
       icon='<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>'
       label="Collections"
-      value={(((stats as any)?.collections ?? 0) / 1000000).toFixed(1) + 'M'}
+      value={((stats.collections ?? 0) / 1000000).toFixed(1) + 'M'}
       color="var(--accent-cyan)"
     />
   </section>
