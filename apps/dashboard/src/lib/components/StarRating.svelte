@@ -54,7 +54,8 @@
   
   .star {
     background: none;
-    border: none;
+    border: 2px solid transparent;
+    border-radius: var(--radius-sm);
     padding: 4px;
     cursor: pointer;
     color: var(--border-color);
@@ -63,16 +64,17 @@
   }
   
   .star:hover {
-    transform: scale(1.2);
+    transform: scale(1.15) translate(-1px, -1px);
   }
   
   .star.filled {
     color: #FFD700;
+    border-color: #FFD700;
   }
   
   .star:not(.filled):hover {
     color: #FFD700;
-    opacity: 0.7;
+    border-color: #FFD700;
   }
   
   .star:disabled {
@@ -81,12 +83,12 @@
   }
   
   .star svg {
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(2px 2px 0 #000);
     transition: all var(--transition-fast);
   }
   
   .star.filled svg {
-    filter: drop-shadow(0 2px 8px rgba(255, 215, 0, 0.5));
+    filter: drop-shadow(2px 2px 0 #b8860b);
     animation: star-pop 0.3s ease;
   }
   

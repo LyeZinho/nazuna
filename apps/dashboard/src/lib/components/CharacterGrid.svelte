@@ -88,6 +88,9 @@
   .results-count {
     font-size: 14px;
     color: var(--text-secondary);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
   }
   
   .sort-options {
@@ -98,23 +101,35 @@
   .sort-btn {
     padding: 8px 16px;
     background: var(--bg-card);
-    border: 2px solid var(--border-color);
+    border: 3px solid var(--border-thick);
     border-radius: var(--radius-md);
     color: var(--text-secondary);
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
     transition: all var(--transition-fast);
+    box-shadow: var(--shadow-brutal-sm);
   }
   
   .sort-btn:hover {
     border-color: var(--accent-blue);
     color: var(--text-primary);
+    transform: translate(-1px, -1px);
+    box-shadow: var(--shadow-brutal);
+  }
+  
+  .sort-btn:active {
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 0 #000;
   }
   
   .sort-btn.active {
     background: var(--accent-blue);
-    border-color: var(--accent-blue);
+    border-color: #1e40af;
     color: white;
+    font-weight: 700;
+    box-shadow: 3px 3px 0 #1e40af;
   }
   
   .character-grid {
@@ -135,16 +150,25 @@
     gap: 8px;
     padding: 14px 32px;
     background: var(--bg-card);
-    border: 2px solid var(--border-color);
+    border: 3px solid var(--border-thick);
     border-radius: var(--radius-md);
     color: var(--text-primary);
-    font-weight: 600;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     transition: all var(--transition-fast);
+    box-shadow: var(--shadow-brutal);
   }
   
   .load-more-btn:hover:not(:disabled) {
     border-color: var(--accent-blue);
-    background: var(--bg-hover);
+    transform: translate(-2px, -2px);
+    box-shadow: var(--shadow-brutal-lg);
+  }
+  
+  .load-more-btn:active:not(:disabled) {
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px 0 #000;
   }
   
   .load-more-btn:disabled {
@@ -155,7 +179,7 @@
   .spinner {
     width: 16px;
     height: 16px;
-    border: 2px solid var(--border-color);
+    border: 3px solid var(--border-thick);
     border-top-color: var(--accent-blue);
     border-radius: 50%;
     animation: spin 0.8s linear infinite;

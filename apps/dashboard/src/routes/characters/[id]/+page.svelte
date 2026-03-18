@@ -252,13 +252,20 @@
     gap: 8px;
     color: var(--text-secondary);
     font-size: 14px;
+    font-weight: 600;
     margin-bottom: 24px;
     transition: all var(--transition-fast);
+    padding: 8px 16px;
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-md);
+    box-shadow: 2px 2px 0 #000;
   }
   
   .back-link:hover {
-    color: var(--accent-blue-light);
-    gap: 12px;
+    color: var(--accent-blue);
+    border-color: var(--accent-blue);
+    transform: translate(-1px, -1px);
+    box-shadow: 3px 3px 0 #000;
   }
   
   .character-layout {
@@ -277,6 +284,8 @@
     position: relative;
     border-radius: var(--radius-xl);
     overflow: hidden;
+    border: 3px solid var(--border-thick);
+    box-shadow: var(--shadow-brutal);
   }
   
   .character-image {
@@ -286,23 +295,23 @@
   }
   
   .image-glow {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to top, var(--bg-primary) 0%, transparent 50%);
-    pointer-events: none;
+    display: none;
   }
   
   .rating-card {
     background: var(--bg-card);
-    border: 2px solid var(--border-color);
+    border: 3px solid var(--border-thick);
     border-radius: var(--radius-lg);
     padding: 24px;
     text-align: center;
+    box-shadow: var(--shadow-brutal);
   }
   
   .rating-title {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     margin-bottom: 16px;
   }
   
@@ -321,14 +330,24 @@
     padding: 12px;
     background: #5865F2;
     color: white;
+    border: 3px solid #4752C4;
     border-radius: var(--radius-md);
-    font-weight: 600;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     transition: all var(--transition-fast);
+    box-shadow: var(--shadow-brutal);
   }
   
   .login-btn:hover {
     background: #4752C4;
-    transform: translateY(-2px);
+    transform: translate(-2px, -2px);
+    box-shadow: var(--shadow-brutal-lg);
+  }
+  
+  .login-btn:active {
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px 0 #000;
   }
   
   .rating-submitted {
@@ -344,7 +363,7 @@
     gap: 24px;
     margin-top: 20px;
     padding-top: 20px;
-    border-top: 1px solid var(--border-color);
+    border-top: 2px solid var(--border-thick);
   }
   
   .stat {
@@ -365,9 +384,9 @@
   }
   
   .stat-divider {
-    width: 1px;
+    width: 2px;
     height: 40px;
-    background: var(--border-color);
+    background: var(--border-thick);
   }
   
   .character-info {
@@ -398,10 +417,12 @@
   
   .role-badge {
     padding: 4px 12px;
-    background: rgba(139, 92, 246, 0.2);
+    background: var(--bg-card);
+    border: 2px solid var(--accent-purple);
     color: var(--accent-purple-light);
     border-radius: var(--radius-sm);
     text-transform: capitalize;
+    font-weight: 700;
   }
   
   .character-description {
@@ -440,21 +461,25 @@
     padding: 6px 12px;
     border-radius: var(--radius-sm);
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 600;
+    border: 2px solid var(--border-color);
   }
   
   .tag.personality {
-    background: rgba(236, 72, 153, 0.15);
+    background: var(--bg-card);
+    border-color: var(--accent-pink);
     color: var(--accent-pink);
   }
   
   .tag.genre {
-    background: rgba(59, 130, 246, 0.15);
+    background: var(--bg-card);
+    border-color: var(--accent-blue);
     color: var(--accent-blue-light);
   }
   
   .tag.appearance {
-    background: rgba(139, 92, 246, 0.15);
+    background: var(--bg-card);
+    border-color: var(--accent-purple);
     color: var(--accent-purple-light);
   }
   
@@ -480,12 +505,14 @@
   .metrics-section {
     margin-top: 32px;
     padding-top: 32px;
-    border-top: 1px solid var(--border-color);
+    border-top: 3px solid var(--border-thick);
   }
 
   .metrics-title {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     margin-bottom: 20px;
   }
 
@@ -498,13 +525,14 @@
 
   .metric-card {
     background: var(--bg-card);
-    border: 2px solid var(--border-color);
+    border: 3px solid var(--border-thick);
     border-radius: var(--radius-lg);
     padding: 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 4px;
+    box-shadow: var(--shadow-brutal);
   }
 
   .metric-value {
@@ -520,15 +548,18 @@
 
   .chart-section {
     background: var(--bg-card);
-    border: 2px solid var(--border-color);
+    border: 3px solid var(--border-thick);
     border-radius: var(--radius-lg);
     padding: 24px;
     margin-bottom: 32px;
+    box-shadow: var(--shadow-brutal);
   }
 
   .chart-title {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     margin-bottom: 20px;
     color: var(--text-primary);
   }
@@ -552,8 +583,9 @@
 
   .bar {
     width: 100%;
-    background: linear-gradient(to top, var(--accent-purple), var(--accent-purple-light));
-    border-radius: 4px 4px 0 0;
+    background: var(--accent-purple);
+    border: 2px solid var(--border-thick);
+    border-radius: 2px 2px 0 0;
     position: absolute;
     bottom: 24px;
     min-height: 4px;
@@ -576,14 +608,17 @@
 
   .related-section {
     background: var(--bg-card);
-    border: 2px solid var(--border-color);
+    border: 3px solid var(--border-thick);
     border-radius: var(--radius-lg);
     padding: 24px;
+    box-shadow: var(--shadow-brutal);
   }
 
   .related-title {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     margin-bottom: 4px;
   }
 
@@ -601,7 +636,7 @@
 
   .related-card {
     background: var(--bg-primary);
-    border: 1px solid var(--border-color);
+    border: 2px solid var(--border-color);
     border-radius: var(--radius-md);
     padding: 8px;
     display: flex;
@@ -615,7 +650,8 @@
 
   .related-card:hover {
     border-color: var(--accent-purple-light);
-    transform: translateY(-2px);
+    transform: translate(-2px, -2px);
+    box-shadow: 3px 3px 0 var(--accent-purple);
   }
 
   .related-image {

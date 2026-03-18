@@ -9,14 +9,14 @@
   let { label, value, icon, color }: Props = $props();
   
   const colorMap = {
-    blue: { bg: 'rgba(59, 130, 246, 0.1)', border: '#3b82f6', glow: 'rgba(59, 130, 246, 0.3)' },
-    purple: { bg: 'rgba(139, 92, 246, 0.1)', border: '#8b5cf6', glow: 'rgba(139, 92, 246, 0.3)' },
-    cyan: { bg: 'rgba(6, 182, 212, 0.1)', border: '#06b6d4', glow: 'rgba(6, 182, 212, 0.3)' },
-    pink: { bg: 'rgba(236, 72, 153, 0.1)', border: '#ec4899', glow: 'rgba(236, 72, 153, 0.3)' },
+    blue: { bg: 'var(--accent-blue)', shadow: 'var(--shadow-brutal-blue)' },
+    purple: { bg: 'var(--accent-purple)', shadow: 'var(--shadow-brutal-accent)' },
+    cyan: { bg: 'var(--accent-cyan)', shadow: 'var(--shadow-brutal-cyan)' },
+    pink: { bg: 'var(--accent-pink)', shadow: 'var(--shadow-brutal-pink)' },
   };
 </script>
 
-<div class="stat-card" style="--card-color: {colorMap[color].border}; --card-bg: {colorMap[color].bg}; --card-glow: {colorMap[color].glow}">
+<div class="stat-card" style="--card-color: {colorMap[color].bg}; --card-shadow: {colorMap[color].shadow}">
   <div class="stat-icon">
     {#if icon === 'users'}
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -59,33 +59,18 @@
     gap: 16px;
     padding: 24px;
     background: var(--bg-card);
-    border: 2px solid var(--border-color);
+    border: 3px solid var(--border-thick);
     border-radius: var(--radius-lg);
-    transition: all var(--transition-normal);
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .stat-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: var(--card-color);
-    opacity: 0;
-    transition: opacity var(--transition-fast);
+    transition: all var(--transition-fast);
+    box-shadow: var(--shadow-brutal);
+    border-left: 6px solid var(--card-color);
   }
   
   .stat-card:hover {
-    transform: translateY(-4px);
+    transform: translate(-2px, -2px);
+    box-shadow: var(--shadow-brutal-lg);
     border-color: var(--card-color);
-    box-shadow: 0 8px 30px var(--card-glow);
-  }
-  
-  .stat-card:hover::before {
-    opacity: 1;
+    border-left-color: var(--card-color);
   }
   
   .stat-icon {
@@ -94,9 +79,11 @@
     justify-content: center;
     width: 48px;
     height: 48px;
-    background: var(--card-bg);
+    background: var(--bg-secondary);
+    border: 2px solid var(--card-color);
     border-radius: var(--radius-md);
     color: var(--card-color);
+    box-shadow: 2px 2px 0 #000;
   }
   
   .stat-content {
@@ -106,7 +93,7 @@
   
   .stat-value {
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 1;
   }
   
@@ -114,5 +101,6 @@
     font-size: 13px;
     color: var(--text-secondary);
     margin-top: 4px;
+    font-weight: 500;
   }
 </style>

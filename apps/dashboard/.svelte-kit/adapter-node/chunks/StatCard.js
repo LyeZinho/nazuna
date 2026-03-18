@@ -3,27 +3,23 @@ function StatCard($$renderer, $$props) {
   let { label, value, icon, color } = $$props;
   const colorMap = {
     blue: {
-      bg: "rgba(59, 130, 246, 0.1)",
-      border: "#3b82f6",
-      glow: "rgba(59, 130, 246, 0.3)"
+      bg: "var(--accent-blue)",
+      shadow: "var(--shadow-brutal-blue)"
     },
     purple: {
-      bg: "rgba(139, 92, 246, 0.1)",
-      border: "#8b5cf6",
-      glow: "rgba(139, 92, 246, 0.3)"
+      bg: "var(--accent-purple)",
+      shadow: "var(--shadow-brutal-accent)"
     },
     cyan: {
-      bg: "rgba(6, 182, 212, 0.1)",
-      border: "#06b6d4",
-      glow: "rgba(6, 182, 212, 0.3)"
+      bg: "var(--accent-cyan)",
+      shadow: "var(--shadow-brutal-cyan)"
     },
     pink: {
-      bg: "rgba(236, 72, 153, 0.1)",
-      border: "#ec4899",
-      glow: "rgba(236, 72, 153, 0.3)"
+      bg: "var(--accent-pink)",
+      shadow: "var(--shadow-brutal-pink)"
     }
   };
-  $$renderer.push(`<div class="stat-card svelte-17xvzis"${attr_style(`--card-color: ${stringify(colorMap[color].border)}; --card-bg: ${stringify(colorMap[color].bg)}; --card-glow: ${stringify(colorMap[color].glow)}`)}><div class="stat-icon svelte-17xvzis">`);
+  $$renderer.push(`<div class="stat-card svelte-17xvzis"${attr_style(`--card-color: ${stringify(colorMap[color].bg)}; --card-shadow: ${stringify(colorMap[color].shadow)}`)}><div class="stat-icon svelte-17xvzis">`);
   if (icon === "users") {
     $$renderer.push("<!--[0-->");
     $$renderer.push(`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>`);

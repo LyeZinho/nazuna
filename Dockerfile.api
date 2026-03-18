@@ -23,6 +23,8 @@ WORKDIR /app
 COPY --from=deps /app/ ./
 COPY packages/db ./packages/db
 COPY apps/api ./apps/api
+WORKDIR /app/packages/db
+RUN pnpm build
 WORKDIR /app/apps/api
 RUN pnpm build
 

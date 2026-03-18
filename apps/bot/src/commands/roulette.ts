@@ -16,21 +16,11 @@ export const RouletteCommand = {
   async execute(interaction: ChatInputCommandInteraction, api: ApiService, logger: Logger) {
     await interaction.deferReply();
 
-    const filters: Record<string, string> = {};
-    
-    const gender = interaction.options.getString('gender');
-    const hairColor = interaction.options.getString('hair_color');
-    const personality = interaction.options.getString('personality');
-
-    if (gender) filters.gender = gender;
-    if (hairColor) filters.hairColor = hairColor;
-    if (personality) filters.personality = personality;
-
     try {
-      const character = await api.getRandomCharacter(filters);
+      const character = await api.getRandomCharacter();
 
       if (!character) {
-        await interaction.editReply('❌ No character found with these filters.');
+        await interaction.editReply('❌ No character found. Please try again.');
         return;
       }
 

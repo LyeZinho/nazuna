@@ -18,31 +18,34 @@
 <a href="/characters/{rank}" class="character-card" style="--rank-color: {rankColors[rank as keyof typeof rankColors] || '#6366f1'}">
   <div class="card-image">
     <img src={image} alt={name} loading="lazy" />
-    <div class="card-overlay"></div>
     <span class="rank-badge">#{rank}</span>
   </div>
   <div class="card-content">
     <h3 class="character-name">{name}</h3>
     <p class="character-work">{work}</p>
   </div>
-  <div class="card-shine"></div>
 </a>
 
 <style>
   .character-card {
     display: block;
     background: var(--bg-card);
-    border: 2px solid var(--border-color);
+    border: 3px solid var(--border-thick);
     border-radius: var(--radius-lg);
     overflow: hidden;
-    transition: all var(--transition-normal);
-    position: relative;
+    transition: all var(--transition-fast);
+    box-shadow: var(--shadow-brutal);
   }
   
   .character-card:hover {
-    transform: translateY(-8px) scale(1.02);
+    transform: translate(-3px, -3px);
     border-color: var(--rank-color);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 30px rgba(99, 102, 241, 0.2);
+    box-shadow: 6px 6px 0 #000;
+  }
+  
+  .character-card:active {
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px 0 #000;
   }
   
   .card-image {
@@ -55,39 +58,35 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform var(--transition-slow);
+    transition: transform var(--transition-normal);
   }
   
   .character-card:hover .card-image img {
-    transform: scale(1.1);
-  }
-  
-  .card-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 50%);
+    transform: scale(1.05);
   }
   
   .rank-badge {
     position: absolute;
-    top: 12px;
-    right: 12px;
+    top: 10px;
+    right: 10px;
     background: var(--rank-color);
     color: #000;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 14px;
     padding: 4px 10px;
+    border: 2px solid #000;
     border-radius: var(--radius-sm);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 0 #000;
   }
   
   .card-content {
     padding: 16px;
+    border-top: 3px solid var(--border-thick);
   }
   
   .character-name {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 4px;
     color: var(--text-primary);
   }
@@ -95,19 +94,6 @@
   .character-work {
     font-size: 13px;
     color: var(--text-secondary);
-  }
-  
-  .card-shine {
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
-    transition: left var(--transition-slow);
-  }
-  
-  .character-card:hover .card-shine {
-    left: 100%;
+    font-weight: 500;
   }
 </style>

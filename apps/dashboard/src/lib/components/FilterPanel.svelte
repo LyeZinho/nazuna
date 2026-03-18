@@ -183,7 +183,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 2px solid var(--border-thick);
   }
   
   .filter-title {
@@ -191,7 +191,9 @@
     align-items: center;
     gap: 8px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
   }
   
   .clear-btn {
@@ -205,7 +207,9 @@
   
   .clear-btn:hover {
     color: var(--accent-pink);
-    background: rgba(236, 72, 153, 0.1);
+    background: var(--bg-hover);
+    border: 2px solid var(--accent-pink);
+    box-shadow: 2px 2px 0 #000;
   }
   
   .filter-sections {
@@ -214,7 +218,7 @@
   }
   
   .filter-section {
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 2px solid var(--border-color);
   }
   
   .filter-section:last-child {
@@ -229,7 +233,7 @@
     padding: 16px 20px;
     background: none;
     color: var(--text-primary);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
     text-align: left;
     transition: background var(--transition-fast);
@@ -284,7 +288,7 @@
     appearance: none;
     width: 18px;
     height: 18px;
-    border: 2px solid var(--border-color);
+    border: 3px solid var(--border-thick);
     border-radius: 50%;
     cursor: pointer;
     transition: all var(--transition-fast);
@@ -294,6 +298,7 @@
   .filter-option input[type="radio"]:checked {
     border-color: var(--accent-blue);
     background: var(--accent-blue);
+    box-shadow: 2px 2px 0 #000;
   }
   
   .filter-option input[type="radio"]:checked::after {

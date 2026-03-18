@@ -19,10 +19,7 @@ const API_URL = process.env.API_URL || 'http://localhost:3000/api/v1';
 const commands = [
   new SlashCommandBuilder()
     .setName('roulette')
-    .setDescription('Spin the waifu roulette!')
-    .addStringOption(opt => opt.setName('gender').setDescription('Filter by gender').addChoices({ name: 'Female', value: 'female' }, { name: 'Male', value: 'male' }))
-    .addStringOption(opt => opt.setName('hair_color').setDescription('Filter by hair color').addChoices({ name: 'Blonde', value: 'blonde' }, { name: 'Black', value: 'black' }, { name: 'Pink', value: 'pink' }, { name: 'Blue', value: 'blue' }, { name: 'Red', value: 'red' }, { name: 'Brown', value: 'brown' }))
-    .addStringOption(opt => opt.setName('personality').setDescription('Filter by personality').addChoices({ name: 'Tsundere', value: 'tsundere' }, { name: 'Yandere', value: 'yandere' }, { name: 'Kuudere', value: 'kuudere' }, { name: 'Dandere', value: 'dandere' }, { name: 'Genki', value: 'genki' })),
+    .setDescription('Spin the waifu roulette!'),
   
   new SlashCommandBuilder()
     .setName('collection')

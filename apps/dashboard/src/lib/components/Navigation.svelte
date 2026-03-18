@@ -9,7 +9,7 @@
   ];
 </script>
 
-<nav class="navbar glass">
+<nav class="navbar">
   <div class="nav-content">
     <a href="/" class="logo">
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -88,7 +88,8 @@
     right: 0;
     height: 72px;
     z-index: var(--z-modal);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    background: var(--bg-secondary);
+    border-bottom: 3px solid var(--border-thick);
   }
   
   .nav-content {
@@ -130,46 +131,23 @@
     padding: 10px 16px;
     border-radius: var(--radius-md);
     color: var(--text-secondary);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
     transition: all var(--transition-fast);
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .nav-link::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: var(--gradient-primary);
-    opacity: 0;
-    transition: opacity var(--transition-fast);
-    border-radius: var(--radius-md);
+    border: 2px solid transparent;
   }
   
   .nav-link:hover {
     color: var(--text-primary);
-  }
-  
-  .nav-link:hover::before {
-    opacity: 0.1;
+    background: var(--bg-hover);
+    border-color: var(--border-color);
   }
   
   .nav-link.active {
-    color: var(--accent-blue-light);
-    background: rgba(59, 130, 246, 0.1);
-  }
-  
-  .nav-link.active::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 20px;
-    height: 2px;
-    background: var(--accent-blue);
-    border-radius: 1px;
+    color: var(--accent-blue);
+    background: var(--bg-hover);
+    border: 2px solid var(--accent-blue);
+    box-shadow: var(--shadow-brutal-sm);
   }
   
   .nav-icon {
@@ -184,16 +162,24 @@
     padding: 10px 20px;
     background: #5865F2;
     color: white;
+    border: 3px solid #000;
     border-radius: var(--radius-md);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     transition: all var(--transition-fast);
-    box-shadow: 0 2px 8px rgba(88, 101, 242, 0.3);
+    box-shadow: var(--shadow-brutal);
   }
   
   .btn-login:hover {
     background: #4752C4;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(88, 101, 242, 0.4);
+    transform: translate(-2px, -2px);
+    box-shadow: var(--shadow-brutal-lg);
+  }
+  
+  .btn-login:active {
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px 0 #000;
   }
 </style>
