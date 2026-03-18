@@ -2,10 +2,6 @@ import { drizzle } from 'drizzle-orm/postgres-js';
 import postgres from 'postgres';
 import * as schema from './schema';
 import { eq, and, or, not, desc, asc, sql, inArray, isNull, isNotNull, count, sum, avg, min, max } from 'drizzle-orm';
-import { resolve } from 'path';
-import { config } from 'dotenv';
-
-config({ path: resolve(process.cwd(), '.env') });
 
 const connectionString = process.env.DATABASE_URL;
 if (!connectionString) throw new Error('DATABASE_URL not set');
