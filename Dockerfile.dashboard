@@ -9,6 +9,14 @@ COPY packages/db/package.json packages/db/
 COPY apps/dashboard/package.json apps/dashboard/
 RUN pnpm install --frozen-lockfile
 
+# ── Install PROD-only deps for runner ──
+FROM base AS prod-deps
+WORKDIR /app
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY packages/db/package.json packages/db/
+COPY apps/dashboard/package.json apps/dashboard/
+RUN pnpm install --frozen-lockfile --prod
+
 # ── Build Dashboard ──
 FROM base AS builder
 WORKDIR /app
@@ -28,6 +36,12 @@ RUN addgroup -g 1001 -S nodejs && \
 # adapter-node output is self-contained in build/
 COPY --from=builder /app/apps/dashboard/build ./build
 COPY --from=builder /app/apps/dashboard/package.json ./package.json
+
+# Copy prod node_modules
+COPY --from=prod-deps /app/node_modules ./node_modules
+COPY --from=prod-deps /app/apps/dashboard/node_modules ./apps/dashboard/node_modules
+COPY --from=prod-deps /app/package.json ./package.json
+COPY --from=prod-deps /app/pnpm-workspace.yaml ./pnpm-workspace.yaml
 
 USER nodejs
 EXPOSE 3173
