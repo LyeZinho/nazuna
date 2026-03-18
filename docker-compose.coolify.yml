@@ -48,7 +48,7 @@ services:
       DATABASE_URL: postgres://${POSTGRES_USER:-waifu}:${POSTGRES_PASSWORD:-changeme}@postgres:5432/${POSTGRES_DB:-waifubot}
       REDIS_URL: redis://redis:6379
       JWT_SECRET: ${JWT_SECRET:-changeme}
-      CORS_ORIGIN: ${DASHBOARD_URL:-http://localhost:6053}
+      CORS_ORIGIN: ${DASHBOARD_URL:-https://nazuna.devscafe.org}
       DISCORD_CLIENT_ID: ${DISCORD_CLIENT_ID}
       DISCORD_CLIENT_SECRET: ${DISCORD_CLIENT_SECRET}
       DISCORD_BOT_TOKEN: ${DISCORD_BOT_TOKEN}
@@ -81,8 +81,8 @@ services:
     container_name: anime-bot-dashboard
     restart: unless-stopped
     environment:
-      PUBLIC_API_URL: http://localhost:6052
-      PUBLIC_DASHBOARD_URL: http://localhost:6053
+      PUBLIC_API_URL: ${API_URL:-https://api-nazuna.devscafe.org}
+      PUBLIC_DASHBOARD_URL: ${DASHBOARD_URL:-https://nazuna.devscafe.org}
     ports:
       - "6053:3173"
 

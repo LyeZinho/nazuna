@@ -5,15 +5,15 @@
   let { data } = $props();
   
   const stats = [
-    { label: 'Total Characters', value: '12,044', icon: 'users', color: 'blue' },
-    { label: 'Active Users', value: '2,847', icon: 'user-check', color: 'purple' },
-    { label: 'Servers', value: '156', icon: 'server', color: 'cyan' },
-    { label: 'Collections', value: '45,231', icon: 'box', color: 'pink' },
+    { label: 'Total Characters', value: String(data.stats.totalCharacters || 0), icon: 'users', color: 'blue' as const },
+    { label: 'Active Users', value: String(data.stats.activeUsers || 0), icon: 'user-check', color: 'purple' as const },
+    { label: 'Servers', value: String(data.stats.servers || 0), icon: 'server', color: 'cyan' as const },
+    { label: 'Collections', value: String(data.stats.collections || 0), icon: 'box', color: 'pink' as const },
   ];
 </script>
 
 <svelte:head>
-  <title>Waifu Roulette - Home</title>
+  <title>Nazuna Bot - Home</title>
 </svelte:head>
 
 <div class="home">
@@ -80,30 +80,14 @@
     </div>
     
     <div class="characters-grid">
-      <CharacterCard 
-        name="Eren Yeager" 
-        work="Attack on Titan" 
-        rank={1}
-        image="https://s4.anilist.co/file/anilistcdn/character/large/b40882-dsj7IP943WFF.jpg"
-      />
-      <CharacterCard 
-        name="Mikasa Ackerman" 
-        work="Attack on Titan" 
-        rank={2}
-        image="https://s4.anilist.co/file/anilistcdn/character/large/b40881-F3gr1PkreDvj.png"
-      />
-      <CharacterCard 
-        name="Tanjirou Kamado" 
-        work="Demon Slayer" 
-        rank={3}
-        image="https://s4.anilist.co/file/anilistcdn/character/large/b126071-BTNEc1nRIv68.png"
-      />
-      <CharacterCard 
-        name="Nezuko Kamado" 
-        work="Demon Slayer" 
-        rank={4}
-        image="https://s4.anilist.co/file/anilistcdn/character/large/b127518-NRlq1CQ1v1ro.png"
-      />
+      {#each data.topCharacters as char, i}
+        <CharacterCard 
+          name={char.name} 
+          work={char.work?.title || 'Unknown'} 
+          rank={i + 1}
+          image={char.imageUrl || ''}
+        />
+      {/each}
     </div>
   </section>
 </div>

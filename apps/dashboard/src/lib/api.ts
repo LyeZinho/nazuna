@@ -1,6 +1,6 @@
-import { env } from '$env/dynamic/public';
+import { env } from '$env/dynamic-public';
 
-const API_BASE = env.PUBLIC_API_URL || 'http://localhost:3001';
+const API_BASE = (env.PUBLIC_API_URL || 'http://localhost:3001') + '/api/v1';
 
 interface FetchOptions {
   method?: string;
@@ -50,6 +50,17 @@ export const api = {
     },
   },
 
+  rankings: {
+    popularity: (page = 1, limit = 50) => 
+      fetchApi<any>(`/rankings/popularity?page=${page}&limit=${limit}`),
+    
+    ratings: (page = 1, limit = 50) => 
+      fetchApi<any>(`/rankings/ratings?page=${page}&limit=${limit}`),
+    
+    combined: (page = 1, limit = 50) => 
+      fetchApi<any>(`/rankings/combined?page=${page}&limit=${limit}`),
+  },
+
   ratings: {
     get: (characterId: number) => fetchApi<any>(`/ratings/character/${characterId}`),
     
@@ -74,5 +85,9 @@ export const api = {
         method: 'DELETE',
         body: { userId },
       }),
+  },
+
+  users: {
+    get: (userId: string) => fetchApi<any>(`/users/${userId}`),
   },
 };

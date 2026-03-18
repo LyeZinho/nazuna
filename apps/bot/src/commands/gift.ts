@@ -60,7 +60,7 @@ export const GiftCommand = {
         .setDescription(`💝 **${interaction.user.username}** gifted **${character.name}** to **${targetUser.username}**!`)
         .setImage(character.imageUrl)
         .setColor(0xFF69B4)
-        .setFooter({ text: 'Waifu Roulette' })
+        .setFooter({ text: 'Nazuna Bot' })
         .setTimestamp();
 
       if (character.workTitle) {

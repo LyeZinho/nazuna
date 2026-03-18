@@ -19,7 +19,7 @@ export const SearchCommand = {
           .setTitle(`🔍 No results for "${query}"`)
           .setDescription('*Try a different search term.*')
           .setColor(0xFF6B6B)
-          .setFooter({ text: 'Waifu Roulette' });
+          .setFooter({ text: 'Nazuna Bot' });
         
         await interaction.editReply({ embeds: [embed] });
         return;
@@ -32,7 +32,7 @@ export const SearchCommand = {
         .setTitle(`🔍 Search: ${query}`)
         .setURL(`https://anilist.co/character/${firstChar.anilistId}`)
         .setColor(0x3498DB)
-        .setFooter({ text: 'Waifu Roulette' })
+        .setFooter({ text: 'Nazuna Bot' })
         .setTimestamp();
 
       const characters = results.data.map((c: any, i: number) => {

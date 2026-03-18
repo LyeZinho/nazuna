@@ -1,6 +1,6 @@
 <script lang="ts">
   import CharacterCard from '$components/CharacterCard.svelte';
-  import { invalidate } from '$app/navigation';
+  import { api } from '$lib/api';
   
   interface Props {
     search?: string;
@@ -13,31 +13,49 @@
   
   let page = $state(1);
   let loading = $state(false);
-  let characters = $state([
-    { anilistId: 40882, name: 'Eren Yeager', work: 'Attack on Titan', rank: 1, image: 'https://s4.anilist.co/file/anilistcdn/character/large/b40882-dsj7IP943WFF.jpg' },
-    { anilistId: 40881, name: 'Mikasa Ackerman', work: 'Attack on Titan', rank: 2, image: 'https://s4.anilist.co/file/anilistcdn/character/large/b40881-F3gr1PkreDvj.png' },
-    { anilistId: 126071, name: 'Tanjirou Kamado', work: 'Demon Slayer', rank: 3, image: 'https://s4.anilist.co/file/anilistcdn/character/large/b126071-BTNEc1nRIv68.png' },
-    { anilistId: 127518, name: 'Nezuko Kamado', work: 'Demon Slayer', rank: 4, image: 'https://s4.anilist.co/file/anilistcdn/character/large/b127518-NRlq1CQ1v1ro.png' },
-    { anilistId: 129130, name: 'Inosuke Hashibira', work: 'Demon Slayer', rank: 5, image: 'https://s4.anilist.co/file/anilistcdn/character/large/n129130-SJC0Kn1DU39E.jpg' },
-    { anilistId: 129131, name: 'Zenitsu Agatsuma', work: 'Demon Slayer', rank: 6, image: 'https://s4.anilist.co/file/anilistcdn/character/large/b129131-FZrQ7lSlxmEr.png' },
-    { anilistId: 5114, name: 'Light Yagami', work: 'Death Note', rank: 7, image: 'https://s4.anilist.co/file/anilistcdn/character/large/b5114-Q1V7JXa0Nbbb.jpg' },
-    { anilistId: 7888, name: 'L Lawliet', work: 'Death Note', rank: 8, image: 'https://s4.anilist.co/file/anilistcdn/character/large/b7888-W1D3PSW59lD6.jpg' },
-  ]);
-  
+  let characters = $state<any[]>([]);
+  let total = $state(0);
   let hasMore = $state(true);
+  
+  async function fetchCharacters() {
+    loading = true;
+    try {
+      const params: Record<string, string | number> = { page, limit: 20 };
+      if (search) params.search = search;
+      if (gender) params.gender = gender;
+      if (personality) params.personality = personality;
+      if (hairColor) params.hairColor = hairColor;
+      
+      const result = await api.characters.list(params);
+      if (page === 1) {
+        characters = result.data || [];
+      } else {
+        characters = [...characters, ...(result.data || [])];
+      }
+      total = result.total || 0;
+      hasMore = characters.length < total;
+    } catch (e) {
+      console.error('Failed to fetch characters:', e);
+    } finally {
+      loading = false;
+    }
+  }
+  
+  $effect(() => {
+    page = 1;
+    fetchCharacters();
+  });
   
   async function loadMore() {
     if (loading || !hasMore) return;
-    loading = true;
     page++;
-    await new Promise(r => setTimeout(r, 500));
-    loading = false;
+    await fetchCharacters();
   }
 </script>
 
 <div class="character-grid-container">
   <div class="grid-header">
-    <span class="results-count">{Number(12044).toLocaleString()} characters</span>
+    <span class="results-count">{total.toLocaleString()} characters</span>
     <div class="sort-options">
       <button class="sort-btn active">Popular</button>
       <button class="sort-btn">Rating</button>
@@ -48,12 +66,14 @@
   <div class="character-grid">
     {#each characters as char, i}
       <div class="animate-fade-in" style="opacity: 0; animation-delay: {Math.min(i * 0.05, 0.3)}s">
-        <CharacterCard 
-          name={char.name} 
-          work={char.work}
-          rank={char.rank}
-          image={char.image}
-        />
+        <a href="/characters/{char.anilistId}">
+          <CharacterCard 
+            name={char.name} 
+            work={char.work?.title || 'Unknown'}
+            rank={char.popularity || 0}
+            image={char.imageUrl || ''}
+          />
+        </a>
       </div>
     {/each}
   </div>

@@ -62,7 +62,7 @@
 </script>
 
 <svelte:head>
-  <title>{character?.name || 'Loading...'} - Waifu Roulette</title>
+  <title>{character?.name || 'Loading...'} - Nazuna Bot</title>
 </svelte:head>
 
 {#if loading}

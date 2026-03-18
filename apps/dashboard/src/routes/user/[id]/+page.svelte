@@ -1,46 +1,81 @@
 <script lang="ts">
   import { page } from '$app/stores';
+  import { onMount } from 'svelte';
   import StatCard from '$components/StatCard.svelte';
   import CharacterCard from '$components/CharacterCard.svelte';
+  import { api } from '$lib/api';
   
   const userId = $page.params.id || 'me';
   
+  let loading = $state(true);
+  let error = $state<string | null>(null);
+  
   let user = $state({
-    id: '123456789',
-    username: ' example_user',
-    avatar: null,
-    globalName: 'Example User',
-    createdAt: '2024-01-15',
+    id: '',
+    username: '',
+    avatar: null as string | null,
+    globalName: '',
+    createdAt: '',
   });
   
   let stats = $state({
-    totalCharacters: 47,
-    totalFavorites: 23,
-    serversJoined: 5,
-    totalSpins: 156,
+    totalCharacters: 0,
+    totalFavorites: 0,
+    serversJoined: 0,
+    totalSpins: 0,
   });
   
-  let recentCharacters = $state([
-    { anilistId: 40882, name: 'Eren Yeager', work: 'Attack on Titan', rank: 1, image: 'https://s4.anilist.co/file/anilistcdn/character/large/b40882-dsj7IP943WFF.jpg' },
-    { anilistId: 40881, name: 'Mikasa Ackerman', work: 'Attack on Titan', rank: 2, image: 'https://s4.anilist.co/file/anilistcdn/character/large/b40881-F3gr1PkreDvj.png' },
-    { anilistId: 126071, name: 'Tanjirou Kamado', work: 'Demon Slayer', rank: 3, image: 'https://s4.anilist.co/file/anilistcdn/character/large/b126071-BTNEc1nRIv68.png' },
-  ]);
-  
-  let favorites = $state([
-    { anilistId: 127518, name: 'Nezuko Kamado', work: 'Demon Slayer', image: 'https://s4.anilist.co/file/anilistcdn/character/large/b127518-NRlq1CQ1v1ro.png' },
-    { anilistId: 5114, name: 'Light Yagami', work: 'Death Note', image: 'https://s4.anilist.co/file/anilistcdn/character/large/b5114-Q1V7JXa0Nbbb.jpg' },
-  ]);
+  let recentCharacters = $state<any[]>([]);
+  let favorites = $state<any[]>([]);
   
   let activityData = $state({
     labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
-    spins: [12, 19, 25, 15, 28, 22],
-    claims: [8, 12, 18, 10, 20, 15],
+    spins: [0, 0, 0, 0, 0, 0],
+    claims: [0, 0, 0, 0, 0, 0],
+  });
+  
+  onMount(async () => {
+    try {
+      const userData = await api.users.get(userId);
+      user = {
+        id: userData.id,
+        username: userData.username,
+        avatar: userData.avatar,
+        globalName: userData.globalName,
+        createdAt: userData.createdAt ? new Date(userData.createdAt).toLocaleDateString() : 'N/A',
+      };
+      
+      const favData = await api.favorites.list(userId);
+      favorites = (favData.data || []).map((fav: any) => ({
+        anilistId: fav.character?.anilistId || fav.anilistId,
+        name: fav.character?.name || fav.name,
+        image: fav.character?.imageUrl || fav.imageUrl,
+      }));
+      
+      stats = {
+        totalCharacters: favData.total || 0,
+        totalFavorites: favorites.length,
+        serversJoined: 0,
+        totalSpins: 0,
+      };
+    } catch (e) {
+      console.error('Failed to load profile:', e);
+      error = 'Failed to load profile data';
+    } finally {
+      loading = false;
+    }
   });
 </script>
 
 <svelte:head>
-  <title>Profile - {user.username} - Waifu Roulette</title>
+  <title>Profile - {user.username || 'Loading...'} - Nazuna Bot</title>
 </svelte:head>
+
+{#if loading}
+  <div class="loading">Loading profile...</div>
+{:else if error}
+  <div class="error">{error}</div>
+{:else}
 
 <div class="profile-page">
   <header class="profile-header animate-slide-up">
@@ -154,6 +189,7 @@
     </div>
   </section>
 </div>
+{/if}
 
 <style>
   .profile-page {

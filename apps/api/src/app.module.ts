@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { ThrottlerModule } from '@nestjs/throttler';
+import { DatabaseModule } from './database/database.module';
 import { AuthModule } from './auth/auth.module';
 import { CharactersModule } from './characters/characters.module';
 import { WorksModule } from './works/works.module';
@@ -24,6 +25,7 @@ import { WebhooksModule } from './webhooks/webhooks.module';
         limit: 100,
       },
     ]),
+    DatabaseModule,
     AuthModule,
     CharactersModule,
     WorksModule,

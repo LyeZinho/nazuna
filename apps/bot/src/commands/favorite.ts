@@ -44,7 +44,7 @@ export const FavoriteCommand = {
         .setTitle('❤️ Favorite Added!')
         .setDescription(`**${character.name}** has been added to your favorites!`)
         .setColor(0xE91E63)
-        .setFooter({ text: 'Waifu Roulette' })
+        .setFooter({ text: 'Nazuna Bot' })
         .setTimestamp();
 
       if (imageUrl) {
@@ -88,7 +88,7 @@ export const FavoriteCommand = {
         .setTitle('💔 Favorite Removed')
         .setDescription(`**${character.name}** has been removed from your favorites.`)
         .setColor(0x95A5A6)
-        .setFooter({ text: 'Waifu Roulette' })
+        .setFooter({ text: 'Nazuna Bot' })
         .setTimestamp();
 
       await interaction.editReply({ embeds: [embed] });
@@ -122,7 +122,7 @@ export const FavoriteCommand = {
         .setTitle('❤️ Your Favorites')
         .setDescription(`**Total: ${favorites.length} characters**`)
         .setColor(0xE91E63)
-        .setFooter({ text: 'Waifu Roulette' })
+        .setFooter({ text: 'Nazuna Bot' })
         .setTimestamp();
 
       const characters = favorites.slice(0, 15).map((c: any, i: number) => {

@@ -1,5 +1,5 @@
 import { db, works } from './index';
-import { readFileSync } from 'fs';
+import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 
 async function seed() {
@@ -47,7 +47,5 @@ async function seed() {
 
   console.log(`✅ Seeded ${count} works!`);
 }
-
-import { readdirSync } from 'fs';
 
 seed().catch(console.error);

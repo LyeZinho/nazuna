@@ -34,7 +34,7 @@ export const CollectionCommand = {
         .setDescription(`**Total: ${collection.length} characters**`)
         .setColor(0x4ECDC4)
         .setThumbnail(targetUser.displayAvatarURL())
-        .setFooter({ text: 'Waifu Roulette Collection' })
+        .setFooter({ text: 'Nazuna Bot Collection' })
         .setTimestamp();
 
       const characters = collection.slice(0, 15).map((c: any, i: number) => {

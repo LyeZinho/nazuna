@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-  <title>Characters - Waifu Roulette</title>
+  <title>Characters - Nazuna Bot</title>
 </svelte:head>
 
 <div class="characters-page">

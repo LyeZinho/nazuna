@@ -33,7 +33,7 @@ export const RouletteCommand = {
         .setImage(character.imageUrl)
         .setColor(getRandomColor())
         .setFooter({ 
-          text: `Waifu Roulette • AniList ID: ${character.anilistId}`,
+          text: `Nazuna Bot • AniList ID: ${character.anilistId}`,
           iconURL: 'https://anilist.co/favicon.ico'
         })
         .setTimestamp();

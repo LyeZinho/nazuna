@@ -2,9 +2,15 @@ import { NestFactory } from '@nestjs/core';
 import { ValidationPipe } from '@nestjs/common';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { AppModule } from './app.module';
+import { DatabaseModule } from './database/database.module';
+import { DatabaseMigrationService } from './database/database.module';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
+  const app = await NestFactory.create(AppModule, { logger: ['error', 'warn', 'log'] });
+
+  const migrationService = app.get(DatabaseMigrationService);
+  await migrationService.runMigrations();
+  await migrationService.seedDatabase();
 
   app.setGlobalPrefix('api/v1');
 
@@ -24,7 +30,7 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
     .setTitle('Anime Bot API')
-    .setDescription('Waifu Roulette Bot API')
+    .setDescription('Nazuna Bot API')
     .setVersion('1.0')
     .addApiKey(
       { type: 'apiKey', name: 'X-API-Key', in: 'header' },

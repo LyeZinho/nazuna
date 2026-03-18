@@ -22,7 +22,7 @@ export const ProfileCommand = {
         .setTitle(`👤 ${interaction.user.username}'s Profile`)
         .setThumbnail(interaction.user.displayAvatarURL())
         .setColor(0x9B59B6)
-        .setFooter({ text: 'Waifu Roulette' })
+        .setFooter({ text: 'Nazuna Bot' })
         .setTimestamp();
 
       embed.addFields(

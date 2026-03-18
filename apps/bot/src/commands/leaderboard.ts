@@ -51,7 +51,7 @@ export const LeaderboardCommand = {
         .setTitle('🏆 Server Leaderboard')
         .setDescription(`**Page ${page}** • ${leaderboard.length} total entries`)
         .setColor(0xFFD700)
-        .setFooter({ text: `Waifu Roulette • ${interaction.guild?.name || 'Server'}` })
+        .setFooter({ text: `Nazuna Bot • ${interaction.guild?.name || 'Server'}` })
         .setTimestamp();
 
       if (characterLeaderboard) {
