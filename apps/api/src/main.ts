@@ -9,7 +9,7 @@ async function bootstrap() {
 
   const migrationService = app.get(DatabaseMigrationService);
   await migrationService.runMigrations();
-  await migrationService.seedDatabase();
+  // seeds are auto-run by onModuleInit if DB is empty
 
   app.setGlobalPrefix('api/v1');
 

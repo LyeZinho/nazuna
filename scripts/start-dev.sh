@@ -111,20 +111,8 @@ pnpm db:generate
 info "Pushing schema to database..."
 pnpm db:push
 
-if [ "$SKIP_SEED" = true ]; then
-  warn "Skipping seeds (--skip-seed)"
-else
-  info "Seeding categories..."
-  pnpm db:seed:categories
-
-  info "Seeding works..."
-  pnpm db:seed:works
-
-  info "Seeding characters (this may take a few minutes)..."
-  pnpm db:seed:characters
-
-  success "Database setup complete"
-fi
+warn "Seeds are handled automatically by the API on first startup"
+success "Database setup complete"
 
 # ── 6. Dev servers ─────────────────────────────────────────────────────────
 section "Development Servers"
