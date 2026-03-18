@@ -57,7 +57,8 @@ export async function seedCharacters() {
   for (const file of files) {
     try {
       const data = JSON.parse(readFileSync(join(dataDir, file), 'utf-8')) as {
-        anilist_id: unknown; name: string; alt_names?: string[]; description?: string;
+        anilist_id?: unknown; anilistId?: unknown;
+        slug?: string; name: string; alt_names?: string[]; description?: string;
         gender?: string; role?: string; images?: { url?: string }[];
         works?: { internalId: string }[];
         categories?: {
@@ -66,7 +67,8 @@ export async function seedCharacters() {
           archetype?: string[]; genres?: string[];
         };
       };
-      const anilistId = Number(data.anilist_id);
+      const rawId = data.anilistId ?? data.anilist_id;
+      const anilistId = Number(rawId);
 
       if (!anilistId || !data.name) {
         throw new Error(`Missing required fields: anilistId=${anilistId}, name=${data.name}`);
