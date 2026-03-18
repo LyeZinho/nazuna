@@ -1,0 +1,1427 @@
+{
+  "work_id": "tower-of-god",
+  "count": 56,
+  "characters": [
+    {
+      "id": "twenty-fifth-baam",
+      "name": "Twenty-Fifth Baam",
+      "alt_names": [
+        "스물다섯번째 밤",
+        "Twenty-fifth Bam",
+        "Bam",
+        "Baam",
+        "Yoru",
+        "二十五日の夜",
+        "Black Turtle",
+        "Completed One",
+        "Berserker Boy",
+        "The Wild Card"
+      ],
+      "role": "protagonist",
+      "description": "__Species:__ Human\n__Height:__ 168cm (Part 1), 180cm (Part II)\n__Rank:__ Irregular\n__Position:__ Wave Controller\n__Born:__  ~!Floor of Death!~\n__Occupation:__  ~!FUG Slayer Candidate!~\n\nTwenty-Fifth Baam is an Irregular and one of the main protagonists of Tower of God. Bam entered in search of his best friend Rachel, and after passing Headon's test he was deemed worthy to climb the Tower.\n\nIn Part I, he is a highly empathetic and caring young man, understanding little of life, having had virtually no contact with people before meeting Rachel and later entering the Tower. He hates loneliness and other people's loneliness. He is considered very naive and knows little about the Tower. During Part I, his only reason for climbing the Tower is to be with Rachel.\n\nIn Part II:\n~!\nHe was forced to join FUG, and received then the name of Jue Viole Grace (쥬 비올레 그레이스), the Slayer Candidate, to keep his real identity hidden. As Viole, he is far more violent. He now has friends to protect and will not hesitate to fight if it means protecting them. He now completely understands that in order to climb the Tower, he must be pre-emptive and prepared to engage in combat and eradicate all opposition. He's become more introverted, rarely ever speaking or displaying any signs of emotion. He's also quite cold and calculating, interacting with others only out of necessity and will take advantage of a situation to defeat his opponents.\n\nLater in the Part as FUG's hold on him weakens, he begins to be more expressive and talkative. Later, when he officially meets with Khun and Rak for the first time in seven years, he smiles happily and embraces them, showing that his original personality that he had hidden away to protect himself from FUG's influence was resurfacing.\n!~\n\nIn Part III:\n~!\nHe is completely back to his normal self, with the addition of some improvements in areas such as confidence. He additionally dropped the 'Viole' look and sticks with an updated 'Baam' look. He is still often called both Baam and Viole now. He now goes through new questions such as what to do when he can't save everyone, and old questions, such as why everyone can't just get along, but he is more accepting of things than before, all the while continually fighting stronger enemies and becoming stronger.\n!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b84769-NaLHptr4KXKd.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 84769
+      },
+      "rarity": "legendary"
+    },
+    {
+      "id": "aguero-agnis-khun",
+      "name": "Aguero Agnis Khun",
+      "alt_names": [
+        "쿤 아게로 아그니스",
+        "クン · アゲロ · アグネス",
+        "Koon Aguero Agnis",
+        "Blue Turtle",
+        "A.A",
+        "Mr. Mask"
+      ],
+      "role": "protagonist",
+      "description": "__Species:__ Human\n__Height:__ 170 cm\n__Rank:__ Regular\n__Position:__ Light Bearer\n\nKhun Aguero Agnis is a E-Rank Regular from Khun Family, and is often referred to simply as \"Khun\". He is a best friend of [Twenty-Fifth Bam](https://anilist.co/character/84769/TwentyFifth-Bam), one of the main protagonists of Tower of God.\n\nKhun relies heavily on his master intellect, however, this is not his only strong field. He also has exceptional physical attributes and is a skilled Light Bearer. His powers in combat cannot be denied.",
+      "metadata": {
+        "gender": "male",
+        "age": "17-",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b84781-sNnhOZ1SZ66f.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 84781
+      },
+      "rarity": "legendary"
+    },
+    {
+      "id": "rak-wraithraiser",
+      "name": "Rak Wraithraiser",
+      "alt_names": [
+        "라크 레크레이셔",
+        "ラーク・レクレイシャー",
+        "Gator",
+        "Rac Wreckraiser"
+      ],
+      "role": "protagonist",
+      "description": "__Species:__ Wraithraiser, ~!Native One!~\n__Height:__ 3m (Decompressed)\n__Rank:__ Regular C-Rank\n__Position:__ Spear Bearer\n\nRak Wraithraiser is a Regular. He unwillingly teamed up with [Baam](https://anilist.co/character/84769/TwentyFifth-Baam) and [Khun](https://anilist.co/character/84781/Khun-Aguero-Agnis) during the first test on the Second Floor and passed other tests with them. He was selected for the Spear Bearer position. He is a large and powerful warrior and a very confident individual.\nRak is originally a 3 meter tall creature, but after he mocked the Ranker [Yu Han Sung](https://anilist.co/character/141286/Sung-Yu-Han), the Second Floor Test Director, his body was shrunken by them. He eventually found out how to get back to his original size. As a being who can control their body size, he is a Compression Licenser.He is a direct descendant of the Native One, a type of being that is able to rule over the elements in the Tower. \n\nRak doesn't come off as particularly smart; he thinks he's superior to almost everyone else and so refers to other people as \"turtles\". He occasionally calls himself \"Rakleader\" when he is feeling particularly full of himself, although Khun may be to blame for indulging him. He tries to make himself appear tough, although he's actually a bit of a baby sometimes. However, he does seem to have a little of a caring side in him.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b84783-m1qgQvKVAoNn.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 84783
+      },
+      "rarity": "legendary"
+    },
+    {
+      "id": "rachel",
+      "name": "Rachel",
+      "alt_names": [
+        "라헬",
+        "ラへル",
+        "Michelle Light",
+        "미쉘 라이트 "
+      ],
+      "role": "protagonist",
+      "description": "__Species:__ Human\n__Rank:__ Extra\n\nRachel, also known as Michelle Light was Baam's best and only friend as she was the only one to visit him in his \"cave\". She longs to see the stars which is one of the fabled rewards waiting at the top of the Tower, because she \"fears the Night\".\n~!Like Baam she is an Irregular.!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b135466-vgW4DewsSkER.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 135466
+      },
+      "rarity": "legendary"
+    },
+    {
+      "id": "headon",
+      "name": "Headon",
+      "alt_names": [
+        "헤돈",
+        "へドン"
+      ],
+      "role": "supporting",
+      "description": "Headon is the Guardian of the First Floor and is the caretaker of the Tower. He has an appearance reminiscent of a white rabbit because of his long ears.\n\nHeadon talks in a friendly tone, but has been shown to have a cruel and manipulative streak. He presents his ideas and opinions in a logical and pragmatic manner, but his goals and desires themselves are not understood. He is perfectly willing to manipulate dozens of lives and create the nucleus of civil unrest to attain his mysterious goal.\n\nAlthough most Administrators normally stay on their Floors, Headon seems to be the only Administrator with the ability to visit other Floors of the Tower. It is said that Headon is the most experienced Administrator of the Tower. Although that only means he was the first Administrator Zahard met and therefore the first one to carry out the roles of a Administrator, that doesn't mean he's the oldest.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b84775-z3qbgw45QGW8.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 84775
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "yuri-ha-jahad",
+      "name": "Yuri Ha Jahad",
+      "alt_names": [
+        "하유리자하드",
+        "ユリ・ザハード",
+        "Yuri Jahad",
+        "Ha Yuri Zahard",
+        "Violent Turtle"
+      ],
+      "role": "supporting",
+      "description": "Ha Yuri Jahad, more commonly known as Yu​ri Jahad (lacking her family name), is a High Ranker and Princess from the Ha Family. Notably, she is one of the most famous Princesses and therefore highly favored, with much political influence throughout The Tower.\n\n~!She is the owner of Black March and Green April, two of the 13 Month Series. She is the first Princess to own two 13 Months at the same time since Garam Jahad. Notably, she is one of the most famed Princesses, and perhaps one of the most favored.!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b84777-xeZZ3a9YM2Cn.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 84777
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "endorsi-jahad",
+      "name": "Endorsi Jahad",
+      "alt_names": [
+        "엔도르시자하드",
+        "エンドロシ・ザハード",
+        "Androssi Zahard"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 167 cm\n\nEndorsi Jahad is a Regular and one of Jahad's Princesses, currently climbing the Tower. Among Regulars, Endorsi is unmatched in terms of physical ability. Among the Jahad's Princesses, she is fairly warm and more human.\n\nHer parents weren't around when she was born. She was then adopted by a couple from the Middle Area before she became a princess. Later, her adoptive parents were killed by Snake Charmer.\n\nHer character concept is that of a 'Normal modern girl' taking great care of her looks, stressed about her weight, wanting to hear she is pretty while acting confident. A girl who is yet to mature fully.\n\nEndorsi doesn't believe in being friends with a guy at first and says that guys and girls cannot be friends and can only be boyfriend and girlfriend and later states that she is not allowed to date anyone because she is a Princess of Jahad, but later on she catches feelings for Bam and calls Bam her boyfriend.",
+      "metadata": {
+        "gender": "female",
+        "age": "300~",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b124138-2WCq8CD8FEsv.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 124138
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "hwaryun",
+      "name": "Hwaryun",
+      "alt_names": [
+        "화련",
+        "カレン",
+        "Hwa-Ryun",
+        "Karen"
+      ],
+      "role": "supporting",
+      "description": "__Species:__ Red Witch\n__Height:__ 168 cm \n__Rank:__ Regular\n__Position:__ Wave Controller, Scout, Guide\n\nHwaryun is a quiet person who says little and she has a gloomy and ominous aura. She is also quite manipulative.\n\nIn Part II, she's depicted as mischievous and teasing, as she clearly mocked the Viole impostor and repeatedly called him \"Pig\". She almost always smiles in mischief and probably a little bit of arrogance. She also tends to be extremely blunt, caring very little about other peoples' feelings; though this could be considered her way of spurring a person on. This leads her to seem very harsh.\n\nHwaryun is Viole's Guide but is also the Guide for FUG's Rankers notably Ha Jinsung. ~!It was revealed that she went into the Floor of Death first, instructing another Red-haired lady to lead the way for Yuri and Khun's team.!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b135467-AyW5hucXmmea.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 135467
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "anaak-jahad",
+      "name": "Anaak Jahad",
+      "alt_names": [
+        "아낙자하드",
+        "アナク・ザハード",
+        "Anak Zahard"
+      ],
+      "role": "supporting",
+      "description": "Anaak is introduced in the second floor, where she forms a team with Shibisu and Hatz.\n\n~!She introduces herself as one of Jahad's Princesses, but it's later revealed that she's actually the daughter of the real Anaak Jahad, who was impregnated by her lover and ran into hiding. Though she is only a demi-princess because of the diluted Jahad's blood in her, she used to possess two of the 13 Month Series at one point; something only a few Princesses have accomplished. She is climbing the Tower for revenge.!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b135470-4glp1GObkU7P.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 135470
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "lero-ro",
+      "name": "Lero-Ro",
+      "alt_names": [
+        "레로-로",
+        "レロ・ロー"
+      ],
+      "role": "supporting",
+      "description": "Lero-Ro is a former Examiner of the Second Floor. He is an exceptionally strong Ranker, to the point that even Quant, also a former Test Administrator (and a haughty one), would constantly boast about his strength. He was supposedly the strongest Second Floor Test Administrator and is particularly skilled in the use of Shinsoo. He was also the Light Bearer position instructor. He is fairly old, older than Yuri Zahard, as he stated that Anak Zahard didn't live up to a Princess's chaotic expectations like Yuri Zahard did, whom he met when they were both Regulars. He and Quant are awkwardly described as a \"Set Menu\", explained by the fact that Lero-Ro and Quant climbed the Tower together like a team. He is apparently quite famous, and he took over 300 years to climb the Tower.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b137948-NYeFyFDeIoHd.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 137948
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "evan-edrok",
+      "name": "Evan Edrok",
+      "alt_names": [
+        "에반 에드록",
+        "エヴァン・エドロック"
+      ],
+      "role": "supporting",
+      "description": "Evan Edrok is a High Ranker as well the Chief Guide of Zahard Royalty, which is a unique position in the Tower. He always seems to follow his partner, Ha Yuri Zahard.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b137950-OIBBqjzDidge.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 137950
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "quant-blitz",
+      "name": "Quant Blitz",
+      "alt_names": [
+        "퀀트블릿츠",
+        "クォント"
+      ],
+      "role": "supporting",
+      "description": "Quant Blitz is a Ranker. He instructed the Scout position while he was a Test Admin on the Second Floor.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b137951-PvAYnFfFoJi0.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 137951
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "hatz",
+      "name": "Hatz",
+      "alt_names": [
+        "하츠",
+        "Hatsu (ハツ)"
+      ],
+      "role": "supporting",
+      "description": "__Species:__ Human\n__Height:__ 167cm\n__Position:__ Scout\n\nHatsu (하츠, Hahcheu; or \"Hatz\") is a Regular and a \"devoutly\" practising swordsman. He is a quiet and calm warrior, who has been making good progress in the tests merely by doing exactly what each test entails. \n\n~!He teamed up with [Anaak Jahad](https://anilist.co/character/135470/Anaak-Jahad) and [Shibisu](https://anilist.co/character/137957/Shibisu) during the first test on the 2nd Floor and later signed Khun's friend list.!~\n\n~!He was last seen on the 52nd Floor having helped [Bam](https://anilist.co/character/84769/Twentyfifth-Bam) and his allies.!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b137952-UEsMgoUb7bHQ.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 137952
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "shibisu",
+      "name": "Shibisu",
+      "alt_names": [
+        "십이수",
+        "シビス",
+        "Ship Leesoo"
+      ],
+      "role": "supporting",
+      "description": "Shibisu is a D-rank Regular. He is relatively weak, yet possesses a great ability to deduce and an intellect on par with Khun's. Nonetheless, he made it past all of the tests on the Second Floor, where he was assigned the Scout position and is now climbing the Tower as the leader of his team.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b137957-qvngtbgmEyGT.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 137957
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "lauroe-phonsekal",
+      "name": "Lauroe Phonsekal",
+      "alt_names": [
+        "폰세칼 라우뢰",
+        "ポンセカル・ラウレ"
+      ],
+      "role": "supporting",
+      "description": "Phonsekal Lauroe is a Regular and a talented Wave Controller of the Eurasia Family. He loves to sleep and goes everywhere with blanket and his pillows. Despite his sloth, he is an exceptional Wave Controller, capable of firing powerful long-range blasts.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b137958-FjrhxrKil0MA.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 137958
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "yu-han-sung",
+      "name": "Yu Han Sung",
+      "alt_names": [
+        "유한성",
+        "ユハン"
+      ],
+      "role": "supporting",
+      "description": "Yu Han Sung is an Advanced Ranker and the former Test Director of the Second Floor. Notably, he is a key member of FUG in taking Viole to the top. He is the main antagonist of Part I. He is a well known ranker partly because he rejected becoming a High Ranker.",
+      "metadata": {
+        "gender": "male",
+        "age": "500+",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b141286-BCNl8KMkVQ2j.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 141286
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "dede-kancho",
+      "name": "Dede Kancho",
+      "alt_names": [
+        "데데 칸초",
+        "デデ・カンチョ"
+      ],
+      "role": "supporting",
+      "description": "Dede Kancho is a Regular found in the Second Floor.\n\n~!He made it through most of the Second Floor tests, teaming up with Shopin and Kon, but eventually failed. !~",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b166492-Tv8sZpm8TN96.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 166492
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "levin",
+      "name": "Levin",
+      "alt_names": [
+        "레빈",
+        "レビン"
+      ],
+      "role": "supporting",
+      "description": "Levin is a Regular. He has grey skin and sharp teeth and, rather than fighting, he used to snipe using a Sniper Rifle. He was assigned the Light Bearer position. He is quite sly, but is extremely annoyed if someone removes him from his sniping area. He seems quite sadistic, as he enjoys to watch anyone commit violent acts or see someone writhe in agony.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b166495-bI9mmOqddT5H.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 166495
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "serena-rinnen",
+      "name": "Serena Rinnen",
+      "alt_names": [
+        "세레나 린넨",
+        "セレナ・リネン"
+      ],
+      "role": "supporting",
+      "description": "Serena Rinnen is a Regular who passed most of the tests on the Second Floor and was assigned the Scout position.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b166496-altPHvQIN8D5.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 166496
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "inoa-yoran",
+      "name": "Inoa Yoran",
+      "alt_names": [
+        "이노아 요란",
+        "イノア"
+      ],
+      "role": "supporting",
+      "description": "Inoa Yoran is a Regular assigned to the Spear Bearer position. He played a very minor role in Part I before being eliminated from testing.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b166596-MqVjVYYipAjr.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 166596
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "sunwoo-nare",
+      "name": "Sunwoo Nare",
+      "alt_names": [
+        "선우 나래",
+        "ナレ"
+      ],
+      "role": "supporting",
+      "description": "Sunwoo Nare is a Regular who came to the Tower for money. She made it through all the tests on the Second Floor and was assigned the Scout position.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b166598-RckC5xX49FuZ.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 166598
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kon",
+      "name": "Kon",
+      "alt_names": [
+        "콘",
+        "コン"
+      ],
+      "role": "supporting",
+      "description": "Kon (콘) is a Regular assigned to the Fisherman position.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b167165-wHJYAt02vbT9.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 167165
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "shopin",
+      "name": "Shopin",
+      "alt_names": [
+        "쇼핀"
+      ],
+      "role": "supporting",
+      "description": "Shopin (쇼핀) is a Regular who made it through most of the Second Floor tests and was assigned the Scout position.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b168086-BJYUZcedwL9m.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 168086
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "first-emperor",
+      "name": "First Emperor",
+      "alt_names": [
+        "초패왕",
+        "Chopaewang",
+        "超覇王"
+      ],
+      "role": "supporting",
+      "description": "First Emperor (초패왕, Chopaewang) is a Regular assigned to the Scout Position.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b168144-BG8xBawDTl6j.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 168144
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "riron-3",
+      "name": "Riron 3",
+      "alt_names": [
+        "리론 3",
+        "リロン3",
+        "Leon 3"
+      ],
+      "role": "supporting",
+      "description": "He is a Regular assigned to the Light Bearer position.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b168145-fcvVmzJ7fRUY.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 168145
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "leo-clocker",
+      "name": "Leo Clocker",
+      "alt_names": [
+        "레오 클록커",
+        "クロッカ"
+      ],
+      "role": "supporting",
+      "description": "Leo Cloakeris a Regular that was assigned to the Fisherman position.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b168146-jpm1s4njPqcO.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 168146
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "catan",
+      "name": "Catan",
+      "alt_names": [
+        "카탄"
+      ],
+      "role": "supporting",
+      "description": "Catan is a Regular assigned to the Scout Position.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b168147-JwTPVNSYOkbO.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 168147
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "rozeal",
+      "name": "Rozeal",
+      "alt_names": [
+        "로제알",
+        "ロゼアール"
+      ],
+      "role": "supporting",
+      "description": "She is a Regular, who was assigned to the Wave Controller position.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b168148-4mEzwpc2CHMu.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 168148
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "palgyon",
+      "name": "Palgyon",
+      "alt_names": [
+        "팔견",
+        "八見"
+      ],
+      "role": "supporting",
+      "description": "Palgyunis is a F-Rank Regular, who was assigned to the Scout position.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b168149-o6upMiQ1vkcB.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 168149
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "full-black",
+      "name": "Full Black",
+      "alt_names": [
+        "풀 블랙",
+        "プール・ブラツク"
+      ],
+      "role": "supporting",
+      "description": "Full Black is a Regular and a Light Bearer",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b168150-DOAdTFOrwBnR.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 168150
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "hoh",
+      "name": "Hoh",
+      "alt_names": [
+        "호",
+        "ホー"
+      ],
+      "role": "supporting",
+      "description": "Hoh is a seemingly cheerful person who is actually quite conflicted. Making his way up the tower, dealing with flashbacks of the past in his homeplace, and making friends, he struggles to make his way.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b168151-1D29YWmA8xjW.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 168151
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "hyun-seung",
+      "name": "Hyun Seung",
+      "alt_names": [
+        "현승",
+        "Kazu",
+        "カズ"
+      ],
+      "role": "supporting",
+      "description": "Hyun Seung is a Regular who was assigned to the Spear Bearer position.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b168152-x57q6SGKP27Y.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 168152
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "chungchung",
+      "name": "Chungchung",
+      "alt_names": [
+        "청청",
+        "チョンチョン"
+      ],
+      "role": "supporting",
+      "description": "Chungchung is an extremely small and fast Regular who was assigned the Light Bearer position.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b168153-rHrNxjknt8EN.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 168153
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "deod",
+      "name": "Deod",
+      "alt_names": [
+        "데오드",
+        "デオード"
+      ],
+      "role": "supporting",
+      "description": "Deod is a Regular that was assigned to the Fisherman position. He teamed up with Leo Cloaker and First Emperor after the \"Deathmatch\" Test.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b168159-Eki61fcgwsL3.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 168159
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "geomeun-samwol",
+      "name": "Geomeun Samwol",
+      "alt_names": [
+        "검은 삼월",
+        "Geomeun Sahmwol",
+        "Black March",
+        "黒の三月",
+        "검은三月",
+        "Black Third Moon"
+      ],
+      "role": "supporting",
+      "description": "Black March is a B-rank Needle and Ignition Weapon lent to Baam for a short time by Yuri Jahad. Black March is one of the 13 Month Series made by the craftsmaster, Ashul Edwaru. The weapon is sentient and has a spirit inside it and when ignited, it is capable of unleashing extreme power like the other 13 Month Series.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b168700-FZdM1OR5cVSj.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 168700
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "mr-neon-bag",
+      "name": "Mr. Neon Bag",
+      "alt_names": [
+        "형광봉다리씨",
+        "蛍光ポリ袋 ",
+        "Keikou porifukuro",
+        "Fluorescent Plastic Bag"
+      ],
+      "role": "supporting",
+      "description": "He  is a Test Assistant in the Door Test. He and his team pretended to be a Regular in order to give hints to all the teams before they took the door-selection exam under the order of the Test Director Yu Han Sung.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b169093-2MPQtWSTh8E5.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 169093
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "hachuling-khun",
+      "name": "Hachuling Khun",
+      "alt_names": [
+        "하츨링",
+        "Hahcheulling",
+        "Hachling",
+        "クン・ハツルリング"
+      ],
+      "role": "supporting",
+      "description": "Khun Hachuling, or simply just Hachuling, is a Ranker, a defected member of the Khun Family and one of the numerous children related to Khun Eduan. He is also a member of Wolhaiksong and is sometimes referred to as Blueberry.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b175047-o2zQmdPwHPLu.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 175047
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "aleksai-amigochaz",
+      "name": "Aleksai Amigochaz",
+      "alt_names": [
+        "알렉세이 아미고챠즈"
+      ],
+      "role": "supporting",
+      "description": "Aleksai Amigochaz is the red-winged Regular from early 2nd Floor who had been climbing the Tower with Shibisu, Anak Zahard and Androssi Zahard as a member of Team Isu. His position is a Spear Bearer.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b175702-JSnskF1Gvy3i.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 175702
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "azadni",
+      "name": "Azadni",
+      "alt_names": [
+        "아자드니"
+      ],
+      "role": "supporting",
+      "description": "Azadni is a Regular assigned to the Spear Bearer Position.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b175703-kHhJJfyQlyVc.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 175703
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "baunian",
+      "name": "Baunian",
+      "alt_names": [
+        "버니안"
+      ],
+      "role": "supporting",
+      "description": "Baunian is a Regular assigned to the Light Bearer position.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b175704-fWop7EtQs4Qr.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 175704
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "bok-dol-yu",
+      "name": "Bok-Dol Yu",
+      "alt_names": [
+        "유복돌"
+      ],
+      "role": "supporting",
+      "description": "Yu Bok-Dol is a Ranker. He is the Position Instructor for the Spear Bearers on the Second Floor and therefore one of the judges during the Hide-and-Seek test as well as the judge for the Spear Bearers during the Position Test.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b175705-2FIu50t7mbhV.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 175705
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "le-ara",
+      "name": "Le-Ara",
+      "alt_names": [
+        "레-아라"
+      ],
+      "role": "supporting",
+      "description": "Le-Ara is a Regular assigned to the Light Bearer position.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b175706-VWKfI1glmXsn.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 175706
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kurdan",
+      "name": "Kurdan",
+      "alt_names": [
+        "쿠르단"
+      ],
+      "role": "supporting",
+      "description": "Kurudan is a Ranker and member of Wolhaiksong. He travelled with Yuri Zahard and her group, whose objective was to navigate the more dangerous parts of the Middle Area in order to infiltrate the Second Floor so she could retrieve the Black March.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b175707-ixQXT8C7TRno.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 175707
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "hax",
+      "name": "Hax",
+      "alt_names": [
+        "헥스"
+      ],
+      "role": "supporting",
+      "description": "Hax is a Ranker. She is the Position Instructor for the Fishermen on the Second Floor and was, therefore, one of the judges during the Hide-and-Seek test as well as the judge for the Fishermen during the overall Position Test.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b175709-pG486XvxOL9S.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 175709
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "chunhwa-hong",
+      "name": "Chunhwa Hong",
+      "alt_names": [
+        "홍천화"
+      ],
+      "role": "supporting",
+      "description": "Hong Chunhwa is a Regular. He passed all of the Second Floor tests and was assigned to the Fisherman position. He seems to be quite close to Sunwoo Nare.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b175710-z35YAIt9WdpK.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 175710
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kukaku-rakukakuka",
+      "name": "Kukaku Rakukakuka",
+      "alt_names": [
+        "쿠카쿠 라쿠카쿠카"
+      ],
+      "role": "supporting",
+      "description": "Kukaku Rakukakuka is a Regular who participated on the 2nd Floor tests. He was one of the people who were \"stored\" in Khun's bag throughout the first \"Deathmatch\" Test. He participated in the Crown Game with his teammates Blarouse and Grey, and helped Khun by attacking the other Regulars. He was then assigned to the Light Bearer position.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b175711-IGhN6r38E4Nk.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 175711
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "changsoo-yeon",
+      "name": "Changsoo Yeon",
+      "alt_names": [
+        "연창수"
+      ],
+      "role": "supporting",
+      "description": "Yung Changsoo is a Regular assigned to the Fisherman position.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b175712-SfEqzUcR8wGx.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 175712
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "blarouse",
+      "name": "Blarouse",
+      "alt_names": [
+        "블라루즈"
+      ],
+      "role": "supporting",
+      "description": "Blarouse is a Regular who participated on the 2nd Floor tests. He was one of the people who were \"stored\" in Khun's bag throughout the first \"Deathmatch\" Test.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b175713-k9wTEvD2OZPA.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 175713
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "hoshi",
+      "name": "Hoshi",
+      "alt_names": [
+        "호시"
+      ],
+      "role": "supporting",
+      "description": "Hoshi is Regular who was assigned the Scout position.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b175714-j2HlmOSfHiC5.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 175714
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "grey",
+      "name": "Grey",
+      "alt_names": [
+        "그레이"
+      ],
+      "role": "supporting",
+      "description": "Grey is a Regular who participated on the 2nd Floor tests. She was one of the three people who were \"stored\" in Khun's bag throughout the first \"Deathmatch\" Test.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b175715-A7MVunx0mb7U.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 175715
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "goon",
+      "name": "Goon",
+      "alt_names": [
+        "군",
+        "Gun"
+      ],
+      "role": "supporting",
+      "description": "Goon is a Regular who was assigned to the Spear Bearer position.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b175716-ixCmFHuaEXdx.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 175716
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "parakewl",
+      "name": "Parakewl",
+      "alt_names": [
+        "파라큘",
+        "Paracule"
+      ],
+      "role": "supporting",
+      "description": "Parakewl is a rather unintelligent and useless Regular.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b175717-NifIOzxcDyfF.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 175717
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "no-rang",
+      "name": "No Rang",
+      "alt_names": [
+        "노랑",
+        "Yellow",
+        "黄色"
+      ],
+      "role": "minor",
+      "description": "Yellow is an exam assistant. She gave instructions to the Regulars for Yu Han Sung 's examination, The Door Test.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b166490-LyMFNAxL2b4V.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 166490
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "announcer",
+      "name": "Announcer",
+      "alt_names": [
+        "アナウンスの声"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b166493-bfdeak3nW76O.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 166493
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "anaak-ui-eomma",
+      "name": "Anaak-ui Eomma",
+      "alt_names": [
+        "아낙의 엄마",
+        "Anaak's mother アナクの母親"
+      ],
+      "role": "minor",
+      "description": "~!She is the real Anaak Jahad. Her daughter decided to take her name while going up the tower to avenge her.!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b175708-tmYLDohh4vlR.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 175708
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "angnyeong",
+      "name": "Angnyeong",
+      "alt_names": [
+        "악령",
+        "Akryung",
+        "Ghost"
+      ],
+      "role": "minor",
+      "description": "A mysterious regular that first appeard during the Crown game on the Floor of tests.\n\n~!It was later revealed that he was a Bodyguard assigned by Headon to help Rachel climb the Tower.!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b212873-HeYsP3GBNjZf.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 212873
+      },
+      "rarity": "common"
+    }
+  ],
+  "updated_at": "2025-12-23T06:07:34.354Z"
+}

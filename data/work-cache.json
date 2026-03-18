@@ -1,0 +1,4239 @@
+{
+  "28": {
+    "processedAt": "2025-12-23T15:12:15.880Z",
+    "title": "Red Dead Redemption 2",
+    "type": "game",
+    "charactersCount": 8
+  },
+  "32": {
+    "processedAt": "2025-12-23T15:15:25.841Z",
+    "title": "Destiny 2",
+    "type": "game",
+    "charactersCount": 21
+  },
+  "33": {
+    "processedAt": "2025-12-26T09:34:49.146Z",
+    "title": "Kenpuu Denki Berserk",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "43": {
+    "processedAt": "2025-12-26T11:20:53.192Z",
+    "title": "GHOST IN THE SHELL: Koukaku Kidoutai",
+    "type": "anime",
+    "charactersCount": 7
+  },
+  "47": {
+    "processedAt": "2025-12-25T00:12:43.347Z",
+    "title": "AKIRA",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "121": {
+    "processedAt": "2025-12-24T03:20:35.831Z",
+    "title": "Hagane no Renkinjutsushi",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "164": {
+    "processedAt": "2025-12-23T16:48:33.493Z",
+    "title": "Mononoke-hime",
+    "type": "anime",
+    "charactersCount": 14
+  },
+  "205": {
+    "processedAt": "2025-12-24T00:57:29.708Z",
+    "title": "Samurai Champloo",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "223": {
+    "processedAt": "2025-12-24T23:33:28.854Z",
+    "title": "Dragon Ball",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "226": {
+    "processedAt": "2025-12-24T01:01:42.111Z",
+    "title": "Elfen Lied",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "227": {
+    "processedAt": "2025-12-25T06:46:56.721Z",
+    "title": "FLCL",
+    "type": "anime",
+    "charactersCount": 14
+  },
+  "245": {
+    "processedAt": "2025-12-26T10:07:39.103Z",
+    "title": "GTO",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "249": {
+    "processedAt": "2025-12-26T08:22:02.989Z",
+    "title": "Inuyasha",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "278": {
+    "processedAt": "2025-12-23T15:22:10.643Z",
+    "title": "Horizon Zero Dawn",
+    "type": "game",
+    "charactersCount": 11
+  },
+  "339": {
+    "processedAt": "2025-12-24T14:49:00.932Z",
+    "title": "serial experiments lain",
+    "type": "anime",
+    "charactersCount": 14
+  },
+  "356": {
+    "processedAt": "2025-12-25T19:56:15.924Z",
+    "title": "Fate/stay night",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "416": {
+    "processedAt": "2025-12-23T15:25:19.734Z",
+    "title": "Grand Theft Auto: San Andreas",
+    "type": "game",
+    "charactersCount": 8
+  },
+  "422": {
+    "processedAt": "2025-12-23T15:19:35.442Z",
+    "title": "Terraria",
+    "type": "game",
+    "charactersCount": 8
+  },
+  "437": {
+    "processedAt": "2025-12-24T19:54:26.653Z",
+    "title": "PERFECT BLUE",
+    "type": "anime",
+    "charactersCount": 14
+  },
+  "457": {
+    "processedAt": "2025-12-25T16:03:54.936Z",
+    "title": "Mushishi",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "512": {
+    "processedAt": "2025-12-25T23:02:57.456Z",
+    "title": "Majo no Takkyuubin",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "523": {
+    "processedAt": "2025-12-24T00:20:27.524Z",
+    "title": "Tonari no Totoro",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "578": {
+    "processedAt": "2025-12-25T11:29:17.370Z",
+    "title": "Hotaru no Haka",
+    "type": "anime",
+    "charactersCount": 4
+  },
+  "766": {
+    "processedAt": "2025-12-23T15:21:08.786Z",
+    "title": "Warframe",
+    "type": "game",
+    "charactersCount": 14
+  },
+  "777": {
+    "processedAt": "2025-12-26T01:59:09.353Z",
+    "title": "HELLSING OVA",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "802": {
+    "processedAt": "2025-12-23T15:13:48.333Z",
+    "title": "Borderlands 2",
+    "type": "game",
+    "charactersCount": 12
+  },
+  "813": {
+    "processedAt": "2025-12-24T07:38:50.026Z",
+    "title": "Dragon Ball Z",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "849": {
+    "processedAt": "2025-12-25T08:34:11.404Z",
+    "title": "Suzumiya Haruhi no Yuuutsu",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "853": {
+    "processedAt": "2025-12-24T07:04:59.831Z",
+    "title": "Ouran Koukou Host Club",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "877": {
+    "processedAt": "2025-12-25T11:25:04.717Z",
+    "title": "NANA",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "889": {
+    "processedAt": "2025-12-24T11:30:20.144Z",
+    "title": "BLACK LAGOON",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "918": {
+    "processedAt": "2025-12-23T19:30:46.485Z",
+    "title": "Gintama",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "934": {
+    "processedAt": "2025-12-26T02:34:10.730Z",
+    "title": "Higurashi no Naku Koro ni",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "1030": {
+    "processedAt": "2025-12-23T15:17:30.256Z",
+    "title": "Limbo",
+    "type": "game",
+    "charactersCount": 8
+  },
+  "1210": {
+    "processedAt": "2025-12-25T15:28:53.934Z",
+    "title": "NHK ni Youkoso!",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "1689": {
+    "processedAt": "2025-12-24T10:13:13.375Z",
+    "title": "Byousoku 5 Centimeter",
+    "type": "anime",
+    "charactersCount": 9
+  },
+  "2025": {
+    "processedAt": "2025-12-26T04:15:27.555Z",
+    "title": "DARKER THAN BLACK: Kuro no Keiyakusha",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "2167": {
+    "processedAt": "2025-12-23T18:03:38.760Z",
+    "title": "CLANNAD",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "2236": {
+    "processedAt": "2025-12-26T03:44:38.654Z",
+    "title": "Toki wo Kakeru Shoujo",
+    "type": "anime",
+    "charactersCount": 9
+  },
+  "2251": {
+    "processedAt": "2025-12-25T14:49:25.494Z",
+    "title": "Baccano!",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "2454": {
+    "processedAt": "2025-12-23T15:18:32.580Z",
+    "title": "DOOM (2016)",
+    "type": "game",
+    "charactersCount": 25
+  },
+  "2890": {
+    "processedAt": "2025-12-25T22:23:44.144Z",
+    "title": "Gake no Ue no Ponyo",
+    "type": "anime",
+    "charactersCount": 11
+  },
+  "2966": {
+    "processedAt": "2025-12-25T23:35:57.556Z",
+    "title": "Ookami to Koushinryou",
+    "type": "anime",
+    "charactersCount": 8
+  },
+  "3070": {
+    "processedAt": "2025-12-23T15:16:28.346Z",
+    "title": "Fallout 4",
+    "type": "game",
+    "charactersCount": 7
+  },
+  "3192": {
+    "processedAt": "2025-12-23T15:24:17.399Z",
+    "title": "Metal Gear Solid V: The Phantom Pain",
+    "type": "game",
+    "charactersCount": 15
+  },
+  "3272": {
+    "processedAt": "2025-12-23T15:21:39.700Z",
+    "title": "Rocket League",
+    "type": "game",
+    "charactersCount": 5
+  },
+  "3287": {
+    "processedAt": "2025-12-23T15:23:46.424Z",
+    "title": "Batman: Arkham Knight",
+    "type": "game",
+    "charactersCount": 9
+  },
+  "3439": {
+    "processedAt": "2025-12-23T15:14:22.893Z",
+    "title": "Life is Strange",
+    "type": "game",
+    "charactersCount": 12
+  },
+  "3939": {
+    "processedAt": "2025-12-23T15:16:59.237Z",
+    "title": "PAYDAY 2",
+    "type": "game",
+    "charactersCount": 5
+  },
+  "4062": {
+    "processedAt": "2025-12-23T15:12:46.654Z",
+    "title": "BioShock Infinite",
+    "type": "game",
+    "charactersCount": 6
+  },
+  "4181": {
+    "processedAt": "2025-12-25T01:30:42.416Z",
+    "title": "CLANNAD: After Story",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "4286": {
+    "processedAt": "2025-12-23T15:14:53.982Z",
+    "title": "BioShock",
+    "type": "game",
+    "charactersCount": 6
+  },
+  "4291": {
+    "processedAt": "2025-12-23T13:50:37.381Z",
+    "title": "Counter-Strike: Global Offensive",
+    "type": "game",
+    "charactersCount": 40
+  },
+  "4459": {
+    "processedAt": "2025-12-23T15:20:37.471Z",
+    "title": "Grand Theft Auto IV",
+    "type": "game",
+    "charactersCount": 8
+  },
+  "4654": {
+    "processedAt": "2025-12-25T17:14:57.449Z",
+    "title": "Toaru Majutsu no Index",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "4898": {
+    "processedAt": "2025-12-24T04:36:41.032Z",
+    "title": "Kuroshitsuji",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "5286": {
+    "processedAt": "2025-12-23T14:15:13.073Z",
+    "title": "Tomb Raider (2013)",
+    "type": "game",
+    "charactersCount": 9
+  },
+  "5679": {
+    "processedAt": "2025-12-23T15:11:44.811Z",
+    "title": "The Elder Scrolls V: Skyrim",
+    "type": "game",
+    "charactersCount": 9
+  },
+  "5680": {
+    "processedAt": "2025-12-24T00:24:39.950Z",
+    "title": "K-ON!",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "6045": {
+    "processedAt": "2025-12-24T17:29:20.455Z",
+    "title": "Kimi ni Todoke",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "6746": {
+    "processedAt": "2025-12-23T17:25:35.855Z",
+    "title": "Durarara!!",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "6880": {
+    "processedAt": "2025-12-24T08:53:04.991Z",
+    "title": "Deadman Wonderland",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "7054": {
+    "processedAt": "2025-12-23T21:05:14.040Z",
+    "title": "Kaichou wa Maid-sama!",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "7689": {
+    "processedAt": "2025-12-23T15:23:14.404Z",
+    "title": "Rise of the Tomb Raider",
+    "type": "game",
+    "charactersCount": 11
+  },
+  "7791": {
+    "processedAt": "2025-12-26T13:01:11.219Z",
+    "title": "K-ON!!",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "8074": {
+    "processedAt": "2025-12-23T22:17:17.244Z",
+    "title": "Gakuen Mokushiroku: HIGHSCHOOL OF THE DEAD",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "9989": {
+    "processedAt": "2025-12-24T12:03:10.598Z",
+    "title": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.",
+    "type": "anime",
+    "charactersCount": 16
+  },
+  "10165": {
+    "processedAt": "2025-12-24T16:14:22.053Z",
+    "title": "Nichijou",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "10213": {
+    "processedAt": "2025-12-23T15:20:06.427Z",
+    "title": "Dota 2",
+    "type": "game",
+    "charactersCount": 7
+  },
+  "10408": {
+    "processedAt": "2025-12-25T10:51:03.814Z",
+    "title": "Hotarubi no Mori e",
+    "type": "anime",
+    "charactersCount": 5
+  },
+  "10793": {
+    "processedAt": "2025-12-24T14:20:13.262Z",
+    "title": "Guilty Crown",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "11597": {
+    "processedAt": "2025-12-25T17:42:44.707Z",
+    "title": "Nisemonogatari",
+    "type": "anime",
+    "charactersCount": 12
+  },
+  "11617": {
+    "processedAt": "2025-12-23T12:33:46.915Z",
+    "title": "High School DxD",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "11741": {
+    "processedAt": "2025-12-24T11:25:07.351Z",
+    "title": "Fate/Zero 2nd Season",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "11771": {
+    "processedAt": "2025-12-23T22:55:11.852Z",
+    "title": "Kuroko no Basket",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "11843": {
+    "processedAt": "2025-12-25T13:13:36.969Z",
+    "title": "Danshi Koukousei no Nichijou",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "11859": {
+    "processedAt": "2025-12-23T15:18:01.309Z",
+    "title": "Team Fortress 2",
+    "type": "game",
+    "charactersCount": 3
+  },
+  "11887": {
+    "processedAt": "2025-12-25T16:33:43.499Z",
+    "title": "Kokoro Connect",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "12020": {
+    "processedAt": "2025-12-23T14:57:36.179Z",
+    "title": "Left 4 Dead 2",
+    "type": "game",
+    "charactersCount": 5
+  },
+  "12355": {
+    "processedAt": "2025-12-25T12:03:20.014Z",
+    "title": "Ookami Kodomo no Ame to Yuki",
+    "type": "anime",
+    "charactersCount": 9
+  },
+  "13125": {
+    "processedAt": "2025-12-26T01:24:08.463Z",
+    "title": "Shinsekai yori",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "13536": {
+    "processedAt": "2025-12-23T14:56:58.943Z",
+    "title": "Portal",
+    "type": "game",
+    "charactersCount": 5
+  },
+  "13537": {
+    "processedAt": "2025-12-23T15:13:17.394Z",
+    "title": "Half-Life 2",
+    "type": "game",
+    "charactersCount": 5
+  },
+  "13759": {
+    "processedAt": "2025-12-23T23:40:29.210Z",
+    "title": "Sakurasou no Pet na Kanojo",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "14227": {
+    "processedAt": "2025-12-24T05:10:41.838Z",
+    "title": "Tonari no Kaibutsu-kun",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "14467": {
+    "processedAt": "2025-12-26T05:32:45.039Z",
+    "title": "K",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "14513": {
+    "processedAt": "2025-12-24T21:42:31.897Z",
+    "title": "Magi: The labyrinth of magic",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "15451": {
+    "processedAt": "2025-12-25T12:38:32.729Z",
+    "title": "High School DxD NEW",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "15583": {
+    "processedAt": "2025-12-24T14:53:13.356Z",
+    "title": "Date A Live",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "16592": {
+    "processedAt": "2025-12-24T21:02:27.770Z",
+    "title": "Danganronpa: Kibou no Gakuen to Zetsubou no Koukousei - The Animation",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "16782": {
+    "processedAt": "2025-12-24T10:09:01.088Z",
+    "title": "Kotonoha no Niwa",
+    "type": "anime",
+    "charactersCount": 9
+  },
+  "16894": {
+    "processedAt": "2025-12-26T00:12:14.730Z",
+    "title": "Kuroko no Basket 2nd SEASON",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "16944": {
+    "processedAt": "2025-12-23T15:24:48.476Z",
+    "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
+    "type": "game",
+    "charactersCount": 11
+  },
+  "17074": {
+    "processedAt": "2025-12-26T06:35:48.330Z",
+    "title": "Monogatari Series: Second Season",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "17265": {
+    "processedAt": "2025-12-24T19:19:25.612Z",
+    "title": "Log Horizon",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "17895": {
+    "processedAt": "2025-12-24T05:47:44.065Z",
+    "title": "Golden Time",
+    "type": "anime",
+    "charactersCount": 11
+  },
+  "18115": {
+    "processedAt": "2025-12-26T10:47:53.100Z",
+    "title": "Magi: The kingdom of magic",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "18153": {
+    "processedAt": "2025-12-23T22:13:04.798Z",
+    "title": "Kyoukai no Kanata",
+    "type": "anime",
+    "charactersCount": 13
+  },
+  "18507": {
+    "processedAt": "2025-12-25T18:23:13.893Z",
+    "title": "Free!",
+    "type": "anime",
+    "charactersCount": 13
+  },
+  "18671": {
+    "processedAt": "2025-12-25T23:31:45.258Z",
+    "title": "Chuunibyou demo Koi ga Shitai! Ren",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "18897": {
+    "processedAt": "2025-12-24T01:34:42.358Z",
+    "title": "Nisekoi",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "19603": {
+    "processedAt": "2025-12-24T02:47:45.984Z",
+    "title": "Fate/stay night: Unlimited Blade Works",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "20457": {
+    "processedAt": "2025-12-25T10:55:16.088Z",
+    "title": "Black Bullet",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "20458": {
+    "processedAt": "2025-12-24T06:23:45.472Z",
+    "title": "Mahouka Koukou no Rettousei",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "20596": {
+    "processedAt": "2025-12-24T13:46:12.762Z",
+    "title": "Ao Haru Ride",
+    "type": "anime",
+    "charactersCount": 9
+  },
+  "20626": {
+    "processedAt": "2025-12-25T21:19:44.765Z",
+    "title": "FAIRY TAIL (2014)",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "20631": {
+    "processedAt": "2025-12-25T14:14:24.296Z",
+    "title": "Trinity Seven",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "20657": {
+    "processedAt": "2025-12-26T03:10:38.047Z",
+    "title": "Saenai Heroine no Sodatekata",
+    "type": "anime",
+    "charactersCount": 12
+  },
+  "20661": {
+    "processedAt": "2025-12-23T21:37:03.364Z",
+    "title": "Zankyou no Terror",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "20668": {
+    "processedAt": "2025-12-25T00:08:30.805Z",
+    "title": "Gekkan Shoujo Nozaki-kun",
+    "type": "anime",
+    "charactersCount": 13
+  },
+  "20698": {
+    "processedAt": "2025-12-24T01:30:29.930Z",
+    "title": "Yahari Ore no Seishun Love Come wa Machigatteiru. Zoku",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "20727": {
+    "processedAt": "2025-12-24T22:57:36.918Z",
+    "title": "Kekkai Sensen",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "20745": {
+    "processedAt": "2025-12-26T06:01:47.957Z",
+    "title": "High School DxD BorN",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "20770": {
+    "processedAt": "2025-12-25T05:04:02.706Z",
+    "title": "Akatsuki no Yona",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "20792": {
+    "processedAt": "2025-12-25T06:51:09.155Z",
+    "title": "Fate/stay night: Unlimited Blade Works 2nd Season",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "20799": {
+    "processedAt": "2025-12-23T21:42:16.108Z",
+    "title": "JoJo no Kimyou na Bouken: Stardust Crusaders - Egypt-hen",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "20807": {
+    "processedAt": "2025-12-24T13:11:11.666Z",
+    "title": "Prison School",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "20829": {
+    "processedAt": "2025-12-24T12:37:10.950Z",
+    "title": "Owari no Seraph",
+    "type": "anime",
+    "charactersCount": 24
+  },
+  "20872": {
+    "processedAt": "2025-12-24T06:27:57.879Z",
+    "title": "Plastic Memories",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "20910": {
+    "processedAt": "2025-12-25T07:19:56.904Z",
+    "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "20966": {
+    "processedAt": "2025-12-25T18:48:14.577Z",
+    "title": "Yamada-kun to 7-nin no Majo",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "20987": {
+    "processedAt": "2025-12-26T07:41:48.571Z",
+    "title": "Himouto! Umaru-chan",
+    "type": "anime",
+    "charactersCount": 10
+  },
+  "20993": {
+    "processedAt": "2025-12-25T11:59:07.313Z",
+    "title": "Owari no Seraph: Nagoya Kessen-hen",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "20994": {
+    "processedAt": "2025-12-25T17:09:44.679Z",
+    "title": "GATE: Jieitai Kanochi nite, Kaku Tatakaeri",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21049": {
+    "processedAt": "2025-12-24T08:15:02.096Z",
+    "title": "ReLIFE",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21058": {
+    "processedAt": "2025-12-26T02:03:21.785Z",
+    "title": "Akagami no Shirayuki-hime",
+    "type": "anime",
+    "charactersCount": 14
+  },
+  "21092": {
+    "processedAt": "2025-12-24T19:23:38.036Z",
+    "title": "Rakudai Kishi no Cavalry",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21093": {
+    "processedAt": "2025-12-26T11:49:57.828Z",
+    "title": "Monster Musume no Iru Nichijou",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21127": {
+    "processedAt": "2025-12-25T02:40:44.626Z",
+    "title": "Steins;Gate 0",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21175": {
+    "processedAt": "2025-12-25T05:43:07.773Z",
+    "title": "Dragon Ball Super",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21196": {
+    "processedAt": "2025-12-25T14:18:36.593Z",
+    "title": "Koutetsujou no Kabaneri",
+    "type": "anime",
+    "charactersCount": 13
+  },
+  "21366": {
+    "processedAt": "2025-12-25T04:28:01.421Z",
+    "title": "3-gatsu no Lion",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21385": {
+    "processedAt": "2025-12-26T09:29:36.411Z",
+    "title": "Nanatsu no Taizai: Seisen no Shirushi",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21403": {
+    "processedAt": "2025-12-25T13:41:24.311Z",
+    "title": "Sword Art Online: Ordinal Scale",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21421": {
+    "processedAt": "2025-12-25T07:24:09.306Z",
+    "title": "Kiznaiver",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21428": {
+    "processedAt": "2025-12-26T02:38:23.043Z",
+    "title": "Hai to Gensou no Grimgar",
+    "type": "anime",
+    "charactersCount": 12
+  },
+  "21450": {
+    "processedAt": "2025-12-23T11:50:46.084Z",
+    "title": "JoJo no Kimyou na Bouken: Diamond wa Kudakenai",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21518": {
+    "processedAt": "2025-12-24T02:11:44.495Z",
+    "title": "Shokugeki no Souma: Ni no Sara",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21595": {
+    "processedAt": "2025-12-25T16:38:56.255Z",
+    "title": "Sakamoto desu ga?",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21613": {
+    "processedAt": "2025-12-24T05:15:54.591Z",
+    "title": "Youjo Senki",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21647": {
+    "processedAt": "2025-12-24T19:58:38.964Z",
+    "title": "orange",
+    "type": "anime",
+    "charactersCount": 8
+  },
+  "21679": {
+    "processedAt": "2025-12-24T15:34:17.978Z",
+    "title": "Bungou Stray Dogs 2nd Season",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21685": {
+    "processedAt": "2025-12-25T17:46:57.134Z",
+    "title": "Eromanga Sensei",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21700": {
+    "processedAt": "2025-12-25T14:54:38.200Z",
+    "title": "Rokudenashi Majutsu Koushi to Akashic Records",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21701": {
+    "processedAt": "2025-12-25T22:58:45.038Z",
+    "title": "Kuzu no Honkai",
+    "type": "anime",
+    "charactersCount": 12
+  },
+  "21709": {
+    "processedAt": "2025-12-24T20:32:39.534Z",
+    "title": "Yuuri!!! on ICE",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21711": {
+    "processedAt": "2025-12-25T10:19:14.474Z",
+    "title": "91Days",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21857": {
+    "processedAt": "2025-12-24T20:27:26.660Z",
+    "title": "Masamune-kun no Revenge",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21858": {
+    "processedAt": "2025-12-26T13:29:58.813Z",
+    "title": "Little Witch Academia (TV)",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21861": {
+    "processedAt": "2025-12-26T00:47:15.750Z",
+    "title": "Ao no Exorcist: Kyoto Fujouou-hen",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "21875": {
+    "processedAt": "2025-12-24T22:22:35.951Z",
+    "title": "No Game No Life Zero",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "29028": {
+    "processedAt": "2025-12-23T15:22:43.094Z",
+    "title": "Metro 2033",
+    "type": "game",
+    "charactersCount": 9
+  },
+  "30001": {
+    "processedAt": "2025-12-23T21:53:34.654Z",
+    "title": "MONSTER",
+    "type": "manga",
+    "charactersCount": 66
+  },
+  "30002": {
+    "processedAt": "2025-12-23T12:06:16.875Z",
+    "title": "Berserk",
+    "type": "manga",
+    "charactersCount": 68
+  },
+  "30003": {
+    "processedAt": "2025-12-23T21:58:47.391Z",
+    "title": "20 Seiki Shounen",
+    "type": "manga",
+    "charactersCount": 31
+  },
+  "30004": {
+    "processedAt": "2025-12-25T21:33:14.640Z",
+    "title": "Yokohama Kaidashi Kikou",
+    "type": "manga",
+    "charactersCount": 12
+  },
+  "30007": {
+    "processedAt": "2025-12-26T02:19:53.192Z",
+    "title": "Hajime no Ippo",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30011": {
+    "processedAt": "2025-12-24T00:06:10.084Z",
+    "title": "NARUTO",
+    "type": "manga",
+    "charactersCount": 26
+  },
+  "30012": {
+    "processedAt": "2025-12-23T19:08:22.411Z",
+    "title": "BLEACH",
+    "type": "manga",
+    "charactersCount": 239
+  },
+  "30013": {
+    "processedAt": "2025-12-23T13:37:53.944Z",
+    "title": "ONE PIECE",
+    "type": "manga",
+    "charactersCount": 712
+  },
+  "30021": {
+    "processedAt": "2025-12-24T00:35:58.339Z",
+    "title": "DEATH NOTE",
+    "type": "manga",
+    "charactersCount": 54
+  },
+  "30024": {
+    "processedAt": "2025-12-25T10:36:46.377Z",
+    "title": "D.Gray-man",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30025": {
+    "processedAt": "2025-12-24T03:44:21.239Z",
+    "title": "Hagane no Renkinjutsushi",
+    "type": "manga",
+    "charactersCount": 92
+  },
+  "30026": {
+    "processedAt": "2025-12-23T20:44:43.340Z",
+    "title": "HUNTER×HUNTER",
+    "type": "manga",
+    "charactersCount": 183
+  },
+  "30028": {
+    "processedAt": "2025-12-24T17:51:04.416Z",
+    "title": "NANA",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30042": {
+    "processedAt": "2025-12-24T21:22:01.068Z",
+    "title": "Dragon Ball",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30044": {
+    "processedAt": "2025-12-26T09:12:53.296Z",
+    "title": "Gintama",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30051": {
+    "processedAt": "2025-12-24T06:03:14.908Z",
+    "title": "SLAM DUNK",
+    "type": "manga",
+    "charactersCount": 40
+  },
+  "30102": {
+    "processedAt": "2025-12-26T01:08:50.602Z",
+    "title": "Fruits Basket",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30104": {
+    "processedAt": "2025-12-24T11:39:49.850Z",
+    "title": "Yotsuba to!",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30145": {
+    "processedAt": "2025-12-26T09:02:36.551Z",
+    "title": "BECK",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30149": {
+    "processedAt": "2025-12-24T13:20:29.167Z",
+    "title": "BLAME!",
+    "type": "manga",
+    "charactersCount": 13
+  },
+  "30336": {
+    "processedAt": "2025-12-24T17:45:51.705Z",
+    "title": "GTO",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30401": {
+    "processedAt": "2025-12-26T08:36:48.444Z",
+    "title": "Kiseijuu",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30436": {
+    "processedAt": "2025-12-24T01:51:13.748Z",
+    "title": "Uzumaki",
+    "type": "manga",
+    "charactersCount": 22
+  },
+  "30564": {
+    "processedAt": "2025-12-24T08:32:34.143Z",
+    "title": "GANTZ",
+    "type": "manga",
+    "charactersCount": 100
+  },
+  "30583": {
+    "processedAt": "2025-12-24T11:09:49.327Z",
+    "title": "CLAYMORE",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30598": {
+    "processedAt": "2025-12-24T16:33:48.267Z",
+    "title": "FAIRY TAIL",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30642": {
+    "processedAt": "2025-12-23T17:10:17.840Z",
+    "title": "Vinland Saga",
+    "type": "manga",
+    "charactersCount": 25
+  },
+  "30656": {
+    "processedAt": "2025-12-23T16:34:02.519Z",
+    "title": "Vagabond",
+    "type": "manga",
+    "charactersCount": 23
+  },
+  "30657": {
+    "processedAt": "2025-12-25T01:15:24.585Z",
+    "title": "Real",
+    "type": "manga",
+    "charactersCount": 11
+  },
+  "30658": {
+    "processedAt": "2025-12-26T09:49:19.330Z",
+    "title": "Mugen no Juunin",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30664": {
+    "processedAt": "2025-12-25T03:34:28.242Z",
+    "title": "AKIRA",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30698": {
+    "processedAt": "2025-12-25T19:03:45.543Z",
+    "title": "Shin Seiki Evangelion",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30743": {
+    "processedAt": "2025-12-25T21:37:27.072Z",
+    "title": "21 Seiki Shounen",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30745": {
+    "processedAt": "2025-12-24T21:26:13.508Z",
+    "title": "PLUTO",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30768": {
+    "processedAt": "2025-12-26T12:36:27.979Z",
+    "title": "GUNNM",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30872": {
+    "processedAt": "2025-12-26T00:27:45.453Z",
+    "title": "JoJo no Kimyou na Bouken: Stardust Crusaders",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30908": {
+    "processedAt": "2025-12-24T09:47:29.624Z",
+    "title": "Soul Eater",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "30912": {
+    "processedAt": "2025-12-25T09:59:44.198Z",
+    "title": "Tomie",
+    "type": "manga",
+    "charactersCount": 1
+  },
+  "30936": {
+    "processedAt": "2025-12-24T07:56:32.245Z",
+    "title": "Homunculus",
+    "type": "manga",
+    "charactersCount": 6
+  },
+  "31133": {
+    "processedAt": "2025-12-24T02:22:02.277Z",
+    "title": "Dorohedoro",
+    "type": "manga",
+    "charactersCount": 39
+  },
+  "31224": {
+    "processedAt": "2025-12-26T04:35:10.632Z",
+    "title": "3-gatsu no Lion",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "31517": {
+    "processedAt": "2025-12-25T02:55:14.873Z",
+    "title": "JoJo no Kimyou na Bouken: Phantom Blood",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "31630": {
+    "processedAt": "2025-12-25T19:35:45.215Z",
+    "title": "JoJo no Kimyou na Bouken: Sentou Chouryuu",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "31649": {
+    "processedAt": "2025-12-26T07:56:19.002Z",
+    "title": "LIAR GAME",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "31706": {
+    "processedAt": "2025-12-23T23:10:43.067Z",
+    "title": "JoJo no Kimyou na Bouken: Steel Ball Run",
+    "type": "manga",
+    "charactersCount": 45
+  },
+  "32921": {
+    "processedAt": "2025-12-25T19:40:58.086Z",
+    "title": "Kaichou wa Maid-sama!",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "33006": {
+    "processedAt": "2025-12-25T23:13:15.384Z",
+    "title": "JoJo no Kimyou na Bouken: Diamond wa Kudakenai",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "33008": {
+    "processedAt": "2025-12-25T15:05:11.131Z",
+    "title": "JoJo no Kimyou na Bouken: Ougon no Kaze",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "33009": {
+    "processedAt": "2025-12-24T05:26:12.457Z",
+    "title": "JoJo no Kimyou na Bouken: Stone Ocean",
+    "type": "manga",
+    "charactersCount": 35
+  },
+  "33031": {
+    "processedAt": "2025-12-24T18:26:05.206Z",
+    "title": "Pandora Hearts",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "33285": {
+    "processedAt": "2025-12-26T09:44:06.568Z",
+    "title": "Holyland",
+    "type": "manga",
+    "charactersCount": 10
+  },
+  "33378": {
+    "processedAt": "2025-12-25T20:10:46.942Z",
+    "title": "Kimi ni Todoke",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "33731": {
+    "processedAt": "2025-12-24T20:48:10.226Z",
+    "title": "Solanin",
+    "type": "manga",
+    "charactersCount": 5
+  },
+  "33866": {
+    "processedAt": "2025-12-25T16:19:25.963Z",
+    "title": "Kuroshitsuji",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "33986": {
+    "processedAt": "2025-12-24T21:55:02.978Z",
+    "title": "Deadman Wonderland",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "34632": {
+    "processedAt": "2025-12-23T15:48:45.419Z",
+    "title": "Oyasumi Punpun",
+    "type": "manga",
+    "charactersCount": 25
+  },
+  "37375": {
+    "processedAt": "2025-12-24T10:22:30.874Z",
+    "title": "Kokou no Hito",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "38586": {
+    "processedAt": "2025-12-25T14:33:06.943Z",
+    "title": "The Breaker",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "38848": {
+    "processedAt": "2025-12-25T08:44:29.231Z",
+    "title": "Sun-Ken Rock",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "38967": {
+    "processedAt": "2025-12-25T02:26:27.100Z",
+    "title": "Onani Master Kurosawa",
+    "type": "manga",
+    "charactersCount": 11
+  },
+  "39711": {
+    "processedAt": "2025-12-25T06:32:39.216Z",
+    "title": "Bakuman.",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "41054": {
+    "processedAt": "2025-12-25T20:49:05.722Z",
+    "title": "Billy Bat",
+    "type": "manga",
+    "charactersCount": 14
+  },
+  "41494": {
+    "processedAt": "2025-12-23T15:19:03.838Z",
+    "title": "Cyberpunk 2077",
+    "type": "game",
+    "charactersCount": 6
+  },
+  "41734": {
+    "processedAt": "2025-12-26T10:25:21.109Z",
+    "title": "Watashitachi no Shiawase na Jikan",
+    "type": "manga",
+    "charactersCount": 4
+  },
+  "43492": {
+    "processedAt": "2025-12-25T08:14:41.106Z",
+    "title": "Ao no Exorcist",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "43702": {
+    "processedAt": "2025-12-26T11:30:27.645Z",
+    "title": "Tonari no Kaibutsu-kun",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "44440": {
+    "processedAt": "2025-12-25T11:05:33.939Z",
+    "title": "I Am a Hero",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "44790": {
+    "processedAt": "2025-12-25T00:25:02.690Z",
+    "title": "Magi",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "46765": {
+    "processedAt": "2025-12-24T05:33:26.652Z",
+    "title": "Kingdom",
+    "type": "manga",
+    "charactersCount": 96
+  },
+  "47353": {
+    "processedAt": "2025-12-26T06:54:31.068Z",
+    "title": "Umibe no Onnanoko",
+    "type": "manga",
+    "charactersCount": 5
+  },
+  "47465": {
+    "processedAt": "2025-12-26T03:19:55.473Z",
+    "title": "Omoide Emanon",
+    "type": "manga",
+    "charactersCount": 3
+  },
+  "51525": {
+    "processedAt": "2025-12-24T20:43:57.944Z",
+    "title": "Akatsuki no Yona",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "53390": {
+    "processedAt": "2025-12-23T12:16:33.659Z",
+    "title": "Shingeki no Kyojin",
+    "type": "manga",
+    "charactersCount": 174
+  },
+  "54294": {
+    "processedAt": "2025-12-24T14:29:30.656Z",
+    "title": "Ao Haru Ride",
+    "type": "manga",
+    "charactersCount": 10
+  },
+  "54692": {
+    "processedAt": "2025-12-24T12:13:28.483Z",
+    "title": "Noragami",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "54705": {
+    "processedAt": "2025-12-24T06:42:28.040Z",
+    "title": "Aku no Hana",
+    "type": "manga",
+    "charactersCount": 9
+  },
+  "55132": {
+    "processedAt": "2025-12-25T01:53:27.108Z",
+    "title": "Akame ga Kill!",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "55297": {
+    "processedAt": "2025-12-25T18:28:31.280Z",
+    "title": "Prison School",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "55515": {
+    "processedAt": "2025-12-24T14:34:43.511Z",
+    "title": "JoJo no Kimyou na Bouken: JoJolion",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "58175": {
+    "processedAt": "2025-12-23T15:15:57.357Z",
+    "title": "God of War (2018)",
+    "type": "game",
+    "charactersCount": 13
+  },
+  "59983": {
+    "processedAt": "2025-12-26T01:39:39.242Z",
+    "title": "Noblesse",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "61499": {
+    "processedAt": "2025-12-24T17:07:48.952Z",
+    "title": "Nisekoi",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "63031": {
+    "processedAt": "2025-12-25T14:00:06.766Z",
+    "title": "Imawa no Kuni no Alice",
+    "type": "manga",
+    "charactersCount": 12
+  },
+  "63327": {
+    "processedAt": "2025-12-23T14:22:00.270Z",
+    "title": "Tokyo Ghoul",
+    "type": "manga",
+    "charactersCount": 25
+  },
+  "65003": {
+    "processedAt": "2025-12-26T03:25:08.471Z",
+    "title": "Yamada-kun to 7-nin no Majo",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "65243": {
+    "processedAt": "2025-12-23T22:34:40.989Z",
+    "title": "Haikyuu!!",
+    "type": "manga",
+    "charactersCount": 209
+  },
+  "65573": {
+    "processedAt": "2025-12-25T15:38:11.364Z",
+    "title": "orange",
+    "type": "manga",
+    "charactersCount": 8
+  },
+  "66267": {
+    "processedAt": "2025-12-26T13:10:28.636Z",
+    "title": "Boku wa Mari no Naka",
+    "type": "manga",
+    "charactersCount": 4
+  },
+  "69883": {
+    "processedAt": "2025-12-24T19:04:07.737Z",
+    "title": "Ansatsu Kyoushitsu",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "72451": {
+    "processedAt": "2025-12-23T17:44:08.396Z",
+    "title": "Horimiya",
+    "type": "manga",
+    "charactersCount": 29
+  },
+  "73661": {
+    "processedAt": "2025-12-25T07:01:26.977Z",
+    "title": "Owari no Seraph",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "74347": {
+    "processedAt": "2025-12-23T15:58:00.934Z",
+    "title": "One Punch-Man",
+    "type": "manga",
+    "charactersCount": 132
+  },
+  "74485": {
+    "processedAt": "2025-12-24T17:15:02.879Z",
+    "title": "Nanatsu no Taizai",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "74489": {
+    "processedAt": "2025-12-24T03:37:07.079Z",
+    "title": "Houseki no Kuni",
+    "type": "manga",
+    "charactersCount": 36
+  },
+  "75757": {
+    "processedAt": "2025-12-25T01:11:12.174Z",
+    "title": "Shokugeki no Souma",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "76716": {
+    "processedAt": "2025-12-26T05:42:17.709Z",
+    "title": "Masamune-kun no Revenge",
+    "type": "manga",
+    "charactersCount": 14
+  },
+  "79865": {
+    "processedAt": "2025-12-24T13:59:42.601Z",
+    "title": "Ajin",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "80145": {
+    "processedAt": "2025-12-26T08:31:35.693Z",
+    "title": "citrus",
+    "type": "manga",
+    "charactersCount": 12
+  },
+  "85135": {
+    "processedAt": "2025-12-24T01:16:12.417Z",
+    "title": "Koe no Katachi",
+    "type": "manga",
+    "charactersCount": 18
+  },
+  "85141": {
+    "processedAt": "2025-12-24T19:39:08.875Z",
+    "title": "God of High School",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "85143": {
+    "processedAt": "2025-12-23T23:19:58.503Z",
+    "title": "Sinui Tap",
+    "type": "manga",
+    "charactersCount": 25
+  },
+  "85165": {
+    "processedAt": "2025-12-26T05:08:10.878Z",
+    "title": "Innocent",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "85189": {
+    "processedAt": "2025-12-25T00:33:17.904Z",
+    "title": "Mob Psycho 100",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "85215": {
+    "processedAt": "2025-12-25T05:13:20.144Z",
+    "title": "All You Need Is Kill",
+    "type": "manga",
+    "charactersCount": 7
+  },
+  "85307": {
+    "processedAt": "2025-12-25T04:06:29.549Z",
+    "title": "Bungou Stray Dogs",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "85316": {
+    "processedAt": "2025-12-25T12:52:03.510Z",
+    "title": "Dead Dead Demon's Dededededestruction",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "85412": {
+    "processedAt": "2025-12-25T02:22:14.779Z",
+    "title": "Shoujo Shuumatsu Ryokou",
+    "type": "manga",
+    "charactersCount": 9
+  },
+  "85442": {
+    "processedAt": "2025-12-25T22:44:27.596Z",
+    "title": "Tate no Yuusha no Nariagari",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "85470": {
+    "processedAt": "2025-12-25T20:56:19.788Z",
+    "title": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "85486": {
+    "processedAt": "2025-12-23T14:33:17.954Z",
+    "title": "Boku no Hero Academia",
+    "type": "manga",
+    "charactersCount": 194
+  },
+  "85533": {
+    "processedAt": "2025-12-26T11:02:23.352Z",
+    "title": "Karakai Jouzu no Takagi-san",
+    "type": "manga",
+    "charactersCount": 14
+  },
+  "85564": {
+    "processedAt": "2025-12-25T03:00:27.613Z",
+    "title": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "85611": {
+    "processedAt": "2025-12-23T22:39:53.859Z",
+    "title": "Tokyo Ghoul:re",
+    "type": "manga",
+    "charactersCount": 25
+  },
+  "85734": {
+    "processedAt": "2025-12-25T15:42:23.679Z",
+    "title": "Tamen De Gushi",
+    "type": "manga",
+    "charactersCount": 6
+  },
+  "85802": {
+    "processedAt": "2025-12-25T07:39:39.895Z",
+    "title": "Domestic na Kanojo",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "85849": {
+    "processedAt": "2025-12-24T18:20:52.366Z",
+    "title": "ReLife",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "85911": {
+    "processedAt": "2025-12-25T14:28:54.589Z",
+    "title": "Tomodachi Game",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "86082": {
+    "processedAt": "2025-12-24T22:00:15.857Z",
+    "title": "Dungeon Meshi",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "86099": {
+    "processedAt": "2025-12-25T09:17:29.457Z",
+    "title": "Wind Breaker",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "86123": {
+    "processedAt": "2025-12-23T20:33:25.766Z",
+    "title": "Black Clover",
+    "type": "manga",
+    "charactersCount": 123
+  },
+  "86136": {
+    "processedAt": "2025-12-25T11:09:46.215Z",
+    "title": "Happiness",
+    "type": "manga",
+    "charactersCount": 7
+  },
+  "86218": {
+    "processedAt": "2025-12-24T10:26:43.308Z",
+    "title": "Yagate Kimi ni Naru",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "86300": {
+    "processedAt": "2025-12-25T03:30:15.825Z",
+    "title": "Tomo-chan wa Onnanoko!",
+    "type": "manga",
+    "charactersCount": 14
+  },
+  "86310": {
+    "processedAt": "2025-12-24T09:54:43.643Z",
+    "title": "Enen no Shouboutai",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "86399": {
+    "processedAt": "2025-12-24T15:12:46.605Z",
+    "title": "Tensei Shitara Slime Datta Ken",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "86508": {
+    "processedAt": "2025-12-26T04:00:09.587Z",
+    "title": "Dragon Ball Super",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "86551": {
+    "processedAt": "2025-12-24T16:39:01.135Z",
+    "title": "Made in Abyss",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "86559": {
+    "processedAt": "2025-12-24T23:16:09.304Z",
+    "title": "Golden Kamuy",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "86568": {
+    "processedAt": "2025-12-26T00:22:32.564Z",
+    "title": "Vanitas no Carte",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "86635": {
+    "processedAt": "2025-12-23T18:26:24.194Z",
+    "title": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen",
+    "type": "manga",
+    "charactersCount": 66
+  },
+  "86707": {
+    "processedAt": "2025-12-26T08:01:31.883Z",
+    "title": "Yao Shen Ji",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "86717": {
+    "processedAt": "2025-12-24T11:03:36.017Z",
+    "title": "Wotaku ni Koi wa Muzukashii",
+    "type": "manga",
+    "charactersCount": 12
+  },
+  "86770": {
+    "processedAt": "2025-12-25T05:17:32.444Z",
+    "title": "Totsukuni no Shoujo",
+    "type": "manga",
+    "charactersCount": 2
+  },
+  "86848": {
+    "processedAt": "2025-12-25T08:49:42.085Z",
+    "title": "Oemo Jisangjuui",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "86964": {
+    "processedAt": "2025-12-24T04:56:24.297Z",
+    "title": "Hurejasik",
+    "type": "manga",
+    "charactersCount": 4
+  },
+  "87170": {
+    "processedAt": "2025-12-23T23:50:47.050Z",
+    "title": "Fire Punch",
+    "type": "manga",
+    "charactersCount": 27
+  },
+  "87178": {
+    "processedAt": "2025-12-24T23:49:00.147Z",
+    "title": "BORUTO: NARUTO NEXT GENERATIONS",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "87208": {
+    "processedAt": "2025-12-25T19:07:57.837Z",
+    "title": "Shimanami Tasogare",
+    "type": "manga",
+    "charactersCount": 7
+  },
+  "87216": {
+    "processedAt": "2025-12-23T13:47:09.491Z",
+    "title": "Kimetsu no Yaiba",
+    "type": "manga",
+    "charactersCount": 134
+  },
+  "87321": {
+    "processedAt": "2025-12-26T10:58:10.913Z",
+    "title": "Goblin Slayer",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "87395": {
+    "processedAt": "2025-12-24T09:13:39.177Z",
+    "title": "Grand Blue",
+    "type": "manga",
+    "charactersCount": 30
+  },
+  "87423": {
+    "processedAt": "2025-12-23T17:03:03.918Z",
+    "title": "Yakusoku no Neverland",
+    "type": "manga",
+    "charactersCount": 50
+  },
+  "87459": {
+    "processedAt": "2025-12-25T22:05:14.273Z",
+    "title": "Sabishisugite Rezu Fuzoku ni Ikimashita Report",
+    "type": "manga",
+    "charactersCount": 2
+  },
+  "94970": {
+    "processedAt": "2025-12-25T10:30:32.852Z",
+    "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "97553": {
+    "processedAt": "2025-12-24T02:57:03.387Z",
+    "title": "Jumyou wo Kaitotte Moratta. Ichinen ni Tsuki, Ichimanen de.",
+    "type": "manga",
+    "charactersCount": 3
+  },
+  "97766": {
+    "processedAt": "2025-12-26T07:14:01.348Z",
+    "title": "Gamers!",
+    "type": "anime",
+    "charactersCount": 10
+  },
+  "97830": {
+    "processedAt": "2025-12-24T23:09:56.035Z",
+    "title": "Fumetsu no Anata e",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "97852": {
+    "processedAt": "2025-12-23T19:56:33.403Z",
+    "title": "Komi-san wa, Komyushou desu.",
+    "type": "manga",
+    "charactersCount": 137
+  },
+  "97922": {
+    "processedAt": "2025-12-26T05:28:32.615Z",
+    "title": "Inuyashiki",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "97938": {
+    "processedAt": "2025-12-25T00:53:39.841Z",
+    "title": "BORUTO: NARUTO NEXT GENERATIONS",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "97994": {
+    "processedAt": "2025-12-25T21:23:57.091Z",
+    "title": "Blend S",
+    "type": "anime",
+    "charactersCount": 12
+  },
+  "98034": {
+    "processedAt": "2025-12-25T20:38:32.104Z",
+    "title": "Saiki Kusuo no Ψ-nan 2",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "98235": {
+    "processedAt": "2025-12-26T02:12:39.322Z",
+    "title": "Bokutachi wa Benkyou ga Dekinai",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "98263": {
+    "processedAt": "2025-12-24T08:25:20.005Z",
+    "title": "Tongari Boushi no Atelier",
+    "type": "manga",
+    "charactersCount": 40
+  },
+  "98291": {
+    "processedAt": "2025-12-25T12:33:19.405Z",
+    "title": "Tsurezure Children",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "98328": {
+    "processedAt": "2025-12-25T06:26:25.954Z",
+    "title": "Jagaaaaaan",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "98334": {
+    "processedAt": "2025-12-25T13:22:54.391Z",
+    "title": "Ao no Flag",
+    "type": "manga",
+    "charactersCount": 12
+  },
+  "98361": {
+    "processedAt": "2025-12-26T04:29:57.772Z",
+    "title": "Mikkakan no Koufuku",
+    "type": "manga",
+    "charactersCount": 3
+  },
+  "98397": {
+    "processedAt": "2025-12-24T12:50:40.810Z",
+    "title": "Chi no Wadachi",
+    "type": "manga",
+    "charactersCount": 6
+  },
+  "98416": {
+    "processedAt": "2025-12-24T01:47:01.345Z",
+    "title": "Dr. STONE",
+    "type": "manga",
+    "charactersCount": 84
+  },
+  "98436": {
+    "processedAt": "2025-12-24T13:06:59.251Z",
+    "title": "Mahoutsukai no Yome",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "98437": {
+    "processedAt": "2025-12-24T03:26:49.121Z",
+    "title": "Overlord II",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "98444": {
+    "processedAt": "2025-12-26T11:54:10.249Z",
+    "title": "Yuru Camp△",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "98587": {
+    "processedAt": "2025-12-24T23:54:13.098Z",
+    "title": "BEASTARS",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "98842": {
+    "processedAt": "2025-12-24T06:08:27.623Z",
+    "title": "Jibaku Shounen Hanako-kun",
+    "type": "manga",
+    "charactersCount": 28
+  },
+  "99022": {
+    "processedAt": "2025-12-25T07:34:27.125Z",
+    "title": "Kusuriya no Hitorigoto",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "99255": {
+    "processedAt": "2025-12-24T22:18:23.520Z",
+    "title": "Shokugeki no Souma: San no Sara",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "99324": {
+    "processedAt": "2025-12-26T01:02:37.346Z",
+    "title": "Mairimashita! Iruma-kun",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "99426": {
+    "processedAt": "2025-12-26T11:16:40.888Z",
+    "title": "Sora yori mo Tooi Basho",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "99468": {
+    "processedAt": "2025-12-26T10:11:51.354Z",
+    "title": "Karakai Jouzu no Takagi-san",
+    "type": "anime",
+    "charactersCount": 10
+  },
+  "99539": {
+    "processedAt": "2025-12-23T20:13:52.467Z",
+    "title": "Nanatsu no Taizai: Imashime no Fukkatsu",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "99578": {
+    "processedAt": "2025-12-24T12:32:58.586Z",
+    "title": "Wotaku ni Koi wa Muzukashii",
+    "type": "anime",
+    "charactersCount": 12
+  },
+  "99629": {
+    "processedAt": "2025-12-25T03:14:45.134Z",
+    "title": "Satsuriku no Tenshi",
+    "type": "anime",
+    "charactersCount": 7
+  },
+  "99943": {
+    "processedAt": "2025-12-24T11:35:37.464Z",
+    "title": "Kanojo, Okarishimasu",
+    "type": "manga",
+    "charactersCount": 11
+  },
+  "100112": {
+    "processedAt": "2025-12-26T04:53:40.590Z",
+    "title": "Kenja no Mago",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "100182": {
+    "processedAt": "2025-12-23T20:20:05.809Z",
+    "title": "Sword Art Online: Alicization",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "100183": {
+    "processedAt": "2025-12-26T12:27:10.485Z",
+    "title": "Sword Art Online Alternative: Gun Gale Online",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "100230": {
+    "processedAt": "2025-12-24T06:38:15.723Z",
+    "title": "Go-toubun no Hanayome",
+    "type": "manga",
+    "charactersCount": 34
+  },
+  "100240": {
+    "processedAt": "2025-12-23T12:40:00.198Z",
+    "title": "Tokyo Ghoul:re",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "100568": {
+    "processedAt": "2025-12-24T12:46:28.498Z",
+    "title": "Supyeongseon",
+    "type": "manga",
+    "charactersCount": 14
+  },
+  "100664": {
+    "processedAt": "2025-12-24T04:52:12.004Z",
+    "title": "Ijiranaide, Nagatoro-san",
+    "type": "manga",
+    "charactersCount": 18
+  },
+  "100668": {
+    "processedAt": "2025-12-25T04:22:48.698Z",
+    "title": "Arifureta Shokugyou de Sekai Saikyou",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "100723": {
+    "processedAt": "2025-12-25T02:08:44.922Z",
+    "title": "Boku no Hero Academia THE MOVIE: Futari no Hero",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "100773": {
+    "processedAt": "2025-12-26T06:41:01.334Z",
+    "title": "Shokugeki no Souma: San no Sara - Tootsuki Ressha-hen",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "100805": {
+    "processedAt": "2025-12-26T12:07:40.065Z",
+    "title": "Here U Are",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "100876": {
+    "processedAt": "2025-12-24T14:15:00.445Z",
+    "title": "Kakegurui ××",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "100922": {
+    "processedAt": "2025-12-25T00:57:52.247Z",
+    "title": "Grand Blue",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "100954": {
+    "processedAt": "2025-12-24T19:32:55.575Z",
+    "title": "Sweet Home",
+    "type": "manga",
+    "charactersCount": 14
+  },
+  "100977": {
+    "processedAt": "2025-12-25T06:17:08.425Z",
+    "title": "Hataraku Saibou",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "100994": {
+    "processedAt": "2025-12-24T00:42:11.753Z",
+    "title": "Jigokuraku",
+    "type": "manga",
+    "charactersCount": 67
+  },
+  "101004": {
+    "processedAt": "2025-12-25T09:03:59.622Z",
+    "title": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "101165": {
+    "processedAt": "2025-12-23T16:18:31.568Z",
+    "title": "Goblin Slayer",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "101167": {
+    "processedAt": "2025-12-24T16:07:07.936Z",
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "101177": {
+    "processedAt": "2025-12-25T12:18:00.886Z",
+    "title": "Tonikaku Kawaii",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "101233": {
+    "processedAt": "2025-12-24T07:20:30.350Z",
+    "title": "Gokushufudou",
+    "type": "manga",
+    "charactersCount": 28
+  },
+  "101474": {
+    "processedAt": "2025-12-24T15:29:05.202Z",
+    "title": "Overlord III",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "101557": {
+    "processedAt": "2025-12-26T05:03:58.462Z",
+    "title": "Boku no Kokoro no Yabai Yatsu",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "101583": {
+    "processedAt": "2025-12-24T01:12:00.000Z",
+    "title": "Sono Bisque Doll wa Koi wo Suru",
+    "type": "manga",
+    "charactersCount": 33
+  },
+  "102351": {
+    "processedAt": "2025-12-24T21:08:41.057Z",
+    "title": "Tokyo Ghoul:re 2",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "102883": {
+    "processedAt": "2025-12-23T18:09:52.683Z",
+    "title": "JoJo no Kimyou na Bouken: Ougon no Kaze",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "102976": {
+    "processedAt": "2025-12-24T18:11:34.853Z",
+    "title": "Kono Subarashii Sekai ni Shukufuku wo! Kurenai Densetsu",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "102988": {
+    "processedAt": "2025-12-23T18:20:10.700Z",
+    "title": "Tokyo卍Revengers",
+    "type": "manga",
+    "charactersCount": 25
+  },
+  "103047": {
+    "processedAt": "2025-12-25T13:46:37.043Z",
+    "title": "Violet Evergarden Movie",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "103139": {
+    "processedAt": "2025-12-25T02:44:57.039Z",
+    "title": "Domestic na Kanojo",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "103223": {
+    "processedAt": "2025-12-25T10:15:02.053Z",
+    "title": "Bungou Stray Dogs 3rd Season",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "103572": {
+    "processedAt": "2025-12-23T15:30:45.993Z",
+    "title": "Go-toubun no Hanayome",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "104157": {
+    "processedAt": "2025-12-24T08:10:49.667Z",
+    "title": "Seishun Buta Yarou wa Yumemiru Shoujo no Yume wo Minai",
+    "type": "anime",
+    "charactersCount": 12
+  },
+  "105011": {
+    "processedAt": "2025-12-26T05:46:30.110Z",
+    "title": "Fuufu Ijou, Koibito Miman.",
+    "type": "manga",
+    "charactersCount": 9
+  },
+  "105097": {
+    "processedAt": "2025-12-25T04:37:18.841Z",
+    "title": "Mieruko-chan",
+    "type": "manga",
+    "charactersCount": 14
+  },
+  "105156": {
+    "processedAt": "2025-12-25T15:24:41.515Z",
+    "title": "Shinchou Yuusha: Kono Yuusha ga Ore TUEEE Kuse ni Shinchou Sugiru",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "105190": {
+    "processedAt": "2025-12-26T08:15:49.412Z",
+    "title": "Darwin's Game",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "105228": {
+    "processedAt": "2025-12-26T04:20:40.417Z",
+    "title": "Dorohedoro",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "105334": {
+    "processedAt": "2025-12-23T12:31:51.652Z",
+    "title": "Fruits Basket: 1st Season",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "105393": {
+    "processedAt": "2025-12-25T01:46:13.243Z",
+    "title": "Gwihwanjaui Mabeobeun Teukbyeolhaeya Hamnida",
+    "type": "manga",
+    "charactersCount": 6
+  },
+  "105469": {
+    "processedAt": "2025-12-24T07:15:17.613Z",
+    "title": "Jujutsu Kaisen 0: Tokyo Toritsu Jujutsu Koutou Senmon Gakkou",
+    "type": "manga",
+    "charactersCount": 28
+  },
+  "106064": {
+    "processedAt": "2025-12-24T22:37:06.236Z",
+    "title": "Mato Seihei no Slave",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "106130": {
+    "processedAt": "2025-12-23T18:55:01.905Z",
+    "title": "Blue Lock",
+    "type": "manga",
+    "charactersCount": 99
+  },
+  "106479": {
+    "processedAt": "2025-12-26T04:49:28.169Z",
+    "title": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "106625": {
+    "processedAt": "2025-12-23T17:33:50.520Z",
+    "title": "Haikyuu!! TO THE TOP",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "106758": {
+    "processedAt": "2025-12-25T04:42:31.556Z",
+    "title": "Kage no Jitsuryokusha ni Naritakute!",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "106929": {
+    "processedAt": "2025-12-25T09:23:42.714Z",
+    "title": "Eleceed",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "107098": {
+    "processedAt": "2025-12-24T09:08:26.466Z",
+    "title": "Shuumatsu no Valkyrie",
+    "type": "manga",
+    "charactersCount": 152
+  },
+  "107237": {
+    "processedAt": "2025-12-24T04:21:23.040Z",
+    "title": "Blue Period",
+    "type": "manga",
+    "charactersCount": 29
+  },
+  "107282": {
+    "processedAt": "2025-12-25T13:27:06.716Z",
+    "title": "Kawaii dake ja Nai Shikimori-san",
+    "type": "manga",
+    "charactersCount": 14
+  },
+  "107521": {
+    "processedAt": "2025-12-25T17:56:29.605Z",
+    "title": "Eoneu Nal Gongjuga Doeeobeoryeotda",
+    "type": "manga",
+    "charactersCount": 11
+  },
+  "107660": {
+    "processedAt": "2025-12-24T04:06:52.882Z",
+    "title": "BEASTARS",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "108430": {
+    "processedAt": "2025-12-25T05:31:49.958Z",
+    "title": "Given",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "108463": {
+    "processedAt": "2025-12-24T16:58:31.420Z",
+    "title": "Jibaku Shounen Hanako-kun",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "108489": {
+    "processedAt": "2025-12-25T03:53:58.554Z",
+    "title": "Yahari Ore no Seishun Love Come wa Machigatteiru. Kan",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "108511": {
+    "processedAt": "2025-12-23T14:03:27.979Z",
+    "title": "Tensei Shitara Slime Datta Ken 2nd Season",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "108553": {
+    "processedAt": "2025-12-26T07:47:01.466Z",
+    "title": "Boku no Hero Academia THE MOVIE: Heroes:Rising",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "108556": {
+    "processedAt": "2025-12-23T16:29:50.068Z",
+    "title": "SPY×FAMILY",
+    "type": "manga",
+    "charactersCount": 62
+  },
+  "108759": {
+    "processedAt": "2025-12-25T03:20:58.395Z",
+    "title": "Sword Art Online: Alicization - War of Underworld",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "108928": {
+    "processedAt": "2025-12-25T08:00:10.722Z",
+    "title": "Nanatsu no Taizai: Kamigami no Gekirin",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "109261": {
+    "processedAt": "2025-12-25T02:12:57.345Z",
+    "title": "Go-toubun no Hanayome ∬",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "109285": {
+    "processedAt": "2025-12-26T10:21:08.791Z",
+    "title": "Skip to Loafer",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "109501": {
+    "processedAt": "2025-12-25T22:39:14.837Z",
+    "title": "Yamada-kun to Lv999 no Koi wo Suru",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "109957": {
+    "processedAt": "2025-12-25T07:05:39.380Z",
+    "title": "Dubeon Saneun Ranker",
+    "type": "manga",
+    "charactersCount": 11
+  },
+  "109963": {
+    "processedAt": "2025-12-26T03:40:26.331Z",
+    "title": "Shokugeki no Souma: Shin no Sara",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "110349": {
+    "processedAt": "2025-12-24T22:52:24.153Z",
+    "title": "GREAT PRETENDER",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "110462": {
+    "processedAt": "2025-12-26T03:53:56.063Z",
+    "title": "Dogul Wang",
+    "type": "manga",
+    "charactersCount": 12
+  },
+  "110473": {
+    "processedAt": "2025-12-26T11:34:39.957Z",
+    "title": "Kimi wa Houkago Insomnia",
+    "type": "manga",
+    "charactersCount": 14
+  },
+  "111189": {
+    "processedAt": "2025-12-26T01:43:51.554Z",
+    "title": "Yubisaki to Renren",
+    "type": "manga",
+    "charactersCount": 12
+  },
+  "111233": {
+    "processedAt": "2025-12-24T12:18:41.190Z",
+    "title": "Yofukashi no Uta",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "111321": {
+    "processedAt": "2025-12-24T18:06:22.150Z",
+    "title": "Tate no Yuusha no Nariagari Season 2",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "111762": {
+    "processedAt": "2025-12-25T20:01:28.687Z",
+    "title": "Fruits Basket: 2nd Season",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "112124": {
+    "processedAt": "2025-12-25T13:08:23.536Z",
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka III",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "112301": {
+    "processedAt": "2025-12-24T05:52:56.925Z",
+    "title": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "112579": {
+    "processedAt": "2025-12-26T13:14:40.949Z",
+    "title": "My Broken Mariko",
+    "type": "manga",
+    "charactersCount": 3
+  },
+  "112981": {
+    "processedAt": "2025-12-25T11:38:35.253Z",
+    "title": "Kubo-san wa Mob wo Yurusanai",
+    "type": "manga",
+    "charactersCount": 10
+  },
+  "113501": {
+    "processedAt": "2025-12-26T06:16:18.049Z",
+    "title": "Kaette Kudasai! Akutsu-san",
+    "type": "manga",
+    "charactersCount": 9
+  },
+  "113538": {
+    "processedAt": "2025-12-24T06:59:47.102Z",
+    "title": "Haikyuu!! TO THE TOP 2",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "113596": {
+    "processedAt": "2025-12-26T08:51:05.874Z",
+    "title": "Josee to Tora to Sakanatachi",
+    "type": "anime",
+    "charactersCount": 13
+  },
+  "113717": {
+    "processedAt": "2025-12-25T03:49:46.118Z",
+    "title": "Ousama Ranking",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "113813": {
+    "processedAt": "2025-12-23T11:54:58.324Z",
+    "title": "Kanojo, Okarishimasu",
+    "type": "anime",
+    "charactersCount": 10
+  },
+  "114232": {
+    "processedAt": "2025-12-25T19:26:27.706Z",
+    "title": "Hige wo Soru. Soshite Joshikousei wo Hirou.",
+    "type": "anime",
+    "charactersCount": 11
+  },
+  "114236": {
+    "processedAt": "2025-12-23T18:42:42.649Z",
+    "title": "Enen no Shouboutai: Ni no Shou",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "114308": {
+    "processedAt": "2025-12-25T15:58:42.053Z",
+    "title": "Sword Art Online: Alicization - War of Underworld Part 2",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "114416": {
+    "processedAt": "2025-12-25T18:01:42.507Z",
+    "title": "Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "114605": {
+    "processedAt": "2025-12-26T06:50:18.781Z",
+    "title": "Igye Geomwang Saengjongi",
+    "type": "manga",
+    "charactersCount": 9
+  },
+  "114960": {
+    "processedAt": "2025-12-24T15:04:31.714Z",
+    "title": "MASHLE",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "114963": {
+    "processedAt": "2025-12-25T21:51:44.508Z",
+    "title": "Nakitai Watashi wa Neko wo Kaburu",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "115122": {
+    "processedAt": "2025-12-26T07:23:18.828Z",
+    "title": "DEATH NOTE: Tokubetsu Yomikiri",
+    "type": "manga",
+    "charactersCount": 8
+  },
+  "116006": {
+    "processedAt": "2025-12-23T16:13:18.812Z",
+    "title": "THE GOD OF HIGH SCHOOL",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "116186": {
+    "processedAt": "2025-12-24T15:50:49.346Z",
+    "title": "Shounen no Abyss",
+    "type": "manga",
+    "charactersCount": 10
+  },
+  "116267": {
+    "processedAt": "2025-12-24T18:47:36.342Z",
+    "title": "Tonikaku Kawaii",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "116589": {
+    "processedAt": "2025-12-23T16:52:45.939Z",
+    "title": "86: Eighty Six",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "116671": {
+    "processedAt": "2025-12-25T23:45:30.807Z",
+    "title": "Juujika no Rokunin",
+    "type": "manga",
+    "charactersCount": 12
+  },
+  "116674": {
+    "processedAt": "2025-12-25T20:33:19.226Z",
+    "title": "BLEACH: Sennen Kessen-hen",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "116742": {
+    "processedAt": "2025-12-24T08:48:52.563Z",
+    "title": "Tensei Shitara Slime Datta Ken 2nd Season Part 2",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "117195": {
+    "processedAt": "2025-12-23T21:22:45.832Z",
+    "title": "[Oshi no Ko]",
+    "type": "manga",
+    "charactersCount": 68
+  },
+  "117460": {
+    "processedAt": "2025-12-25T22:09:26.697Z",
+    "title": "Temppal",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "118408": {
+    "processedAt": "2025-12-25T17:28:27.174Z",
+    "title": "Agyeogui Ending Jugeumppun",
+    "type": "manga",
+    "charactersCount": 10
+  },
+  "118424": {
+    "processedAt": "2025-12-25T20:14:59.292Z",
+    "title": "4000 Nyeon Mane Gwihwanhan Daemadosa",
+    "type": "manga",
+    "charactersCount": 8
+  },
+  "118586": {
+    "processedAt": "2025-12-24T03:04:17.240Z",
+    "title": "Sousou no Frieren",
+    "type": "manga",
+    "charactersCount": 77
+  },
+  "119174": {
+    "processedAt": "2025-12-25T12:47:50.693Z",
+    "title": "The Boxer",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "119257": {
+    "processedAt": "2025-12-23T17:48:20.852Z",
+    "title": "Jeonjijeok Dokja Sijeom",
+    "type": "manga",
+    "charactersCount": 23
+  },
+  "119521": {
+    "processedAt": "2025-12-25T09:55:31.931Z",
+    "title": "Bukgeom Jeongi",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "119661": {
+    "processedAt": "2025-12-23T21:00:01.249Z",
+    "title": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "120697": {
+    "processedAt": "2025-12-24T02:43:33.565Z",
+    "title": "Ijiranaide, Nagatoro-san",
+    "type": "anime",
+    "charactersCount": 12
+  },
+  "120760": {
+    "processedAt": "2025-12-23T21:16:32.416Z",
+    "title": "Kaijuu 8-gou",
+    "type": "manga",
+    "charactersCount": 52
+  },
+  "120980": {
+    "processedAt": "2025-12-25T08:09:28.275Z",
+    "title": "Nano Machine",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "123573": {
+    "processedAt": "2025-12-25T11:43:48.803Z",
+    "title": "Baekjakgaui Mangnaniga Doeeotda",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "124153": {
+    "processedAt": "2025-12-24T18:42:23.616Z",
+    "title": "SK∞",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "124194": {
+    "processedAt": "2025-12-26T07:09:49.042Z",
+    "title": "Fruits Basket: The Final",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "124845": {
+    "processedAt": "2025-12-23T19:35:59.438Z",
+    "title": "Wonder Egg Priority",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "125367": {
+    "processedAt": "2025-12-23T23:00:24.640Z",
+    "title": "Kaguya-sama wa Kokurasetai: Ultra Romantic",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "125636": {
+    "processedAt": "2025-12-26T12:40:40.312Z",
+    "title": "Mallep Yeongungnim Kkeseo Gwihwan Hasinda!",
+    "type": "manga",
+    "charactersCount": 2
+  },
+  "125828": {
+    "processedAt": "2025-12-24T02:28:15.675Z",
+    "title": "SAKAMOTO DAYS",
+    "type": "manga",
+    "charactersCount": 73
+  },
+  "126297": {
+    "processedAt": "2025-12-24T20:07:56.345Z",
+    "title": "Iphagyongbyeong",
+    "type": "manga",
+    "charactersCount": 13
+  },
+  "126693": {
+    "processedAt": "2025-12-25T05:54:26.175Z",
+    "title": "Choujin X",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "127230": {
+    "processedAt": "2025-12-24T11:58:58.166Z",
+    "title": "Chainsaw Man",
+    "type": "anime",
+    "charactersCount": 74
+  },
+  "127720": {
+    "processedAt": "2025-12-23T15:39:27.967Z",
+    "title": "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "127911": {
+    "processedAt": "2025-12-25T09:08:11.941Z",
+    "title": "Kawaii dake ja Nai Shikimori-san",
+    "type": "anime",
+    "charactersCount": 11
+  },
+  "128067": {
+    "processedAt": "2025-12-24T13:55:30.177Z",
+    "title": "SSS-geup Jugeoya Saneun Hunter",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "128546": {
+    "processedAt": "2025-12-26T03:06:25.636Z",
+    "title": "Vivy: Fluorite Eye’s Song",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "129201": {
+    "processedAt": "2025-12-25T06:12:55.996Z",
+    "title": "Summer Time Render",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "129898": {
+    "processedAt": "2025-12-25T19:22:15.352Z",
+    "title": "Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "130003": {
+    "processedAt": "2025-12-24T13:42:00.448Z",
+    "title": "Bocchi the Rock!",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "130298": {
+    "processedAt": "2025-12-23T23:35:16.487Z",
+    "title": "Kage no Jitsuryokusha ni Naritakute!",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "130511": {
+    "processedAt": "2025-12-26T02:47:55.808Z",
+    "title": "Level-Up Motaneun Player",
+    "type": "manga",
+    "charactersCount": 0
+  },
+  "131518": {
+    "processedAt": "2025-12-25T18:54:27.980Z",
+    "title": "Dr. STONE: NEW WORLD",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "131565": {
+    "processedAt": "2025-12-26T12:22:58.064Z",
+    "title": "takt op.Destiny",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "131586": {
+    "processedAt": "2025-12-26T01:29:21.232Z",
+    "title": "86: Eighty Six Part 2",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "131646": {
+    "processedAt": "2025-12-25T08:29:58.978Z",
+    "title": "Vanitas no Carte",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "131942": {
+    "processedAt": "2025-12-26T00:42:02.990Z",
+    "title": "JoJo no Kimyou na Bouken: Stone Ocean",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "132029": {
+    "processedAt": "2025-12-23T19:47:17.845Z",
+    "title": "Dandadan",
+    "type": "manga",
+    "charactersCount": 58
+  },
+  "132144": {
+    "processedAt": "2025-12-25T16:49:14.059Z",
+    "title": "Hwasangwihwan",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "132182": {
+    "processedAt": "2025-12-24T22:31:53.474Z",
+    "title": "Ao no Hako",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "136220": {
+    "processedAt": "2025-12-25T16:53:26.299Z",
+    "title": "Tusinjeonsaenggi",
+    "type": "manga",
+    "charactersCount": 9
+  },
+  "136430": {
+    "processedAt": "2025-12-24T10:45:03.032Z",
+    "title": "VINLAND SAGA SEASON 2",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "136807": {
+    "processedAt": "2025-12-24T13:24:41.478Z",
+    "title": "Look Back",
+    "type": "manga",
+    "charactersCount": 8
+  },
+  "137280": {
+    "processedAt": "2025-12-25T04:00:16.258Z",
+    "title": "Na Honja Mallep Newbie",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "137822": {
+    "processedAt": "2025-12-23T15:33:14.702Z",
+    "title": "Blue Lock",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "138603": {
+    "processedAt": "2025-12-25T18:32:43.675Z",
+    "title": "Hikaru ga Shinda Natsu",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "139630": {
+    "processedAt": "2025-12-24T10:54:18.591Z",
+    "title": "Boku no Hero Academia 6",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "140407": {
+    "processedAt": "2025-12-24T20:13:09.121Z",
+    "title": "Yeokdaegeum Yeongji Seolgyesa",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "140439": {
+    "processedAt": "2025-12-24T09:36:11.049Z",
+    "title": "Mob Psycho 100 III",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "140475": {
+    "processedAt": "2025-12-24T07:52:19.944Z",
+    "title": "Kaoru Hana wa Rin to Saku",
+    "type": "manga",
+    "charactersCount": 20
+  },
+  "141391": {
+    "processedAt": "2025-12-24T07:43:02.400Z",
+    "title": "Yofukashi no Uta",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "142770": {
+    "processedAt": "2025-12-25T21:55:56.824Z",
+    "title": "Suzume no Tojimari",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "143056": {
+    "processedAt": "2025-12-25T23:49:43.094Z",
+    "title": "Jaeanggeup Yeongungnimi Gwihwanhasyeotda",
+    "type": "manga",
+    "charactersCount": 4
+  },
+  "143270": {
+    "processedAt": "2025-12-25T07:53:57.430Z",
+    "title": "Lycoris Recoil",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "144946": {
+    "processedAt": "2025-12-24T18:57:54.380Z",
+    "title": "Gachiakuta",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "144957": {
+    "processedAt": "2025-12-25T13:55:54.479Z",
+    "title": "Myeolmang Ihuui Segye",
+    "type": "manga",
+    "charactersCount": 4
+  },
+  "145545": {
+    "processedAt": "2025-12-24T17:34:33.311Z",
+    "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 2nd Season",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "146065": {
+    "processedAt": "2025-12-24T21:48:45.187Z",
+    "title": "Mushoku Tensei II: Isekai Ittara Honki Dasu",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "146983": {
+    "processedAt": "2025-12-24T04:16:10.321Z",
+    "title": "Sayonara Eri",
+    "type": "manga",
+    "charactersCount": 6
+  },
+  "146984": {
+    "processedAt": "2025-12-24T23:38:41.916Z",
+    "title": "Shingeki no Kyojin: The Final Season - Kanketsu-hen Zenpen",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "147149": {
+    "processedAt": "2025-12-26T02:52:08.117Z",
+    "title": "Super no Ura de Yani Suu Futari",
+    "type": "manga",
+    "charactersCount": 8
+  },
+  "149332": {
+    "processedAt": "2025-12-25T16:13:12.494Z",
+    "title": "Geomsulmyeongga Mangnaeadeul",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "149544": {
+    "processedAt": "2025-12-25T05:58:38.487Z",
+    "title": "Ki ni Natteru Hito ga Otoko Janakatta",
+    "type": "manga",
+    "charactersCount": 7
+  },
+  "150378": {
+    "processedAt": "2025-12-25T15:10:24.003Z",
+    "title": "Gokurakugai",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "150440": {
+    "processedAt": "2025-12-26T12:03:27.772Z",
+    "title": "Ruri Dragon",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "150672": {
+    "processedAt": "2025-12-23T14:09:41.275Z",
+    "title": "[Oshi no Ko]",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "151512": {
+    "processedAt": "2025-12-26T07:27:31.133Z",
+    "title": "Bireomeogeul Hwansaeng",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "151801": {
+    "processedAt": "2025-12-24T04:00:39.647Z",
+    "title": "MASHLE",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "153288": {
+    "processedAt": "2025-12-24T09:30:58.210Z",
+    "title": "Kaijuu 8-gou",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "153518": {
+    "processedAt": "2025-12-25T09:40:01.150Z",
+    "title": "Dungeon Meshi",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "154965": {
+    "processedAt": "2025-12-26T00:06:01.435Z",
+    "title": "Yamada-kun to Lv999 no Koi wo Suru",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "155783": {
+    "processedAt": "2025-12-25T09:46:14.400Z",
+    "title": "Tengoku Daimakyou",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "158927": {
+    "processedAt": "2025-12-25T04:58:49.970Z",
+    "title": "SPY×FAMILY Season 2",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "159441": {
+    "processedAt": "2025-12-25T23:17:27.692Z",
+    "title": "Pick Me Up!",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "159831": {
+    "processedAt": "2025-12-25T01:36:55.703Z",
+    "title": "Zom 100: Zombie ni Naru Made ni Shitai 100 no Koto",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "159930": {
+    "processedAt": "2025-12-26T06:20:30.461Z",
+    "title": "Muhanui Mabeopsa",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "161645": {
+    "processedAt": "2025-12-24T02:06:31.638Z",
+    "title": "Kusuriya no Hitorigoto",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "161964": {
+    "processedAt": "2025-12-26T10:41:39.714Z",
+    "title": "Kage no Jitsuryokusha ni Naritakute! 2nd season",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "163270": {
+    "processedAt": "2025-12-26T12:54:57.854Z",
+    "title": "WIND BREAKER",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "163824": {
+    "processedAt": "2025-12-25T17:24:14.846Z",
+    "title": "Cheolhyeolgeomga Sanyanggaeui Hoegwi",
+    "type": "manga",
+    "charactersCount": 13
+  },
+  "166240": {
+    "processedAt": "2025-12-24T16:54:19.013Z",
+    "title": "Kimetsu no Yaiba: Hashira Geiko-hen",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "166873": {
+    "processedAt": "2025-12-26T06:07:00.698Z",
+    "title": "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "169355": {
+    "processedAt": "2025-12-24T15:46:37.018Z",
+    "title": "Kagurabachi",
+    "type": "manga",
+    "charactersCount": 15
+  },
+  "176496": {
+    "processedAt": "2025-12-24T04:42:54.470Z",
+    "title": "Ore dake Level Up na Ken: Season 2 - Arise from the Shadow",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "177709": {
+    "processedAt": "2025-12-25T18:19:01.577Z",
+    "title": "SAKAMOTO DAYS",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "178025": {
+    "processedAt": "2025-12-26T08:57:19.112Z",
+    "title": "Gachiakuta",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "185660": {
+    "processedAt": "2025-12-25T22:28:56.985Z",
+    "title": "Dandadan 2nd Season",
+    "type": "anime",
+    "charactersCount": 15
+  },
+  "290856": {
+    "processedAt": "2025-12-23T15:25:50.618Z",
+    "title": "Apex Legends",
+    "type": "game",
+    "charactersCount": 3
+  },
+  "a-silent-voice": {
+    "processedAt": "2025-12-22T19:35:22.960Z",
+    "type": "manga",
+    "title": "A Silent Voice",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "akame-ga-kill": {
+    "processedAt": "2025-12-22T22:01:58.004Z",
+    "type": "anime",
+    "title": "Akame ga Kill!",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "angel-beats": {
+    "processedAt": "2025-12-22T22:01:58.485Z",
+    "type": "anime",
+    "title": "Angel Beats!",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "anima": {
+    "processedAt": "2025-12-22T22:18:31.799Z",
+    "type": "anime",
+    "title": "Anima",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "anohana-the-flower-we-saw-that-day": {
+    "processedAt": "2025-12-22T22:01:58.959Z",
+    "type": "anime",
+    "title": "Anohana: The Flower We Saw That Day",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "another": {
+    "processedAt": "2025-12-22T22:02:00.627Z",
+    "type": "anime",
+    "title": "Another",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "assassination-classroom": {
+    "processedAt": "2025-12-22T22:02:02.416Z",
+    "type": "anime",
+    "title": "Assassination Classroom",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "assassination-classroom-second-season": {
+    "processedAt": "2025-12-22T22:02:05.392Z",
+    "type": "anime",
+    "title": "Assassination Classroom Second Season",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "attack-on-titan": {
+    "processedAt": "2025-12-22T19:23:42.371Z",
+    "type": "manga",
+    "title": "Attack on Titan",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "attack-on-titan-final-season-part-2": {
+    "processedAt": "2025-12-22T13:37:57.294Z",
+    "type": "anime",
+    "title": "Attack on Titan Final Season Part 2",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "attack-on-titan-season-2": {
+    "processedAt": "2025-12-22T21:12:24.994Z",
+    "type": "anime",
+    "title": "Attack on Titan Season 2",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "attack-on-titan-season-3": {
+    "processedAt": "2025-12-22T21:15:18.534Z",
+    "type": "anime",
+    "title": "Attack on Titan Season 3",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "attack-on-titan-season-3-part-2": {
+    "processedAt": "2025-12-22T13:18:43.403Z",
+    "type": "anime",
+    "title": "Attack on Titan Season 3 Part 2",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "bakemonogatari": {
+    "processedAt": "2025-12-22T21:18:37.410Z",
+    "type": "anime",
+    "title": "Bakemonogatari",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "banana-fish": {
+    "processedAt": "2025-12-22T21:22:48.915Z",
+    "type": "anime",
+    "title": "BANANA FISH",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "black-clover": {
+    "processedAt": "2025-12-22T19:30:25.495Z",
+    "type": "manga",
+    "title": "Black Clover",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "bleach": {
+    "processedAt": "2025-12-22T19:29:18.076Z",
+    "type": "manga",
+    "title": "Bleach",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "blue-exorcist": {
+    "processedAt": "2025-12-22T13:33:02.788Z",
+    "type": "anime",
+    "title": "Blue Exorcist",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "bungo-stray-dogs": {
+    "processedAt": "2025-12-22T13:37:33.960Z",
+    "type": "anime",
+    "title": "Bungo Stray Dogs",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "chainsaw-man": {
+    "processedAt": "2025-12-22T18:54:24.722Z",
+    "type": "manga",
+    "title": "Chainsaw Man",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "charlotte": {
+    "processedAt": "2025-12-22T13:36:54.783Z",
+    "type": "anime",
+    "title": "Charlotte",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "classroom-of-the-elite": {
+    "processedAt": "2025-12-22T13:37:22.175Z",
+    "type": "anime",
+    "title": "Classroom of the Elite",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "code-geass-lelouch-of-the-rebellion": {
+    "processedAt": "2025-12-22T13:32:17.119Z",
+    "type": "anime",
+    "title": "Code Geass: Lelouch of the Rebellion",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "code-geass-lelouch-of-the-rebellion-r2": {
+    "processedAt": "2025-12-22T17:56:22.453Z",
+    "type": "anime",
+    "title": "Code Geass: Lelouch of the Rebellion R2",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "cowboy-bebop": {
+    "processedAt": "2025-12-22T13:34:27.313Z",
+    "type": "anime",
+    "title": "Cowboy Bebop",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "cyberpunk-edgerunners": {
+    "processedAt": "2025-12-22T21:19:09.628Z",
+    "type": "anime",
+    "title": "Cyberpunk: Edgerunners",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "dan-da-dan": {
+    "processedAt": "2025-12-22T21:20:07.506Z",
+    "type": "anime",
+    "title": "DAN DA DAN",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "darling-in-the-franxx": {
+    "processedAt": "2025-12-22T13:31:41.476Z",
+    "type": "anime",
+    "title": "DARLING in the FRANXX",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "death-note": {
+    "processedAt": "2025-12-22T19:34:30.142Z",
+    "type": "manga",
+    "title": "Death Note",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "death-parade": {
+    "processedAt": "2025-12-22T13:32:51.112Z",
+    "type": "anime",
+    "title": "Death Parade",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "demon-slayer-kimetsu-no-yaiba": {
+    "processedAt": "2025-12-22T19:24:58.275Z",
+    "type": "manga",
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "demon-slayer-kimetsu-no-yaiba-entertainment-district-arc": {
+    "processedAt": "2025-12-22T13:34:40.399Z",
+    "type": "anime",
+    "title": "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "demon-slayer-kimetsu-no-yaiba-mugen-train-arc": {
+    "processedAt": "2025-12-22T21:18:20.574Z",
+    "type": "anime",
+    "title": "Demon Slayer: Kimetsu no Yaiba Mugen Train Arc",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc": {
+    "processedAt": "2025-12-22T21:18:02.538Z",
+    "type": "anime",
+    "title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "demon-slayer-kimetsu-no-yaiba-the-movie-mugen-train": {
+    "processedAt": "2025-12-22T13:31:17.946Z",
+    "type": "anime",
+    "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "devilman-crybaby": {
+    "processedAt": "2025-12-22T21:16:35.454Z",
+    "type": "anime",
+    "title": "Devilman Crybaby",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "dororo": {
+    "processedAt": "2025-12-22T17:55:34.359Z",
+    "type": "anime",
+    "title": "Dororo",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "dr-stone": {
+    "processedAt": "2025-12-22T19:35:38.494Z",
+    "type": "manga",
+    "title": "Dr. STONE",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "dr-stone-stone-wars": {
+    "processedAt": "2025-12-22T21:20:43.990Z",
+    "type": "anime",
+    "title": "Dr. STONE: STONE WARS",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "erased": {
+    "processedAt": "2025-12-22T13:18:07.302Z",
+    "type": "anime",
+    "title": "ERASED",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "fairy-tail": {
+    "processedAt": "2025-12-22T17:55:06.104Z",
+    "type": "anime",
+    "title": "Fairy Tail",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "fatezero": {
+    "processedAt": "2025-12-22T21:16:52.205Z",
+    "type": "anime",
+    "title": "Fate/Zero",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "fire-force": {
+    "processedAt": "2025-12-22T13:33:58.764Z",
+    "type": "anime",
+    "title": "Fire Force",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "food-wars": {
+    "processedAt": "2025-12-22T13:38:10.399Z",
+    "type": "anime",
+    "title": "Food Wars!",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "frieren-beyond-journeys-end": {
+    "processedAt": "2025-12-22T19:37:03.675Z",
+    "type": "manga",
+    "title": "Frieren: Beyond Journey’s End",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "fullmetal-alchemist-brotherhood": {
+    "processedAt": "2025-12-22T21:13:39.755Z",
+    "type": "anime",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "gurren-lagann": {
+    "processedAt": "2025-12-22T17:55:41.059Z",
+    "type": "anime",
+    "title": "Gurren Lagann",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "haikyu": {
+    "processedAt": "2025-12-22T19:32:21.857Z",
+    "type": "manga",
+    "title": "Haikyu!!",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "haikyu-2nd-season": {
+    "processedAt": "2025-12-22T13:38:50.767Z",
+    "type": "anime",
+    "title": "HAIKYU!! 2nd Season",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "haikyu-3rd-season": {
+    "processedAt": "2025-12-22T17:56:00.891Z",
+    "type": "anime",
+    "title": "HAIKYU!! 3rd Season",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "hells-paradise": {
+    "processedAt": "2025-12-22T21:23:10.666Z",
+    "type": "anime",
+    "title": "Hell’s Paradise",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "horimiya": {
+    "processedAt": "2025-12-22T19:27:51.517Z",
+    "type": "manga",
+    "title": "Horimiya",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "howls-moving-castle": {
+    "processedAt": "2025-12-22T21:15:56.962Z",
+    "type": "anime",
+    "title": "Howl‘s Moving Castle",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "hunter-x-hunter-2011": {
+    "processedAt": "2025-12-22T21:11:05.156Z",
+    "type": "anime",
+    "title": "Hunter x Hunter (2011)",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "hyouka": {
+    "processedAt": "2025-12-22T21:16:12.406Z",
+    "type": "anime",
+    "title": "Hyouka",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "i-want-to-eat-your-pancreas": {
+    "processedAt": "2025-12-22T21:15:41.551Z",
+    "type": "anime",
+    "title": "I Want to Eat Your Pancreas",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon": {
+    "processedAt": "2025-12-22T17:54:23.434Z",
+    "type": "anime",
+    "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "jojos-bizarre-adventure-stardust-crusaders": {
+    "processedAt": "2025-12-22T21:18:52.915Z",
+    "type": "anime",
+    "title": "JoJo's Bizarre Adventure: Stardust Crusaders",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "jojos-bizarre-adventure-tv": {
+    "processedAt": "2025-12-22T13:33:46.947Z",
+    "type": "anime",
+    "title": "JoJo's Bizarre Adventure (TV)",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "jujutsu-kaisen": {
+    "processedAt": "2025-12-22T19:22:08.734Z",
+    "type": "manga",
+    "title": "Jujutsu Kaisen",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "jujutsu-kaisen-0": {
+    "processedAt": "2025-12-22T22:00:10.089Z",
+    "type": "manga",
+    "title": "Jujutsu Kaisen 0",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "jujutsu-kaisen-season-2": {
+    "processedAt": "2025-12-22T13:36:15.757Z",
+    "type": "anime",
+    "title": "JUJUTSU KAISEN Season 2",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "kaguya-sama-love-is-war": {
+    "processedAt": "2025-12-22T19:28:40.533Z",
+    "type": "manga",
+    "title": "Kaguya-sama: Love is War",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "kakegurui": {
+    "processedAt": "2025-12-22T13:34:52.219Z",
+    "type": "anime",
+    "title": "Kakegurui",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "kill-la-kill": {
+    "processedAt": "2025-12-22T13:37:45.631Z",
+    "type": "anime",
+    "title": "Kill la Kill",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "komi-cant-communicate": {
+    "processedAt": "2025-12-22T19:30:03.570Z",
+    "type": "manga",
+    "title": "Komi Can't Communicate",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "konosuba-gods-blessing-on-this-wonderful-world": {
+    "processedAt": "2025-12-22T13:30:54.587Z",
+    "type": "anime",
+    "title": "KONOSUBA -God's blessing on this wonderful world!",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "konosuba-gods-blessing-on-this-wonderful-world-2": {
+    "processedAt": "2025-12-22T17:55:22.118Z",
+    "type": "anime",
+    "title": "KONOSUBA -God's blessing on this wonderful world! 2",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "love-chunibyo-other-delusions": {
+    "processedAt": "2025-12-22T21:17:41.671Z",
+    "type": "anime",
+    "title": "Love, Chunibyo & Other Delusions",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "made-in-abyss": {
+    "processedAt": "2025-12-22T17:53:44.564Z",
+    "type": "anime",
+    "title": "Made in Abyss",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "miss-kobayashis-dragon-maid": {
+    "processedAt": "2025-12-22T21:19:51.969Z",
+    "type": "anime",
+    "title": "Miss Kobayashi's Dragon Maid",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "mob-psycho-100": {
+    "processedAt": "2025-12-22T13:17:28.902Z",
+    "type": "anime",
+    "title": "Mob Psycho 100",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "mob-psycho-100-ii": {
+    "processedAt": "2025-12-22T13:35:36.684Z",
+    "type": "anime",
+    "title": "Mob Psycho 100 II",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "monster": {
+    "processedAt": "2025-12-22T19:31:47.117Z",
+    "type": "manga",
+    "title": "Monster",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "mushoku-tensei-jobless-reincarnation": {
+    "processedAt": "2025-12-22T13:37:09.156Z",
+    "type": "anime",
+    "title": "Mushoku Tensei: Jobless Reincarnation",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "my-dress-up-darling": {
+    "processedAt": "2025-12-22T19:35:06.269Z",
+    "type": "manga",
+    "title": "My Dress-Up Darling",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "my-hero-academia": {
+    "processedAt": "2025-12-22T19:25:39.496Z",
+    "type": "manga",
+    "title": "My Hero Academia",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "my-hero-academia-season-2": {
+    "processedAt": "2025-12-22T13:16:17.852Z",
+    "type": "anime",
+    "title": "My Hero Academia Season 2",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "my-hero-academia-season-3": {
+    "processedAt": "2025-12-22T13:18:22.830Z",
+    "type": "anime",
+    "title": "My Hero Academia Season 3",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "my-hero-academia-season-4": {
+    "processedAt": "2025-12-22T13:30:15.448Z",
+    "type": "anime",
+    "title": "My Hero Academia Season 4",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "my-hero-academia-season-5": {
+    "processedAt": "2025-12-22T13:38:35.156Z",
+    "type": "anime",
+    "title": "My Hero Academia Season 5",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "my-teen-romantic-comedy-snafu": {
+    "processedAt": "2025-12-22T17:55:28.843Z",
+    "type": "anime",
+    "title": "My Teen Romantic Comedy SNAFU",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "naruto": {
+    "processedAt": "2025-12-22T19:34:00.190Z",
+    "type": "manga",
+    "title": "Naruto",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "naruto-shippuden": {
+    "processedAt": "2025-12-22T13:19:00.203Z",
+    "type": "anime",
+    "title": "Naruto: Shippuden",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "neon-genesis-evangelion": {
+    "processedAt": "2025-12-22T13:32:30.098Z",
+    "type": "anime",
+    "title": "Neon Genesis Evangelion",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "no-game-no-life": {
+    "processedAt": "2025-12-22T13:27:04.550Z",
+    "type": "anime",
+    "title": "No Game, No Life",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "noragami": {
+    "processedAt": "2025-12-22T13:26:54.037Z",
+    "type": "anime",
+    "title": "Noragami",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "noragami-aragoto": {
+    "processedAt": "2025-12-22T21:22:15.457Z",
+    "type": "anime",
+    "title": "Noragami Aragoto",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "one-piece": {
+    "processedAt": "2025-12-22T22:03:05.736Z",
+    "type": "manga",
+    "title": "One Piece",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "one-piece-movie-01": {
+    "processedAt": "2025-12-22T12:16:32.264Z",
+    "type": "anime",
+    "title": "One Piece Movie 01",
+    "source": "MyAnimeList",
+    "charactersCount": 0
+  },
+  "one-punch-man": {
+    "processedAt": "2025-12-22T19:26:19.851Z",
+    "type": "manga",
+    "title": "One-Punch Man",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "one-punch-man-season-2": {
+    "processedAt": "2025-12-22T13:34:11.766Z",
+    "type": "anime",
+    "title": "One-Punch Man Season 2",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "overlord": {
+    "processedAt": "2025-12-22T17:54:11.719Z",
+    "type": "anime",
+    "title": "Overlord",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "parasyte-the-maxim": {
+    "processedAt": "2025-12-22T13:31:29.664Z",
+    "type": "anime",
+    "title": "Parasyte -the maxim-",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "psycho-pass": {
+    "processedAt": "2025-12-22T17:56:15.740Z",
+    "type": "anime",
+    "title": "PSYCHO-PASS",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "puella-magi-madoka-magica": {
+    "processedAt": "2025-12-22T21:21:59.929Z",
+    "type": "anime",
+    "title": "Puella Magi Madoka Magica",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "rascal-does-not-dream-of-bunny-girl-senpai": {
+    "processedAt": "2025-12-22T13:26:13.622Z",
+    "type": "anime",
+    "title": "Rascal Does Not Dream of Bunny Girl Senpai",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "rest": {
+    "processedAt": "2025-12-22T21:40:33.318Z",
+    "type": "anime",
+    "title": "REST",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "rezero-starting-life-in-another-world": {
+    "processedAt": "2025-12-22T13:19:37.943Z",
+    "type": "anime",
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "rezero-starting-life-in-another-world-season-2": {
+    "processedAt": "2025-12-22T17:56:09.052Z",
+    "type": "anime",
+    "title": "Re:ZERO -Starting Life in Another World- Season 2",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "seraph-of-the-end-vampire-reign": {
+    "processedAt": "2025-12-22T21:21:05.730Z",
+    "type": "anime",
+    "title": "Seraph of the End: Vampire Reign",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "solo-leveling": {
+    "processedAt": "2025-12-22T18:55:47.243Z",
+    "type": "manga",
+    "title": "Solo Leveling",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "soul-eater": {
+    "processedAt": "2025-12-22T17:54:53.066Z",
+    "type": "anime",
+    "title": "Soul Eater",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "spirited-away": {
+    "processedAt": "2025-12-22T13:32:40.601Z",
+    "type": "anime",
+    "title": "Spirited Away",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "spy-x-family": {
+    "processedAt": "2025-12-22T19:26:41.633Z",
+    "type": "manga",
+    "title": "SPY x FAMILY",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "spy-x-family-cour-2": {
+    "processedAt": "2025-12-22T21:22:32.211Z",
+    "type": "anime",
+    "title": "SPY x FAMILY Cour 2",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "steinsgate": {
+    "processedAt": "2025-12-22T13:24:26.607Z",
+    "type": "anime",
+    "title": "Steins;Gate",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "sword-art-online": {
+    "processedAt": "2025-12-22T21:14:04.328Z",
+    "type": "anime",
+    "title": "Sword Art Online",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "sword-art-online-ii": {
+    "processedAt": "2025-12-22T13:35:02.748Z",
+    "type": "anime",
+    "title": "Sword Art Online II",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "that-time-i-got-reincarnated-as-a-slime": {
+    "processedAt": "2025-12-22T13:36:02.623Z",
+    "type": "anime",
+    "title": "That Time I Got Reincarnated as a Slime",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "the-devil-is-a-part-timer": {
+    "processedAt": "2025-12-22T17:53:50.061Z",
+    "type": "anime",
+    "title": "The Devil is a Part-Timer!",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "the-disastrous-life-of-saiki-k": {
+    "processedAt": "2025-12-22T21:17:24.944Z",
+    "type": "anime",
+    "title": "The Disastrous Life of Saiki K.",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "the-future-diary": {
+    "processedAt": "2025-12-22T13:36:31.350Z",
+    "type": "anime",
+    "title": "The Future Diary",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "the-promised-neverland": {
+    "processedAt": "2025-12-22T19:27:15.254Z",
+    "type": "manga",
+    "title": "The Promised Neverland",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "the-promised-neverland-season-2": {
+    "processedAt": "2025-12-22T21:20:27.301Z",
+    "type": "anime",
+    "title": "The Promised Neverland Season 2",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "the-rising-of-the-shield-hero": {
+    "processedAt": "2025-12-22T13:35:14.527Z",
+    "type": "anime",
+    "title": "The Rising of the Shield Hero",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "the-seven-deadly-sins": {
+    "processedAt": "2025-12-22T13:30:31.082Z",
+    "type": "anime",
+    "title": "The Seven Deadly Sins",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "to-your-eternity": {
+    "processedAt": "2025-12-22T21:23:28.806Z",
+    "type": "anime",
+    "title": "To Your Eternity",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "tokyo-ghoul": {
+    "processedAt": "2025-12-22T19:25:20.191Z",
+    "type": "manga",
+    "title": "Tokyo Ghoul",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "tokyo-ghoul-a": {
+    "processedAt": "2025-12-22T13:38:23.370Z",
+    "type": "anime",
+    "title": "Tokyo Ghoul √A",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "tokyo-revengers": {
+    "processedAt": "2025-12-22T19:28:23.720Z",
+    "type": "manga",
+    "title": "Tokyo Revengers",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "toradora": {
+    "processedAt": "2025-12-22T13:27:52.701Z",
+    "type": "anime",
+    "title": "Toradora!",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "tower-of-god": {
+    "processedAt": "2025-12-22T19:33:21.588Z",
+    "type": "manga",
+    "title": "Tower of God",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "vinland-saga": {
+    "processedAt": "2025-12-22T19:27:32.209Z",
+    "type": "manga",
+    "title": "Vinland Saga",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "violet-evergarden": {
+    "processedAt": "2025-12-22T13:27:41.025Z",
+    "type": "anime",
+    "title": "Violet Evergarden",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "weathering-with-you": {
+    "processedAt": "2025-12-22T21:17:09.429Z",
+    "type": "anime",
+    "title": "Weathering With You",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "wotakoi-love-is-hard-for-otaku": {
+    "processedAt": "2025-12-22T21:21:22.448Z",
+    "type": "anime",
+    "title": "Wotakoi: Love is Hard for Otaku",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "your-lie-in-april": {
+    "processedAt": "2025-12-22T13:17:51.890Z",
+    "type": "anime",
+    "title": "Your lie in April",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "your-name": {
+    "processedAt": "2025-12-22T21:14:47.458Z",
+    "type": "anime",
+    "title": "Your Name.",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "20th-century-boys": {
+    "processedAt": "2025-12-22T19:32:05.133Z",
+    "type": "manga",
+    "title": "20th Century Boys",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "bastard": {
+    "processedAt": "2025-12-22T21:58:47.959Z",
+    "type": "manga",
+    "title": "Bastard",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "berserk": {
+    "processedAt": "2025-12-22T19:23:24.005Z",
+    "type": "manga",
+    "title": "Berserk",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "blue-lock": {
+    "processedAt": "2025-12-22T19:28:58.665Z",
+    "type": "manga",
+    "title": "Blue Lock",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "blue-period": {
+    "processedAt": "2025-12-22T19:38:14.519Z",
+    "type": "manga",
+    "title": "Blue Period",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "dandadan": {
+    "processedAt": "2025-12-22T22:10:35.479Z",
+    "type": "manga",
+    "title": "Dandadan",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "dont-toy-with-me-miss-nagatoro": {
+    "processedAt": "2025-12-22T19:38:31.334Z",
+    "type": "manga",
+    "title": "Don't Toy With Me, Miss Nagatoro",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "dorohedoro": {
+    "processedAt": "2025-12-22T19:36:13.397Z",
+    "type": "manga",
+    "title": "Dorohedoro",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "fire-punch": {
+    "processedAt": "2025-12-22T19:33:43.491Z",
+    "type": "manga",
+    "title": "Fire Punch",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "fullmetal-alchemist": {
+    "processedAt": "2025-12-22T19:37:39.774Z",
+    "type": "manga",
+    "title": "Fullmetal Alchemist",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "gantz": {
+    "processedAt": "2025-12-22T22:01:06.101Z",
+    "type": "manga",
+    "title": "Gantz",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "goodbye-eri": {
+    "processedAt": "2025-12-22T19:37:59.091Z",
+    "type": "manga",
+    "title": "Goodbye, Eri",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "goodnight-punpun": {
+    "processedAt": "2025-12-22T19:26:04.331Z",
+    "type": "manga",
+    "title": "Goodnight Punpun",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "grand-blue-dreaming": {
+    "processedAt": "2025-12-22T22:01:38.710Z",
+    "type": "manga",
+    "title": "Grand Blue Dreaming",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "hells-paradise-jigokuraku": {
+    "processedAt": "2025-12-22T19:34:48.184Z",
+    "type": "manga",
+    "title": "Hell’s Paradise: Jigokuraku",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "homunculus": {
+    "processedAt": "2025-12-22T22:00:44.023Z",
+    "type": "manga",
+    "title": "Homunculus",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "hunter-x-hunter": {
+    "processedAt": "2025-12-22T19:30:46.150Z",
+    "type": "manga",
+    "title": "Hunter x Hunter",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "i-want-to-be-a-big-baddie": {
+    "processedAt": "2025-12-22T22:10:16.293Z",
+    "type": "manga",
+    "title": "I Want to Be a Big Baddie",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "jojos-bizarre-adventure-part-6-stone-ocean": {
+    "processedAt": "2025-12-22T21:58:58.348Z",
+    "type": "manga",
+    "title": "JoJo's Bizarre Adventure Part 6: Stone Ocean",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "jojos-bizarre-adventure-part-7steel-ball-run": {
+    "processedAt": "2025-12-22T19:33:04.782Z",
+    "type": "manga",
+    "title": "JoJo's Bizarre Adventure: Part 7–Steel Ball Run",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "jumyou-wo-kaitotte-moratta-ichinen-ni-tsuki-ichimanen-de": {
+    "processedAt": "2025-12-22T19:36:48.248Z",
+    "type": "manga",
+    "title": "Jumyou wo Kaitotte Moratta. Ichinen ni Tsuki, Ichimanen de.",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "kaiju-no8": {
+    "processedAt": "2025-12-22T19:31:11.108Z",
+    "type": "manga",
+    "title": "Kaiju No.8",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "kingdom": {
+    "processedAt": "2025-12-22T21:59:10.055Z",
+    "type": "manga",
+    "title": "Kingdom",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "land-of-the-lustrous": {
+    "processedAt": "2025-12-22T19:37:22.975Z",
+    "type": "manga",
+    "title": "Land of the Lustrous",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "omniscient-reader": {
+    "processedAt": "2025-12-22T19:28:08.217Z",
+    "type": "manga",
+    "title": "Omniscient Reader",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "oshi-no-ko": {
+    "processedAt": "2025-12-22T19:31:29.110Z",
+    "type": "manga",
+    "title": "[Oshi no Ko]",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "record-of-ragnarok": {
+    "processedAt": "2025-12-22T22:01:20.547Z",
+    "type": "manga",
+    "title": "Record of Ragnarok",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "sakamoto-days": {
+    "processedAt": "2025-12-22T19:36:30.111Z",
+    "type": "manga",
+    "title": "Sakamoto Days",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "slam-dunk": {
+    "processedAt": "2025-12-22T21:59:24.440Z",
+    "type": "manga",
+    "title": "Slam Dunk",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "the-flowers-of-evil": {
+    "processedAt": "2025-12-22T21:59:59.695Z",
+    "type": "manga",
+    "title": "The Flowers of Evil",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "the-fragrant-flower-blooms-with-dignity": {
+    "processedAt": "2025-12-22T22:00:33.505Z",
+    "type": "manga",
+    "title": "The Fragrant Flower Blooms With Dignity",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "the-quintessential-quintuplets": {
+    "processedAt": "2025-12-22T21:59:47.976Z",
+    "type": "manga",
+    "title": "The Quintessential Quintuplets",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "the-way-of-the-househusband": {
+    "processedAt": "2025-12-22T22:00:21.791Z",
+    "type": "manga",
+    "title": "The Way of the Househusband",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "toilet-bound-hanako-kun": {
+    "processedAt": "2025-12-22T21:59:36.251Z",
+    "type": "manga",
+    "title": "Toilet-Bound Hanako-kun",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "tokyo-ghoulre": {
+    "processedAt": "2025-12-22T19:32:47.821Z",
+    "type": "manga",
+    "title": "Tokyo Ghoul:re",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "uzumaki-spiral-into-horror": {
+    "processedAt": "2025-12-22T19:35:57.836Z",
+    "type": "manga",
+    "title": "Uzumaki: Spiral into Horror",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "vagabond": {
+    "processedAt": "2025-12-22T19:26:59.629Z",
+    "type": "manga",
+    "title": "Vagabond",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "witch-hat-atelier": {
+    "processedAt": "2025-12-22T22:00:54.417Z",
+    "type": "manga",
+    "title": "Witch Hat Atelier",
+    "source": "AniList",
+    "charactersCount": 0
+  },
+  "portal": {
+    "processedAt": "2025-12-22T18:40:30.185Z",
+    "type": "game",
+    "title": "Portal",
+    "source": "RAWG",
+    "charactersCount": 0
+  },
+  "the-legend-of-zelda-breath-of-the-wild": {
+    "processedAt": "2025-12-22T18:34:07.581Z",
+    "type": "game",
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "source": "RAWG",
+    "charactersCount": 0
+  }
+}

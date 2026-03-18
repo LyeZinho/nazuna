@@ -1,0 +1,2069 @@
+{
+  "work_id": "dr-stone",
+  "count": 84,
+  "characters": [
+    {
+      "id": "senkuu-ishigami",
+      "name": "Senkuu Ishigami",
+      "alt_names": [
+        "石神千空",
+        "Sorcerer",
+        "Sorcerer Gentleman",
+        "Professor Senku",
+        "String bean",
+        "Dr. Senku",
+        "Lab"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 171 cm (5'7\")\n\nSenkuu is a genius with a vast amount of scientific knowledge. He is able to invent various kinds of tools and gadgets in a short amount of time with ease. As a child, he designed and built a functioning miniature rocket ship. Senkuu also possesses an analytical mind, being able to correctly discern the situation he is in. Even in his pre-teens, he was intelligent and sharp-minded enough to create advanced machines.\n\nSenkuu's physical abilities are very low and he would lose against someone like [Kohaku](https://anilist.co/character/124143) in a brawl, something he himself admits.\n\n~!In \"Village Games Arc\" Senku unintentionally won and married [Ruri](https://anilist.co/character/143272), but divorced immediately afterwards.!~",
+      "metadata": {
+        "gender": "male",
+        "age": "15-23+ (physically), 3700+ (chronologically)",
+        "dateOfBirth": "2004-01-04"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b124142-XUO1g7wRqkaT.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 124142
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "kohaku",
+      "name": "Kohaku",
+      "alt_names": [
+        "コハク"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 160 cm (5'3\")\n\nKohaku is a young woman who is a descendant of modern humans. She is Ruri's younger sister and the daughter of Kokuyo. She appears to be well known in her village due to her combative abilities, as both Kinro and Ginro were afraid of her. Kohaku excels at fighting, hunting, and general survival skills. She is a tomboy by nature, having little interest in more typical feminine activities and has little knowledge about them, although she does seem to enjoy some lavish clothing that was provided to her. She possesses a sharp instinct and intellect.\n\nKohaku is a kind young woman, caring deeply for her sickly older sister, willing to participate in the tournament for her hand in marriage just to protect her. This care extends to her comrades, and anyone she's loyal to. In addition to this, she has a reckless and hotheaded personality, often reacting in anger to being called a gorilla or lioness due to her strength and physicality. She also acts on her emotions at times, going against rational thought. She also has a bit of a teasing side, asking Chrome if he could fall for her to her resemblance to her sister.",
+      "metadata": {
+        "gender": "female",
+        "age": "16-23 (physically), 27 (chronologically)",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b124143-DABUFs3cPNrP.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 124143
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "tsukasa-shishiou",
+      "name": "Tsukasa Shishiou",
+      "alt_names": [
+        "獅子王司",
+        "The Strongest High School Primate"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 195 cm (6'4\")\n\nAccording to Taiju, Tsukasa has the reputation as \"The Strongest High School Primate\" due to his tremendous fighting abilities.\n\nTsukasa is essentially violent, but extremely careful and aware of his actions. He is a very kind, thoughtful, and polite man outside of his pessimistic ideals towards humanity. He offers help in the beginning to Senku and Taiju after they revive him and becomes their hunter for food, using his skills as a prominent athlete to aid them. It’s revealed later that Tsukasa plans to purge humanity of adults who hurt the young and weak, then thinks Senku will go along with him, but instead Senku rejects him. After this point, Tsukasa becomes fairly determined in carrying out his plans even to the point of leaving their group.",
+      "metadata": {
+        "gender": "male",
+        "age": "18-",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b124144-KOjcmhunbvYn.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 124144
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "chrome",
+      "name": "Chrome",
+      "alt_names": [
+        "クロム"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 170 cm (5'7\")\n\nChrome is the alleged sorcerer - eventually turned scientist - of Ishigami Village. As part of the Kingdom of Science, Chrome serves as the unofficial right hand of Senku; this trust is what makes him one of the Five Wise Generals.\n\nChrome is a highly energetic person with a lot of passion and curiosity. He is genuinely interested in science, although at first, he only knows it as sorcery. He is confident in his intellect, enough so to go toe to toe with Senku despite getting destroyed in a battle of wits. He also has a tendency to refer to something as \"bad\" when he thinks it is cool or amazing. Chrome has a deep love of science, though he admits his expertise and knowledge lies mainly in exploration, particularly pertaining to rocks and minerals and gathering them.\n\nHe is loyal and selfless to his friends and, while lacking in physical abilities, he is still able to think of clever solutions out of dangerous situations. He is also exceedingly brave, and in addition, while he is usually a loudmouth, he knows when to keep his mouth shut. He loves science and, in many ways, is an accomplished scientist in his own right, managing to create chemical reactions from the rocks he collected through frequent trial and error (reactions which were only made known in the seventeenth century), despite never knowing this knowledge before Senku's arrival.",
+      "metadata": {
+        "gender": "male",
+        "age": "16-",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b124145-EEvQmsj8jku4.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 124145
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "taiju-ooki",
+      "name": "Taiju Ooki",
+      "alt_names": [
+        "大木大樹"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 189 cm (6'2½\")\n\nTaiju is an outgoing, friendly, and kind person. He's enthusiastic about performing even small tasks and a diligent worker. He is very determined when something is important to him. He tends to yell loudly and is enthusiastic regardless of the task so long as he proves useful. He is persistent and determined. Despite being emotional and expressive, he has great control of his temper, never losing his cool or acting impulsively.\n\nTaiju possesses an extremely sturdy body, something his friend Senku vouches him for. He is the first human to be able to withstand a kick from Tsukasa without losing consciousness. He also possesses immense stamina, able to cross 80 kilometers in 5 hours.",
+      "metadata": {
+        "gender": "male",
+        "age": "17-",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b124146-TeXd4r0upuIX.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 124146
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "gen-asagiri",
+      "name": "Gen Asagiri",
+      "alt_names": [
+        "あさぎりゲン",
+        "浅霧幻"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 175 cm (5'9\")\n\nGen Asagiri is an enemy turned ally of Senku. Originally de-petrified by Tsukasa Shishio, he was sent to find Senku, only to defect to the Kingdom of Science. Gen later becomes one of the Five Wise Generals.\n\nHe is somewhat full of himself and his abilities, taking pride in his status as a magician and a mentalist, along with his knowledge of the human psyche. Gen is rather quirky and can often be seen speaking in Pig Latin. He tends to be lazy, self absorbed, and perverted, and he is also perfectly capable of lying without a hint of stress or change in expression. While he frequently portrays an aura of selfishness, hard self-interest, manipulation and deviousness, Gen is intrinsically a good person who can't bring himself to harm others. His outward appearance is masked by his mastery in psychology, but his actions tell of loyalty, determination, kindness and even sacrifice at times.\n\nWhile not nearly as intelligent in terms of science compared to Senku, he proves to be his equal and one of his most vital allies due to his ability to understand the human psyche and manipulate people through lies in contrast to Senku's more honest nature. He uses his abilities to promote cooperation and enthusiasm, motivate allies, conduct negotiations, and outsmart enemies. He tends to shift between acting as a ditzy airhead when it suits him (such as to avoid work or going into battle) and an intelligent manipulator. He is confident and is shown to have nerves of steel, even in the face of death.\n\nHe has frequently stated that his favourite drink is cola, and that he cannot handle alcohol.",
+      "metadata": {
+        "gender": "male",
+        "age": "19-",
+        "dateOfBirth": "2000-04-01"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b127445-oUCyS7Tl8l5D.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 127445
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "ryuusui-nanami",
+      "name": "Ryuusui Nanami",
+      "alt_names": [
+        "七海龍水",
+        "Ryusui Nanami"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 187 cm (6'1½\")\n\nRyuusui Nanami is the son of the owner of Nanami Conglomorate. He was revived by Senku for his expertise in sailing. His wisdom about adventuring at sea or air makes him indispensable as one of the Five Wise Generals of the Kingdom of Science.\n\nHe was the Heir to the Nanami Conglomerate, and an accomplished sailor. As such, he lived a wealthy and lavish lifestyle. Pre-Stone World, He has been seen as a greedy playboy, rarely seen without the company of beautiful women, exotic sports cars, and excessive partying. While he is arrogant and greedy, it was his greed that fuelled his ambition, which was the cause of his great success pre-Stone World. He spent a great deal of time studying, and was active in ship making, from making small models, to building huge ships. The money he earned, he put toward bettering himself and the company. Senku deduced that his presence would be beneficial to the Kingdom of Science, as his greed does not only apply to himself, but to those around him. He pushes and motivates everyone.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b145097-TYg5SshsyvUU.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 145097
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "yuzuriha-ogawa",
+      "name": "Yuzuriha Ogawa",
+      "alt_names": [
+        "小川杠"
+      ],
+      "role": "supporting",
+      "description": "Yuzuriha is the love interest of Taiju and a friend of Senku.\n\nYuzuriha is a young woman with brown hair, brown eyes, and a slim build. She has two noticeable petrification scars, both in the shape of spirals, located on her shoulder and neck. Before her petrification, Yuzuriha wears a standard High School Uniform. After her depetrification, she wears a white cloth dress that's spit at her sides and matching cloth shoes. Noticeably, Yuzuriha wears a white hairband that's vaguely shaped like wrap-around headphones, both before and after her petrification.",
+      "metadata": {
+        "gender": "female",
+        "age": "15-17 (physically), 3700+ (chronologically)",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/124147-y3uE9rBepdad.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 124147
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "suika",
+      "name": "Suika",
+      "alt_names": [
+        "スイカ",
+        "Ace Detective Suika"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 119 cm (3'10\")\n\nSuika is a young girl who lives in the village with the other stone age humans. Her most notable feature is the large watermelon on her head, which she can climb inside to disguise herself as the fruit. Senku first meets Suika when he, Chrome, and Kohaku were searching for iron sand in a nearby river.\n\nSuika is eager to help Senku build his kingdom of science because she's never been useful to anyone before. She comes to work as an information gatherer for the kingdom of science, occasionally being referred to as 'Ace Detective Suika.'",
+      "metadata": {
+        "gender": "female",
+        "age": "9-",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/124162-htFFNeC04bzw.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 124162
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "kaseki",
+      "name": "Kaseki",
+      "alt_names": [
+        "カセキ"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 155 cm (5'1\")\n\nKaseki is an elderly craftsman from the Ishigami Village. When Senku arrives at Ishigami village, Kaseki is introduced as an artisan, and through Senku, his dedication to his craft is reignited tenfold.",
+      "metadata": {
+        "gender": "male",
+        "age": "60-",
+        "dateOfBirth": "5678-02-09"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b136446-gpvtw5cb2I3Q.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 136446
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "ginrou",
+      "name": "Ginrou",
+      "alt_names": [
+        "銀狼"
+      ],
+      "role": "supporting",
+      "description": "Ginrou is [Kinrou](https://anilist.co/character/143271/Kinrou)'s younger brother and one of the village guards. He is shorter and scrawnier than his brother, with short blonde hair and green eyes. He usually wears a karate gi-like uniform and belt and carries his spear wherever he goes. He and his brother were two of the first villagers to join the Kingdom of Science.\n\n~!During the adventure on Treasure Island, Ginrou manages to convince [Matsukaze](https://anilist.co/character/188816/Matsukaze) to serve him due to the resemblance Ginrou bears to his late master.!~",
+      "metadata": {
+        "gender": "male",
+        "age": "16-",
+        "dateOfBirth": "5723-04-07"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b143270-8kC2e32r7CyE.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 143270
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "kinrou",
+      "name": "Kinrou",
+      "alt_names": [
+        "金狼"
+      ],
+      "role": "supporting",
+      "description": "Kinrou is the elder brother of [Ginrou](https://anilist.co/character/143270/Ginrou) and the son of Tetsuken and Shirogane. Originally having served as one of the guards of Ishigami Village alongside Ginrou, he quickly joined Senku as a member of the Kingdom of Science. \n\nKinrou is a muscular young man of average height, with a scar on the right side of his face and a cluster of hair hanging in between his eyes. He wears a sleeveless karate gi-like uniform with a belt and a buckler with a star pattern on his back. After the Grand Bout, Kinrou begins wearing a pair of glasses to correct his nearsightedness.",
+      "metadata": {
+        "gender": "male",
+        "age": "18-",
+        "dateOfBirth": "5720-07-09"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b143271-6dNgt1Mcy3PU.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 143271
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "ruri",
+      "name": "Ruri",
+      "alt_names": [
+        "ルリ"
+      ],
+      "role": "supporting",
+      "description": "Ruri is [Kohaku](https://anilist.co/character/124143/Kohaku)'s elder sister and the daughter of [Kokuyo](https://anilist.co/character/150509/Kokuyo), and serves as the priestess of Ishigami Village. She is similar to Kohaku in appearance but has longer hair and a more hourglass-shaped body. She wears a black sundress and a piece of rope around her neck.",
+      "metadata": {
+        "gender": "female",
+        "age": "18-",
+        "dateOfBirth": "5721-04-14"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b143272-IHdEdAbE4C4t.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 143272
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "you-uei",
+      "name": "You Uei",
+      "alt_names": [
+        "上井陽",
+        "Yo",
+        "Sheriff Yo"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 177 cm (5'10\")\n\nYou is a pre-petrification human and former policeman who is revived by [Tsukasa](https://anilist.co/character/124144/Tsukasa-Shishiou). He faked his death after [Chrome](https://anilist.co/character/124145/Chrome)'s escape to avoid the blame, then eventually joins the Kingdom of Science after the stone wars are over. As penance, he worked with [Yuzuriha](https://anilist.co/character/124147/Yuzuriha-Ogawa) to rebuild the statues that were destroyed by Tsukasa. He is constantly butting heads with [Magma](https://anilist.co/character/145095/Magma) due to each other's naivety of their respective worlds.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b145061-BKjjznIkzV6C.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 145061
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "hyouga",
+      "name": "Hyouga",
+      "alt_names": [
+        "氷月"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 189cm (6'2\")\n\nHyoga is a survivor who was revived by Tsukasa Shishio. Initially, he was an elite member of the Tsukasa Empire since he was depetrified by Tsukasa.\n\n~!He ultimately betrays Tsukasa by attempting to take over his leadership and threatens Senku into joining, only to be defeated by the duo in the decisive battle for the Kingdom of Science. When the situation calls for it, he is depetrified once again and summoned to battle - now as a begrudging ally of the Kingdom of Science with a similar but slightly mellowed goal in mind. Since his third depetrification, Hyoga's goals are unknown.!~\n\nHyoga has an easy going attitude towards everything. Even in situation that do not work in his favour, he still remains calm. While he claims to share the same values as Tsukasa when it comes to only reviving the young and creating a community where no one takes from others, Hyoga himself is an elitist who believes in social darwinism. He categorizes humans as either enlightened (or strong) and unenlightened (or weak). He believes that the \"brainless incompetent masses\" should not be allowed to live and that only those who excel should be allowed to live. While he does follow a form of social darwinism, he does not believe it is only the physically strong who should survive, as he wanted Senku to join him in his endeavors and become the strongest duo, indicating he respected Senku's intelligence and understood his capabilities. He is very manipulative and cunning, seems to be observant, and can often be cruel, merciless, and uncaring. He tends to refer to things as being done \"properly\" or not.",
+      "metadata": {
+        "gender": "male",
+        "age": "20s (physically), 3700+ (Chronologically)",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b145062-eCEE4J0RRGvt.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 145062
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "nikki-hanada",
+      "name": "Nikki Hanada",
+      "alt_names": [
+        "花田仁姫"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 180 cm (5'11\")\n\nNikki is a survivor that was revived by [Tsukasa](https://anilist.co/character/124144/Tsukasa-Shishiou), who assigned her to keep watch over [Taiju](https://anilist.co/character/124146/Taiju-Ooki) and [Yuzuriha](https://anilist.co/character/124147/Yuzuriha-Ogawa). She later defected from the Tsukasa Empire and joined the Kingdom of Science, where her unofficial role is that of disciplinarian. She has great physical strength, constantly being shown keeping people like [Magma](https://anilist.co/character/145095/Magma) and [You](https://anilist.co/character/145061/You-Uei) in line.\n\nNikki is a massive fan of [Lillian Weinberg](https://anilist.co/character/149274/Lillian-Weinberg). In the modern world she was having a rough time at school and listening to Lillian's songs saved her.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b145063-ALOeDMIyqCAE.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 145063
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "ukyou-saionji",
+      "name": "Ukyou Saionji",
+      "alt_names": [
+        "西園寺羽京",
+        "Arrow Kid"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 173 cm (5'8\")\n\nUkyou is a survivor that was revived by [Tsukasa Shishiou](https://anilist.co/character/124144/Tsukasa-Shishiou). He is pacifistic and dislikes needless bloodshed.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b145064-cbgNBAEY9q4R.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 145064
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "homura-momiji",
+      "name": "Homura Momiji",
+      "alt_names": [
+        "紅葉ほむら"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 145 cm (4'9\")\n\nHomura acts as the right-hand man of [Hyouga](https://anilist.co/character/145062/Hyouga) in [Tsukasa](https://anilist.co/character/124144/Tsukasa-Shishiou)'s army. She was a competitive gymnast before the petrification.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b145065-NjHaMBBRg49I.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 145065
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "magma",
+      "name": "Magma",
+      "alt_names": [
+        "マグマ"
+      ],
+      "role": "supporting",
+      "description": "Magma is a villager from the Ishigami village. Magma is known for being the strongest of all the Villagers in terms of strength.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b145095-5kvEF2XUhNui.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 145095
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "minami-hokutouzai",
+      "name": "Minami Hokutouzai",
+      "alt_names": [
+        "北東西南"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 166 cm (5'4\")\n\nMinami is a Pre-Petrification human and former reporter before the Petrification occurred. ~!Originally a member of Tsukasa's army before Tsukasa's downfall at the hands of Hyoga's betrayal, she later joins and helps the Kingdom of Science.!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b145096-Xk4D4sK7nZy9.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 145096
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "francois",
+      "name": "Francois",
+      "alt_names": [
+        "フランソワ",
+        "Francoise",
+        "フランソワーズ"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 160cm (5'3\")\n\nFrancois is [Ryuusui](https://anilist.co/character/145097/Ryuusui-Nanami)'s faithful and extremely talented butler whose services were well sought out and coveted before the Petrification. Their gender remains unknown. They are demonstrated to be a supreme chef. \n\n(Source: Dr. Stone Wiki)",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b145098-T5TSpMoyy3cR.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 145098
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "soyuz",
+      "name": "Soyuz",
+      "alt_names": [
+        "ソユーズ"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 179 cm (5'10\")\n\nSoyuz is a member of Ishigami Village. \n\n~!Soyuz is not from Ishigami Village. He was born on Treasure Island and was discovered on the shores of Ishigami Village as a baby. It is later discovered that he is the long-lost son of the leader of the Petrification Kingdom.!~",
+      "metadata": {
+        "gender": "male",
+        "age": "20+",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b145099-fUMmUJlYH7fp.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 145099
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "mirai-shishiou",
+      "name": "Mirai Shishiou",
+      "alt_names": [
+        "獅子王未来"
+      ],
+      "role": "supporting",
+      "description": "__Initial Age (mental):__ 6\n__Initial Age (physical):__ 12\n__Height__: 139 cm (4'7\")\n\nMirai is the beloved little sister of [Tsukasa](https://anilist.co/character/124144/Tsukasa-Shishiou). Mirai was clinically brain dead prior to the Petrification, the doctors saying she'd never wake up. Tsukasa refused to give up on her and took on his MMA matches to keep paying the medical bills that kept her on life support. ~!She was depetrified by [Senku](https://anilist.co/character/124142/Senkuu-Ishigami) as part of the deal to end the war between the Kingdom of Science and the Tsukasa Empire.!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b145100-8n5wwBz7AclE.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 145100
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "jasper",
+      "name": "Jasper",
+      "alt_names": [
+        "ジャスパ",
+        "ジャスパー"
+      ],
+      "role": "supporting",
+      "description": "An inhabitant of Ishigami Village who is a stickler for the rules. He serves alongside [Turquoise](https://anilist.co/character/150511/Turquoise) as guard for the village's priestess.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b147640-ljghkxCRasNI.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 147640
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "lillian-weinberg",
+      "name": "Lillian Weinberg",
+      "alt_names": [
+        "リリアン ・ ワインバーグ"
+      ],
+      "role": "supporting",
+      "description": "A famous American diva and songstress whose name is known by the whole world. Her passion in adventuring lead her aboard the International Space Station (ISS) alongside Senku's father, Byuakuya Ishigami.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": "1994-10-01"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b149274-lYJFmrdqT7Hq.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 149274
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "byakuya-ishigami",
+      "name": "Byakuya Ishigami",
+      "alt_names": [
+        "石神百夜 "
+      ],
+      "role": "supporting",
+      "description": "Byakuya Ishigami was a Japanese astronaut who was residing on the International Space Station when the Petrification on Earth's surface occurred. He was a kind, playful, and mischievous man who always found a way to amuse himself and keep things lighthearted, no matter the stakes.\n\n~!He was [Senku Ishigami](https://anilist.co/character/124142/Senkuu-Ishigami)'s adoptive father.!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b149275-ghZG8Itl5Iz9.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 149275
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "shamil-volkov",
+      "name": "Shamil  Volkov",
+      "alt_names": [
+        "シャミール・ヴォルコフ"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 180 cm\n\nShamil was a Russian Cosmonaut residing on the International Space Station (ISS) when the Petrification on Earth's surface occurred. He returned to Earth's surface along with the rest of the ISS crew, helping to establish Ishigami Village. After returning to Earth, Shamil married fellow ISS astronaut [Connie Lee](https://anilist.co/character/150510/Connie-Lee) and had several children together. His personality was the opposite of [Byakuya](https://anilist.co/character/149275/Byakuya-Ishigami)'s, being a stoic, serious, pragmatic man of few words.",
+      "metadata": {
+        "gender": "male",
+        "age": "27-",
+        "dateOfBirth": "1992-03-09"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b150497-e3XqWcXpTp4I.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 150497
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "darya-nikitina",
+      "name": "Darya Nikitina",
+      "alt_names": [
+        "ダリヤ・ニキーチナ"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 163 cm\n\nRussian cosmonaut and doctor who was on board the International Space Station (ISS) alongside her husband [Yakov Nikitin](https://anilist.co/character/150512/Yakov-Nikitin). While in space, she witnessed the petrification of all human life on Earth's surface.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": "1988-03-06"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b150498-lNfkfOS4Stgi.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 150498
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "kokuyo",
+      "name": "Kokuyo",
+      "alt_names": [
+        "コクヨウ"
+      ],
+      "role": "supporting",
+      "description": "Father of [Kohaku](https://anilist.co/character/124143/Kohaku) and [Ruri](https://anilist.co/character/143272/Ruri). He was the village chief of Ishigami Village at the time of [Senku](https://anilist.co/character/124142/Senkuu-Ishigami)'s reawakening. ~!Kokuyo at first refuses to accept Senku as the new village chief, even though Senku won the Grand Bout. After witnessing Senku's antibiotic cure Ruri he officially crowns Senku the new leader of Ishigami Village. Despite not being the chief anymore, he serves as something of a co-leader of Ishigami Village, focusing on more practical concerns like food gathering, while Senku focuses on scientific advancement.!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b150509-6LyHh2A6wVyc.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 150509
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "connie-lee",
+      "name": "Connie Lee",
+      "alt_names": [
+        "コニー・リ"
+      ],
+      "role": "supporting",
+      "description": "NASA personnel who was one of the astronauts on the International Space Station at the time when the people of Earth were petrified.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b150510-ajh3oNEkfZKe.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 150510
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "turquoise",
+      "name": "Turquoise",
+      "alt_names": [
+        "ターコイズ"
+      ],
+      "role": "supporting",
+      "description": "A member of the Ishigami village. She serves alongside Jasper as one of Ruri's guards.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b150511-NVZi4WZqJVGW.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 150511
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "yakov-nikitin",
+      "name": "Yakov Nikitin",
+      "alt_names": [
+        "ヤコフ・ニキーチン"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 167 cm\n\nRussian cosmonaut, doctor, and husband of Darya Nikitina who was one of the astronauts on the International Space Station at the time when the people of Earth were petrified",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": "1975-02-09"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b150512-H0QgQUepWssp.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 150512
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "mozu",
+      "name": "Mozu",
+      "alt_names": [
+        "モズ",
+        "Moz"
+      ],
+      "role": "supporting",
+      "description": "__Age:__ Unknown\n__Heigh:__ 182cm (6'0\")\n\nMozu is one of the two strongest warriors in the Petrification Kingdom, with the other being Kirisame. He is the secondary antagonist of the Treasure Island Arc.\n\nMozu is a cocky and easygoing man who enjoys the company of beautiful women, and strong people. He giddily looks forward to the harem selection every year, hoping for cute girls to appear. Despite this, he possesses a sharp instinct and is cunning, and it is hinted that he knows a lot more than he lets on. In battle, he lives for the thrill, as seen when he fought against Hyoga who he found to be a worthy adversary.\n\n(**Source** Dr. Stone Wiki)",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157298-XEfALtQhqDDT.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157298
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "kirisame",
+      "name": "Kirisame",
+      "alt_names": [
+        "キリサメ"
+      ],
+      "role": "supporting",
+      "description": "Kirisame is one of the two strongest warriors in the Petrification Kingdom, the other being Mozu.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157299-5fxM7O9fEWPF.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157299
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "ibara",
+      "name": "Ibara",
+      "alt_names": [
+        "イバラ"
+      ],
+      "role": "supporting",
+      "description": "Minister Ibara is the main antagonist of the Treasure Island Arc.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157300-uo6XpDXI17fB.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157300
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "dr-xeno",
+      "name": "Dr. Xeno",
+      "alt_names": [
+        "Dr.ゼノ",
+        "Dr. X",
+        "Xeno Houston Wingfield (ゼノ・ヒウストン・ウィングフィールド)"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 180 cm (5'11\")\n\nScientist and leader of the American Colony. Similar to Senku, Xeno is brilliant when it comes to science. He is very observant, somewhat eccentric, and has a penchant for stating the word \"Elegant.\"",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": "1993-10-01"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b186479-W4HKWQqL1CLx.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 186479
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "stanley-snyder",
+      "name": "Stanley Snyder",
+      "alt_names": [
+        "スタンリー・スナイダー",
+        "Stan",
+        "Commander Stanley"
+      ],
+      "role": "supporting",
+      "description": "Stanley is a tall, well-built man with very feminine facial features.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b186483-JFDyGA332HBa.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 186483
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "luna-wright",
+      "name": "Luna Wright",
+      "alt_names": [
+        "ルーナ・ライト"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 165cm (5'5\")\n\nLuna is a slender young woman of average height who has somewhat wild, short blonde hair with a few locks long enough to cover her left eye, similar to Ginro. She has a small bust but extremely wide hips and is considered to be very attractive by Carlos, Max, Mozu, and several others. For clothing, she wears a striped, form-fitting short backless dress and a choker with a star on it. She also has a pouch wrapped around her left thigh and a pair of thigh-high boots with heels. Her petrification scar takes the form of a star shape on her lower back.\n\n~!Luna is one of the residents of the American colony.!~",
+      "metadata": {
+        "gender": "female",
+        "age": "19-",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b187008-WKVqpYnIQJ9C.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 187008
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "carlos-barrios",
+      "name": "Carlos Barrios",
+      "alt_names": [
+        "カルロス・バリオス"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 185cm (6'0\")\n\nModern times human and member of the American colony. Before the Petrification, he worked as a driver for Luna's wealthy father.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": "1993-05-30"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b187009-idxKVnBvwL6U.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 187009
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "max-adams",
+      "name": "Max Adams",
+      "alt_names": [
+        "マックス・アダムス"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 160cm (5'3\")\n\nModern times human and member of the American colony. Before the Petrification, he worked as a bodyguard for Luna, accompanying her alongside Carlos.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": "1993-06-30"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b187010-Jc84kt9jlIeH.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 187010
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "amaryllis",
+      "name": "Amaryllis",
+      "alt_names": [
+        "アマリリス",
+        "Amaririsu"
+      ],
+      "role": "supporting",
+      "description": "Amaryllis is considered the most beautiful girl in the Petrification Kingdom.\n\n~!She later joins Senku in his quest to defeat the Minister Ibara and the harem.!~",
+      "metadata": {
+        "gender": "female",
+        "age": "18 (biologically), 27 (chronologically)",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b187231-vZ6LlySz9oCz.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 187231
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "matsukaze",
+      "name": "Matsukaze",
+      "alt_names": [
+        "松風"
+      ],
+      "role": "supporting",
+      "description": "Matsukaze is a warrior from the Petrification Kingdom. He currently acts as a body guard to Ginro, who resembles his late master.\n~!Born a few centuries prior to the present, he was petrified in an event in which countless Petrification Weapons fell from the sky. He was later revived by the Kingdom of Science!~\n(Source: Dr. Stone Wiki)",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b188816-YTDuL5vljiUs.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 188816
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "chelsea-childe",
+      "name": "Chelsea Childe",
+      "alt_names": [
+        "チェルシー・チャイルド"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 148cm (4'10\")\n\nChelsea is a happy girl who seems friendly and excited, especially after seeing people for the first time after petrification. Her straightforward and carefree attitude when talking earns her a nickname of \"Chelsea the Blunt\" by Gen, practically when she ask Luna directly about her weight.",
+      "metadata": {
+        "gender": "female",
+        "age": "18-19",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b199868-JuD8PL4DQAOW.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 199868
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "ganen",
+      "name": "Ganen",
+      "alt_names": [
+        "ガンエン"
+      ],
+      "role": "supporting",
+      "description": "Ganen is a villager from Ishigami Village. He is the son of Sagan and En.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b202545-OC4q32aCJzNK.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 202545
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "sapphire",
+      "name": "Sapphire",
+      "alt_names": [
+        "サファイア"
+      ],
+      "role": "supporting",
+      "description": "Villager from Ishigami Village. She is one of the three Sparkly Sisters along with her siblings Garnet and Ruby. Her parents are Alabaster and Dia.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b202546-BQBRbFcQ3Qhk.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 202546
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "unmo",
+      "name": "Unmo",
+      "alt_names": [
+        "ウンモ"
+      ],
+      "role": "supporting",
+      "description": "Villager from Ishigami Village.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b202547-s4MnlYvE42sQ.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 202547
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "garnet",
+      "name": "Garnet",
+      "alt_names": [
+        "ガーネット"
+      ],
+      "role": "supporting",
+      "description": "Villager from Ishigami Village. She is one of the three Sparkly Sisters along with her siblings Sapphire and Ruby. Her parents are Alabaster and Dia.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b202548-MaJRafdmAUlO.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 202548
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "gozan",
+      "name": "Gozan",
+      "alt_names": [
+        "ゴーザン",
+        "ゴサン"
+      ],
+      "role": "supporting",
+      "description": "One of the troops from the Tsukasa Empire that Hyoga took on his two raids to Ishigami Village.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b203950-AGW3KuRagv8R.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 203950
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "genbu",
+      "name": "Genbu",
+      "alt_names": [
+        "玄武"
+      ],
+      "role": "supporting",
+      "description": "Villager from Ishigami Village.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b203951-e2bGNxsIkMq7.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 203951
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "sagan",
+      "name": "Sagan",
+      "alt_names": [
+        "サガン"
+      ],
+      "role": "supporting",
+      "description": "Villager from Ishigami Village. He is the husband of En and the father of Ganen.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b203953-VyLOjC3LTgcq.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 203953
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "brody-dudley",
+      "name": "Brody Dudley",
+      "alt_names": [
+        "ブロディ・ダドリー"
+      ],
+      "role": "supporting",
+      "description": "A modern human who is a member of the American Colony, who serves as a mechanic to Dr. Xeno. After the abduction of Dr. Xeno, he allies with the Kingdom of Science to establish Corn City",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b219106-fdknb2a8bPef.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 219106
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "joel-gear",
+      "name": "Joel Gear",
+      "alt_names": [
+        "ジョエル・ギア"
+      ],
+      "role": "supporting",
+      "description": "__Initial Age:__ 21 \n__Height:__ 168 cm (5'6\")\n\nJoel is a watchmaker that was found in North America. He was revived to take apart the Petrification Weapon and see what makes it tick.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b219159-EQIh3a9c6vDM.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 219159
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "shovel",
+      "name": "Shovel",
+      "alt_names": [
+        "シャベル"
+      ],
+      "role": "supporting",
+      "description": "Villager from Ishigami Village.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b224994-NKtMemg8o2Kn.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 224994
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "titan",
+      "name": "Titan",
+      "alt_names": [
+        "チタン"
+      ],
+      "role": "supporting",
+      "description": "Titan is a villager from Ishigami Village.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b224995-tJHZgyu84qzD.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 224995
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "sulfurina",
+      "name": "Sulfurina",
+      "alt_names": [
+        "スルフリナ",
+        "Ryuu-san (リューさん)",
+        "Ryuusan (硫酸)"
+      ],
+      "role": "supporting",
+      "description": "Sulfurina is the name of the embodiment of the Emerald Green Spring, a hot spring that emits a deadly poisonous gas consisting of hydrogen sulfide and sulfur dioxide. The group has to tread to retrieve sulfuric acid from the spring to make sulfanilamide to cure Ruri of her illness. Silver can be used to detect hydrogen sulfide to see where the poison gas is and to avoid it.\n\nSenku nicknames her Ryuu-san because in Japanese the word for sulfuric acid is ryuusan (硫酸).\n\n(Source: Dr. Stone Fandom)",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b228229-KqW2wYYSyF0D.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 228229
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "sai-nanami",
+      "name": "SAI Nanami",
+      "alt_names": [
+        "七海SAI"
+      ],
+      "role": "supporting",
+      "description": "Sai Nanami is the son of the owner of Nanami Conglomerate and the older brother of Ryusui Nanami. While he is a prodigy in mathematics and is said to be \"a million times\" better than the average person (according to Ryusui), Sai's passion lies in coding, and he claims himself to be a programmer rather than a mathematician.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b237655-b5KOTM2e8ssC.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 237655
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "carbo",
+      "name": "Carbo",
+      "alt_names": [
+        "カーボ"
+      ],
+      "role": "supporting",
+      "description": "Villager from Ishigami Village. He is the son of [Natri](https://anilist.co/character/255670) and [Alumi](https://anilist.co/character/255671/), and he is the husband of [Beryl](https://anilist.co/character/255672).",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b255669-i93L4dflULN2.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 255669
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "natri",
+      "name": "Natri",
+      "alt_names": [
+        "なとり"
+      ],
+      "role": "supporting",
+      "description": "Villager from Ishigami Village. He is the father of [Carbo](https://anilist.co/character/255669) and the husband of [Alumi](https://anilist.co/character/255671/).",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b255670-tBg10oKDGlU0.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 255670
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "alumi",
+      "name": "Alumi",
+      "alt_names": [
+        "あるみ"
+      ],
+      "role": "supporting",
+      "description": "Villager from Ishigami Village. She is the mother of Carbo and the wife of Natri.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b255671-WYQN6b3Xx7ff.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 255671
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "why-man",
+      "name": "Why-man",
+      "alt_names": [
+        "ホワイマン",
+        "Howaiman"
+      ],
+      "role": "supporting",
+      "description": "Why-man is normally depicted as an extremely gaunt, skull-like face with hollow eye sockets and a very small, almost cut-off nose. They've got two layers of teeth, with the outer/top layer looking similar to a child's teeth x-ray. They're always depicted with heavy vertical hatching, making them appear as a grainy television image.\n\nTheir hand is also shown to be very long and bony, with equally long, unkempt black nails.\n\n~!Their main goal is to keep humanity petrified, as both during Treasure Island later on the Perseus, Why-man attempted to petrify everyone using the Medusa.\nHe is also the main antagonist of Dr. Stone. Hirst communicates with the Kingdom of Science using Morse code on a motorboat shortly after the \"insanely powerful\" radio tower is first turned on. The message, which saturated the radio frequency the Kingdom was using, consisted of one word repeated over and over again: 'Why?!~\n~!In the \" New America City Arc,\" it turns out that Why-man is on the Moon.!~",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b266038-ycofxDhITPlW.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 266038
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "tetsuya-kinomoto",
+      "name": "Tetsuya Kinomoto",
+      "alt_names": [
+        "基本徹夜",
+        "Mr. Mangaka"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 155 cm\n\nA modern member of the Kingdom of Science. He was a manga artist prior to the Petrification. He was revived to test the feasibility of reviving a broken statue, and was later tasked with helping bring back entertainment to the Stone World.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b282320-MdtThy8uLpAx.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 282320
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "namari",
+      "name": "Namari",
+      "alt_names": [
+        "ナマリ"
+      ],
+      "role": "supporting",
+      "description": "Namari is a member of Ishigami Village. She is shown to be a skilled artist, drawing the bracket for The Grand Bout and the roadmap to build the cellphone. Once [Mr. Mangaka](https://anilist.co/character/282320/Tetsuya-Kinomoto) is revived, Namari seems to begin studying under him and is frequently shown alongside him.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b282836-UMlm4BnBp99h.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 282836
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "ruby",
+      "name": "Ruby",
+      "alt_names": [
+        "ルビィ"
+      ],
+      "role": "supporting",
+      "description": "Villager from  Ishigami Village. She is one of the three Sparkly Sisters along with her siblings Garnet and Sapphire. Her parents are Alabaster and Dia.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b286712-zAzPAhPLrPYU.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 286712
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "shou",
+      "name": "Shou",
+      "alt_names": [
+        "礁",
+        "ショー"
+      ],
+      "role": "supporting",
+      "description": "One of the older members of Ishigami Village. He is the village's top fisherman, almost never shown away from fish or boats. He is married to Sango, and is frequently shown hanging out with the other elders, especially Alumi and Natri.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b301927-FYIUeqg4w1qn.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 301927
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "sagara",
+      "name": "Sagara",
+      "alt_names": [
+        "サガラ"
+      ],
+      "role": "supporting",
+      "description": "__Stats:__ Sniffer (5/5, A); Brains (3/5, C); Skittishness (1/5, E)\n\nA pig that helps find crude oil for the Kingdom of Science. After becoming Suika's pet, Sagara is given a rope necklace to symbolize being part of the Kingdom of Science.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b302957-29R3Jwh6tpr2.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 302957
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "ooarashi",
+      "name": "Ooarashi",
+      "alt_names": [
+        "オオアラシ",
+        "Oarashi"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 183 cm\n\nA warrior of the Petrification Kingdom. He's considered to be one of the most powerful people on the island.",
+      "metadata": {
+        "gender": "male",
+        "age": "28-",
+        "dateOfBirth": "5713-09-11"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b307327-ko538hudq5SZ.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 307327
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "en",
+      "name": "En",
+      "alt_names": [
+        "エン"
+      ],
+      "role": "supporting",
+      "description": "Villager from Ishigami Village. She is the wife of Sagan and the mother of Ganen.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b352830-UKNRzJ8Gx64e.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 352830
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "kujaku",
+      "name": "Kujaku",
+      "alt_names": [
+        "孔雀"
+      ],
+      "role": "supporting",
+      "description": "Villager from Ishigami Village.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b352831-d4euWcZepI8U.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 352831
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "azura",
+      "name": "Azura",
+      "alt_names": [
+        "あずら"
+      ],
+      "role": "supporting",
+      "description": "Villager from Ishigami Village.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b352832-pNBOjgaVbQ51.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 352832
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "argo",
+      "name": "Argo",
+      "alt_names": [
+        "アルゴ"
+      ],
+      "role": "supporting",
+      "description": "Villager from Ishigami Village.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b352925-RgPUBHdmR33r.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 352925
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "hagane",
+      "name": "Hagane",
+      "alt_names": [
+        "ハガネ"
+      ],
+      "role": "supporting",
+      "description": "Villager from Ishigami Village.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b352927-9i9qJyxqrtYE.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 352927
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "alabaster",
+      "name": "Alabaster",
+      "alt_names": [
+        "アラバスタ"
+      ],
+      "role": "supporting",
+      "description": "Villager from Ishigami Village. He is the husband of Dia and the father of Ruby, Sapphire, and Garnet.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b352928-ms3ng9ySvZai.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 352928
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "kyouchirou",
+      "name": "Kyouchirou",
+      "alt_names": [
+        "キョーイチロー"
+      ],
+      "role": "supporting",
+      "description": "One of the troops from the Tsukasa Empire that Hyoga took on his two raids to Ishigami Village.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b353087-lZc9k9JrUyI9.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 353087
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "akashi",
+      "name": "Akashi",
+      "alt_names": [
+        "アカシ"
+      ],
+      "role": "supporting",
+      "description": "One of the troops from the Tsukasa Empire that Hyoga took on his two raids to Ishigami Village.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b353088-VyePPf6XItxf.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 353088
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "morito",
+      "name": "Morito",
+      "alt_names": [
+        "モリト"
+      ],
+      "role": "supporting",
+      "description": "One of the troops from the Tsukasa Empire that Hyoga took on his two raids to Ishigami Village.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b353089-ny4EM78VOcrv.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 353089
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "maya-biggs",
+      "name": "Maya Biggs",
+      "alt_names": [
+        "マヤ・ビッグス"
+      ],
+      "role": "supporting",
+      "description": "Member of the American Colony. During her life before the Petrification, Maya was the reigning All-American women's MA Chamption, having never lost a match in her life. Due to her martial art skills, she was scouted by the special-ops unit in the military.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": "1991-11-17"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b354545-SRYskDMgJC2d.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 354545
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "charlotte-bony",
+      "name": "Charlotte Bony",
+      "alt_names": [
+        "シャーロット・ボニー"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "age": "26-",
+        "dateOfBirth": "1996-03-18"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b354547-xBTMHOD5HvgC.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 354547
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "leonard-maxwell",
+      "name": "Leonard Maxwell",
+      "alt_names": [
+        "レナード・マクスウェル"
+      ],
+      "role": "supporting",
+      "description": "Member of the American Colony. He operates the radar and any other communication.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": "1989-05-06"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b354548-w2jrpWKsetyM.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 354548
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "ryokan-kurita",
+      "name": "Ryokan Kurita",
+      "alt_names": [
+        "栗田良寛",
+        "Damn Fatass"
+      ],
+      "role": "minor",
+      "description": "Position: Center / Defensive Tackle / Long snapper  Jersey: 77  40 yard dash: 6.5 seconds  Bench Press: 160 kg (352 lb)  Height: 195 cm (6' 4\")  Weight: 145 kg (319 lb)  Graduated From: Mao 13th Middle School  2nd Year Student (Grade 11)    The largest and strongest player in the Deimon American Football club. Kurita lives in a temple with his father, who is the director of a Buddhist sect. His father believed that to grow up big and strong, a young boy had to eat a lot, but unfortunately it seems he has overfed his son. Kurita, as his name would suggest, has a head shaped like a chestnut. He is a very sweet, kind-hearted individual and the only thing bigger than his body is his heart. He became Sena's second friend after entering Deimon High School. When playing, Kurita shouts his kiai \"Funnuraba!\" when exerting extra effort. Before coming to Deimon, he attended the Shinryuji school, but was forced out because Kongo Agon was chosen over him for the special athletic scholarship, so he came to Deimon High along with Hiruma and Musashi. Like Hiruma. Kurita is crazy about American football and tries to encourage everyone to join though he does not go to the same extremes as his demonic compatriot. He can get so worked up that he's been known to begin morning practice as early as 2:00 AM.   His \"apprentice\" is Komusubi, who practices with him whenever he can. His biggest dream is to compete in the Christmas Bowl. He is somewhat dim-witted (nearly giving away Sena's other identity) and is insanely strong (he accidentally destroyed a small truck by hugging it). Also, whenever fights ensue, between the Deimon members, he always stops them by flattening all of them. Though he normally looks rather comical, he's dangerous when he's actually fired up. When Musashi rejoins the team, Kurita's \"alternate personality\" is revealed during the games. Kurita's face changes as his eyes inflame and become bigger, his eyebrows thicken, and his face tightens up. He gains even more strength than usual in this \"form\" (although he can quickly change back when he gets happy, but change back again as the game resumes).   (Source: Wikipedia)",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/n946-sVxRshY3j8xs.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 946
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "chalk",
+      "name": "Chalk",
+      "alt_names": [
+        "チョーク"
+      ],
+      "role": "minor",
+      "description": "Dog from Ishigami Village. He is Suika's friend.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b147567-mvwmIvzi8my5.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 147567
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "mantle",
+      "name": "Mantle",
+      "alt_names": [
+        "マントル"
+      ],
+      "role": "minor",
+      "description": "Mantle is a villager of Ishigami Village who idolizes Magma.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b147570-4oRDjkvGZIBU.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 147570
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "beryl",
+      "name": "Beryl",
+      "alt_names": [
+        "ベリ—"
+      ],
+      "role": "minor",
+      "description": "Villager from Ishigami Village. She is the wife of [Carbo](https://anilist.co/character/255669).",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b255672-hbv50OJSVORe.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 255672
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "soyuz-no-haha",
+      "name": "Soyuz no Haha",
+      "alt_names": [
+        "ソユーズの母",
+        "Soyuz's Mother"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b319093-xSvNhrL5ZlrW.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 319093
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "toushu",
+      "name": "Toushu",
+      "alt_names": [
+        "頭首",
+        "Head of the Petrification Kingdom"
+      ],
+      "role": "minor",
+      "description": "Ruler of the Petrification Kingdom of the \"Treasure Island\" tribe and father of Soyuz.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b319094-r0kiWB5xYmXB.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 319094
+      },
+      "rarity": "common"
+    }
+  ],
+  "updated_at": "2025-12-24T01:47:01.343Z"
+}

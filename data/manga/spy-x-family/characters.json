@@ -1,0 +1,1579 @@
+{
+  "work_id": "spy-x-family",
+  "count": 62,
+  "characters": [
+    {
+      "id": "anya-forger",
+      "name": "Anya Forger",
+      "alt_names": [
+        "アーニャ・フォージャー",
+        "Test Subject 007",
+        "Anya Williams",
+        "Anya Levski",
+        "Anya Roche",
+        "Anya Klein",
+        "K-212",
+        "Princess Anya",
+        "Chihuahua Girl"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 99.5 cm (3'2\")\n__Occupation:__ First-Grade Student, Test Subject (Formerly)\n__Affiliation:__ Eden Academy, Unknown Organization (Formerly)\n__Relatives:__ Loid Forger (Adoptive Father), Yor Forger (Adoptive Mother)\n\nAnya Forger is the deuteragonist of the SPY x FAMILY series. She is a young girl who Twilight finds at an orphanage. Believing her to be a smart child, he decides to adopt her for his mission. What he doesn't know is that Anya is an esper who escaped from the Lab that gave her the power to read minds. Starving for excitement in her life after spending most of it so far in a lab, Anya actively sought to be the one adopted by Loid and then make sure Loid and Yor got together, so she could have a spy and assassin for parents. Anya is the only Forger aware of just about everyone's Secret Identities, but keeps it to herself out of fear that if her psychic powers are exposed she'll be put in a lab again.",
+      "metadata": {
+        "gender": "female",
+        "age": "6 (self asserted)",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b138100-4Li0tWRCa5bQ.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 138100
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "loid-forger",
+      "name": "Loid Forger",
+      "alt_names": [
+        "ロイド・フォージャー",
+        "Tasogare (黄昏)",
+        "Twilight",
+        "Twain Foney",
+        "Papa",
+        "Roid",
+        "Loi-Loi",
+        "Loidman",
+        "Robert",
+        "Lionel",
+        "Lawrence",
+        "Roland Spoofy",
+        "Twi-Guy",
+        "Skumring"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 187 cm\n__Occupation:__ Psychiatrist, Spy (Covertly)\n__Affiliation:__ Berlint General Hospital, WISE (Covertly)\n__Relatives:__ Yor Forger (Wife), Anya Forger (Adoptive Daughter)\n\nLoid Forger is the main protagonist of the SPY x FAMILY series. He is the top spy of the Westalian Intelligence Bureau, who is only known by his code name Twilight. In order to investigate the activities of a highly ranked politician, Donovan Desmond, Twilight has assumed the identity of a psychiatrist named Loid Forger. Further, to appear like a normal family man and get close to his target, Loid then adopted a young orphan girl, Anya, and entered a Marriage of Convenience with an Ostanian woman named Yor Briar... who unknown to Twilight are themselves a Telepath and Professional Killer respectively.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b138101-7NCB0Md8zA6G.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 138101
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "yor-forger",
+      "name": "Yor Forger",
+      "alt_names": [
+        "ヨル・フォージャー",
+        "Yor Briar (ヨル・ブライア)",
+        "Thorn Princess (Ibara-hime‚ いばら姫)",
+        "Yorticia",
+        "Tornprinsessa"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 170 cm\n__Occupation:__ City Hall Clerk, Assassin (Covertly)\n__Affiliation:__ Berlint City Hall, Garden (Covertly)\n__Relatives:__ Loid Forger (Husband), Anya Forger (Adoptive Daughter), Yuuri Briar (Younger Brother)\n\nYor Forger is the tritagonist of the SPY x FAMILY series. She is a clerical employee at the Berlint City Hall. She is soft-spoken and mild-mannered, but has a strong sense of humor. She has a bad drinking habit and falls into a coma when she drinks. At home, she struggles to be a good wife and a kind mother. Although her cooking skills are not very good, she likes to keep clean and is good at cleaning.\nWhile she works in the capital of Ostania's city hall... or at least that's her civilian cover. In truth, she is an infamous Professional Killer known as \"Thorn Princess\". After becoming overly fixated on the idea her cover might be blown after a coworker ribs her about not being married or even having a boyfriend, Yor suggests to Loid a Marriage of Convenience, which he accepts, as he needs a mother for Anya for his own mission.\n\n~!As of Mission (Chapter) 44, it is revealed that Yor is part of Garden, a powerful paramilitary assassin organization operating within Ostania.!~",
+      "metadata": {
+        "gender": "female",
+        "age": "27",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b138102-ZOAu9jI2d5ke.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 138102
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "bond",
+      "name": "Bond",
+      "alt_names": [
+        "ボンド",
+        "Subject 8"
+      ],
+      "role": "protagonist",
+      "description": "Bond is the recently adopted pet of the Forger Family. Formally known as Subject 8, Bond has been used for experiments that resulted in the dog gaining precognition abilities.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b169679-EFPubVtZFYom.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 169679
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "becky-blackbell",
+      "name": "Becky Blackbell",
+      "alt_names": [
+        "ベッキー・ブラックベル",
+        "Forehead Girl",
+        "Deko Onna (デコ女)",
+        "Milady"
+      ],
+      "role": "supporting",
+      "description": "__Affiliation:__ Blackbell Family, Blackbell Heavy Industries, Eden Academy, Cecile Hall\n__Occupation:__ Student\n\nThe daughter of the CEO of Blackbell, a major military manufacturer. Attends Eden Academy as part of Cecil House, Group 3. Best friends with Anya Forger.\n\nBecky is a very kind child but with her being the daughter of a major military manufacturer, she is shown to be somewhat prideful and tries to be mature, attempting to take Anya under her wing as an act of benevolence when she views Anya as a brat. She does not attempt to get close to Damian Desmond despite his social position, even looking down on their classmates who try to befriend Damian and Anya who is initially bullied by Damian's group. Anya's confident smile later wins over Becky's admiration.",
+      "metadata": {
+        "gender": "female",
+        "age": "6",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b150423-RxXwrHzeLCss.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 150423
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "damian-desmond",
+      "name": "Damian Desmond",
+      "alt_names": [
+        "ダミアン・デズモンド",
+        "Boss-man",
+        "Sy-on",
+        "Jinan (じなん)"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 110 cm (3′7″)\n__Affiliation:__ Desmond Family, Eden Academy, Cecile Hall\n__Occupation:__ Student\n\nThe second son of Donovan Desmond and attends Eden Academy as part of Cecile House, Group 3.  \n\nA young child with an arrogant and rude personality, caused by him being the second son of Donovan Desmond, the leader of the National Unity Party, a group important and powerful enough to threaten the peace between the East and the West. This has caused Damian to gain a highly respected status among his peers and making him incredibly arrogant, assuming Anya gained a crush on him when she stared at him. He is shown to prefer being called Lord Damian when spoken to. He gets angry when he is looked down upon by Anya's smile, quickly resorting to insulting her with his limited vocabulary and harassing Anya.",
+      "metadata": {
+        "gender": "male",
+        "age": "6",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b150424-4B4psF6I4dgO.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 150424
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "yuuri-briar",
+      "name": "Yuuri Briar",
+      "alt_names": [
+        "ユーリ・ブライア",
+        "Yuri Briar",
+        "Second Lieutenant Briar"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 179 cm (5′10\")\n__Affiliation:__ Ostania, Ministry for Foreign Affairs (Cover), State Security Service\n__Occupation:__ Diplomat (Formerly, Cover), Counterintelligence Agent\n\nYor Briar's younger brother who works in the State Security Service (SSS). He keeps his job at the SSS a secret from Yor, while pretending to be a normal civil servant at the foreign ministry.\n\nYuri has a sister-complex, and even at an early age, he would be doing everything he could to get Yor to praise him with affection. Though this could be due to his mother dying at a very early stage in his life causing him to get very attached to Yor as a mother figure.",
+      "metadata": {
+        "gender": "male",
+        "age": "20",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b150425-mP852peLh9eS.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 150425
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "sylvia-sherwood",
+      "name": "Sylvia Sherwood",
+      "alt_names": [
+        "シルヴィア・シャーウッド",
+        "Handler (管理官)",
+        "Fullmetal Lady (鋼鉄の淑女)"
+      ],
+      "role": "supporting",
+      "description": "She is Twilight's main contact at WISE.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157887-P66pD0ilpmtZ.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157887
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "franky-franklin",
+      "name": "Franky Franklin",
+      "alt_names": [
+        "フランキー・フランクリン",
+        "Scruffy"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 166 cm (5′5\")\n__Affiliation:__ Ostania\n__Occupation:__ Tobacco Store Clerk (False Front), Informant, Soldier (formerly)\n\nFranky is an informant who seemingly works at a tobacco store and presumably works for Loid Forger's agency. He gets information regarding Eden Academy's exam and Anya Forger's past records for Loid Forger.\n\nFranky is a kind person willing to help Loid out when he's in a pinch even though the danger is high. He frequently warns Loid Forger not to get too close to other people in their line of work.\n\nHe frequently falls in love with other women but his love life typically fails due to lack of mutual interest or they are already with someone else.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157888-zkSfIT5Z8y2S.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157888
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "henry-henderson",
+      "name": "Henry Henderson",
+      "alt_names": [
+        "ヘンリー・ヘンダーソン",
+        "Housemaster",
+        "Professor Henderson"
+      ],
+      "role": "supporting",
+      "description": "__Affiliation:__ Eden Academy\n__Occupation:__ History Teacher, Housemaster of Cecile Hall\n\nHenry is a mature and noble person, who places a high importance on \"elegance\". To him, elegance seems to be the way a person conducts themselves, and is not afraid to correct inelegant behavior in others.",
+      "metadata": {
+        "gender": "male",
+        "age": "66",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b180190-iQqPtTS182Et.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 180190
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "camilla",
+      "name": "Camilla",
+      "alt_names": [
+        "カミラ"
+      ],
+      "role": "supporting",
+      "description": "One of Yor Forger's three co-workers at Berlint City Hall.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b180191-peLZOpA3jmBO.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 180191
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "donovan-desmond",
+      "name": "Donovan Desmond",
+      "alt_names": [
+        "ドノバン・デズモンド"
+      ],
+      "role": "supporting",
+      "description": "Donovan Desmond is the President of the Nation Unity Party and Twilight's current target.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b180192-nOvkTcotZyu0.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 180192
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "fiona-frost",
+      "name": "Fiona Frost",
+      "alt_names": [
+        "フィオナ・フロスト",
+        "Nightfall (夜帷)",
+        "Nafalia Foney (トバリー・フォニー)",
+        "Tobari (とばり)",
+        "Kveldingen"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 172cm\n__Occupation:__ Hospital Assistant (secretly a spy)\n\nA spy who works undercover as an assistant to [Loid Forger](https://anilist.co/character/138101/Loid-Forger) at Berlint General Hospital to provide him with mission details. Fiona is deeply in love with Loid, even telling Loid to replace Yor and let her take over the role of the Forger wife.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b184936-kVn06kjZly6H.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 184936
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "ewen-egeburg",
+      "name": "Ewen Egeburg",
+      "alt_names": [
+        "ユーイン・エッジバーグ"
+      ],
+      "role": "supporting",
+      "description": "Best Friend of Damian  and Student at Eden Academy. He is a loyal person, devotedly following Damian, almost always holding his bag when they walk to class. He also genuinely cares for Damian as a friend, getting concerned for Damian when he is hurt or pushing himself too hard.",
+      "metadata": {
+        "gender": "male",
+        "age": "6",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b213881-NrUwR51qHdkV.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 213881
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "emile-elman",
+      "name": "Emile Elman",
+      "alt_names": [
+        "エミールぅ・エルマン"
+      ],
+      "role": "supporting",
+      "description": "Best Friend of Damian  and Student at Eden Academy.",
+      "metadata": {
+        "gender": "male",
+        "age": "6",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b213882-BoEgxd5783eU.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 213882
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "millie",
+      "name": "Millie",
+      "alt_names": [
+        "ミリー"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b270958-ByT3WQWfgQ17.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 270958
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "sharon",
+      "name": "Sharon",
+      "alt_names": [
+        "シャロン"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b270959-LkuT2OdUE8qL.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 270959
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "dominic",
+      "name": "Dominic",
+      "alt_names": [
+        "ドミニク"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b270960-ZeCmPnuQp11T.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 270960
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "garden-tenchou",
+      "name": "Garden Tenchou",
+      "alt_names": [
+        "〈ガーデン〉店長",
+        "Shopkeeper"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b270961-npwGDaryVj6Q.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 270961
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "wise-kyokuchou",
+      "name": "WISE Kyokuchou",
+      "alt_names": [
+        "〈WISE〉局長",
+        "WISE Director"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b272642-S4V3jLcHwzFx.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 272642
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "edgar",
+      "name": "Edgar",
+      "alt_names": [
+        "エドガー"
+      ],
+      "role": "supporting",
+      "description": "The father of Karen and the boss of an unknown organization in Ostania. He expresses strong hostility towards Westalis and their people. He antagonizes Twilight by kidnapping Anya Forger in an attempt to blackmail Twilight into working for him.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b274082-9GV1yIXv2N70.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 274082
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "karen",
+      "name": "Karen",
+      "alt_names": [
+        "カレン"
+      ],
+      "role": "supporting",
+      "description": "The daughter of Edgar. Twilight formerly dated her as \"Robert\" with the intention of investigating her father. Karen is known to have participated in a fair amount of criminal activity, enough to get her in trouble if Loid so wishes.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b274083-RoIvenciVoSd.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 274083
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "murdoch-swan",
+      "name": "Murdoch Swan",
+      "alt_names": [
+        "マードック・スワン"
+      ],
+      "role": "supporting",
+      "description": "The Economics Teacher and the Housemaster of Dormitory 2, Cline Hall at Eden Academy. He is the only son of the former Headmaster of Eden Academy. His wife filed for divorce a month before the Eden Academy admissions interview, where she won full custody of their only daughter.",
+      "metadata": {
+        "gender": "male",
+        "age": "47",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b274084-jbW7ZAfCK0u4.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 274084
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "walter-evans",
+      "name": "Walter Evans",
+      "alt_names": [
+        "ウォルター・エバンス"
+      ],
+      "role": "supporting",
+      "description": "The English Teacher and the Housemaster of Dormitory 5, Malcom Hall at Eden Academy. He is regarded as gentle, reliable, conservative and well-liked by his students.",
+      "metadata": {
+        "gender": "male",
+        "age": "59",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b274085-76olW4lNxegM.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 274085
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "benedict-goodfellow",
+      "name": "Benedict Goodfellow",
+      "alt_names": [
+        "ベネディクト・アイヴァン・グッドフェラー",
+        "Headmaster"
+      ],
+      "role": "supporting",
+      "description": "Current headmaster of Eden Academy. During the entrance ceremony for the new Eden Academy students, he gives a speech welcoming them. According to some facility members, he does not accept \"donations\" from parents and cannot be bought.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b277083-neZF7lClvA4e.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 277083
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "jim-hayward",
+      "name": "Jim Hayward",
+      "alt_names": [
+        "ジム・ヘイワード"
+      ],
+      "role": "supporting",
+      "description": "He was an informant for WISE working at Berlint City Hall in the financial department. He was caught selling documents to WISE agents in photographs by [Yuuri Briar](https://anilist.co/character/150425/Yuuri-Briar).",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b278136-LsqqszqgIXkR.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 278136
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "burns",
+      "name": "Burns",
+      "alt_names": [
+        "バーンズ",
+        "Chief Burns"
+      ],
+      "role": "supporting",
+      "description": "Section chief of Berlint City Hall, overseeing the work of [Yor Forger](https://anilist.co/character/138102/Yor-Forger), [Camilla](https://anilist.co/character/180191/Camilla), [Millie](https://anilist.co/character/270958/Millie), and [Sharon](https://anilist.co/character/270959/Sharon).",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b278137-viNMSOVmQulG.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 278137
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "bill-watkins",
+      "name": "Bill Watkins",
+      "alt_names": [
+        "ビル・ワトキンス",
+        "Bazooka Bill"
+      ],
+      "role": "supporting",
+      "description": "The 6-year-old son of a major in the National Army who attends Eden Academy as part of Wald Hall. He was given the nickname \"Bazooka Bill\" by his peers for his mental and physical domination in sports since nursery school.",
+      "metadata": {
+        "gender": "male",
+        "age": "6",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b278821-yK2ulLgK3KEM.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 278821
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "kokkahoankyoku-chuui",
+      "name": "Kokkahoankyoku Chuui",
+      "alt_names": [
+        "国家保安局中尉",
+        "SSS Lieutenant",
+        "State Security Service Lieutenant"
+      ],
+      "role": "supporting",
+      "description": "A scarred man who is a lieutenant and a higher position than [Yuuri Briar](https://anilist.co/character/150425/Yuuri-Briar) in the SSS. He seems to be fairly close to Yuuri and is aware of his drinking habits and sister complex, advising Yuri to get over his sister and focus on his work.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b279677-VeVumWIwfdFi.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 279677
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "kokkahoankyoku-kyokuchou",
+      "name": "Kokkahoankyoku Kyokuchou",
+      "alt_names": [
+        "国家保安局局長",
+        "SSS Director",
+        "State Security Service Director"
+      ],
+      "role": "supporting",
+      "description": "The boss of the SSS who dotes on [Yuuri](https://anilist.co/character/150425/Yuuri-Briar) because he finds him adorable like a puppy.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b279678-Q59PfmCFihrW.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 279678
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "keith-kepler",
+      "name": "Keith Kepler",
+      "alt_names": [
+        "キース・ケプラー"
+      ],
+      "role": "supporting",
+      "description": "The leader of a terrorist group consisting of isolationist college students from Berlint University, intending on assassinating Foreign Minister Brantz to start a war between Westalis and Ostania.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b280308-LUyVNQje71td.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 280308
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "melinda-desmond",
+      "name": "Melinda Desmond",
+      "alt_names": [
+        "メリンダ・デズモンド"
+      ],
+      "role": "supporting",
+      "description": "Mother to [Damian](https://anilist.co/character/150424/) and wife to [Donovan](https://anilist.co/character/180192/)",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b283261-9kCWtabrte3z.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 283261
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "kris",
+      "name": "Kris",
+      "alt_names": [
+        "クリス"
+      ],
+      "role": "supporting",
+      "description": "A student at Berlint University and a member of the Berlint Terrorist group led by [Keith Kepler](https://anilist.co/character/280308/Keith-Kepler).",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288562-V0mGc2mV6hbL.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288562
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "kurt",
+      "name": "Kurt",
+      "alt_names": [
+        "カート"
+      ],
+      "role": "supporting",
+      "description": "A  student at Berlint University and a member of the Berlint Terrorist group led by [Keith Kepler](https://anilist.co/character/280308/Keith-Kepler).",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288563-qVWyl4Ui1BT2.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288563
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "monica-mcbride",
+      "name": "Monica McBride",
+      "alt_names": [
+        "モニカ・マクブライド",
+        "Moppea"
+      ],
+      "role": "supporting",
+      "description": "Works at Mokumoku Club, a cigar club on Fifth Street.",
+      "metadata": {
+        "gender": "female",
+        "age": "25",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b289991-7KvT7xZtPBO0.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 289991
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "brantz-daijin",
+      "name": "Brantz Daijin",
+      "alt_names": [
+        "ブランツ大臣",
+        "Minister Brantz"
+      ],
+      "role": "supporting",
+      "description": "A foreign minister from Westalis. He is the target of [Keith Kepler](https://anilist.co/character/280308/Keith-Kepler)'s assassination plan.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b290003-kSUPS1ewDKUQ.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 290003
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "shinonome",
+      "name": "Shinonome",
+      "alt_names": [
+        "東雲",
+        "Daybreak"
+      ],
+      "role": "supporting",
+      "description": "An Ostanian spy who thinks of himself as a rival to [Twilight](https://anilist.co/character/138101/Loid-Forger). He is shown to be a highly untalented, yet lucky, spy.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b290959-6mvRLa1exlDP.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 290959
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "george-glooman",
+      "name": "George Glooman",
+      "alt_names": [
+        "ジョージ・グルーマン"
+      ],
+      "role": "supporting",
+      "description": "A student at Eden Academy and a member of Cecile Hall. He is the son of the CEO of Glooman Pharmaceuticals, a company later bought by the Desmond Group.",
+      "metadata": {
+        "gender": "male",
+        "age": "6",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b291621-A88lxV8BEuxM.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 291621
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "george-no-chichi",
+      "name": "George no chichi",
+      "alt_names": [
+        "ジョージの父",
+        "Jack Glooman"
+      ],
+      "role": "supporting",
+      "description": "Father of George Glooman. He was the CEO of Glooman Pharmaceuticals until the company was bought by The Desmond Group.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b291622-qcGXfniqDvFQ.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 291622
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "kim-campbell",
+      "name": "Kim Campbell",
+      "alt_names": [
+        "キム・キャンベル"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b293393-QufNViZKdEO1.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 293393
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "carrol-campbell",
+      "name": "Carrol Campbell",
+      "alt_names": [
+        "キャロル・キャンベル"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b293394-qpWc7ObaEuGl.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 293394
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "cavi-campbell",
+      "name": "Cavi Campbell",
+      "alt_names": [
+        "キャビー・キャンベル"
+      ],
+      "role": "supporting",
+      "description": "After obtaining a fortune in the energy sector, he became known as one of the world's foremost collectors of classical art. He is one of the organizers of Campbelldon, an underground tennis competition.",
+      "metadata": {
+        "gender": "male",
+        "age": "56",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b293395-WV8hfeXhtnfx.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 293395
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "erik-zacharis",
+      "name": "Erik Zacharis",
+      "alt_names": [
+        "エリック・ザカリス",
+        "Colonel Zacharis (ザカリス大佐)"
+      ],
+      "role": "supporting",
+      "description": "Colonel Zacharis was in the East's Military Intelligence Division during the war and played a major role in ending the war. He previously owned the Lady In The Sun painting that holds a clue to the location of the Zacharis Dossier, rumored to contain information that could \"reignite the war.\"",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b293859-fvETD1y4t8UH.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 293859
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "wise-kikanin",
+      "name": "WISE Kikanin",
+      "alt_names": [
+        "<WISE> 機関員",
+        "WISE Engineer"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b293860-2TdtCUGpuQY2.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 293860
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "martha-marriott",
+      "name": "Martha Marriott",
+      "alt_names": [
+        "マーサ・マリオット"
+      ],
+      "role": "supporting",
+      "description": "Butler of the Blackbell family and typically acts as [Becky](https://anilist.co/character/150423)'s caretaker.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b294502-LjGDcdOuXxbU.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 294502
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "becky-no-chichi",
+      "name": "Becky no Chichi",
+      "alt_names": [
+        "ベッキーの 父",
+        "Becky's Father",
+        "Mr. Blackbell"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b294503-esqhsK5loh9e.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 294503
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "demetrius-desmond",
+      "name": "Demetrius Desmond",
+      "alt_names": [
+        "デミトリアス・デズモンド"
+      ],
+      "role": "supporting",
+      "description": "First son of the Desmond family and the older brother of [Damian Desmond](https://anilist.co/character/150424/). He is an Imperial Scholar and is noted by [Loid Forger](https://anilist.co/character/138101/) to be an exceptional student, barely getting a single question wrong on the midterm exams.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b294960-zuworBFPDUqY.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 294960
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "green",
+      "name": "Green",
+      "alt_names": [
+        "グリーン",
+        "Green-sensei (グリーン先生)",
+        "Mr. Green"
+      ],
+      "role": "supporting",
+      "description": "Custos of Eden Academy.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b317159-AQN1zvCdkNXS.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 317159
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "matthew-mcmahon",
+      "name": "Matthew McMahon",
+      "alt_names": [
+        "マシュー・マクマホン",
+        "Shiyakusho Buchou (市役所部長)",
+        "City Hall Manager"
+      ],
+      "role": "supporting",
+      "description": "Member of Garden and the Director of Policy at Berlint City Hall.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b318219-5sWIlS6T9a2J.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 318219
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "zeb",
+      "name": "Zeb",
+      "alt_names": [
+        "ゼブ",
+        "Furseal Grey (ファーシル・グレイ)"
+      ],
+      "role": "supporting",
+      "description": "Friend of Olka Gretcher and a loyal follower of the Gretcher family. He pretended to be the husband of Olka (who was using the name Shaty Grey) under the alias Furseal Grey.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b318639-xXjRpMZnyMZC.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 318639
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "gram-gretcher",
+      "name": "Gram Gretcher",
+      "alt_names": [
+        "グラム・グレッチャー"
+      ],
+      "role": "supporting",
+      "description": "Only son of Olka Gretcher and one of the two remaining members of the Gretcher family.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b318640-uEIqshavu8KY.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 318640
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "kikimimi-kun",
+      "name": "Kikimimi-kun",
+      "alt_names": [
+        "聞き耳ーくん",
+        "Snoops",
+        "Jouhouya (情報屋)",
+        "Informant",
+        "Touchouyaku (盗聴役)",
+        "Eavesdropper",
+        "Ops Guy"
+      ],
+      "role": "supporting",
+      "description": "One of the assassins hired by Leonardo Hapoon to kill Olka Gretcher and her son.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b319157-NuBW0caJcnIe.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 319157
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "kusarigama-no-barnaby",
+      "name": "Kusarigama no Barnaby",
+      "alt_names": [
+        "鎖鎌のバーナビー",
+        "Sickle-and-Chain Barnaby",
+        "Kusarigama Tsukai no Barnaby (鎖鎌使いのバーナビー)"
+      ],
+      "role": "supporting",
+      "description": "One of the assassins targeting Olka Gretcher. He refused to work with the other assassins and split the bounty, attempting to go after Olka on his own.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b319159-8d2KYfCnNHxU.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 319159
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "koroshiya-no-leader-kaku",
+      "name": "Koroshiya no Leader-kaku",
+      "alt_names": [
+        "殺し屋のリーダー格",
+        "Assassin's Leader"
+      ],
+      "role": "supporting",
+      "description": "One of the assassins hired by Leonardo Hapoon to kill Olka Gretcher. He was made to coordinate the other hired assassins, relaying orders to them and acting as Snoops' main contact.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b319160-LtRkKbJJzdO6.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 319160
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "gerald-gorey",
+      "name": "Gerald Gorey",
+      "alt_names": [
+        "ジェラルド・ゴーリー"
+      ],
+      "role": "supporting",
+      "description": "Gerald Gorey is the the Chief Medical Director of the Berlint General Hospital where Twilight works at, as Loid Forger. He possesses an immense jealousy towards Loid due to his popularity as a therapist within the hospital and his proximity with Fiona Frost, who Gorey has a crush on.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b379535-ZbJCHOo9Nu1b.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 379535
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "chloe",
+      "name": "Chloe",
+      "alt_names": [
+        "クロエ"
+      ],
+      "role": "supporting",
+      "description": "Chloe is an officer in Ostania's State Security Service and Yuri Briar's junior officer.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b380451-OGvYu8nqbtX8.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 380451
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "billy-squire",
+      "name": "Billy Squire",
+      "alt_names": [
+        "ビリー・スクワイア"
+      ],
+      "role": "supporting",
+      "description": "Billy Squire is the leader of the Red Circus and the main antagonist of the Bus Hijacking Arc.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b381151-leeqWof3X83A.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 381151
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "vadim",
+      "name": "Vadim",
+      "alt_names": [
+        "バヅム"
+      ],
+      "role": "supporting",
+      "description": "Vadim is a member of the Red Circus. Together with Billy Squire, the group hijacked two Eden Academy school buses while on a field trip and took the students inside hostage.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b381153-lwcXtjH2aUzo.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 381153
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "winston-wheeler",
+      "name": "Winston Wheeler",
+      "alt_names": [
+        "ウィンストン・ウィーラー"
+      ],
+      "role": "supporting",
+      "description": "Winston Wheeler is an Ostanian communications agent affiliated with the State Security Service and the titular main antagonist of the Wheeler Arc.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b383162-vf1lW8i8WBku.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 383162
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "gascoigne",
+      "name": "Gascoigne",
+      "alt_names": [
+        "ガスコイン"
+      ],
+      "role": "supporting",
+      "description": "Gascoigne is a State Security Service captain. He and other agents were tasked with securing Winston Wheeler and the files he stole from WISE upon reaching Ostania.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b383163-SgsXDXbxjvyR.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 383163
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "bondman",
+      "name": "Bondman",
+      "alt_names": [
+        "ボンドマーン"
+      ],
+      "role": "minor",
+      "description": "The protagonist of Spy Wars and the number one spy in the show. He frequently has to take down enemies from the League of Evil in order to save Princess Honey.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b274081-OQdVAPCoTuBI.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 274081
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "honey-hime",
+      "name": "Honey-hime",
+      "alt_names": [
+        "ハニー姫",
+        "Hanī-hime",
+        "Princess Honey"
+      ],
+      "role": "minor",
+      "description": "Princess of the kingdom where Spy Wars takes place. She is frequently saved by Bondman which has caused her to develop feelings for him.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b277084-gzuXbmilBj3I.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 277084
+      },
+      "rarity": "common"
+    }
+  ],
+  "updated_at": "2025-12-23T16:29:50.064Z"
+}

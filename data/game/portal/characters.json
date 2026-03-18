@@ -1,0 +1,92 @@
+{
+  "work_id": "portal",
+  "count": 5,
+  "characters": [
+    {
+      "id": "jim-dose-3156",
+      "name": "Jim Dose",
+      "alt_names": [],
+      "role": "other",
+      "description": "programmer",
+      "metadata": {
+        "positions": []
+      },
+      "images": [],
+      "external_ids": {
+        "rawg": 3156
+      },
+      "tags": [],
+      "updated_at": "2025-12-23T14:56:57.732Z",
+      "rarity": "common"
+    },
+    {
+      "id": "gabe-newell-31",
+      "name": "Gabe Newell",
+      "alt_names": [],
+      "role": "other",
+      "description": "director, producer",
+      "metadata": {
+        "positions": []
+      },
+      "images": [],
+      "external_ids": {
+        "rawg": 31
+      },
+      "tags": [],
+      "updated_at": "2025-12-23T14:56:57.732Z",
+      "rarity": "common"
+    },
+    {
+      "id": "eric-smith-3559",
+      "name": "Eric Smith",
+      "alt_names": [],
+      "role": "other",
+      "description": "artist",
+      "metadata": {
+        "positions": []
+      },
+      "images": [],
+      "external_ids": {
+        "rawg": 3559
+      },
+      "tags": [],
+      "updated_at": "2025-12-23T14:56:57.733Z",
+      "rarity": "common"
+    },
+    {
+      "id": "joshua-weier-27",
+      "name": "Joshua Weier",
+      "alt_names": [],
+      "role": "other",
+      "description": "director",
+      "metadata": {
+        "positions": []
+      },
+      "images": [],
+      "external_ids": {
+        "rawg": 27
+      },
+      "tags": [],
+      "updated_at": "2025-12-23T14:56:57.733Z",
+      "rarity": "common"
+    },
+    {
+      "id": "mike-morasky-28",
+      "name": "Mike Morasky",
+      "alt_names": [],
+      "role": "other",
+      "description": "writer, composer",
+      "metadata": {
+        "positions": []
+      },
+      "images": [],
+      "external_ids": {
+        "rawg": 28
+      },
+      "tags": [],
+      "updated_at": "2025-12-23T14:56:57.733Z",
+      "rarity": "common"
+    }
+  ],
+  "updated_at": "2025-12-23T14:56:57.735Z"
+}

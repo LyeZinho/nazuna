@@ -1,0 +1,31 @@
+# Coolify-specific overrides
+# Copy this file to docker-compose.yml or use it with -f flag
+
+version: '3.8'
+
+services:
+  postgres:
+    ports:
+      - "65432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    ports:
+      - "63791:6379"
+
+  api:
+    ports:
+      - "3071:3071"
+    env_file:
+      - .env
+
+  bot:
+    env_file:
+      - .env
+
+  dashboard:
+    ports:
+      - "3173:3173"
+    env_file:
+      - .env

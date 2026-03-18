@@ -1,0 +1,26 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", ".next/**"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "db:generate": {
+      "cache": false,
+      "inputs": ["packages/db/src/**"]
+    },
+    "db:push": {
+      "cache": false,
+      "inputs": ["packages/db/src/**"]
+    },
+    "db:seed": {
+      "cache": false,
+      "dependsOn": ["db:push"],
+      "inputs": ["packages/db/src/**", "data/**"]
+    }
+  }
+}

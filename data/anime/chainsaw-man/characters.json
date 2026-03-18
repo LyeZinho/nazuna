@@ -1,0 +1,1799 @@
+{
+  "work_id": "chainsaw-man",
+  "count": 74,
+  "characters": [
+    {
+      "id": "denji",
+      "name": "Denji",
+      "alt_names": [
+        "デンジ",
+        "Chainsaw Man",
+        "Chainsaw Devil",
+        "Lord Chainsaw"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 173 cm (5'8\"), Devil Form - 180 cm (5'11\")\n\nDenji is Chainsaw Man's Human Form. He became Chainsaw Man after his dead body was resurrected by his pet dog, [Pochita](https://anilist.co/character/170266/Pochita).\n\nHe is a Public Safety Devil Hunter who works under [Makima](https://anilist.co/character/137080/Makima) as a member of an experimental squad in Special Tokyo Division 4. He works alongside his partner [Power](https://anilist.co/character/137079/Power) and under the supervision of [Aki Hayakawa](https://anilist.co/character/137081/Aki-Hayakawa).\n\nDenji's personality is both brash and naive as a result of being unable to have a formal education and socialize due to living in severe poverty. He comes off as rude and harsh, yet in an almost childish way. He doesn't know how to be clever or wise but he knows how to lighten the mood. As the Chainsaw Devil, he has the ability to grow chainsaws out of his body.",
+      "metadata": {
+        "gender": "male",
+        "age": "16-",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b130102-FO1VHNnEnLlB.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 130102
+      },
+      "rarity": "legendary"
+    },
+    {
+      "id": "power",
+      "name": "Power",
+      "alt_names": [
+        "パワー",
+        "Powy",
+        "Blood Fiend",
+        "Chi no Majin (血の魔人)",
+        "Number One"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 170cm (5'7\")\n\nPower is a fiend, a dead body possessed by a devil.\n\nShe is a Public Safety Devil Hunter who works (against her will) under [Makima](https://anilist.co/character/137080/Makima) as a member of an experimental squad in Tokyo Special Division 4. She works alongside her partner [Denji](https://anilist.co/character/130102/Denji), and under supervision by [Aki Hayakawa](https://anilist.co/character/137081/Aki-Hayakawa).\n\nPower is childish, greedy, and almost entirely self-motivated. She tends to fights if she has something to gain and is certain of her victory and has no problems in running away from a fight where she is outmatched. She also feels the need to boast her superiority over her fellow Devil Hunters due to her status as a fiend. She has no loyalty to humanity, openly admitting that she will join the winning side. Power is often rude, unkempt, and feels as though those around her should clean up after her. She self-admittedly rarely bathes or flushes the toilet and sees humans as being sensitive for caring about their hygiene so much. As the Blood Fiend, she has the power to freely manipulate the blood within her own body.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b137079-6yLEUYR3bmpr.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 137079
+      },
+      "rarity": "legendary"
+    },
+    {
+      "id": "makima",
+      "name": "Makima",
+      "alt_names": [
+        "マキマ"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 168 cm (5'6\")\n__Affiliation:__ Public Safety Devil Hunters\n\nMakima is a Public Safety Devil Hunter, who took Denji as her human pet. She is one of the leading figures of Public Safety in Japan and has a considerable reputation among experienced Devil Hunters.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b137080-UHcynYNjb5ZU.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 137080
+      },
+      "rarity": "legendary"
+    },
+    {
+      "id": "aki-hayakawa",
+      "name": "Aki Hayakawa",
+      "alt_names": [
+        "早川アキ",
+        "Topknot"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 182 cm (6'0\")\n__Devil Contracts:__ [Fox Devil](https://anilist.co/character/290671/Kitsune-no-Akuma), [Curse Devil](https://anilist.co/character/174265/Noroi-no-Akuma)\n__Relatives:__ [Hahaoya Hayakawa](https://anilist.co/character/291241/Hayakawa-Hahaoya) (Mother), [Chichioya Hayakawa](https://anilist.co/character/291240/Hayakawa-Chichioya) (Father), [Taiyou Hayakawa](https://anilist.co/character/174261/Taiyou) (Younger Brother).\n\nA Public Safety Devil Hunter working under [Makima](https://anilist.co/character/137080/Makima) as a member of Tokyo Special Division 4. He is partnered with [Himeno](https://anilist.co/character/144596/Himeno) and tasked with supervising both [Power](https://anilist.co/character/137079/Power) and [Denji](https://anilist.co/character/130102/Denji).\n\nAki Hayakawa generally appears to be a very stoic person. He acts mature and dependable when he's with his fellow Devil hunters but is actually very soft when he is alone. He has a tendency to get attached to others easily, and hates to see people get hurt, especially his close friends. Aki's primary goal and reasoning for becoming a Devil Hunter is to kill the [Gun Devil](https://anilist.co/character/208942/Juu-no-Akuma) to get revenge for his family.\n\n~!He later loses his contract with the Fox Devil and gains a new contract with the [Future Devil.](https://anilist.co/character/172887/Mirai-no-Akuma)!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b137081-TSrUR3mUJL6r.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 137081
+      },
+      "rarity": "legendary"
+    },
+    {
+      "id": "pochita",
+      "name": "Pochita",
+      "alt_names": [
+        "ポチタ",
+        "Chainsaw no Akuma (チェンソーの悪魔)",
+        "Chainsaw Devil"
+      ],
+      "role": "supporting",
+      "description": "Pochita appears to be a small red canine with a chainsaw like appendage protruding from the center of his head. Handles emerge from his body allowing him to be wielded like a chainsaw and his short tail is in the shape of a chainsaw's pull cord. Unlike most devils, Pochita communicated solely through barks and whines like an actual dog.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b170266-bBXPkNJnd3mg.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 170266
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "himeno",
+      "name": "Himeno",
+      "alt_names": [
+        "姫野",
+        "Vomit Girl"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 175 cm (5'9\")\n__Devil Contract:__ [Ghost Devil](https://anilist.co/character/174262/Yuurei-no-Akuma)\n__Relatives:__ [Unnamed Younger Sister](https://anilist.co/character/174283/Himeno-no-Imouto)\n\nA Public Safety Devil Hunter, working under [Makima](https://anilist.co/character/137080/Makima) as a member of Tokyo Special Division 4. She is partnered with [Aki Hayakawa](https://anilist.co/character/137081/Aki-Hayakawa), whom she shares a close personal bond with.\n\nHimeno is shown to be a mature and experienced superior to the new recruits working under her. She generally carries herself with an upbeat body language and is capable of staying calm under extremely stressful situations. Himeno is very efficient and blunt in her duty as a Devil Hunter. Himeno is also shown to be a rather caring and empathetic person, however she does have a sterner side and little tolerance for behavior from new recruits that would endanger or harm her subordinates. \n\nHimeno holds an extremely pessimistic worldview as a result of having witnessed multiple partners die suddenly in her line of work. Her knowledge that Devil Hunters typically die as a result of their career combined with the teachings of her [master](https://anilist.co/character/144593/Kishibe) eventually lead to her developing a nicotine addiction as a coping mechanism. She also tends to acts extremely aloof and sexual, enjoying a hedonistic lifestyle. However, similarly to her smoking addiction, her hedonistic ways are not used as pleasure, but rather as another defense mechanism.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b144596-kvL6SD2litJu.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 144596
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "kishibe",
+      "name": "Kishibe",
+      "alt_names": [
+        "岸辺",
+        "Master",
+        "Mad Dog Kishibe"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 194 cm\n\nA Public Safety Devil Hunter from Special Division 1 \n~!After the assault on the Special Divisions, he became captain of the Special Division 4.!~\n\nKishibe is a grizzled man with scraggly facial hair and a stitched scar running across his left cheek from his mouth. He normally wears the standard Public Safety devil hunter uniform with a large overcoat. He has two piercings on his left ear, and one on his right ear. He is often seen with a hip flask which he frequently drinks from. Kishibe is a stoic, straightforward individual. Due to his immense strength and skill, he often undertakes his work with a calm formality, displaying little emotion as he does so. Though he tends to speak in a relaxed, polite manner, his actions often showcase an immense brutality garnered through many years of Devil Hunting. Though he sometimes expresses emotions such as surprise and sadness at certain events, his face and voice remain entirely neutral. Kishibe has been hunting devils for a long time, making him somewhat insane. He espouses a belief that the most fearsome devil hunters to devils isn't the brave or the strong, but the craziest as they are the ones without fear. He admits that he enjoys booze, women and killing devils.\n\n~!He is the former partner of [Quanxi](https://anilist.co/character/162123/Quanxi).!~",
+      "metadata": {
+        "gender": "male",
+        "age": "50+",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b144593-hdCTT9t54z0s.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 144593
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "kobeni-higashiyama",
+      "name": "Kobeni Higashiyama",
+      "alt_names": [
+        "東山コベニ",
+        "Beni"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 155 cm\n\nA Public Safety Devil Hunter, she is a new recruit working under [Makima](https://anilist.co/character/137080/Makima) as a member of Tokyo Special Division 4. She is partnered with [Hirokazu Arai](https://anilist.co/character/174263).\n\nShe is not very courageous and gets scared easily by devils. Kobeni is shown to easily crack under pressure and break into tears during serious moments. Even though Kobeni is timid, she is pretty talented as a devil hunter. When Kobeni gets into action, she has proven to be cool-headed and efficient in battle, only breaking down in a panic once the fighting is over. Kobeni chooses to keep her devil contract a secret.",
+      "metadata": {
+        "gender": "female",
+        "age": "20-",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b144594-0dbO1NSYeZ12.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 144594
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "hirokazu-arai",
+      "name": "Hirokazu Arai ",
+      "alt_names": [
+        "荒井ヒロカズ"
+      ],
+      "role": "supporting",
+      "description": "__Devil Contract:__ [Fox Devil](https://anilist.co/character/290671/Kitsune-no-Akuma)\n\nA Public Safety Devil Hunter, he is a new recruit working under [Makima](https://anilist.co/character/137080/Makima) as a member of Tokyo Special Division 4. He is partnered with [Kobeni Higashiyama](https://anilist.co/character/144594/Kobeni-Higashiyama).\n\nHirokazu is shown to have high moral standards and cares a lot about his teammates and their wellbeing, going out of his way to assist and support others whenever possible, especially towards those who are sick. He was trained by [Himeno](https://anilist.co/character/144596) for half a year. Himeno has stated that what he lacks in ability, he makes up for in drive. He likes writing haikus in his free time as a hobby.",
+      "metadata": {
+        "gender": "male",
+        "age": "22",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b174263-TTMWfBlU1k3f.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 174263
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "samurai-sword",
+      "name": "Samurai Sword",
+      "alt_names": [
+        "サムライソード",
+        "Katana Man",
+        "Sideburns Man"
+      ],
+      "role": "supporting",
+      "description": "Samurai Sword is a human-devil hybrid who merged with the Katana Devil. His [grandfather](https://anilist.co/character/289198/Yakuza) was killed by [Denji](https://anilist.co/character/130102/Denji) when they initially fused with [Pochita](https://anilist.co/character/170266/Pochita), and because of that, he affiliated with the [Gun Devil](https://anilist.co/character/208942/Juu-no-Akuma) to get revenge on Denji. He works alongside [Akane Sawatari](https://anilist.co/character/174264/Akane-Sawatari) and other fellow members of the Yakuza.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157241-GkgQVzkFrmUD.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157241
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "akane-sawatari",
+      "name": "Akane Sawatari ",
+      "alt_names": [
+        "沢渡アカネ"
+      ],
+      "role": "supporting",
+      "description": "An enigmatic former Private Detective Hunter, she pledged her allegiance with the [Gun Devil](https://anilist.co/character/208942/Juu-no-Akuma) after making a contract with him and as a result, she seeks to obtain [Denji](https://anilist.co/character/130102/Denji)'s heart for her master. To that end, she conspires with members of the yakuzas, including the likes of [Katana Man](https://anilist.co/character/157241/Samurai-Sword), while acting as a weapons dealer for them in order to obtain Denji's heart easier.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b174264-dLiZkMXoltQ9.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 174264
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "tenshi-no-akuma",
+      "name": "Tenshi no Akuma",
+      "alt_names": [
+        "天使の悪魔",
+        "Angel Devil"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 155 cm (With halo: 165 cm)\n\nAngel Devil is a devil who embodies the fear of angels, and a Public Safety Devil Hunter from Special Division 4\n\nThe Angel Devil is a unique case among devils having virtually no hostility towards humans. He dislikes being ordered around and doesn't seem inclined towards combat. His extreme laziness holds him back from being a strong fighter and he often refuses to work, even claiming to prefer dying to working.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b152231-vHM4WlaYIVB5.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 152231
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "bouryoku-no-majin",
+      "name": "Bouryoku no Majin",
+      "alt_names": [
+        "暴力の魔人",
+        "Violence Fiend"
+      ],
+      "role": "supporting",
+      "description": "He is a Fiend and Public Safety Devil Hunter from Special Division 4.\n\nDespite his moniker as the Violence Fiend, he is extremely polite and straightforward. He apologized to Beam after hitting him in self-defense and told the Spider Devil to evacuate the area when he mistook her for a human lady.\n\n~!He is later partnered with Kobeni Higashiyama following the events of the Katana Man Arc!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157231-hV81SwGqxl2R.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157231
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "beam",
+      "name": "Beam",
+      "alt_names": [
+        "ビーム",
+        "Shark Fiend"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 165 cm (With fin: 176 cm)\n\nHe is a Shark Fiend and a Public Safety Devil Hunter from Special Division 4.\n\nBeam is very eccentric. He often goes along with Denji's plans no matter how crazy they are due to having a lot of respect for the Chainsaw Devil.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157232-5GuWeqoFN9Kq.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157232
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "prinz",
+      "name": "Prinz",
+      "alt_names": [
+        "プリンシ",
+        "Kumo no Akuma (蜘蛛の悪魔)",
+        "Spider Devil",
+        "Princi"
+      ],
+      "role": "supporting",
+      "description": "She is a devil who embodies the fear of spiders,and is a Public Safety Devil Hunter from Special Division 4.\n\nThe Spider Devil usually takes a human shape so she tends to be friendly to humans and works as a devil hunter herself, however she will still kill people for just looking at her the wrong way.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157277-h6M1umQ3N2ve.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157277
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "mirai-no-akuma",
+      "name": "Mirai no Akuma",
+      "alt_names": [
+        "未来の悪魔",
+        "Future Devil"
+      ],
+      "role": "supporting",
+      "description": "The Future Devil is a devil that embodies the fear of the future. ~!After seeing [Aki Hayakawa](https://anilist.co/character/137081/Aki-Hayakawa)'s future, it made a contract with him, so he can see that future himself.!~",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b172887-qMCjXPXMSKRk.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 172887
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "kitsune-no-akuma",
+      "name": "Kitsune no Akuma",
+      "alt_names": [
+        "狐の悪魔",
+        "Fox Devil"
+      ],
+      "role": "supporting",
+      "description": "The Fox Devil is a devil that embodies the fear of foxes. \n\nIt is friendly with humans, allowing numerous Devil Hunters to make contracts with itself. However it only grants attractive people the ability to summon its head, showing a rather superficial side of itself.\n\n**Known Contractors:** \n~! [Aki Hayakawa](https://anilist.co/character/137081/Aki-Hayakawa), [Hirokazu Arai](https://anilist.co/character/174263/Hirokazu-Arai), [Nomo](https://anilist.co/character/174266/Nomo)!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b290671-YaauAZvHLnyo.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 290671
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "zombie-no-akuma",
+      "name": "Zombie no Akuma",
+      "alt_names": [
+        "ゾンビの悪魔",
+        "Zombie Devil"
+      ],
+      "role": "supporting",
+      "description": "A devil contracted by Denji's yakuza employer at the beginning of the series and the first that Denji killed as the Chainsaw Man. Any person it bit would become a zombie.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b174282-YFLwuvogHMod.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 174282
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "koumori-no-akuma",
+      "name": "Koumori no Akuma",
+      "alt_names": [
+        "コウモリの悪魔",
+        "Bat Devil"
+      ],
+      "role": "supporting",
+      "description": "The Bat Devil is a devil who embodies the fear of bats. ~!He is the primary antagonist of the titular Bat Devil arc and a minor antagonist in the Justice Devil arc.!~",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b174272-cU9W4oNykNM0.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 174272
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "hiru-no-akuma",
+      "name": "Hiru no Akuma",
+      "alt_names": [
+        "ヒルの悪魔",
+        "Leech Devil"
+      ],
+      "role": "supporting",
+      "description": "The Leech Devil is a devil that embodies the fear of leeches. ~!She is the secondary antagonist of the Bat Devil arc.!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b174275-cCAGptyn7ZrR.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 174275
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "michiko-tendou",
+      "name": "Michiko Tendou",
+      "alt_names": [
+        "天童ミチコ"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 175cm (5'9\")\n__Devil Contracts:__ [Punishment Devil](https://anilist.co/character/306237/Batsu-no-Akuma)\n\nA Public Safety Devil Hunter from Kyoto. She is partnered with [Yuutarou Kurose](https://anilist.co/character/144592/Yuutarou-Kurose).",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b144595-R8Lfn0egUR3q.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 144595
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "yuutarou-kurose",
+      "name": "Yuutarou Kurose",
+      "alt_names": [
+        "黒瀬ユウタロウ"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 165 cm (5'5\")\n__Devil Contract:__ [Punishment Devil](https://anilist.co/character/306237/Batsu-no-Akuma)\n\nA Public Safety Devil Hunter from Kyoto. He is partnered with [Michiko Tendou](https://anilist.co/character/144595/Michiko-Tendou).",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b144592-pUY67nacCeud.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 144592
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "fushi",
+      "name": "Fushi",
+      "alt_names": [
+        "伏"
+      ],
+      "role": "supporting",
+      "description": "A Public Safety Devil Hunter.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b172885-hvF2nRMCqNaX.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 172885
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "madoka",
+      "name": "Madoka",
+      "alt_names": [
+        "円"
+      ],
+      "role": "supporting",
+      "description": "A Public Safety Devil Hunter. ~!After the assault on the Devil Hunters by the [Gun Devil](https://anilist.co/character/208942/Juu-no-Akuma-)'s associates, he was one of the few survivors and decided to leave his job as a Devil Hunter.!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b174267-2VJVkMILqQpY.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 174267
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "yuurei-no-akuma",
+      "name": "Yuurei no Akuma",
+      "alt_names": [
+        "幽霊の悪魔",
+        "Ghost Devil",
+        "Ghost (ゴースト)"
+      ],
+      "role": "supporting",
+      "description": "The Ghost Devil is a devil that embodies the fear of ghosts. \n\n**Known Contractors:** ~![Himeno](https://anilist.co/character/144596/Himeno)!~",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b174262-e1ctdgffT3MP.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 174262
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "tomato-no-akuma",
+      "name": "Tomato no Akuma",
+      "alt_names": [
+        "トマトの悪魔",
+        "Tomato Devil"
+      ],
+      "role": "supporting",
+      "description": "The Tomato Devil is a devil that embodies the fear of tomatoes. ~!The Tomato Devil was walking around a house, when [Denji](https://anilist.co/character/130102/Denji) with the help of [Pochita](https://anilist.co/character/170266/Pochita) went and killed him.!~",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b289200-mkFXS4A4MRBp.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 289200
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "eien-no-akuma",
+      "name": "Eien no Akuma",
+      "alt_names": [
+        "永遠の悪魔",
+        "Eternity Devil"
+      ],
+      "role": "supporting",
+      "description": "The Eien no Akuma is a devil that embodies the fear of eternity. He is the primary antagonist of the titular Eternity Devil arc.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157240-dQJO3S7285nW.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157240
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "noroi-no-akuma",
+      "name": "Noroi no Akuma",
+      "alt_names": [
+        "呪いの悪魔",
+        "Curse Devil",
+        "Curse (カース)"
+      ],
+      "role": "supporting",
+      "description": "The Curse Devil is a Devil that embodies the fear of curses.\n\n__Known Contractors:__\n~! [Aki Hayakawa](https://anilist.co/character/137081/Aki-Hayakawa), [Santa Claus](https://anilist.co/character/174268/Doitsu-no-Santa-Claus)!~",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b174265-NsRTeM1eAals.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 174265
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "namako-no-akuma",
+      "name": "Namako no Akuma",
+      "alt_names": [
+        "ナマコの悪魔",
+        "Sea Cucumber Devil"
+      ],
+      "role": "supporting",
+      "description": "The Sea Cucumber Devil is a devil that embodies the fear of sea cucumbers.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b174270-JcnbKLMlxrkn.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 174270
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "nyaako",
+      "name": "Nyaako",
+      "alt_names": [
+        "ニャーコ",
+        "Meowy"
+      ],
+      "role": "supporting",
+      "description": "[Power](https://anilist.co/character/137079/Power)'s cat. ~!Now currently owned by [Denji](https://anilist.co/character/130102/Denji).!~",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b174271-iC0Ul9YfLOk6.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 174271
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "taiyou",
+      "name": "Taiyou",
+      "alt_names": [
+        "タイヨウ"
+      ],
+      "role": "supporting",
+      "description": "[Aki Hayakawa](https://anilist.co/character/137081)'s younger brother.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b174261-qRcr40Q3zsyM.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 174261
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "reze",
+      "name": "Reze",
+      "alt_names": [
+        "レゼ",
+        "Lady Reze"
+      ],
+      "role": "minor",
+      "description": "Reze is a young girl who met Denji in a phone cabin. She works at a café. Reze is a kind and gentle girl who seems to have a crush on Denji soon after meeting him. She laughs at his jokes and isn't afraid to get close to and intimate with him.\n\n~!She is the Bomb Devil hybrid from the Soviet Union and ally to the Gun Devil. Her true personality is manipulative and brutal, as she is shown killing many Devil Hunters without care or mercy. She does, however, not enjoy killing and prefers to avoid it, unless necessary for her mission. She is the primary antagonist of the titular Bomb Girl arc. Her objective is to retrieve the Chainsaw Heart from Denji but the feelings she developed for him got in the way of her mission.!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b148740-ceAibPxLW8rR.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 148740
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "yakuza",
+      "name": "Yakuza",
+      "alt_names": [
+        "ヤクザ"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b289198-QxBRgBSAVkkK.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 289198
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kobun",
+      "name": "Kobun",
+      "alt_names": [
+        "子分"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b289199-QfzL8iFhjUPY.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 289199
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "himeno-no-imouto",
+      "name": "Himeno no Imouto",
+      "alt_names": [
+        "姫野の妹",
+        "Himeno's Sister"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b174283-WfXe3FLaEi3y.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 174283
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "buka-a",
+      "name": "Buka A",
+      "alt_names": [
+        "部下A"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b289201-dzChKYumlaoe.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 289201
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "buka-b",
+      "name": "Buka B",
+      "alt_names": [
+        "部下B"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b289202-bcTrt145iS8Z.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 289202
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "zombie-tachi",
+      "name": "Zombie-tachi",
+      "alt_names": [
+        "ゾンビ達"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 289206
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "tenin",
+      "name": "Tenin",
+      "alt_names": [
+        "店員"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b289761-DdsSEjykcqoz.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 289761
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "keikan-a",
+      "name": "Keikan A",
+      "alt_names": [
+        "警官A"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 289762
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "keikan-b",
+      "name": "Keikan B",
+      "alt_names": [
+        "警官B"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 289763
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "keikan-c",
+      "name": "Keikan C",
+      "alt_names": [
+        "警官C"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b289764-ZEF1QmvBodz0.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 289764
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "majin",
+      "name": "Majin",
+      "alt_names": [
+        "魔人",
+        "Fiend"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b289765-MDgL4Q9AGqW3.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 289765
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "minkan-no-devil-hunter",
+      "name": "Minkan no Devil Hunter",
+      "alt_names": [
+        "民間のデビルハンター"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b289766-NUUV6DUuH3LH.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 289766
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "uketsuke-shokuin",
+      "name": "Uketsuke Shokuin",
+      "alt_names": [
+        "受付職員"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b290199-WoD8xG4Bcchf.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 290199
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kanbu-a",
+      "name": "Kanbu A",
+      "alt_names": [
+        "幹部A"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b290329-6W0zR4DM3cYf.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 290329
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kanbu-c",
+      "name": "Kanbu C",
+      "alt_names": [
+        "幹部C"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b290330-eilQqOmcgww0.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 290330
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "josei-ol",
+      "name": "Josei OL",
+      "alt_names": [
+        "女性OL",
+        "Josei Shain (女性社員)"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b290331-3YiMZNhGHnyw.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 290331
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "chichi",
+      "name": "Chichi",
+      "alt_names": [
+        "父"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b290333-XXbn2fobH9VV.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 290333
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "musume",
+      "name": "Musume",
+      "alt_names": [
+        "娘"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b290334-leoCv0yz9AHk.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 290334
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "shanai-no-otoko",
+      "name": "Shanai no Otoko",
+      "alt_names": [
+        "車内の男"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b290335-K5bjq1SxTaZi.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 290335
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "hayakawa-chichioya",
+      "name": "Hayakawa Chichioya",
+      "alt_names": [
+        "早川父親"
+      ],
+      "role": "minor",
+      "description": "Aki Hayakawa's father.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b291240-DdaFQl3fWFfa.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 291240
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "hayakawa-hahaoya",
+      "name": "Hayakawa Hahaoya",
+      "alt_names": [
+        "早川母親"
+      ],
+      "role": "minor",
+      "description": "Aki Hayakawa's mother.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b291241-aKmKz7L1b2eQ.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 291241
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "josei-kain",
+      "name": "Josei Kain",
+      "alt_names": [
+        "女性課員"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b292666-NurASZuLVcGT.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 292666
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "dansei-kain",
+      "name": "Dansei Kain",
+      "alt_names": [
+        "男性課員"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 292667
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "buka",
+      "name": "Buka",
+      "alt_names": [
+        "部下"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b293138-IyZYvwfHzbub.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 293138
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "otoko-no-koe",
+      "name": "Otoko no Koe",
+      "alt_names": [
+        "男の声"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 293139
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kobun-a",
+      "name": "Kobun A",
+      "alt_names": [
+        "子分A"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 294730
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kobun-b",
+      "name": "Kobun B",
+      "alt_names": [
+        "子分B"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 294731
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kobun-c",
+      "name": "Kobun C",
+      "alt_names": [
+        "子分C"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 294732
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kobun-d",
+      "name": "Kobun D",
+      "alt_names": [
+        "子分D"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 294733
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "joukyaku-a",
+      "name": "Joukyaku A",
+      "alt_names": [
+        "乗客A"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 293665
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "otoko-a",
+      "name": "Otoko A",
+      "alt_names": [
+        "男A"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 293666
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "shokuin",
+      "name": "Shokuin",
+      "alt_names": [
+        "職員"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 293667
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "hanzaisha-a",
+      "name": "Hanzaisha A",
+      "alt_names": [
+        "犯罪者A"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 293669
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "hanzaisha-b",
+      "name": "Hanzaisha B",
+      "alt_names": [
+        "犯罪者B"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 293670
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "hitojichi-no-josei",
+      "name": "Hitojichi no Josei",
+      "alt_names": [
+        "人質の女性"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 293671
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "announcer",
+      "name": "Announcer",
+      "alt_names": [
+        "アナウンサー",
+        "アナウンス"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 295191
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kumichou",
+      "name": "Kumichou",
+      "alt_names": [
+        "組長"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 294736
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "shiina",
+      "name": "Shiina",
+      "alt_names": [
+        "椎名"
+      ],
+      "role": "minor",
+      "description": "Kanagawa prefectural police",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b294737-xNHNlLwqBSuw.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 294737
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "furuno",
+      "name": "Furuno",
+      "alt_names": [
+        "古野"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b294738-mQPmNepLSuLH.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 294738
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "oootoko-zombie",
+      "name": "Oootoko Zombie",
+      "alt_names": [
+        "大男ゾンビ"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 295192
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "nigeokureta-jyoukyaku",
+      "name": "Nigeokureta Jyoukyaku",
+      "alt_names": [
+        "逃げ遅れた乗客"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 295193
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "denji-no-chichi",
+      "name": "Denji no Chichi",
+      "alt_names": [
+        "デンジの父",
+        "Denji's Father"
+      ],
+      "role": "minor",
+      "description": "This unnamed man was the father of [Denji](https://anilist.co/character/130102/Denji). ~!When Denji was young he killed his father in self defense, as his father was in a drunken aggressive state and he feared for his life. His father's murder was ruled a suicide by the adults in Denji’s life as acknowledging his death as a murder would mean they would be unable to get any money from his death. After his death, Denji inherits his debt to the Yakuza.!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b311678-oRIk6xOjKo6Q.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 311678
+      },
+      "rarity": "rare"
+    }
+  ],
+  "updated_at": "2025-12-24T11:58:58.160Z"
+}

@@ -1,0 +1,1792 @@
+{
+  "work_id": "sakamoto-days",
+  "count": 73,
+  "characters": [
+    {
+      "id": "tarou-sakamoto",
+      "name": "Tarou Sakamoto",
+      "alt_names": [
+        "坂本太郎"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 188 cm\n\nTarou Sakamoto is a retired hitman. He was the greatest hitman, feared and revered by bad guys and hitmen everywhere. However, he left the hitman world in order to be with his wife. He currently owns a store, and has one child. He is the jack of all trades of his town, and is very popular and well liked by people in his town.",
+      "metadata": {
+        "gender": "male",
+        "age": "27",
+        "dateOfBirth": "1993-11-21"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b196522-phOzXgufOs7R.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 196522
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "shin-asakura",
+      "name": "Shin Asakura",
+      "alt_names": [
+        "朝倉シン",
+        "心"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 172 cm\n\nShin is a ex-hitman turned employee who works for Sakamoto. He has the ability to hear the thoughts of those around him.",
+      "metadata": {
+        "gender": "male",
+        "age": "20",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b196521-bedknWj9u7s2.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 196521
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "shaotang-lu",
+      "name": "Shaotang Lu",
+      "alt_names": [
+        "ルー・シャオタン",
+        "陸少糖",
+        "Lu Xiaotang (陸小糖)"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 165 cm\n\nLu Shaotang is the daughter of a Triad Family, which is always being hunted down for their wealth and to get revenge for the past actions of the family. She meets Sakamoto when he saves her from assassins sent to steal a key to her family's safe. In return, she would make pork buns for him and has worked at Sakamoto's store since.\n\n~!Lu likes to drink, causing her to go into a \"drunken mode\" which powers her up in combat.!~\n\n*Note: Lu was introduced with the wrong hanzi (小糖 instead of 少糖) which made her name Romanize as Xiaotang. In the first volume the mistake was noted and corrected, revealing her name should have been Shaotang. However, in the English release, Viz decided to keep using Xiaotang and have not corrected her name.*",
+      "metadata": {
+        "gender": "female",
+        "age": "18",
+        "dateOfBirth": "2002-04-08"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b207272-qQ7YZOKtbzzZ.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 207272
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "aoi-sakamoto",
+      "name": "Aoi Sakamoto",
+      "alt_names": [
+        "坂本葵"
+      ],
+      "role": "supporting",
+      "description": "Aoi is the wife of Tarou Sakamoto and mother of Hana Sakamoto. She met Tarou at a convenience store where he fell in love with Aoi. Soon after the two married and had a daughter. Shortly after meeting, Aoi expressed her feelings about death and convinced Sakamoto to retire as a hitman and not kill anymore.",
+      "metadata": {
+        "gender": "female",
+        "age": "26",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b212302-OG58WeogzshB.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 212302
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "heisuke-mashimo",
+      "name": "Heisuke Mashimo",
+      "alt_names": [
+        "眞霜平助",
+        "Legendary Sniper Dragoon"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 180 cm\n\nHeisuke Mashimo is a low-ranking assassin whose main skill is sharpshooting. Heisuke ended up losing his job, causing him to seek out [Tarou Sakamoto](https://anilist.co/character/196522/Tarou-Sakamoto)'s bounty in order to turn his luck around.",
+      "metadata": {
+        "gender": "male",
+        "age": "21",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b252687-nLmp7FlEkm5d.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 252687
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "yoichi-nagumo",
+      "name": "Yoichi Nagumo",
+      "alt_names": [
+        "南雲",
+        "なぐも"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 190 cm\n\nNagumo is an old friend of Sakamoto. He is a member of \"The Order\", a group of assassins who are the highest ranked in the JAA. He's first seen paying a visit to Sakamoto to inform him of his bounty.",
+      "metadata": {
+        "gender": "male",
+        "age": "27-",
+        "dateOfBirth": "1993-07-09"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b264336-W5eQn2SL4P7N.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 264336
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "akira-akao",
+      "name": "Akira Akao",
+      "alt_names": [
+        "赤尾晶"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 164 cm\n\nAkira Akao is one of the examinees taking part in the JCC Exam. She is the niece of [Rion Akao](https://anilist.co/character/288224), Nagumo's and Sakamoto's old classmate.",
+      "metadata": {
+        "gender": "female",
+        "age": "18-",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b287914-e3fju4t1fRcv.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 287914
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "kei-uzuki",
+      "name": "Kei Uzuki",
+      "alt_names": [
+        "有月憬",
+        "Slur (スラー)",
+        "X"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 179 cm\n\nUzuki, also known as Slur, is a killer seeking to overthrow the JAA. Roughly around the same time [Tarou Sakamoto](https://anilist.co/character/196522)'s bounty was put up, Uzuki murdered a quarter of the assassin industry. The Order deemed him \"X\" as he leaves a large red 'X' at the scene of his crimes.\n\nIn chapter 104 ~![Database](https://anilist.co/character/288222) reveals Uzuki's full name and part of his past.!~\n\n(Source: Sakamoto Days Wiki)",
+      "metadata": {
+        "gender": "male",
+        "age": "27",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b272878-A9l4Cu4rI7Y3.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 272878
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "osaragi",
+      "name": "Osaragi",
+      "alt_names": [
+        "大佛",
+        "おさらぎ"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 175 cm\n\nOsaragi is an assassin and a new member of the Order, a group of powerful assassins that work under the JAA.",
+      "metadata": {
+        "gender": "female",
+        "age": "21-",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b266969-AKjl1965ubol.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 266969
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "shishiba",
+      "name": "Shishiba",
+      "alt_names": [
+        "神々廻"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 180 cm\n\nShishiba is an assassin and member of The Order, a group of powerful assassins tasked with keeping the order within the Japanese Assassin Association (JAA). His weapon of choice is a claw hammer.",
+      "metadata": {
+        "gender": "male",
+        "age": "26-",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b272879-pNkWPepupu3X.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 272879
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "natsuki-seba",
+      "name": "Natsuki Seba",
+      "alt_names": [
+        "勢羽夏生"
+      ],
+      "role": "supporting",
+      "description": "A former employee of the Okutabi Lab, as well as one of its latest and most successful test subjects. Currently a student at the JCC, where he works as the Weapon Production Department Leader. Seba wears a special black-colored suit which enables him (or whatever the material is covering) to become invisible at will. He is the older brother of Mafuyu.",
+      "metadata": {
+        "gender": "male",
+        "age": "20",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288223-WzVqsLrhoS4Z.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288223
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "rion-akao",
+      "name": "Rion Akao",
+      "alt_names": [
+        "赤尾リオン"
+      ],
+      "role": "supporting",
+      "description": "An old friend of [Sakamoto](https://anilist.co/character/196522/Tarou-Sakamoto) and [Nagumo](https://anilist.co/character/264336/Nagumo) from their time as students at JCC. Rion is [Akira](https://anilist.co/character/287914/Akira-Akao)'s aunt, having taught her how to see the \"paths\" which lead to a person's death. Her current whereabouts are completely unknown.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288224-Ay4Ifwds2b7t.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288224
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "gaku",
+      "name": "Gaku",
+      "alt_names": [
+        "楽"
+      ],
+      "role": "supporting",
+      "description": "Gaku is an extremely powerful assassin under [Slur](https://anilist.co/character/272878/Uzuki). He wields a long cube-headed mace, the tip of which contains a powerful cannon. He usually covers this weapon with bandages. \n\n~!He was able to massacre hundreds of JAA members and hold his own against [Takamura](https://anilist.co/character/272875/), an especially strong Order member. However he does permanently lose his right ear as a result of this fight.!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288279-WBETx9hCRP26.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288279
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "takamura",
+      "name": "Takamura",
+      "alt_names": [
+        "篁",
+        "高村",
+        "たかむら"
+      ],
+      "role": "supporting",
+      "description": "An old man carrying a katana. He is an assassin from The Order, a group consisting of the strongest members within the JAA.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b272875-J34hBXKVDb9U.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 272875
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "hana-sakamoto",
+      "name": "Hana Sakamoto",
+      "alt_names": [
+        "坂本花"
+      ],
+      "role": "supporting",
+      "description": "Hana Sakamoto is daughter of Tarou Sakamoto and Aoi Sakamoto.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b272877-VD68TkHudSZX.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 272877
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "amane-yotsumura",
+      "name": "Amane Yotsumura",
+      "alt_names": [
+        "周ツ村周",
+        "あまね"
+      ],
+      "role": "supporting",
+      "description": "Second-year Assassin Major at the Japan Clear Creation (JCC) and the son of ex-Order member [Satoru Yotsumura](https://anilist.co/character/288348). [His grandfather](https://anilist.co/character/288222) works as a janitor at the JCC.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288220-mrdBJVsFTGAo.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288220
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "mafuyu-seba",
+      "name": "Mafuyu Seba",
+      "alt_names": [
+        "勢羽真冬"
+      ],
+      "role": "supporting",
+      "description": "One of the very skilled examinees taking part in the JCC transfer exam in order to become an assassin. Mafuyu is a germaphobe, going to extreme lengths to avoid dirty things and reacting with incredible disgust whenever he gets dirty. In fact, he won't even use his hands in battle due to not wanting them to get filthy, opting to use blades hidden inside his shoes in order to fight. He is the younger brother of [Natsuki Seba](https://anilist.co/character/288223/).",
+      "metadata": {
+        "gender": "male",
+        "age": "14-",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288277-kEjpSqsmvc7o.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288277
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "kashima",
+      "name": "Kashima",
+      "alt_names": [
+        "鹿島"
+      ],
+      "role": "supporting",
+      "description": "Kashima is a subordinate of Slur.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288349-lm1NI3KMxO1G.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288349
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "kanaguri",
+      "name": "Kanaguri",
+      "alt_names": [
+        "京",
+        "KANAGURI.M"
+      ],
+      "role": "supporting",
+      "description": "Extremely powerful assassin, first introduced as a test administrator during the JCC Transfer Exam. \n\nHe is also a renowned film director and the pioneer of \"assassin movies.\" Due to his passion for filmmaking, Kanaguri always carries a film camera with him, has a film-reel shape shaved into the left side of his head, and wraps himself in a long scarf with the appearance of a film strip. He possesses a clapperboard sharp enough to decapitate someone and withstand a shot from an M60 light machine gun.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288291-dlMkJ9KrN2bk.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288291
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "carolina-reaper",
+      "name": "Carolina Reaper",
+      "alt_names": [
+        "キャロライナ・リーパー"
+      ],
+      "role": "supporting",
+      "description": "An assassin working under [Slur](https://anilist.co/character/272878/). Despite his name, he dislikes spicy foods and spits out a pepper after taking one bite. He is always seen with a cloth secured around his eyes with two clips on either side and black nail paint.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288281-CSZNc8mwyPR6.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288281
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "club-jam",
+      "name": "Club Jam",
+      "alt_names": [
+        "クラブ・ジャム"
+      ],
+      "role": "supporting",
+      "description": "An assassin working under [Slur](https://anilist.co/character/272878/). Club Jam has pink, dreadlock-esque hair and has tattoos of the words \"Sweet\" and \"tooth\" replacing his eyebrows. He is extremely masochistic, but also very playful. He has a close relationship with Carolina Reaper despite the latter's crude and hostile attitude.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288282-zf6k7XfXHJwh.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288282
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "nao-toramaru",
+      "name": "Nao Toramaru",
+      "alt_names": [
+        "虎丸尚"
+      ],
+      "role": "supporting",
+      "description": "One of the three members of the special recommendation group in JCC Transfer Exam. She wears a school uniform and has a Sakamoto keychain attached to her bag. She is an otaku and a hardcore Sakamoto fan. Toramaru's weapon of choice is a combination of a gun and an axe, making her deadly from any distance.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288346-NfMbNlk5988w.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288346
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "byoudou",
+      "name": "Byoudou",
+      "alt_names": [
+        "廟堂",
+        "Amane Jii-chan (あまねじいちゃん)",
+        "Amane's Grandfather"
+      ],
+      "role": "supporting",
+      "description": "Works as a janitor at the JCC. He has been working at the JCC since [Sakamoto](https://anilist.co/character/196522/Tarou-Sakamoto) was a student. He also raised his then 7-year old grandson Amane in the JCC. He enjoys teasing Amane, but shows slight annoyance at him skipping classes and frequently hits him on the head. \n\n~!He is revealed to be \"Database\", a living student database for the JCC. His extremely precise photographic memory allows him to maintain a comprehensive bank of information on 38,764 students, which is presumably every student that ever attended the JCC. He also remembers the dates of all 783 times he hit his grandson on the head.!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288222-pWFznLQeTclP.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288222
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "boiled",
+      "name": "Boiled",
+      "alt_names": [
+        "ボイル"
+      ],
+      "role": "supporting",
+      "description": "Boiled is an assassin obsessed with being \"hard boiled\" and works for the assassin agency Dodenkai with [Obiguro.](https://anilist.co/character/348935/Obiguro) He knew [Sakamoto](https://anilist.co/character/196522/Tarou-Sakamoto) at the JCC and uses ball bombs to fight.",
+      "metadata": {
+        "gender": "male",
+        "age": "28",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b272873-LO2tO5H9U61f.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 272873
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "hyou",
+      "name": "Hyou",
+      "alt_names": [
+        "豹"
+      ],
+      "role": "supporting",
+      "description": "An assassin and member of The Order, making him one of the most powerful members of the JAA. He sports a metallic jaw-piece on his lower jaw, wears two large chain necklaces, and has many piercings. Despite being colleagues, Hyou finds [Nagumo](https://anilist.co/character/264336) untrustworthy and often shows hostility towards him.\n\nIn chapter 127: ~!Hyou is killed by [Kumanomi](https://anilist.co/character/307048/) in Thailand.!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288288-iQHKIJo3BUDE.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288288
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "jouichirou-kaji",
+      "name": "Jouichirou Kaji",
+      "alt_names": [
+        "加耳丈一郎"
+      ],
+      "role": "supporting",
+      "description": "One of the three members of the special recommendation group in the JCC Transfer Exams. He is always seen wearing an ushanka, which his eyes are often shadowed by. Kaji is an extremely shy person who frequently overthinks any actions he's about to take. As such, he remains silent and/or inactive most of the time. Kaji has vastly superhuman hearing, which allows him to mimic an enemy's movements through hearing alone.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288289-utPVVZ8hZzmU.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288289
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "asakura",
+      "name": "Asakura",
+      "alt_names": [
+        "朝倉"
+      ],
+      "role": "supporting",
+      "description": "Head of the Okutabi Lab, a covert research institute located in the basement of the Okutabi Science Museum. He acted as a sort of adopted father to [Shin](https://anilist.co/character/196521/) while Shin was raised in The Lab. Asakura's research is what gave Shin his clairvoyant powers.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288283-pACMo02SUmkm.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288283
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "wutang-lu",
+      "name": "Wutang Lu",
+      "alt_names": [
+        "魯武堂",
+        "ウー夕ン"
+      ],
+      "role": "supporting",
+      "description": "Member of The Triad who has had a crush on [Lu Xiaotang](https://anilist.co/character/207272/Lu-Xiaotang) since they were kids. He is sent to Japan to retrieve her from working at Sakamoto's.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288292-T8FISEl1DTKC.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288292
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "apart",
+      "name": "Apart",
+      "alt_names": [
+        "アパート"
+      ],
+      "role": "supporting",
+      "description": "A serial killer (206 victims) and death row inmate who, alongside fellow serial killers Minimalist, Dump, and Saw, was able to fake his death and escape to Japan with the help of [Uzuki](https://anilist.co/character/272878/Uzuki).",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288221-esQQ0LlGrS0D.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288221
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "dump",
+      "name": "Dump",
+      "alt_names": [
+        "ダンプ"
+      ],
+      "role": "supporting",
+      "description": "A serial killer (180 victims) and death row inmate who, alongside fellow serial killers Minimalist, Apart, and Saw, was able to fake her death and escape to Japan with the help of [Uzuki](https://anilist.co/character/272878/). Dump has extendable spikes hidden in her body (2 in each hand, 6 across her torso), and is able to extend them a significant distance with great force. She is fascinated with finding love, but unfortunately for her love interests, she finds people the cutest when they are about to die.\n\n~!She is killed by [Osaragi](https://anilist.co/character/266969/).!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288278-Cxz4AFUPKUod.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288278
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "saw",
+      "name": "Saw",
+      "alt_names": [
+        "ソウ",
+        "Sou"
+      ],
+      "role": "supporting",
+      "description": "A serial killer (64 victims) and death row inmate who (alongside fellow serial killers Dump, Apart and Minimalist) was able to fake his death and escape to Japan with help from [Uzuki](https://anilist.co/character/272878/Uzuki). Saw believes that people live boring lives, and one way to make them interesting is to give them a sublime death, much like a moving or dramatic death scene in a manga or movie. He uses a chipped axe with a wooden handle in battle. He often combines this with a length of rope, turning it into a brutal ranged weapon.\n\n~!He is defeated by [Shin](https://anilist.co/character/196521/Shin) and [Lu Xiaotang](https://anilist.co/character/207272/Lu-Xiaotang), and then killed by [Hyou](https://anilist.co/character/288288/Hyou).!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288345-9v5yPwewan4p.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288345
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "minimalist",
+      "name": "Minimalist",
+      "alt_names": [
+        "ミニマリスト"
+      ],
+      "role": "supporting",
+      "description": "A serial killer (370 victims) and death row inmate who (alongside fellow serial killers Dump, Apart and Saw) was able to fake his death and escape to Japan with the help of [Uzuki](https://anilist.co/character/272878/Uzuki).  Minimalist is an incredibly proficient serial killer. His modus operandi is to crush his victims into small balls with his bare hands. \n\n~!He was killed and beheaded by [Nagumo](https://anilist.co/character/264336/Nagumo) in Sakamoto's store!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288347-USTdlnYK7M0U.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288347
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "satoru-yotsumura",
+      "name": "Satoru Yotsumura",
+      "alt_names": [
+        "四ツ村暁"
+      ],
+      "role": "supporting",
+      "description": "A former member of The Order, now working against the JAA after being banished by them. He was a senpai to [Shishiba](https://anilist.co/character/272879/Shishiba). Yotsumura is one of the strongest known assassins, shown being able to hold his own solo against three active Order members (Shishiba, Nagumo, and [Osaragi](https://anilist.co/character/266969/Osaragi)). He wields a three-section staff with a small, thin blade on one end. It is phenomenally sharp, being able to cut through an entire human body.\n\n~!He is [Amane](https://anilist.co/character/288220/Amane)'s father. Amane's grudge against the JAA is because Yotsumura killed Amane's mother in front of him.!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288348-9ufKqfp0LpXe.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288348
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "yanaya-tsuu",
+      "name": "Yanaya Tsuu",
+      "alt_names": [
+        "ヤナヤ・ツー",
+        "Jay Erk",
+        "Kill Baby (キルベイビー)"
+      ],
+      "role": "supporting",
+      "description": "One of the examinees taking the JCC Transfer Exam, this being his fifth attempt.",
+      "metadata": {
+        "gender": "male",
+        "age": "28",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288290-xkWeXOr2Gh5X.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288290
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "etsuko-satoda",
+      "name": "Etsuko Satoda",
+      "alt_names": [
+        "佐藤田悦子",
+        "Satoda-sensei"
+      ],
+      "role": "supporting",
+      "description": "A retired assassin currently working as a teacher at the Japan Clear Creation (JCC), teaching assassination practica. Satoda is a polite teacher who enjoys jesting opponents and speaks casually, yet matter-of-factly. She cares for her students and despite teaching them to become killers, doesn't want them to die. She taught [Sakamoto](https://anilist.co/character/196522/Tarou-Sakamoto), [Rion Akao](https://anilist.co/character/288224/Rion-Akao), and [Nagumo](https://anilist.co/character/264336/Nagumo) during their time as students and still thinks of them fondly. \n\nEven as a retired assassin, Satoda retains the skills she had in her youth. She is known for her mastery over Aikido, which she uses to redirect or nullify attacks with minimal effort.\n\n~!Killed by [Kanaguri](https://anilist.co/character/288291/Kanaguri)!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288560-erWYRuJ9qfOO.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288560
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "kindaka",
+      "name": "Kindaka",
+      "alt_names": [
+        "キンダカ"
+      ],
+      "role": "supporting",
+      "description": "Extremely powerful assassin. Co-founder and former leader of The Order, a special organization of the JAA's strongest assassins.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b299967-i43OoPaKKTRp.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 299967
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "miya-baa",
+      "name": "Miya-baa",
+      "alt_names": [
+        "宮バア",
+        "Granny Miya"
+      ],
+      "role": "supporting",
+      "description": "A hollistic healer.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b299504-HV5AHMc8m6wX.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 299504
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "uda",
+      "name": "Uda",
+      "alt_names": [
+        "宇田"
+      ],
+      "role": "supporting",
+      "description": "Assassin for Slur working undercover as an agent at the JAA.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b299505-YbNIeZ7WT0p4.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 299505
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "takebe",
+      "name": "Takebe",
+      "alt_names": [
+        "武部"
+      ],
+      "role": "supporting",
+      "description": "Assassin working for the JCC. Led a group of assassins defending against [Gaku](https://anilist.co/character/288279).",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b299506-7UsdBtJUI49z.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 299506
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "bachou",
+      "name": "Bachou",
+      "alt_names": [
+        "バチョウ",
+        "Bacho"
+      ],
+      "role": "supporting",
+      "description": "One of the Twin Assassins, working together with his older twin brother Son Hee to track down [Lu](https://anilist.co/character/207272/).",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b288280-kF3gb1tr2DON.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 288280
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "koba",
+      "name": "Koba",
+      "alt_names": [
+        "コバ"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b301680-zmmQJJhem0nS.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 301680
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "higuchi",
+      "name": "Higuchi",
+      "alt_names": [
+        "樋口"
+      ],
+      "role": "supporting",
+      "description": "An assassin who keeps a list of \"good deeds\" that accumulate \"virtue points,\" which he believes decide a person's fate between life or death.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b301681-mSHWgZPpoqC3.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 301681
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "souichi-amou",
+      "name": "Souichi Amou",
+      "alt_names": [
+        "天羽宗一",
+        "あもうそういち"
+      ],
+      "role": "supporting",
+      "description": "Chairman of the Japanese Association of Assassins (JAA).",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b302098-mA7PXLRG9vlx.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 302098
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "sei-asaki",
+      "name": "Sei Asaki",
+      "alt_names": [
+        "麻樹栖",
+        "アサキ"
+      ],
+      "role": "supporting",
+      "description": "Current Chairman of the JAA. He is the older brother of [Kei Uzuki](https://anilist.co/character/272878/).",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b302100-va30xxwgHTmO.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 302100
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "haruma",
+      "name": "Haruma",
+      "alt_names": [
+        "ハルマ"
+      ],
+      "role": "supporting",
+      "description": "Assassin working with Slur and a member of X's Organization. He was an orphan at the Al-Kamar Orphanage.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b307047-W9oxb8Bv5ev8.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 307047
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "kumanomi",
+      "name": "Kumanomi",
+      "alt_names": [
+        "熊埜御",
+        "クマノミ"
+      ],
+      "role": "supporting",
+      "description": "Powerful assassin working with Slur.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b307048-nsqpknl6KMd2.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 307048
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "kamihate",
+      "name": "Kamihate",
+      "alt_names": [
+        "上終",
+        "カミハテ",
+        "The End"
+      ],
+      "role": "supporting",
+      "description": "The Order's sniper, said to be the best in JAA history. His range can reach up to 8 kilometers.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b314221-WefiMxKwlUhJ.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 314221
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "oki",
+      "name": "Oki",
+      "alt_names": [
+        "沖"
+      ],
+      "role": "supporting",
+      "description": "Current leader of the Order, JAA's strongest group of assassins. During the majority of the story, he was overseas for an unspecified assignment.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b337930-RZiiTZYF3IUV.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 337930
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "tanabata",
+      "name": "Tanabata",
+      "alt_names": [
+        "七夕"
+      ],
+      "role": "supporting",
+      "description": "Member of the Order, a group of the strongest assassins in the JAA. He was recruited alongside Torres, after the Assassin Exhibition of the Century. He is a musician whose compositions are inspired from his killing.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b337931-i9rxNQOufkuH.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 337931
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "torres",
+      "name": "Torres",
+      "alt_names": [
+        "トーレス"
+      ],
+      "role": "supporting",
+      "description": "Member of the Order, a group of the strongest assassins in the JAA. He was recruited alongside Tanabata after the Assassin Exhibition of the Century. He is is shown to be a gambler, having amassed a debt of ¥60,200,000,000 to the JAA.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b337932-VMlIQ1QTPzbD.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 337932
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "piisuke",
+      "name": "Piisuke",
+      "alt_names": [
+        "ピースケ",
+        "ピー助"
+      ],
+      "role": "supporting",
+      "description": "A small yellow parrot owned by Heisuke Mashimo, acting as his spotter.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b339486-WiyGqxHUhilx.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 339486
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "atari",
+      "name": "Atari",
+      "alt_names": [
+        "アタリ"
+      ],
+      "role": "supporting",
+      "description": "Esper that served as the JAA's fortune teller until, due to incorrect predictions regarding Slur's activities, she was imprisoned in the JAA's prison.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b344725-mVR7SCIMw9pP.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 344725
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "tenkyu",
+      "name": "Tenkyu",
+      "alt_names": [
+        "天弓"
+      ],
+      "role": "supporting",
+      "description": "Tenkyuu is an assassin working with Slur, and a member of X's Organization. He was an orphan at the Al-Kamar Orphanage, a failed plan to create Order members.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b348252-Iey1GjFa5JJQ.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 348252
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "shinaya",
+      "name": "Shinaya",
+      "alt_names": [
+        "軟柔"
+      ],
+      "role": "supporting",
+      "description": "One of the three Special Recommendations for the JCC test, being Test Taker 208. ~!It was later revealed that Gaku was remotely controlling his body after duping Shinaya into the job. A hijacked Shinaya was then used to scout out JCC applicants.!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b348934-E3YOQgFBk2Dg.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 348934
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "obiguro",
+      "name": "Obiguro",
+      "alt_names": [
+        "帯黒"
+      ],
+      "role": "supporting",
+      "description": "Assassin of the agency Dondenkai and a Japan Clear Creation (JCC) graduate.",
+      "metadata": {
+        "gender": "female",
+        "age": "26",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b348935-bjZVD3xjgzRz.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 348935
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "tatsu",
+      "name": "Tatsu",
+      "alt_names": [
+        "タツ"
+      ],
+      "role": "supporting",
+      "description": "Assassin of the agency Dondenkai. He is quite skilled in the use of chemicals/poisons.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b348936-Izhvyly0f5qs.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 348936
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "jou-kase",
+      "name": "Jou Kase",
+      "alt_names": [
+        "枷錠",
+        "Joe Shackles"
+      ],
+      "role": "supporting",
+      "description": "Head guard of JAA Prison floor B1.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b348937-6mlNEskFdGbi.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 348937
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "son-hee",
+      "name": "Son Hee",
+      "alt_names": [
+        "ソンヒ"
+      ],
+      "role": "supporting",
+      "description": "One of the Twin Assassins, working together with his younger twin brother Bacho.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b353237-ESQTAu0qMGms.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 353237
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "wang",
+      "name": "Wang",
+      "alt_names": [
+        "王",
+        "Kaichou (会長)"
+      ],
+      "role": "supporting",
+      "description": "Chariman of the Danshokai.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b353307-MCe2KqhPcu2B.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 353307
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "kurii-ningu",
+      "name": "Kurii Ningu",
+      "alt_names": [
+        "栗井ニング",
+        "Cleaning Kurii"
+      ],
+      "role": "supporting",
+      "description": "Assassin and member of the Dondendkai. He disguises himself in a janitor's uniform.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b353669-CDbyVc9oJ6cp.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 353669
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "iriya",
+      "name": "Iriya",
+      "alt_names": [
+        "入谷"
+      ],
+      "role": "supporting",
+      "description": "Communications coordinator of JAA.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b354462-o9PJhCmVi5Uv.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 354462
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "tasuku-andou",
+      "name": "Tasuku Andou",
+      "alt_names": [
+        "安藤丞"
+      ],
+      "role": "supporting",
+      "description": "Biological father of Shin and former JAA researcher. He used to run the JAA's \"Orphanage\" which was a front used to train young assassins. The JAA put out a hit on Andou for allowing Shin to escape the Orphanage, leaving the child with his friend Asakura.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b354878-x95IMl4eWjEW.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 354878
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "mad-horiguchi",
+      "name": "Mad Horiguchi",
+      "alt_names": [
+        "マッド堀口"
+      ],
+      "role": "supporting",
+      "description": "Scientist working for Slur's Group under the order's of Kashima. Kashima assigned Mad Horiguchi to oversee the B1 floor of the Underground Research Facility below the Okutabi Science Museum.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b355295-VDja95PSaT94.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 355295
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "tanaka",
+      "name": "Tanaka",
+      "alt_names": [
+        "田中"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b355296-O2CnmcJgDbqQ.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 355296
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "yutarou",
+      "name": "Yutarou",
+      "alt_names": [
+        "湯太郎"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b357181-G1qgRsKQhYOr.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 357181
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "yokkun",
+      "name": "Yokkun",
+      "alt_names": [
+        "よっくん"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b357185-sS17liGq9h2S.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 357185
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "monchan",
+      "name": "Monchan",
+      "alt_names": [],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b357187-1rXPVeieXF0Q.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 357187
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "inoda",
+      "name": "Inoda",
+      "alt_names": [
+        "猪田"
+      ],
+      "role": "supporting",
+      "description": "Member of the JAA.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b371907-eXBJE3FbkdkI.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 371907
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "mizuno",
+      "name": "Mizuno",
+      "alt_names": [
+        "水野"
+      ],
+      "role": "supporting",
+      "description": "One of the examiners in the JCC transfer exam.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b372333-M4w9xKY0CDU1.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 372333
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "usami",
+      "name": "Usami",
+      "alt_names": [
+        "宇佐美"
+      ],
+      "role": "supporting",
+      "description": "Head Examiner of the JCC Transfer Exam.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b372850-P2uho7vrodZ0.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 372850
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "atou",
+      "name": "Atou",
+      "alt_names": [
+        "阿藤",
+        "Ato"
+      ],
+      "role": "supporting",
+      "description": "Examiner for the JCC Transfer Exam.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b372856-PeSD80acPubq.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 372856
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "noro",
+      "name": "Noro",
+      "alt_names": [
+        "野呂"
+      ],
+      "role": "supporting",
+      "description": "Examiner for the JCC Transfer Exam.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b372857-VPESmnrp8k0j.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 372857
+      },
+      "rarity": "common"
+    },
+    {
+      "id": "pizza-nakajima",
+      "name": "Pizza Nakajima",
+      "alt_names": [
+        "ピッツァ中島"
+      ],
+      "role": "minor",
+      "description": "Pizza Man Assassin.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b299507-DEvadh3Rn2DR.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 299507
+      },
+      "rarity": "common"
+    }
+  ],
+  "updated_at": "2025-12-24T02:28:15.673Z"
+}

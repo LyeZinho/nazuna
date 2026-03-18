@@ -1,0 +1,825 @@
+{
+  "work_id": "devilman-crybaby",
+  "count": 35,
+  "characters": [
+    {
+      "id": "akira-fudou",
+      "name": "Akira Fudou",
+      "alt_names": [
+        "不動明",
+        "Devilman"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 182 cm\n\nAkira is a shy, soft spoken, and somewhat cowardly teen. His father has recently went to work in America so he is currently living with his friend Miki's family. He hasn't seen his best friend Ryo in over a month since moving in with Miki's family. When they reunite he is in for a big surprise that will forever change him, his life, and all of mankind.\n\n~!Devilman is Akira Fudo after he merged with Amon in order to save mankind from the demons. While he usually stays in his human form, he turns into Devilman when he needs to fight seriously. Akira still retains his human heart after he becomes Devilman, meaning he can feel love and empathy unlike demons, but his personality changes drastically as a result of the merge.!~",
+      "metadata": {
+        "gender": "male",
+        "age": "17",
+        "dateOfBirth": "1994-09-08"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b2456-rTjIXMLPHTu2.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 2456
+      },
+      "rarity": "legendary"
+    },
+    {
+      "id": "ryo-asuka",
+      "name": "Ryo Asuka",
+      "alt_names": [
+        "飛鳥了"
+      ],
+      "role": "protagonist",
+      "description": "The best friend of Akira Fudo, the main character of Nagai Go's classical horror manga Devilman. \n\nAs Akira is the strength, Ryo is the brain. His father discovered the existence of demons in our world and decided to fight them. He asked his friend Akira for help. Ryo knew that to be able to beat a demon, one had to become a demon. He and Akira went through a ritual to fuse with demons, but in the end, only Akira was able to do so and became Devilman, leaving Ryo remain as a normal human.\n\n~!Ryo's true identity was much more horrible, much more terrifying than he or Akira could've ever imagined. Ryo turned out to be Satan himself, who sought to destroy the world. Satan is depicted as a beautiful hermaphroditic Seraphim angel with twelve wings. However, it is later revealed by Zenon that Satan is in fact in love with Akira. The Devil's love for Akira was developed through the human relationship between Akira and Ryo.!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b4092-63yxC7cCrWke.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 4092
+      },
+      "rarity": "legendary"
+    },
+    {
+      "id": "miki-makimura",
+      "name": "Miki Makimura",
+      "alt_names": [
+        "牧村美樹"
+      ],
+      "role": "protagonist",
+      "description": "~!Miki Makimura was a lifelong friend to Akira Fudo and had an attraction to him, but Akira often failed to notice, or they never admitted their feelings to one another before Miki’s tragic end. It is tragically rare for Miki to get a good ending.\n\n(Source: Go Nagai Wiki)!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b7968-te8U6niaAoKk.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 7968
+      },
+      "rarity": "legendary"
+    },
+    {
+      "id": "psycho-jenny",
+      "name": "Psycho Jenny",
+      "alt_names": [
+        "サイコジェニー"
+      ],
+      "role": "supporting",
+      "description": "~!Psycho Jenny is one of the leading figures in Satan's demon army.!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b7966-nh5ZbkAioYaz.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 7966
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "tare-makimura",
+      "name": "Tare Makimura",
+      "alt_names": [
+        "村健タレ",
+        "Taro"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b7967-EytwuXK0gbru.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 7967
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "miki-kuroda",
+      "name": "Miki Kuroda",
+      "alt_names": [
+        "黒田ミキ",
+        "Miko",
+        "Mikiko Kawamoto"
+      ],
+      "role": "supporting",
+      "description": "Mikiko Kawamoto is a supporting character in the original Devilman manga. \n\nIn the 2017 anime adaptation, _Devilman Crybaby_, Miki Kuroda is on the running track team along with Akira Fudo and Miki Makimura.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b7971-mjwR42qPcQ5N.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 7971
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "amon",
+      "name": "Amon",
+      "alt_names": [
+        "アモン",
+        "Lord of War",
+        "Beast of Hell"
+      ],
+      "role": "supporting",
+      "description": "Amon's original human appearance resembled a light skinned male with messy black hair and dark eyes that featured markings coming down from those eyes. When on duty, he is always seen wearing black form fitting armor with a helmet that featured horns and small wings. He also featured spikes on his arms and a cape.\n\nHowever after becoming a demon he grew far taller while still retaining his human appearance. His skin depended on the artwork with most being blue, turquoise, pale white, and least of all red with legs covered in black fur and a long thin tail with a spiked spade on the end. Amon has yellow eyes which depending on the story had black pupils or none at all. He had thin fangs in his mouth and large bat like wings in place of his ears with a bright red crest in the middle, he also had a pair of antenna connecting to the top of his head.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b7972-ro7f4Rjp7Bll.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 7972
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "silene",
+      "name": "Silene",
+      "alt_names": [
+        "シレーヌ"
+      ],
+      "role": "supporting",
+      "description": "Once Amon's lover, Sirene is on a mission to destroy the being that took her beloved Amon away. Sirene has razor-sharp claws that can tear a man in two. She can also launch her arms at targets.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b18590-uSU2YjJWxWgJ.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 18590
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "gelmar",
+      "name": "Gelmar",
+      "alt_names": [],
+      "role": "supporting",
+      "description": "Gelmar/Geruma is a devil with power over water. He is sent by Sirene to attack Miki. In truth, he is fodder sent by Sirene to weaken him so that she may finish him off with ease.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b18591-cVL12kCapiyJ.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 18591
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "jinmen",
+      "name": "Jinmen",
+      "alt_names": [
+        "ジンメン"
+      ],
+      "role": "supporting",
+      "description": "Jinmen is a devil with a shell like turtle. However, the shell has the faces of all the humans he's ever consumed. Instead of killing them, they remain alive as a part of him. In the manga, Sachiko, who used to be Akira's neighbor, falls victim to Jinmen. In the OAV, it is Akira's mother.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b18592-bJ0uhY8d7VLT.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 18592
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "zenon",
+      "name": "Zenon",
+      "alt_names": [
+        "ゼノン"
+      ],
+      "role": "supporting",
+      "description": "Zennon is among the most powerful of the demon kind, and Satan's second-in-command alongside Psycho Jenny. While Satan was away, he assumed the role of the leader of the demon race. Zennon is highly respected and feared among his people, with most referring to him as Lord Zennon.\n\n(Source: Devilman Wiki)",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/18593-dXelacQtcb7V.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 18593
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "agwell",
+      "name": "Agwell",
+      "alt_names": [
+        "アグウェル"
+      ],
+      "role": "supporting",
+      "description": "Is a devil sent by Sirene to attack Akira.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/74617.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 74617
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kaim",
+      "name": "Kaim",
+      "alt_names": [],
+      "role": "supporting",
+      "description": "Devil that sacrificed himself and merged with Silence in order to help her against Devilman.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b74856-crYRRMZDlXfj.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 74856
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "babo",
+      "name": "Babo",
+      "alt_names": [
+        "バボ"
+      ],
+      "role": "supporting",
+      "description": "A member of Wamu’s gang, Babo is often seen with the gang but never speaks unless it is to rap. ~!He ultimately betrays the gang.!~\n\n(Source: Wikipedia)",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/124942-Hlw2goXjX8Uv.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 124942
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "professor-fikira",
+      "name": "Professor Fikira",
+      "alt_names": [],
+      "role": "supporting",
+      "description": "Professor Fikira was a Russian scientist who had discovered evidence of demon kind. He replaces Professor Asuka (Ryo's father in the manga) within the anime.\n\n(Source: Devilman Wiki, edited)",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/124945-BdjdivVY2Y0X.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 124945
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "koji-nagasaki",
+      "name": "Koji Nagasaki",
+      "alt_names": [
+        "長崎光司"
+      ],
+      "role": "supporting",
+      "description": "Koji Nagasaki is Makimura Miki's manager and photographer in the Devilman Crybaby. He came from a bad background and dreams of becoming a respected reporter.\n\n(Source: Devilman Wiki, edited)",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/124947-0M5vphN498FI.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 124947
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "wamu",
+      "name": "Wamu",
+      "alt_names": [
+        "ワム"
+      ],
+      "role": "supporting",
+      "description": "Wamu is the leader of a small street gang in Devilman Crybaby consisting of Gabi, Hie, Babo, and Kukun.\n\n~!He has feelings for Miki Makimura, and helps her and Akira Fudo when chaos digs its claws on the world.!~",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/124949-dpKhGAqD3h0A.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 124949
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "gabi",
+      "name": "Gabi",
+      "alt_names": [
+        "ガビ"
+      ],
+      "role": "supporting",
+      "description": "Gabi is part of a group of rappers alongside Wamu, Kukun, Babo, and Hie.\n\n(Source: Devilman Wiki, edited)",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/124951-Z47U8coImkBG.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 124951
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kukun",
+      "name": "Kukun",
+      "alt_names": [
+        "ククン",
+        "Mayuta"
+      ],
+      "role": "supporting",
+      "description": "Kukun is a rapper and label cleaner who lives near Miko's building. He often appears to make small-talk with her after seeing her continuously seeing her planting and watering flowers.\n\n(Source: Devilman Wiki)",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/124952-FPiacv4lGIE1.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 124952
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "hie",
+      "name": "Hie",
+      "alt_names": [
+        "ヒエ"
+      ],
+      "role": "supporting",
+      "description": "Hie is the beatboxer for a group of rappers alongside Wamu, Gabi, Babo, and Kukun.\n\n(Source: Devilman Wiki, edited)",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/124954-SXOVocZV86dU.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 124954
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "moyuru-koda",
+      "name": "Moyuru Koda",
+      "alt_names": [
+        "幸田燃寛"
+      ],
+      "role": "supporting",
+      "description": "Moyuru Koda is a track athlete from Kawa High.\n\n(Source: Devilman Wiki, edited)",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/124958-Ins5vUvxPuCK.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 124958
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "tako",
+      "name": "Tako",
+      "alt_names": [
+        "ターコ"
+      ],
+      "role": "supporting",
+      "description": "Tako is the pet cat of Makimura family.\n~!It later transforms into \"devilcat\" and becomes Akira Fudo's aide. During final battle against Satan, he attempts to attack the angel directly, but getting killed again, this time by Satan's telepathic slash.!~",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/124960-kIo6HDkouWAl.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 124960
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kaori-fudou",
+      "name": "Kaori Fudou",
+      "alt_names": [
+        "不動香織",
+        "Sumiko Fudou (不動須弥子)"
+      ],
+      "role": "supporting",
+      "description": "Akira's mother.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b232957-a3TcuejGthho.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 232957
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "sumi",
+      "name": "Sumi",
+      "alt_names": [
+        "受美"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b232958-hvvS2QwEkkRW.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 232958
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "akiko-makimura",
+      "name": "Akiko Makimura",
+      "alt_names": [
+        "牧村亜樹子"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b232959-bwjLoY7HAQy3.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 232959
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "zay",
+      "name": "Zay",
+      "alt_names": [
+        "ゼイ"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b232960-XADmJnju5LdB.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 232960
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "noel-makimura",
+      "name": "Noel Makimura",
+      "alt_names": [
+        "牧村ノエル"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b232961-0wrbKVDKpAGv.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 232961
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "reijirou-fudou",
+      "name": "Reijirou Fudou",
+      "alt_names": [
+        "不動礼次郎"
+      ],
+      "role": "supporting",
+      "description": "Akira's father.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b232962-3J7QdFGP4nfc.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 232962
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "web-producer",
+      "name": "Web Producer",
+      "alt_names": [
+        "ウェブプロデューサー"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b232963-bkbWjXSQXhmD.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 232963
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "takahama",
+      "name": "Takahama",
+      "alt_names": [
+        "タカハマ"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b232964-cNl6bRH8SDcO.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 232964
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kudou",
+      "name": "Kudou",
+      "alt_names": [
+        "クドウ"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b232965-VDwX8CKZwiYq.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 232965
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kouzou-rainuma",
+      "name": "Kouzou Rainuma",
+      "alt_names": [
+        "雷沼耕造",
+        "Shizego"
+      ],
+      "role": "supporting",
+      "description": "Dr. Rainuma is a famous research biologist. After the attacks across the world by the Demon menace he became devoted to finding a way to combat the Demons and set up the Demon Busters.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b327284-M2ItJLM1UZK7.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 327284
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "track-coach",
+      "name": "Track Coach",
+      "alt_names": [
+        "トラックコーチ"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b327286-l6b4aZfffMqo.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 327286
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "sachiko",
+      "name": "Sachiko",
+      "alt_names": [
+        "サッちゃん",
+        "Sacchan"
+      ],
+      "role": "supporting",
+      "description": "She is the girl that lived next to Fudou Akira.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b327287-hAxB7l4cgBMq.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 327287
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "donald-trump",
+      "name": "Donald Trump",
+      "alt_names": [],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b187217-fvBuVKuaEpU4.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 187217
+      },
+      "rarity": "uncommon"
+    }
+  ],
+  "updated_at": "2025-12-23T01:24:24.581Z"
+}

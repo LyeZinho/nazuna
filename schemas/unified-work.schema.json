@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://char-lib.local/schemas/unified-work.schema.json",
+  "title": "UnifiedWork",
+  "description": "Schema para obra unificada (anime + manga)",
+  "type": "object",
+  "required": ["internalId", "title"],
+  "properties": {
+    "internalId": {
+      "type": "string",
+      "description": "ID interno único (slugify do título japonês)"
+    },
+    "title": {
+      "type": "string",
+      "description": "Título em inglês"
+    },
+    "alt_titles": {
+      "type": "array",
+      "description": "Títulos alternativos",
+      "items": { "type": "string" }
+    },
+    "source_ids": {
+      "type": "object",
+      "description": "IDs nas fontes originais",
+      "properties": {
+        "anime": { "type": ["integer", "null"] },
+        "manga": { "type": ["integer", "null"] }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "popularity": {
+          "type": "integer",
+          "description": "Popularidade máxima entre anime e manga"
+        },
+        "averageScore": {
+          "type": "integer",
+          "description": "Score médio máximo"
+        },
+        "formats": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["anime", "manga"] }
+        },
+        "genres": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "type": { "type": "string", "enum": ["cover", "banner", "other"] },
+          "source": { "type": "string" }
+        }
+      }
+    }
+  }
+}

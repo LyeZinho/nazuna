@@ -1,0 +1,1836 @@
+{
+  "work_id": "dan-da-dan",
+  "count": 75,
+  "characters": [
+    {
+      "id": "ken-takakura",
+      "name": "Ken Takakura",
+      "alt_names": [
+        "高倉健",
+        "Okarun (オカルン)"
+      ],
+      "role": "protagonist",
+      "description": "He is a young male student with a firm belief that UFOs and aliens exist. Upon meeting Momo Ayase and taking up on her challenge to see if ghosts were real, Okarun became cursed by a yokai known as the Turbo-Granny and seeks to return to normal.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b222593-qBqUvpodooAI.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 222593
+      },
+      "rarity": "legendary"
+    },
+    {
+      "id": "momo-ayase",
+      "name": "Momo Ayase",
+      "alt_names": [
+        "綾瀬桃"
+      ],
+      "role": "protagonist",
+      "description": "After making friends with Ken Takakura, who she calls \"Okarun\" (due to refusing to call him by the same name as the actor she idolizes), Momo wishes to help restore his body back to normal after being cursed by a yokai and must overcome other paranormal activities that are involved.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b222594-24Jn7qlI5spH.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 222594
+      },
+      "rarity": "legendary"
+    },
+    {
+      "id": "seiko-ayase",
+      "name": "Seiko Ayase",
+      "alt_names": [
+        "綾瀬星子",
+        "Santa Dodoria (ドドリア三太)"
+      ],
+      "role": "supporting",
+      "description": "Momo Ayase's grandmother. Despite being a grandmother, Seiko possesses a youthful appearance that does not match her age and is recognized as being quite beautiful.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b234824-i3s64ueaBqGq.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 234824
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "aira-shiratori",
+      "name": "Aira Shiratori",
+      "alt_names": [
+        "白鳥愛羅"
+      ],
+      "role": "supporting",
+      "description": "__Relatives:__ [Father](https://anilist.co/character/349655/Aira-no-Chichi)\n\nAfter becoming aware of the existence of the supernatural after collecting a mysterious golden ball, Aira proclaims herself as the \"chosen one\" that is on a mission to protect the world from evil and directs her attention towards [Momo Ayase](https://anilist.co/character/222594/Momo-Ayase), believing that she is a demon that has to be stopped after seeing her use her psychic powers. Aira revels in her social status as the popular girl at Kami High and strives to maintain her reputation. Outwardly, she appears sweet, innocent, and somewhat air headed. However, internally, she is far more vain and prideful, a side she only shows to people she becomes close with. Whilst antagonistic towards Momo, she harbors feelings towards her close friend [Okarun](https://anilist.co/character/222593/Ken-Takakura).\n\n~!She later gains the powers of a powerful spirit named [Acrobatic Silky](https://anilist.co/character/245467/Acrobatic-Sarasara) and becomes allies / friends with Momo and Okarun, learning to be more mindful of her actions and being more open with her true self.!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b245466-rd5I5mchZ3bv.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 245466
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "jin-enjouji",
+      "name": "Jin Enjouji",
+      "alt_names": [
+        "円城寺 仁",
+        "Jiji (ジジ)"
+      ],
+      "role": "supporting",
+      "description": "Jin Enjouji is Momo's childhood friend and first crush. After his parents were hospitalized as a result of his house being haunted, Enjouji moved in with Momo and Seiko and transferred over to Momo's school. Enjouji comes off as being a very hyper-active young man who likes to express himself with dramatic movement and faces. He also has a habit of usually ending his sentences with strange verbal tics.\n\n~!He got possessed by a mountain yokai called the evil eye. When he touches cold water the yokai comes out, when he touches hot water he is himself.!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b258506-mMMInKyQq7ib.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 258506
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "turbo-babaa",
+      "name": "Turbo Babaa",
+      "alt_names": [
+        "ターボババア",
+        "Turbo Granny",
+        "100キロババア",
+        "100 Kiro Baba",
+        "100 km/hr Granny",
+        "Turbobabcia"
+      ],
+      "role": "supporting",
+      "description": "The yokai took on the form of a very elderly woman with long white shaggy hair and eyes that were stuck looking to the sides. When possessing her targets, she has her victims transform into a mirror image of herself, albeit with a large mouth with teeth that is capable of biting off body parts.\n\n~!After having her consciousness extracted from Okarun, the Turbo-Granny is forced to inhabit a maneki-neko doll.!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b239956-Fok0Pl3rNOEL.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 239956
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "serpo-seijin",
+      "name": "Serpo Seijin",
+      "alt_names": [
+        "セルポ星人",
+        "Alien Serpo",
+        "Serpoian"
+      ],
+      "role": "supporting",
+      "description": "Serupo Seijin are an entirely male alien race who come from Planet Serpo.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b309827-Vt2rOVTzwglz.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 309827
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "acrobatic-sarasara",
+      "name": "Acrobatic Sarasara",
+      "alt_names": [
+        "アクロバティックさらさら",
+        "Acrobatic Silky",
+        "Acro-Silky"
+      ],
+      "role": "supporting",
+      "description": "Acrobatic Silky took on the form of a tall woman with long silky black hair. She had a narrow face with hollowed eyes, wrinkles on the upper half of her face, and a permanent lipstick smile that exposes her teeth. She walked around barefooted while wearing a red wide brimmed hat and a red dress.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b245467-xnhV5etjTvHZ.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 245467
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "penny-chinkosu",
+      "name": "Penny Chinkosu",
+      "alt_names": [
+        "ぺニーチンコス",
+        "Dover Demon (ドーバーデーモン)",
+        "Gig Worker (ギグワーカー)",
+        "Shako (シャコ)",
+        "Mantis Shrimp",
+        "Peeny-Weeny",
+        "Mr. Mantisian"
+      ],
+      "role": "supporting",
+      "description": "Peeny-Weeny, also known as the Dover Demon, is a Dover Demon's Race, he works for the Serpo in order to earn money for [his son's](https://anilist.co/character/270706/) blood transfusion.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b270705-IDJ3yjRmTcPg.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 270705
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "flatwoods-monster",
+      "name": "Flatwoods Monster",
+      "alt_names": [
+        "フラットウッズ・モンスター"
+      ],
+      "role": "supporting",
+      "description": "Furattouzzu Monsutaa was an alien that was first sighted in the American town of Flatwoods.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b309828-xNkH8S75eErR.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 309828
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "tarou",
+      "name": "Tarou",
+      "alt_names": [
+        "太郎",
+        "Tarō"
+      ],
+      "role": "supporting",
+      "description": "Taro is an anthropomorphized anatomical model that resides at Ayase's and Takakura's school.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b270704-FvYlWMLwLa0C.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 270704
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "hana",
+      "name": "Hana",
+      "alt_names": [
+        "花"
+      ],
+      "role": "supporting",
+      "description": "Hana is an anthropomorphized anatomical model that resides with Ayase and Seiko.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b270703-XOuIjhNfWAC4.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 270703
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "miiko",
+      "name": "Miiko",
+      "alt_names": [
+        "ミーコ"
+      ],
+      "role": "supporting",
+      "description": "Miiko is the best friend and classmate of Momo Ayase and Kei in high school.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b335283-me8m6iQ9lCuh.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 335283
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "muuko",
+      "name": "Muuko",
+      "alt_names": [
+        "ムーコ"
+      ],
+      "role": "supporting",
+      "description": "Best friend and classmate of Momo Ayase and Miko in high school.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b335284-AVWUUtwyoV11.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 335284
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "tsubame",
+      "name": "Tsubame",
+      "alt_names": [
+        "つばめ"
+      ],
+      "role": "supporting",
+      "description": "Aira's former closest friend at high school.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b309812-cg7RUp03s2eG.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 309812
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "anzu",
+      "name": "Anzu",
+      "alt_names": [
+        "あんず"
+      ],
+      "role": "supporting",
+      "description": "Aira's former closest friend at high school.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b348517-DEdul5jqUXWx.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 348517
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "nessie",
+      "name": "Nessie",
+      "alt_names": [
+        "ネッシー",
+        "Kamissie (ネッシー Kamisshii)"
+      ],
+      "role": "supporting",
+      "description": "Nessie, also called Kamissie by Okarun since the creature had previously arrived in Kamikoshi City, was a cryptid and a disgruntled subordinate of the Serpod.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b309826-l7BanOxJneFJ.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 309826
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "jibakurei-kani",
+      "name": "Jibakurei Kani",
+      "alt_names": [
+        "地縛霊蟹",
+        "Earthbound Spirit Crab"
+      ],
+      "role": "supporting",
+      "description": "Jibakurei Kani is an earthbound spirit that was previously bound to a tunnel in Shono City.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b309807-XA8eaAsRavV6.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 309807
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "chiquitita",
+      "name": "Chiquitita",
+      "alt_names": [
+        "チキチータ"
+      ],
+      "role": "supporting",
+      "description": "Chiquitita is [Dover Demon's](https://anilist.co/character/270705/) son",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b270706-z5NPkyP3Xp54.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 270706
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "jumanuel-kitou",
+      "name": "Jumanuel Kitou",
+      "alt_names": [
+        "鬼頭ジュマニエル"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b352089-hxAoCoQYSkGY.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 352089
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "juhiko-kitou",
+      "name": "Juhiko Kitou",
+      "alt_names": [
+        "鬼頭呪彦"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b352090-Lpbl5MQWldR4.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 352090
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "juichi-kitou",
+      "name": "Juichi Kitou",
+      "alt_names": [
+        "鬼頭呪一"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b352091-FvVX4kT9KxDn.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 352091
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "juria-kitou",
+      "name": "Juria Kitou",
+      "alt_names": [
+        "鬼頭呪里杏"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b352092-YQLnRfvDeEIS.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 352092
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "jugemu-kitou",
+      "name": "Jugemu Kitou",
+      "alt_names": [
+        "鬼頭呪限無"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b352093-1oRMb7Zn5gGM.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 352093
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "joshi-b",
+      "name": "Joshi B",
+      "alt_names": [
+        "女子B"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 352095
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "naki-kitou",
+      "name": "Naki Kitou",
+      "alt_names": [
+        "鬼頭ナキ"
+      ],
+      "role": "minor",
+      "description": "Naki Kitou, the ringleader of the Kitou Family who for generations have been sacrificing people to the \"tsuchinoko\".\n~!She is a subterranean.!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b270700-j44U9thDeoXZ.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 270700
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "akusara-no-musume",
+      "name": "Akusara no Musume",
+      "alt_names": [
+        "アクさらの娘",
+        "Acrobatic Sarasara's Daughter"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b349653-c3RNCk1WxufX.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 349653
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "momo-no-motokare",
+      "name": "Momo no Motokare",
+      "alt_names": [
+        "モモの元彼",
+        "Momo's ex-boyfriend",
+        "Momo no Kareshi (モモの彼氏)"
+      ],
+      "role": "minor",
+      "description": "Momo's first and former boyfriend.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b309821-PqbiIP2WUvZ0.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 309821
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "dansi-seito-b",
+      "name": "Dansi Seito B",
+      "alt_names": [
+        "男子生徒B",
+        "Male Student"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 346710
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "dansi-seito-a",
+      "name": "Dansi Seito A",
+      "alt_names": [
+        "男子生徒A",
+        "Male Student"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 346707
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "shougakusei-danshi-a",
+      "name": "Shougakusei Danshi A",
+      "alt_names": [
+        "小学生男子",
+        "Elementary school boy"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 346709
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "shougakusei-danshi-b",
+      "name": "Shougakusei Danshi B",
+      "alt_names": [
+        "小学生男子",
+        "Elementary school boy"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 346708
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "shouma",
+      "name": "Shouma",
+      "alt_names": [
+        "翔馬"
+      ],
+      "role": "minor",
+      "description": "Shouma is a young man who valued having a good reputation as an idol.",
+      "metadata": {
+        "gender": "male",
+        "age": "27",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b309820-3yCom3Q8LNhw.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 309820
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "assistant-producer",
+      "name": "Assistant Producer",
+      "alt_names": [
+        "アシスタントプロデューサー"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 347659
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "tv-kyoku-producer",
+      "name": "TV-kyoku Producer",
+      "alt_names": [
+        "TV局プロデューサー",
+        "TV Station Producer"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 347660
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "taxi-untenshu",
+      "name": "Taxi Untenshu",
+      "alt_names": [
+        "タクシー運転手",
+        "Taxi Driver"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b347662-ilCcNHtDIwLD.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 347662
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "tv-announcer",
+      "name": "TV Announcer",
+      "alt_names": [
+        "TVアナウンサー"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 347663
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "koshimoto",
+      "name": "Koshimoto",
+      "alt_names": [
+        "腰元"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 347665
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "couple-otoko",
+      "name": "Couple Otoko",
+      "alt_names": [
+        "カップル男",
+        "Couple Man"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 348248
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "dansei-kyaku",
+      "name": "Dansei Kyaku",
+      "alt_names": [
+        "男性客",
+        "Male Customer"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 348249
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "couple-onna",
+      "name": "Couple Onna",
+      "alt_names": [
+        "カップル女",
+        "Couple Woman"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 348250
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "uketsuke-jou",
+      "name": "Uketsuke-jou",
+      "alt_names": [
+        "受付嬢",
+        "Receptionist"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 348251
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "momo-no-yuujin-a",
+      "name": "Momo no Yuujin A",
+      "alt_names": [
+        "桃の友人A",
+        "Momo's Friend"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 348515
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "danshi-seito-a",
+      "name": "Danshi Seito A",
+      "alt_names": [
+        "男子生徒A",
+        "Male Student"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 348516
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "doukyuusei",
+      "name": "Doukyuusei",
+      "alt_names": [
+        "同級生",
+        "Classmate"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 349121
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "momo-no-yuujin-b",
+      "name": "Momo no Yuujin B",
+      "alt_names": [
+        "桃の友人B",
+        "Momo's Friend"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 348519
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "danshi-seito-c",
+      "name": "Danshi Seito C",
+      "alt_names": [
+        "男子生徒C",
+        "Male Student"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 348520
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "danshi-seito-d",
+      "name": "Danshi Seito D",
+      "alt_names": [
+        "男子生徒D",
+        "Male Student"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 348521
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "danshi-seito-b",
+      "name": "Danshi Seito B",
+      "alt_names": [
+        "男子生徒B",
+        "Male Student"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 348522
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "danshi-seito-1",
+      "name": "Danshi Seito 1",
+      "alt_names": [
+        "男子生徒1",
+        "Male Student"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 349120
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "danshi-seito-2",
+      "name": "Danshi Seito 2",
+      "alt_names": [
+        "男子生徒2",
+        "Male Student"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 349122
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "dansei-kyoushi",
+      "name": "Dansei Kyoushi",
+      "alt_names": [
+        "男性教師",
+        "Hageta (ハゲた)",
+        "Baldy"
+      ],
+      "role": "minor",
+      "description": "A staff member at the high school setting of Dandadan.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b309814-7jMZROkmZemD.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 309814
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "joou-sensei",
+      "name": "Joou Sensei",
+      "alt_names": [
+        "女王先生",
+        "Queen Sensei"
+      ],
+      "role": "minor",
+      "description": "Joou is the school nurse of Momo Ayase and Okarun's high school.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b309822-pQv5mC0y7rrw.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 309822
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "otoko",
+      "name": "Otoko",
+      "alt_names": [
+        "男"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 349654
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "aira-no-chichi",
+      "name": "Aira no Chichi",
+      "alt_names": [
+        "アイラの父",
+        "Aira's Father"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b349655-sen9dwHqTEPF.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 349655
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "kyoushi",
+      "name": "Kyoushi",
+      "alt_names": [
+        "教師",
+        "Teacher"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 350311
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "seito-a",
+      "name": "Seito A",
+      "alt_names": [
+        "生徒A"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 350775
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "seito-b",
+      "name": "Seito B",
+      "alt_names": [
+        "生徒B"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 350774
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "seito-c",
+      "name": "Seito C",
+      "alt_names": [
+        "生徒C"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 350776
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "classmate-a",
+      "name": "Classmate A",
+      "alt_names": [
+        "クラスメイトA"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 351156
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "classmate-b",
+      "name": "Classmate B",
+      "alt_names": [
+        "クラスメイトB"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 351154
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "classmate-c",
+      "name": "Classmate C",
+      "alt_names": [
+        "クラスメイトC"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 351153
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "classmate-d",
+      "name": "Classmate D",
+      "alt_names": [
+        "クラスメイトD"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 351152
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "classmate-e",
+      "name": "Classmate E",
+      "alt_names": [
+        "クラスメイトE"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 351158
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "classmate-f",
+      "name": "Classmate F",
+      "alt_names": [
+        "クラスメイトF"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 351155
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "classmate-g",
+      "name": "Classmate G",
+      "alt_names": [
+        "クラスメイトG"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 351157
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "joshi-seito-a",
+      "name": "Joshi Seito A",
+      "alt_names": [
+        "女子生徒A",
+        "Female Student A"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 351470
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "joshi-seito-b",
+      "name": "Joshi Seito B",
+      "alt_names": [
+        "女子生徒B",
+        "Female Student B"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 351469
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "tannin-dansei",
+      "name": "Tannin Dansei",
+      "alt_names": [
+        "担任男性",
+        "Male Teacher"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b351471-MPOQxUEHpYk8.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 351471
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "eigo-kyoushi",
+      "name": "Eigo Kyoushi",
+      "alt_names": [
+        "英語教師",
+        "English Teacher"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b351472-KWUWnPL7mJbZ.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 351472
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "jashi",
+      "name": "Jashi",
+      "alt_names": [
+        "邪視",
+        "Evil Eye",
+        "Złe Oko"
+      ],
+      "role": "minor",
+      "description": "Jashi is a yokai who has spent years bound to the Tsuchinoko sacrificial house and is known for cursing humans to commit suicide with his gaze.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b309809-HHGduVD6KgVk.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 309809
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "serpod-dover-demon-nessie",
+      "name": "Serpod Dover Demon Nessie",
+      "alt_names": [
+        "セルポドーバーデーモンネッシー"
+      ],
+      "role": "minor",
+      "description": "Serupo Doubaadeemon Nesshii was the result of a Serupo fusing with the Dover Demon and Nessie as a last resort to eliminate Momo, Okarun and Aira.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b309817-AyYC4Fyp3Hzo.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 309817
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "joshi-a",
+      "name": "Joshi A",
+      "alt_names": [
+        "女子A"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 352094
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "danshi-a",
+      "name": "Danshi A",
+      "alt_names": [
+        "男子A"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 352096
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "danshi-b",
+      "name": "Danshi B",
+      "alt_names": [
+        "男子B"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 352097
+      },
+      "rarity": "uncommon"
+    }
+  ],
+  "updated_at": "2025-12-23T00:58:28.581Z"
+}

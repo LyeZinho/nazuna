@@ -1,0 +1,933 @@
+{
+  "work_id": "gurren-lagann",
+  "count": 38,
+  "characters": [
+    {
+      "id": "simon",
+      "name": "Simon",
+      "alt_names": [
+        "シモン",
+        "The Digger"
+      ],
+      "role": "protagonist",
+      "description": "**Height:** 156 cm (5`1\")\n\nSimon is the protagonist of the story, a short and un-intimidating fourteen year old boy at the beginning of this tale. He was born in Jiiha Village and was raised by his parents until the age of seven, when his parents were killed in an underground avalanche caused by an earthquake.\n\n(Source: Wikipedia)",
+      "metadata": {
+        "gender": "male",
+        "age": "14-",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b2257-jnalsdnIX1vN.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 2257
+      },
+      "rarity": "legendary"
+    },
+    {
+      "id": "youko-littner",
+      "name": "Youko Littner",
+      "alt_names": [
+        "ヨーコ・リットナー",
+        "Yoko Littner",
+        "Yomako"
+      ],
+      "role": "protagonist",
+      "description": "**Height:** 160 cm    \n~!**Age:** 23 (second half)!~\n\nYoko is a girl from Jeeha's neighboring village Littner, who had been chasing the Gunmen which entered Jeeha village. She wields an extensive range of firearms which include a long range sniper rifle (which she uses most frequently) modeled after the Barrett M82 and hand guns (which can be assumed is used for midrange or close combat) and has previous experience fighting Gunmen. Although she is of the same age group as Simon, she is mature and one of the most rational of the group.   ~!Despite always badmouthing Kamina for his reckless behavior, it did not take long for her to confess her feelings to him, which he returns. She was also Simon's love interest, until Simon discovered that she was in love with Kamina. He seems to have given up on her since meeting Nia. In episode 13 she proceeds to tell Simon that she was in love with Kamina in which Simon replied that he already knew. After the war, Yoko decided to not take part in the administration of Kamina City and decided to become a school teacher for the first new children born on the surface, but not before asking Simon to take care of Nia.   After the war with the Anti-Spirall, Yoko became principal of the school she once taught at.!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b2063-7BKqQbrhtDD2.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 2063
+      },
+      "rarity": "legendary"
+    },
+    {
+      "id": "kamina",
+      "name": "Kamina",
+      "alt_names": [
+        "カミナ",
+        "Fearless Demon Leader",
+        "Aniki (Bro)"
+      ],
+      "role": "protagonist",
+      "description": "__Height: __184 cm\n\nKamina is a young man from Jiiha village who dreams of leaving the village and going to the surface, which he saw as a kid. He's very passionate about his goals, expressing his wishes through energetic speeches, which seems to affect all those who hear him. He convinces Simon to help him with his plan to drill through the roof of the village and get to the world above, but the plan failed and he was put in prison. He left the village shortly thereafter with the help of Simon and a young girl named Yoko, as a result of fighting a Gunmen, who broke into the village from the surface.  After he, Simon, and Yoko breakthrough, they meet many enemies and friends as they go, to the point of building up a resistance force, the Gurren Brigade to fight in their war against the Beastmen Empire who hunt on human beings who live on the surface​ and becoming their leader.",
+      "metadata": {
+        "gender": "male",
+        "age": "18",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b2075-sWb5Xz76JWdX.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 2075
+      },
+      "rarity": "legendary"
+    },
+    {
+      "id": "nia-teppelin",
+      "name": "Nia Teppelin",
+      "alt_names": [
+        "ニア・テッペリン"
+      ],
+      "role": "protagonist",
+      "description": "**Age**: 14-21\n**Height**: 158cm-162cm\n\nNia Teppelin is a mysterious young girl found sleeping in a capsule in the middle of a dump site by Simon. She had no prior contact with humans, except her father, who is also the sovereign of the Beastmen, the Spiral King. She is very curious, pure and innocent, due to growing up sheltered in a peaceful environment, away from all the battles occurring in the outside world. Despite early misgivings, she is quickly accepted by Team Dai-Gurren, much to the (initial) irking of Yoko.\n\n~!During her journey, she develops a strong empathy towards Simon and grows to be his fiancé. After her encounters with Divine Generals Adiane and Guame, she comes to an understanding of the reason Simon found her outside the palace, being forsaken by her father after she started attaining her own will and self-consciousness, as he considered his offspring merely toys to play with as dolls, and decides to join The Team Dai-Gurren as a cook (even though her cooking is unbearable to anybody but Simon) in order to confront her father. In the final battle with Lord Genome, she boards Lagann with Simon and aids him in the destruction of Lord Genome. Seven years after Teppelin's fall, Nia and Simon are engaged, but soon after she is overtaken by the Anti-Spiral race to become a digital messenger.!~\n\n~!Seven days after the return to Earth, she and Simon get married, though she begins to fade away before the shocked crowd and an unsurprised Simon. She tells Simon she loves him, and he answers back saying that he will never forget her \"till the end of the universe\". Nia corrects him, stating it will never end and that's what they'd worked so hard for. She smiles as Simon says he loves her before she completely fades away.!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b2761-FmSJGaW9WzYZ.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 2761
+      },
+      "rarity": "legendary"
+    },
+    {
+      "id": "leeron-littner",
+      "name": "Leeron Littner",
+      "alt_names": [
+        "リーロン・リットナー",
+        "Ron"
+      ],
+      "role": "supporting",
+      "description": "Leeron, or &quot;Ron,&quot; is the flamboyant village mechanic of Littner Village. After taking an interest in Simon's mech they join Simon, Kamina and Yoko in their quest to defeat the Beastmen.",
+      "metadata": {
+        "gender": "non-binary",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/2376.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 2376
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "rossiu-adai",
+      "name": "Rossiu Adai",
+      "alt_names": [
+        "ロシウ・アダイ"
+      ],
+      "role": "supporting",
+      "description": "A boy from Adai village, an underground village where the people worship Gunmen as Gods. When Gimmy and Darry are chosen to leave the village, Rossiu decides to go with them and they join the Gurren-dan.\n\n~!In Part 2, Rossiu is second in command to Simon over New Kamina City. With this newfound responsibility, Rossiu leads an investigation on Lordgenome's memories to learn more about the Anti-Spirals. The results he finds cause him to lose faith in Simon's leadership and imprison him in a desperate attempt to save humanity from the Anti-Spirals!~",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/2377-b95gEhI6Udqq.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 2377
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "viral",
+      "name": "Viral",
+      "alt_names": [
+        "ヴィラル"
+      ],
+      "role": "supporting",
+      "description": "__Species:__ Shark/Cat Beastmen \n__Occupation:__ Vice Commander/Warrior/Team Dai-Gurren Member \n__Relationships:__ Kamina (rival), Simon (rival/ally), Thymilph (superior officer), Adiane (superior officer), Cytomander (superior officer), Lord Genome (king)\n __Gunmen:__ Enki, Enkidu, Dai-Gunkai (temporarily), Enkidudu, Gurren, Tengen Toppa Gurren-Lagann, Enkidududu (drama cd), Enkidudududu (drama cd), Dai-Gunzankai (drama cd), Tengen Toppa Enki Dulga (Lagann-hen) \n\nViral is a recurring enemy and later an important ally to Team Dai-Gurren in the japanese anime Tengen Toppa Gurren-Lagann. He is a shark-type Beastman with feline genetics. His appearance is more humanoid than most other Beastmen, except for his cat-like eyes, shark-like teeth, and large clawed paws in place of hands. He is skilled in piloting Gunmen, as well as in unarmed combat. While hunting for food, he attacks Kamina when he found, running into his Gunmen Enki after Yoko intervene in a ensuing fight between the two. He manages to overcome Simon and Kamina's attacks, but leaves before the fight ends. The next day, Viral returns to execute his mission as member of the Human Execution Squad, facing Kamina and Simon again; this time however, Viral is defeated by the newly formed Gurren-Lagann, barraging it missiles in order to conceal his escape, swearing revenge on Kamina for his humiliation when he took Enki's helmet in the fight.  Viral later returns alongside Supreme General Thymilph and the Dai-Gunzan to crush Team Gurren with the upgraded Enkidu, but is severely injured in the battle, which resulted in the Dai-Gurren's capture and the death of his superior. He tries to obtain another chance to fight by trying to join Supreme General Adiane's side, in spite of her treating him like garbage as she blames him for Thymilph's demise. Still, Viral saved Adiane from harm during a fight with Team Dai-Gurren, by stopping the Dai-Gurren's foot from crushing her. After Adiane's death by the Dai-Gurren's attack and being the only survivor of the Dai-Gunkai, Viral curses the Gurren-Lagann and swears to bring pain and punishment to those who killed his two superiors and robbing him of a honor.  Under Supreme General Cytomander's command, Viral took part on the aerial attack on the Dai-Gurren. His battle with the Gurren-Lagann, piloted by Simon and Yoko, extended to the control room of Cytomander's aerial fortress, the Dai-Gunten. There, he learned of Kamina's death, and discovered that he not only lost to a human, but to a child as well, challenging Simon to a one-on-one duel in their mecha. But the battle was interrupted by Cytomander, who took Yoko hostage, and ordered Viral to destroy the defenseless Gurren-Lagann. However, Viral disobeyed as he knew this outcome would not make him regain his lost pride and honor. For this action, Cytomander asked the Spiral King's permission to execute him for treason, but Viral's last request was hearing from the King himself of what is the true nature of human race. Thus, Lord Genome dispenses Cytomander and conducts Viral to a room where he reveals the truth behind the Beastmen's existance before making him immortal. Viral's last effort against the Gurren-Lagann was in the Spiral King's throne room, where he believed he could finally obtain his vengeance after becoming immortal, but was soundly defeated. Lord Genome revealed that the reason he gave Viral immortality was not to fight against Simon, as none without \"Spiral Energy\" could stand against his power, but to make of him as an eternal witness of his triumph against Team Dai-Gurren.   ~!After Lord Genome's defeat and the fall of Teppelin, Viral's whereabouts were unknown, until he was sighted causing an uproar with his Gunmen, and demanding Simon to fight him, but Rossiu stopped Simon from going after him and sent their Guraparl force instead. Gimmy and Darry together managed to take down Viral's Enkidudu and put him under custody. When questioned by Simon about why he continues to fight even after the war ended, Viral stated that his intention was to protect a human settlement which refused to leave the underground. Simon would eventually discover that Rossiu was forcing people out of their villages without his consent, in order to count them to find out how close mankind's population was from reaching the one million danger level, stated by Lord Genome. Viral is sent to the Rikone prison and reappears in the end of episode 19, when he re-encounters Simon, who was imprisoned there, awaiting for his death sentence to be carried on. Both end up locked in individual cells after a brawl, but after Simon is rescued by Yoko, Viral is also released by him and accepts his proposal to join Team Dai-Gurren against the Anti-Spirals, as the Gurren's pilot. This position is cemented after the battle, when Simon declares him the Gurren's official pilot in a meeting with the Team members; this title goes uncontested.  In episode 26, we discover that Viral's greatest desire is to have a family, however, this will always be impossible, since Beastmen cannot reproduce. Despite being a Beastman, he obtains a Core Drill when broken free from the Anti-Spiral's illusion, even though Beastmen should not be able to produce Spiral Energy. In the epilogue, Viral is seen commanding the Chouginga Dai-Gurren, as a representative for Earth, in the upcoming Spiral Peace Conference; due to his immortality, his appearance stays the same, in spite of the fact that 20 years had passed.!~ Viral's name comes directly from the word \"viral\", tying in with the Beastmen's genetics theme, but there are other theories about his name's origin. One is the fact that it can also be an anagram for \"rival\", referring to his constant rivalry with Kamina, which transfered to Simon throughout the series until near the end. Another possible theory comes from the Nikopol Trilogy of comic books written by Enki Bilal, as Enki is the name of Viral's first Gunmen and \"Bilal\", pronounced in Japanese, sounds like \"Viral\". Supporting this theory is Viral's theme song, which is titled \"Nikopol\", on the anime's soundtrack.  The name of Viral's Gunmen may be tied to the Sumerian diety Enki, though it is much more likely that there is a deliberate connection between his second Gunmen, Enkidu, and the character of Enkidu from the Epic of Gilgamesh. The myth consists of Enkidu ('Enki's creation'), a man of the wild who seeks to challenge King Gilgamesh, a mighty warrior, but who later befriends him and assists him in in his travels.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/n2378-UcNU2Pm8MlB9.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 2378
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "adiane",
+      "name": "Adiane",
+      "alt_names": [
+        "アディーネ",
+        "The Elegant"
+      ],
+      "role": "supporting",
+      "description": "Adiane the Elegant is the second of the Spiral King&#039;s Four Supreme Generals, and the only female general among their number. She is good friends with her fellow General, Thymilph, though Guame jokes that they had a closer relationship. She implies this friendship was strong because both Guame and General Cytomander treat her as an inferior because of her gender, while Thymilph respected her as a warrior.     After Thymilph&#039;s death, Adiane is stunned and vows revenge, volunteering to attack the Team Dai-Gurren when given the opportunity by Lordgenome. Though she refused his aid as she blamed him for Thymilph&#039;s death, Adiane recruits Viral after he saved her from being crushed by the Dai-Gurren after an attempt to execute Nia once she learns Lordgenome abandoned her. But because of her boasting and staking of her pride on the task, Adiane refuses to return to Teppelin until she destroys Team Dai-Gurren, using the sea to her advantage when the Dai-Gurren crosses it on its way to Teppelin.    Having Viral pilot her Dai-Gunkai to drag the Dai-Gurren into the cold depths, Adiane engages in personal combat with the Gurren-Lagann in her Sayrune to ensure no interference. But the plan fails and Adiane attempts to take Nia hostage until Yoko disables the Sayrune&#039;s shoulder, leaving it opened to close-range fire from the Dai-Gurren&#039;s artillery cannons and killing Adiane instantly in the explosion.    Adiane looks almost completely human, though she has a long, thick scorpion tail and a snake eye. She wears an eyepatch over her left eye and dresses in a loose fitting dress and heels. She is intensely hot and impulsive, often letting her anger get the better of her and land her in sticky situations or taking out her frustrations out on Viral. Despite this impetuous disposition, she is extremely skilled, and is able to battle five powerful Gunmen at once outside of her natural element of water.    Adiane&#039;s name is based on the DNA chemical adenine and the elemental Undine. Her Gunmen, Sayrune, is based on the mythical Azure Dragon, Seiryuu.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/3404.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 3404
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "cytomander",
+      "name": "Cytomander",
+      "alt_names": [
+        "シトマンドラ",
+        "The Swift "
+      ],
+      "role": "supporting",
+      "description": "Cytomander the Swift is one of the Spiral King's Four Divine Generals and the commander of Teppelin's aerial forces and owner of the flying battleship, the Dai-Gunten. As General Adiane only gets along with General Thymilph, it seems that Cytomander only gets along with General Guame, just like cytosine and guanine only bond with each other in the double helix of DNA. Cytomander attacked the Great Gurren Brigade twice, losing his life the second time, when the Dai-Gunten exploded.    Cytomander's name is based on the DNA chemical cytosine and the elemental Salamander. His Gunmen, Shuzack, is based on the mythical Vermilion Bird, Suzaku",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/3430.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 3430
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "guame",
+      "name": "Guame",
+      "alt_names": [
+        "グァーム",
+        "The Steady",
+        "The Immovable"
+      ],
+      "role": "supporting",
+      "description": "Guame the Steady (グァーム, Gwāmu?) is one of the Spiral King's Four Divine Generals, who specialises in ground combat. His appearance is like that of a crocodile and armadillo and he looks the oldest of the four generals. In episode nine, he, along with the two other generals, reported the death of Divine General Thymilph to the Spiral King. He gives off the impression of one with a perverted mind and showed why when he made snide comments about the relationship between Thymilph and General Adiane. Guame appears to merely respect the Spiral King, unlike the other Beastmen, who worship him as a god. Cytomander makes an interesting statement in episode nine, saying that it was only Guame that could oppose the king. Guame merely said that he and the King had known each other for a long time, which gives off the impression that he has lived as long as or almost as long as the Spiral King has (he later referred to General Cytomander as a \"two-hundred-years-younger upstart\", implying that he is 200 years older than Cytomander). It was Guame who later made it known why Nia was abandoned and that she was not the first princess to be abandoned.  Guame reappears, along with his flagship, the Dai-Gundo. Using Teppelin's power supply, Guame and the Dai-Gundo created a massive tornado, in order to destroy the Great Gurren Brigade and its allies, but his plans are ruined when the Gurren-Lagann tunnels underneath the fortress and impales Guame and the Dai-Gundo into its drill and onto the base of Teppelin.  Guame's name is based on the DNA chemical guanine and the elemental Gnome. His Gunmen, Genber, is based on the mythical Black Tortoise, Genbu.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/3431.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 3431
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "gimmy-adai",
+      "name": "Gimmy Adai",
+      "alt_names": [
+        "ギミー・アダイ"
+      ],
+      "role": "supporting",
+      "description": "Personal Gunmen: Grapearl (Blue),  ~!Gurren-Lagann (Epilogue)!~  Gimmy Adai is a boy from Adai Village, who used to be cared for by Rossiu. When new children were born into the village, the population exceeded its limit of 50, which mandated that two people be removed and sent to the surface. Since Gimmy and Darry had no parents, the village elder chose them to leave the village, however, Rossiu decided to go with them. The pair of twins have a very good bond with each other, and were often left to their own devices around Dai-Gurren, except when they were with older girls, such as Yoko or Nia. After the timeskip, Gimmy and Darry become important Grapearl pilots, often fighting together. Gimmy tends to be more impulsive and reckless, which sometimes puts the duo in trouble.   ~! After Nia's death, Simon hands down Lagann's Core Drill to Gimmy and in the epilogue, he is seen alongside Darry, not only as commanders of the Grapearl squad, but as the new pilots of Gurren Lagann.!~",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/3432.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 3432
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "darry-adai",
+      "name": "Darry Adai",
+      "alt_names": [
+        "ダリー・アダイ"
+      ],
+      "role": "supporting",
+      "description": "Darry is a girl from Adai Village, who used to be cared for by Rossiu. She is Gimmy's twin sister and has a good bond with him. As a young girl, she was shy and quiet and used to cling to a plush doll, which she carried with her at all times. After the timeskip, however, she is much more confident and has left her old personality behind. As a Grapearl pilot, she is careful, calm and perceptive, and puts more thought and planning into her actions than Gimmy.  (Source: Wikipedia)",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/3433.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 3433
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kittan-bachika",
+      "name": "Kittan Bachika",
+      "alt_names": [
+        "キタン・バチカ"
+      ],
+      "role": "supporting",
+      "description": "__Gender:__ Male\n__Origin:__ Bachika village\n\nThe leader of the Black Siblings, Kittan, makes his first appearance in the fourth episode of Tengen Toppa Gurren Lagann. He joins Kamina and Simon in the Gurren Brigade after acquiring his own Ganman, the &quot;King Kittan&quot;. As a Ganman Pilot, Kittan is a force to be reckoned with, and an asset to the Great Gurren Brigade.  Despite his sometimes obnoxious attitude and eccentric behaviour, Kittan is brave, noble, and willing to do whatever it takes to ensure that his friends escape whatever dangers they may encounter, no matter what the cost.\n\n~!After the war, Kittan became the Chief of the Legal Affairs Bureau in Kamina City, but resigned after discovering about Rossiu's plan to evacuate Earth using the Arc-Gurren, along a small fraction of the human population, and abandoning the rest to die, when the moon falls. Kittan is another character to have Spiral Power. He awakens it when he destroys the Death machine. It allowed him to use the King Kittan Giga Drill Break, which lead to his death.!~",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b3434-ahdOsb4rwsCV.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 3434
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kiyoh-bachika",
+      "name": "Kiyoh Bachika",
+      "alt_names": [
+        "キヨウ・バチカ"
+      ],
+      "role": "supporting",
+      "description": "Personal Gunmen: Dayakkaiser  Kiyoh Littner (born Kiyoh Bachika) is the oldest of Kittan&rsquo;s younger sisters, and possesses an extremely large bust. In episode six, when fighting her way out of an enemy Gunmen, she is shown to possess good combat ability. She was helping out in Dai-Gurren&#039;s control room until episode 13, when she starts aiding in the frontlines, piloting Dayakka&#039;s Dayakkaiser Gunmen, which she begins to use when Dayakka begins to command aboard Dai-Gurren.  ~!After the timeskip, we discover that Kiyoh and Dayakka have married, and Kiyoh gives birth to a daughter, whom she names Anne. Anne happens to be the newborn that makes the human population reach one million, and as soon as she is born, the Human Extermination System begins.!~  ~!In the manga she, Kittan, and her other sisters appear earlier in the story (during Team Gurren&#039;s time in Littner Village) and explains to Simon that their home village, Bachika, was destroyed by Viral.!~",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/3435.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 3435
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kinon-bachika",
+      "name": "Kinon Bachika",
+      "alt_names": [
+        "キノン・バチカ"
+      ],
+      "role": "supporting",
+      "description": "Kinon Bachika is the second oldest of Kittan&rsquo;s younger sisters. After Team Dai-Gurren&rsquo;s capture of Dai-Gunzan, she takes up a position within its control tower, monitoring the radar. She seems to be the calmest and smartest member of the Black Siblings.    After the time-skip, she becomes one of Rossiu&#039;s main supporters. After Simon offered himself to protect the city using Gurren Lagann, even after being sentenced to death, Kinon volunteered to pilot Gurren and rig herself with bombs inside its cockpit, claiming that she would detonate them, killing her and Simon in the process, in case of him making an attempt to escape. Later, it is revealed that Kinon&#039;s resolve to follow Rossiu, despite betraying Simon and ordering his execution, was not only the fruit of her devotion to him, but because she thought it greatly pained Rossiu to do so. She strongly believes that he was not doing it for personal gain, but because the circumstances had forced him to it, though if such was really the case is the subject of debate.    (Source: Wikipedia)",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/3436.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 3436
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kiyal-bachika",
+      "name": "Kiyal Bachika",
+      "alt_names": [
+        "キヤル・バチカ"
+      ],
+      "role": "supporting",
+      "description": "Personal Gunmen: Kiyalunga    Kiyal (キヤル, Kiyaru?) is the youngest member of the Black Siblings. Just like Kiyoh, she was helping out in the Dai Gurren&#039;s control room until episode 13, when she starts aiding in the front lines piloting her own Gunmen, Kiyalunga (named after herself), which can transform into a shield and lance which are wielded by Kittan&#039;s King Kittan.    Kiyal&#039;s name comes from the word yaruki (やる気), meaning &quot;willingness&quot;.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/3437.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 3437
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "boota",
+      "name": "Boota",
+      "alt_names": [
+        "ブータ"
+      ],
+      "role": "supporting",
+      "description": "Simon&#039;s sidekick. Boota is the mascot of Dai-Gurren Brigade, and Simon&#039;s pet. He seems to understand the language of humans, but is unable to speak on his own.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/4700.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 4700
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "anti-spiral",
+      "name": "Anti-Spiral",
+      "alt_names": [
+        "アンチ-スパイラル",
+        "反螺旋族"
+      ],
+      "role": "supporting",
+      "description": "The Anti-Spiral is the collective form of a population of Spirals who chose to seal their bodies in suspended animation, preventing their own spiral energy from manifesting beyond their control and destroying the universe.  The Anti-Spiral took it upon itself to control the population of other Spiral beings across the universe, to prevent the Spiral Nemesis, the threshold of Spiral energy being broken and destroying the universe, from occurring.    Although the Anti-Spiral seeks to destroy Spiral life forms, the Anti-Spiral will show mercy to those who surrender.  The Anti-Spiral will install an Extermination Systems around the home planet of those who surrender, which will destroy all Spiral life should their numbers become too great.  It is then up to the Spiral warrior who surrendered to maintain the Spiral&#039;s numbers.    The Anti-Spiral combats opposing Spirals using their highly advanced technology.  Because Spiral energy is fueled by will power and determination, the Anti-Spiral will use methods to instill fear, hopelessness, and absolute despair to subdue any Spiral uprising.  The Anti-Spiral technology is so great that it can bend the laws of physics and even alter probability.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b5115-Aph7LPvS4LvR.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 5115
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "lordgenome",
+      "name": "Lordgenome",
+      "alt_names": [
+        "ロージェノム",
+        "Spiral King"
+      ],
+      "role": "supporting",
+      "description": "Lordgenome is the ominous Spiral King, who rules the planet from his capitol city, Teppelin. An immortal human who lived for more than 1000 years so far, he cares little for people, treating the strange girls he surrounds himself with as dolls to be cast aside when they've outlived their interest to him. From Guame we find out that Lordgenome despises human consciousness and self-awareness although we are yet to be given a reason for this dislike.  When Simon and Nia finally reach him, he claims that the act of trapping the humans underground and hunting down those who live on the surface is a means he has found to protect mankind, because according to him, when the population of humans on the surface reach one million, a terrible fate will fall upon them. He also shares the fact that he and Simon share the same \"Spiral\" powers, before being defeated via being stabbed in the chest by Simon's Core Drill.  In episode 18, Lordgenome's memories are retrieved by Rossiu's research team, and he reveals to Rossiu the truth about the Anti-Spirals, and the reason why he forced mankind to live underground in order to control its population. It is also revealed that at one time Lordgenome had even been part of a group that fought against the Anti-Spirals, the Spiral Knights, who fought and protected the galaxy from the Anti-Spiral menace. In the end, however, the Spiral Tribe lost the war, and the Anti-Spiral Tribe (The Han-Rasen Tribe) gained control of the universe.  Lordgenome's revived head was used to control the massive spaceship Arc-Gurren. According to Leeron, the ship only reacts to him just like the Lagann only works with Simon. After the Gurren Brigade gained control of the Cathedral Terra, it was relocated there, apparently for the same reason. Source - Wikipedia",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/5118.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 5118
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "koko-jii",
+      "name": "Koko-jii",
+      "alt_names": [
+        "ココ爺",
+        "Old Coco",
+        "Ojii-San"
+      ],
+      "role": "supporting",
+      "description": "Seems to appear out of nowhere to save Nia... Also seems to be a master chef, a man of little words but always gets his message across.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/8037.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 8037
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "artenborough-cortich",
+      "name": "Artenborough Cortich",
+      "alt_names": [
+        "アーテンボロー・コアチッチ"
+      ],
+      "role": "supporting",
+      "description": "Gunner of the Dai Gurren Brigade. Only knows one tactic: &rdquo;FIRE! FIRE! FIRE!&rdquo;",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/10358.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 10358
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "leyte-jokin",
+      "name": "Leyte Jokin",
+      "alt_names": [
+        "レイテ・ジョーキン"
+      ],
+      "role": "supporting",
+      "description": "The chief mechanic of the Dai Gurren Brigade. In post-time skip she is married to Makken.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/11170.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 11170
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "thymilph",
+      "name": "Thymilph",
+      "alt_names": [
+        "チミルフ",
+        "The Crasher",
+        "The Raging Wave"
+      ],
+      "role": "supporting",
+      "description": "Thymilph the Crasher (チミルフ, Chimirufu?) is the first of the Spiral King's Four Divine Generals introduced in the story, representing the classical element of fire. He is Viral's initial superior officer and the commander of the Human Eradication Army Eastern Branch, which he monitors from the deck of the land battleship, the Dai-Gunzan. He is good friends with Divine General Adiane, though General Guame insinuates he had a closer relationship with her. He is a skilled tactician and proud warrior, and was ultimately killed when Kamina and Simon destroyed his personal Gunmen, the Byakou, with the Gurren-Lagann.  Thymilph appears as a stoud but large, well-built imposing armored warrior with gorilla features. He is impressively strong, almost always seen as in the company of a large iron hammer he presumably uses in close-quarter combat. A seasoned and confident war veteran, Thymilph has a high respect for caution and shrewdness, but like Viral, possesses a warrior's code of honor. Guame implies that Thymilph was idolized by many Beastmen throughout the Beastmen Empire.  Thymilph's name is based on the DNA chemical thymine and the elemental Sylph. His Gunmen, Byakou, is based on the mythical White Tiger, Byakko.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/13598.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 13598
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "magin",
+      "name": "Magin",
+      "alt_names": [
+        "マギン"
+      ],
+      "role": "supporting",
+      "description": "The prophet of Adai village Rossiu, Gimmy and Darry came from.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/16432.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 16432
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "zoushi-kanai",
+      "name": "Zoushi Kanai",
+      "alt_names": [
+        "ゾーシィ・カナイ",
+        "Zorthy"
+      ],
+      "role": "supporting",
+      "description": "Personal Gunmen: Sozoshin    Zorthy Kanai appears at the end of episode seven as a new addition to Team Dai-Gurren. His most recognizable quality is his smoking habit, which is unique to every other character in the series.    from wikipedia",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/18639.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 18639
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "gabal-docker",
+      "name": "Gabal Docker",
+      "alt_names": [
+        "ガバル・ドッカー"
+      ],
+      "role": "supporting",
+      "description": "Gabal Docker is Team Dai-Gurren&#039;s helmsman, in charge of Dai-Gurren&#039;s steering and maneuvering.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/18640.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 18640
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kid-coega",
+      "name": "Kid Coega",
+      "alt_names": [
+        "キッド・コイーガ"
+      ],
+      "role": "supporting",
+      "description": "Personal Gunmen: Kidd Knuckle    Kid Coega is another new member of Team Dai-Gurren. His Gunmen utilizes two pistols to attack enemies, the Kid Knuckle. Kid is killed during the first deep space battle versus the Anti-Spirals, when he and Iraak attempt to avenge Zorthy&#039;s death.    Kid&#039;s post-timeskip design bears a striking resemblance to Lupin III.    from wikipedia",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/18641.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 18641
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "iraak-coega",
+      "name": "Iraak Coega",
+      "alt_names": [
+        "アイラック・コイーガ",
+        "Ailac"
+      ],
+      "role": "supporting",
+      "description": "Personal Gunmen: Ainzer    Iraak Coega is a member of Team Dai-Gurren. He pilots a Gunmen that serves Yoko as a mobile rifle platform. Together, they assaulted Dai-Gunzan with the rest of the Team Gurren. The name of his Gunmen is Ainzer.    from wikipedia",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/18642.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 18642
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "tetsukan-littner",
+      "name": "Tetsukan Littner",
+      "alt_names": [
+        "テツカン・リットナー"
+      ],
+      "role": "supporting",
+      "description": "Tetsukan Littner is a member of the control team for Dai-Gurren. He is in charge of monitoring the condition of the ship. After the timeskip, he becomes a part of Leeron&#039;s science team. Also due to being attracted to the fast-food restaurants that were built in the new city he became obese. In the &quot;alternate universe&quot; scenes in Episode 26, Tetsukan is seen sleeping in a bed with Cybela, implying that the two are involved in a relationship, or that one (or both) of them desire to be. In the epilogue, he is seen working under Viral&#039;s command alongside Cybela.    (Source: Wikipedia)",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/18643.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 18643
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "dayakka-littner",
+      "name": "Dayakka Littner",
+      "alt_names": [
+        "ダヤッカ・リットナー"
+      ],
+      "role": "supporting",
+      "description": "Dayakka Littner is the former leader of Littner Village, abandoning his post, when most of Littner joined Team Dai-Gurren. His Gunmen is the Dayakkaiser, but after the seizure of Dai-Gunzan, he acted as the captain of Dai-Gurren during battles, while Kiyoh piloted the Dayakkaiser in his stead. ~!After the timeskip, we discover that Dayakka is appointed the Minister of Food Affairs for Kamina City, and he and Kiyoh have married and expecting a child. With the threat of the Anti-Spirals, Dayakka resigns his post and returns to his duties in Team Dai-Gurren.!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b18644-BCb3J5spW3hq.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 18644
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "jorgun-bakusa",
+      "name": "Jorgun Bakusa",
+      "alt_names": [
+        "ジョーガン・バクサ"
+      ],
+      "role": "supporting",
+      "description": "Personal Gunmen: Twin Boukun    Jorgun Bakusa and Balinbow Bakusa are the towering, twin brothers of Team Dai-Gurren, piloting the two-faced Gunmen, Twin Boukun. The two are always hyped and normally speak in manly grunts and monosyllabic phrases. They sport differently coloured sunglasses, which can be used to tell one brother from the other -- Jorgun wears red shades, while Balinbow sports blue ones. After the timeskip, the two were appointed Directors of the Public Affairs Department, in which they were responsible for the human population count.    from wikipedia",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/18645.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 18645
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "balinbow-bakusa",
+      "name": "Balinbow Bakusa",
+      "alt_names": [
+        "バリンボー・バクサ"
+      ],
+      "role": "supporting",
+      "description": "Personal Gunmen: Twin Boukun  Jorgun Bakusa and Balinbow Bakusa are the towering, twin brothers of Team Dai-Gurren, piloting the two-faced Gunmen, Twin Boukun. The two are always hyped and normally speak in manly grunts and monosyllabic phrases. They sport differently coloured sunglasses, which can be used to tell one brother from the other—Jorgun wears red shades, while Balinbow sports blue ones. After the timeskip, the two were appointed Directors of the Public Affairs Department, in which they were responsible for the human population count.  (Source: Wikipedia)",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/18646.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 18646
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "makken-jokin",
+      "name": "Makken Jokin",
+      "alt_names": [
+        "マッケン・ジョーキン"
+      ],
+      "role": "supporting",
+      "description": "Personal Gunmen: Moshogun    Makken is a fairly silent man who is an important part of Team Dai-Gurren, but has rarely spoken or gotten much screen time whatsoever. He has his own Gunmen, Moshogun, which is based on an ancient samurai.    After the timeskip, Makken is married to Leite with three children.      ~!Sadly, he is killed in the first deep space battle versus the Anti-Spirals, after sacrificing himself to stop a large Anti-Spiral missile from destroying the Super Galaxy Dai-Gurren.    In the epilogue, a memorial site, in the form of a sword, is seen in his honor right alongside Kamina and the other members of Team Dai-Gurren.!~    Makken has the same voice actor as Kamina, though he is credited as &quot;Leo Kaminaga.&quot; Leo Kaminaga, when written in hiragana, is an anagram for &quot;ore ga Kamina,&quot; or &quot;I am Kamina.&quot;    - Wikipedia",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/18647.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 18647
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "cybela-kuto",
+      "name": "Cybela Kuto",
+      "alt_names": [
+        "シベラ・クトー"
+      ],
+      "role": "supporting",
+      "description": "Cybela Kuto is mainly seen at a computer, where she can communicate with Grapearls or do analyzation tasks. Later, she joins Team Dai-Gurren, assuming a position at Super Galaxy Dai-Gurren&#039;s bridge. In the epilogue, she is seen still working there, now under Viral&#039;s command. Her name is an anagram of &quot;shirabe&quot;, which means &quot;to search&quot;.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/18678.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 18678
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "guinble-kaito",
+      "name": "Guinble Kaito",
+      "alt_names": [
+        "ギンブレー・カイト"
+      ],
+      "role": "supporting",
+      "description": "Guinble Kaito, along with Kinon, seems to be one of the more important members of Rossiu&#039;s intelligence team. He and Kinon often accompany Rossiu, and stayed with him on Earth to watch out for the city while the rest of Team Dai-Gurren headed into space for their final battle against the Anti-Spirals.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/18679.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 18679
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "anne-littner",
+      "name": "Anne Littner",
+      "alt_names": [
+        "アン・リットナー"
+      ],
+      "role": "supporting",
+      "description": "~!After the timeskip, we discover that Kiyoh and Dayakka have married, and Kiyoh gives birth to a daughter, whom she names Anne. Anne happens to be the newborn that makes the human population reach one million, and as soon as she is born, the Human Extermination System begins.!~    Source: Wikipedia",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/26914.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 26914
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "memu",
+      "name": "Memu",
+      "alt_names": [],
+      "role": "supporting",
+      "description": "Viral&#039;s fantasy daughter.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/31075.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 31075
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "alt_names": [
+        "ナレーター",
+        "語り手",
+        "ナレーション",
+        "Narrador",
+        "Rozprávač",
+        "Vyprávěč",
+        "Dış ses",
+        "Narratore",
+        "Pripovjedač",
+        "Narradora",
+        "Рассказчик",
+        "Người dẫn chuyện",
+        "Tagapagsalaysay",
+        "내레이터",
+        "Narratore",
+        "Erzählperson",
+        "מספר",
+        "Narrátor",
+        "讲述人",
+        "راوي",
+        "Forteller",
+        "Berättare",
+        "Αφηγητής",
+        "Narrateur",
+        "なれーしょん",
+        "旁白",
+        "Narrato"
+      ],
+      "role": "supporting",
+      "description": "This character page is set to represent and list all narrators, which haven't been given a visual representation of themselves in their respective work. \n\nPlease add other narrator characters, which were given a visual representation of themselves, separately from this narrator page.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-6KM0riV4lqfN.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 36309
+      },
+      "rarity": "rare"
+    }
+  ],
+  "updated_at": "2025-12-23T02:01:22.505Z"
+}

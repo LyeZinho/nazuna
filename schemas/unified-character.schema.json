@@ -1,0 +1,153 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://char-lib.local/schemas/unified-character.schema.json",
+  "title": "UnifiedCharacter",
+  "description": "Schema para personagem unificado com categorias",
+  "type": "object",
+  "required": ["anilist_id", "name"],
+  "properties": {
+    "anilist_id": {
+      "type": "integer",
+      "description": "ID único do AniList"
+    },
+    "id": {
+      "type": "string",
+      "description": "Slug do personagem"
+    },
+    "name": {
+      "type": "string",
+      "description": "Nome principal do personagem"
+    },
+    "alt_names": {
+      "type": "array",
+      "description": "Nomes alternativos",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "description": {
+      "type": "string",
+      "description": "Descrição do personagem"
+    },
+    "gender": {
+      "type": "string",
+      "description": "Gênero do personagem"
+    },
+    "role": {
+      "type": "string",
+      "description": "Papel na obra",
+      "enum": ["protagonist", "deuteragonist", "antagonist", "supporting", "minor", "other"]
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "type": { "type": "string", "enum": ["portrait", "full-body", "screenshot", "art", "other"] },
+          "source": { "type": "string" }
+        }
+      },
+      "default": []
+    },
+    "works": {
+      "type": "array",
+      "description": "Obras onde o personagem aparece",
+      "items": {
+        "type": "object",
+        "properties": {
+          "internalId": { "type": "string" },
+          "workTitle": { "type": "string" },
+          "role": { "type": "string" }
+        }
+      }
+    },
+    "_imageSource": {
+      "type": "string",
+      "description": "Fonte da imagem (anime/manga)"
+    },
+    "categories": {
+      "type": "object",
+      "description": "Categorias do personagem",
+      "properties": {
+        "demographics": {
+          "type": "object",
+          "properties": {
+            "gender": { "type": "string" },
+            "age": { "type": ["string", "null"] }
+          }
+        },
+        "role": {
+          "type": "string",
+          "enum": ["protagonist", "deuteragonist", "antagonist", "supporting", "minor", "other"]
+        },
+        "personality": {
+          "type": "array",
+          "description": "Traits de personalidade",
+          "items": {
+            "type": "string",
+            "enum": [
+              "tsundere", "yandere", "kuudere", "dandere",
+              "imouto", "onee-san", "ojousama", "bokukko",
+              "genki", "meido", "neko",
+              "witch", "elf", "demon", "angel", "ghost", "zombie", "vampire",
+              "robot", "alien", "dragon",
+              "warrior", "knight", "ninja", "samurai",
+              "hunter", "detective", "scientist", "doctor", "police", "hacker",
+              "musician", "artist", "writer", "chef", "idol",
+              "athlete", "gamer", "otaku",
+              "chuunibyou", "sadist", "masochist",
+              "lolicon", "shotacon", "siscon", "brocon",
+              "trap", "femboy", "bishounen", "bishoujo", "gyaru",
+              "lucky_pervert"
+            ]
+          }
+        },
+        "appearance": {
+          "type": "object",
+          "properties": {
+            "hair_color": {
+              "type": ["string", "null"],
+              "enum": ["black", "blonde", "brown", "red", "blue", "pink", "green", "purple", "white", "grey", "multi", null]
+            },
+            "eye_color": {
+              "type": ["string", "null"],
+              "enum": ["black", "blue", "red", "green", "purple", "brown", "grey", "pink", "gold", null]
+            },
+            "body_type": {
+              "type": ["string", "null"],
+              "enum": ["petite", "curvy", "athletic", "tall", "skinny", "chubby", null]
+            }
+          }
+        },
+        "archetype": {
+          "type": "array",
+          "description": "Arquétipos derivados",
+          "items": { "type": "string" }
+        },
+        "work": {
+          "type": "object",
+          "properties": {
+            "genres": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "tags": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "formats": {
+              "type": "array",
+              "items": { "type": "string", "enum": ["anime", "manga"] }
+            },
+            "popularity": { "type": "integer" },
+            "score": { "type": "integer" }
+          }
+        },
+        "source": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["anime", "manga"] }
+        }
+      }
+    }
+  }
+}

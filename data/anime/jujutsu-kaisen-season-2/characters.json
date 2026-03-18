@@ -1,0 +1,2712 @@
+{
+  "work_id": "jujutsu-kaisen-season-2",
+  "count": 109,
+  "characters": [
+    {
+      "id": "yuuji-itadori",
+      "name": "Yuuji Itadori",
+      "alt_names": [
+        "虎杖悠仁",
+        "Sukuna's Vessel",
+        "The Tiger of West Junior High"
+      ],
+      "role": "protagonist",
+      "description": "**Species:** Human\n**Height:** 173 cm (5'8\")\n**Occupation:** Sorcerer, Student, Vessel\n**Affiliation:** Jujutsu High\n\nYuuji is a fair person who cares greatly for not only his comrades but anyone he views as people with their own wills, despite how deep or shallow his connection to them is. He cares greatly for the \"value of a life\" and to this end, he will ensure that others receive a \"proper death.\" He is easy to anger in the face of pure cruelty and unfair judgment of other people.\nHe doesn't have the born talent required to use cursed techniques, but he has incredible athletic abilities and he is considered very strong for his age, as shown by when he easily beat a coach in Steel Ball Throw.",
+      "metadata": {
+        "gender": "male",
+        "age": "15",
+        "dateOfBirth": "2003-03-20"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b127212-FVm2tD0erQ5B.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 127212
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "megumi-fushiguro",
+      "name": "Megumi Fushiguro",
+      "alt_names": [
+        "伏黒恵",
+        "Sea Urchin Head"
+      ],
+      "role": "protagonist",
+      "description": "__Species:__ Human\n__Height:__ 175 cm (5'9\")\n__Occupation:__ Sorcerer, Student\n__Affiliation:__ Jujutsu High\n__Grade:__ Grade 2 Sorcerer\n__Cursed Technique:__ 10 Shadows\n\nMegumi is the deuteragonist of the Jujutsu Kaisen series. He is a first-year student at Jujutsu High and also a descendant of the Zenin Family.\n\nWhile outwardly stoic and calculating, Megumi wishes to help protect people he sees as good or kind. He believes that the world is unfair and that a Sorcerer is a tool to ensure kind people are given more chances to live. Claiming it to be his selfish and irrational desire, he does not see himself as a hero for doing this.",
+      "metadata": {
+        "gender": "male",
+        "age": "15",
+        "dateOfBirth": "2002-12-22"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b126635-L0y3I92JSUkN.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 126635
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "nobara-kugisaki",
+      "name": "Nobara Kugisaki",
+      "alt_names": [
+        "釘崎野薔薇"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 160 cm (5'3\")\n__Occupation:__ Jujutsu Sorcerer, Student\n__Affiliation:__ Tokyo Jujutsu High\n__Grade:__ Grade 3 Sorcerer\n\nShe is a first-year student and grade 3 jujutsu sorcerer at Tokyo Jujutsu High studying under Satoru Gojo alongside Yuji and Megumi.\n \nNobara is a confident and brash young woman with an unshakable character. More than anything, Nobara is determined to stay true to herself no matter what. She takes great pride in being both a pretty girl and a strong fighter, refusing to let anyone influence her.\n\nInitially, Nobara can appear to be a very obnoxious and arrogant person. She first introduced herself to Yuji and Megumi by expressing how inferior they were. She also argued with Yuji for the greater part of their first mission together. Despite her abrasive attitude, Nobara is actually an incredibly caring and dutiful person, but would never let most people see that side of her. After fighting alongside each other in several missions, Yuji and Megumi grow to become Nobara's closest allies.",
+      "metadata": {
+        "gender": "female",
+        "age": "16",
+        "dateOfBirth": "2002-08-07"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b133700-f6sOO3TcgLV6.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 133700
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "satoru-gojou",
+      "name": "Satoru Gojou",
+      "alt_names": [
+        "五条悟",
+        "Satoru Gojo"
+      ],
+      "role": "protagonist",
+      "description": "__Height:__ 190 cm (6'3\")\n__Occupation:__ Jujutsu Sorcerer, Teacher\n__Affiliation:__ Tokyo Metropolitan Curse Technical College, Gojou Family\n__Grade:__ Special Grade Sorcerer\n__Cursed Technique:__ Six Eyes, Limitless\n\nSatoru Gojou is one of the main protagonists of the Jujutsu Kaisen series. He is a special-grade jujutsu sorcerer and is widely recognized as the strongest in the world. Satoru is the pride of the Gojou Family, the first person to inherit both the Limitless and the Six Eyes in four hundred years. He works as a teacher at the Tokyo Jujutsu High and uses his influence to protect and train strong young allies",
+      "metadata": {
+        "gender": "male",
+        "age": "28",
+        "dateOfBirth": "1989-12-07"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b127691-9zqh1xpIubn7.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 127691
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "suguru-getou",
+      "name": "Suguru Getou",
+      "alt_names": [
+        "夏油傑"
+      ],
+      "role": "protagonist",
+      "description": "__Species:__ Human\n__Height:__ 183 cm\n__Occupation:__ Curse User\n__Grade:__ Special Grade Curse User\n__Cursed Technique:__ Cursed Spirit Manipulation\n\nSuguru Getou is an antagonist in both the Jujutsu Kaisen series and its prequel Jujutsu Kaisen 0: Jujutsu High. \n\n~!He was originally a student of Masamichi Yaga's alongside Satoru Gojo and Shoko Ieiri at Tokyo Jujutsu High. His experiences as a jujutsu sorcerer bred a deep hatred for non-sorcerers, leading to an incident where Suguru massacred over a hundred civilians in a single night, later being expelled from Jujutsu High and called for immediate execution as a result.!~",
+      "metadata": {
+        "gender": "male",
+        "age": "27",
+        "dateOfBirth": "1990-02-03"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b133699-FCnXaISgazAi.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 133699
+      },
+      "rarity": "epic"
+    },
+    {
+      "id": "shouko-ieiri",
+      "name": "Shouko Ieiri",
+      "alt_names": [
+        "家入硝子"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 168 cm\n__Ability:__ Reverse Healing Cursed Technique\n\nAlumnus of Tokyo Jujutsu High, having been classmates with [Satoru Gojo](https://anilist.co/character/127691) and [Suguru Geto](https://anilist.co/character/133699). After graduating into a full-fledged jujutsu sorcerer, Shoko became the school's primary doctor.",
+      "metadata": {
+        "gender": "female",
+        "age": "28-",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b158154-UCqbiULli62P.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 158154
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "riko-amanai",
+      "name": "Riko Amanai",
+      "alt_names": [
+        "天内理子"
+      ],
+      "role": "supporting",
+      "description": "Riko Amanai is a student at Renchoku Girls' Junior High and the designated Star Plasma Vessel for Master Tengen's merger in 2006.\n\n~!She was later killed by Toji Fushiguro in the same arc.!~",
+      "metadata": {
+        "gender": "female",
+        "age": "14",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b203015-ez2Io1gxIQOP.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 203015
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "touji-fushiguro",
+      "name": "Touji Fushiguro",
+      "alt_names": [
+        "伏黒甚爾",
+        "Sorcerer Killer",
+        "Toji Fushiguro",
+        "Touji Zenin"
+      ],
+      "role": "supporting",
+      "description": "Touji Fushiguro, born Touji Zenin, is the father of [Megumi Fushiguro](https://anilist.co/character/126635/). He took a job from the Star Religious Group to assassinate the Star Plasma Vessel.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b162722-btzdghBizxKS.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 162722
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kento-nanami",
+      "name": "Kento Nanami",
+      "alt_names": [
+        "七海建人",
+        "Nanamin",
+        "7:3 Sorcerer"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 184 cm (6'0½\")\n__Occupation:__ Sorcerer\n__Affiliation:__ Jujutsu High\n__Grade:__ Grade 1 Sorcerer\n__Cursed Technique:__ Ratio\n\nHe is a Grade 1 Jujutsu Sorcerer and a Tokyo Jujutsu High alumni. \n\nNanami is a very intelligent and reserved man who at first appears to be someone who is just very serious about his work. He knows how to separate sentimentalism from service and claims he's only a Jujutsu Sorcerer because it's slightly less idiotic than regular careers. As one of [Yuji's](https://anilist.co/character/127212/Yuji-Itadori) mentors, Nanami is a complete contrast to [Gojo](https://anilist.co/character/127691/Satoru-Gojou), who is far more outspoken and easy-going.",
+      "metadata": {
+        "gender": "male",
+        "age": "27",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b133704-8wLTGjc234q2.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 133704
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "mahito",
+      "name": "Mahito",
+      "alt_names": [
+        "真人",
+        "Patchface"
+      ],
+      "role": "supporting",
+      "description": "__Grade__: Special Grade\n__Cursed Technique:__ Idle Transfiguration\n\nMahito is one of the primary antagonists of the Jujutsu Kaisen series. He is a Cursed Spirit allied with Suguru Geto, Jogo, Hanami and several others. Their ultimate goal is the eradication of humanity and ultimately replacing the population with Cursed Spirits.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b133702-Y7JRG5vAvjIL.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 133702
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "mei-mei",
+      "name": "Mei Mei",
+      "alt_names": [
+        "冥冥"
+      ],
+      "role": "supporting",
+      "description": "__Height:__  173 cm\n__Occupation:__ Jujutsu Sorcerer\n__Affiliation:__ Jujutsu High\n__Grade:__ Grade 1 Sorcerer\n__Family:__ Ui Ui (Younger Brother)\n\n__Abilities__:\n~!\n__Weapon Mastery__: Mei Mei wields a large battle-axe. \n__Cursed Technique__: Black Bird Manipulation - Mei Mei is able to control crows as well as see through their eyes, making her technique great for recon.\n__Bird Strike__: by forcing a crow to commit suicide, the trade-off is to erase the Cursed Energy limit of a typical weak bird and hurl it at the enemy.\n!~\n\nMei Mei is a grade 1 jujutsu sorcerer who works independently and only in exchange for money. She is also the older sister of Ui Ui. \n\n~!She was the senpai of Satoru Gojo and Suguru Geto during their time at Jujutsu High.!~",
+      "metadata": {
+        "gender": "female",
+        "age": "30",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157215-I3TQJu8nkDwD.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157215
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "utahime-iori",
+      "name": "Utahime Iori",
+      "alt_names": [
+        "庵歌姫"
+      ],
+      "role": "supporting",
+      "description": "A first grade sorcerer and a teacher at Kyoto Jujutsu Technical High School.",
+      "metadata": {
+        "gender": "female",
+        "age": "31",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157864-rejVYNx0kQZr.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157864
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "masamichi-yaga",
+      "name": "Masamichi Yaga",
+      "alt_names": [
+        "夜蛾正道"
+      ],
+      "role": "supporting",
+      "description": "He is the current principal of Tokyo Metropolitan Jujutsu Technical High School, the creator of Panda, and the headmaster of Satoru Gojo, Suguru Geto and Shoko Ieiri.\n\n~!After the Shibuya incident Yaga is given a death penalty by the higher ups for inciting Gojo and Geto in the past and \"causing the Shibuya incident\".!~",
+      "metadata": {
+        "gender": "male",
+        "age": "47",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b189237-ZxNJwVPL8DvW.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 189237
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "misato-kuroi",
+      "name": "Misato Kuroi",
+      "alt_names": [
+        "黒井美里"
+      ],
+      "role": "supporting",
+      "description": "Misato is the caretaker of the star plasma vessel Riko Amanai. She is a kind woman who cares deeply for Riko beyond a professional level. They love one another as family and Misato is extremely loyal to her.",
+      "metadata": {
+        "gender": "female",
+        "age": "31",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b255175-rOyuWgBm6W9M.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 255175
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "yuu-haibara",
+      "name": "Yuu Haibara",
+      "alt_names": [
+        "灰原雄",
+        "Yu Haibara"
+      ],
+      "role": "supporting",
+      "description": "__Species:__ Human\n__Height:__ 176 cm (5'9\")\n__Occupation:__ Sorcerer, Student\n__Affiliation:__ Jujutsu High\n\nA first-year student at Tokyo Metropolitan Jujutsu Technical High School in 2006, along with [Kento Nanami](https://anilist.co/character/133704/Kento-Nanami).\n\n~!In 2007, he is killed during a mission with Nanami to exorcise a Grade 2 cursed spirit that was underestimated to be a Grade 1 spirit instead. His death heavily impacted Nanami, as Nanami was the only second year remaining after Haibara's death, and also led him to reconsider being a Jujutsu sorcerer.!~",
+      "metadata": {
+        "gender": "male",
+        "age": "16-17",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b281725-qJOgelbFp32B.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 281725
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "shiu-kong",
+      "name": "Shiu Kong",
+      "alt_names": [
+        "孔時雨"
+      ],
+      "role": "supporting",
+      "description": "A handler for the Time Vessel Association.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b303313-5ELI3hDVjNwP.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 303313
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "bayer",
+      "name": "Bayer",
+      "alt_names": [
+        "バイエル",
+        "Baieru"
+      ],
+      "role": "supporting",
+      "description": "Bayer is a minor antagonist in the Jujutsu Kaisen series. He is a soldier formerly aligned with a faction of curse users called Q.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b306267-7QXgLLV4bMVB.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 306267
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "koukun",
+      "name": "Koukun",
+      "alt_names": [
+        "コークン"
+      ],
+      "role": "supporting",
+      "description": "Koukun is a minor antagonist in the Jujutsu Kaisen series. He is a soldier formerly aligned with a faction of curse users called Q.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b306268-49iFgcDudSAC.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 306268
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "yuuta-okkotsu",
+      "name": "Yuuta Okkotsu",
+      "alt_names": [
+        "乙骨憂太",
+        "Yuta Okkotsu"
+      ],
+      "role": "supporting",
+      "description": "__Species:__ Human\n__Occupation:__ Sorcerer, Student\n__Affiliation:__ Jujutsu High\n__Grade:__ Special Grade Sorcerer\n\nThe main protagonist of Jujutsu Kaisen prequel series [Tokyo Metropolitan Curse Technical School](https://anilist.co/manga/105469/Tokyo-Toritsu-Jujutsu-Kodo-Senmon-Gakko). He was initially a Special Grade Cursed Victim haunted by his late childhood friend, Rika Orimoto. [Satoru Gojou](https://anilist.co/character/127691/Satoru-Gojou) mentored Yuuta and enrolled him at Tokyo Jujutsu High.",
+      "metadata": {
+        "gender": "male",
+        "age": "16-17",
+        "dateOfBirth": "2001-03-07"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b129571-GHJk7gviHOOw.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 129571
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "sukuna",
+      "name": "Sukuna",
+      "alt_names": [
+        "宿儺",
+        "Double-Faced Specter",
+        "King of Curses",
+        "Ryoumen Sukuna (両面宿儺)",
+        "Disgraced One",
+        "The Fallen"
+      ],
+      "role": "supporting",
+      "description": "__Species:__ Human, Reincarnated Sorcerer\n\nAccording to the legend, Sukuna was a demon with four arms and two faces who lived in the golden era of sorcery 1000 years ago. Sorcerers of the era gave their all to defeat him, but to no avail. Without ever being defeated, his body was split into 20 separate indestructible cursed objects, which allowed him to live on and traverse the ages to come. In 2018, Yuuji Itadori consumed one of the aforementioned cursed objects, and Sukuna was reincarnated. \n\n~!In reality, Sukuna was not a demon, but rather a deformed human sorcerer. His body was able to be split up into 20 cursed objects because he received assistance from Kenjaku.!~\n\nSukuna is hedonistic and has no regard for the suffering of others, believing that suffering is natural for the weak. He is selfish, and always wants to stay in control of the situation without caring about the consequences.",
+      "metadata": {
+        "gender": "male",
+        "age": "1000+",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b133701-rCQuDpHr3UZL.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 133701
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "maki-zenin",
+      "name": "Maki Zenin",
+      "alt_names": [
+        "禪院真希",
+        "Miss Zenin"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 170 cm (5'7\")\n\nMaki Zenin is the older twin sister of [Mai Zenin](https://anilist.co/character/134168/Mai-Zenin). Maki is a grade 4 sorcerer and a second-year at Tokyo Metropolitan Jujutsu Technical High School. She is from the main branch of the Zenin clan, one of the \"Prominent Three Families\" of the Jujutsu world.\n\nShe left the Zenin family in order to prove herself capable of being a Sorcerer after being deemed uncapable, since she lacks Cursed Energy.\n\n~!Because Mai and Maki are monozygotic twins, their strength is considerably limited to one another. Monozygotic twins are considered as a single individual in the Jujutsu world and are a sign of bad omen.!~\n\n~!After the death of her twin sister Mai, Maki has lost all of her cursed energy and gained a Heavenly Restriction. This causes her skills and human capabilities to be on par with [Toji Fushiguro's](https://anilist.co/character/162722/Touji-Fushiguro).!~",
+      "metadata": {
+        "gender": "female",
+        "age": "16",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b134167-5TCytk45YByD.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 134167
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "mai-zenin",
+      "name": "Mai Zenin",
+      "alt_names": [
+        "禪院真依"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 170 cm (5'7\")\n\nMai Zenin is the younger twin sister of [Maki Zenin](https://anilist.co/character/134167/Maki-Zenin). Mai is a grade 3 sorcerer and a second-year at Kyoto Jujutsu Technical High School. As a child, Mai always relied on Maki since she was afraid of Cursed Spirits. \n\n~!Because Mai and Maki are monozygotic twins, their strength is considerably limited to one another. Monozygotic twins are considered as a single individual in the Jujutsu world and are a sign of bad omen.!~\n\n~!In chapter 149, Mai decides to sacrifice herself in order to make Maki stronger.!~",
+      "metadata": {
+        "gender": "female",
+        "age": "16",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b134168-FdWz5w2LqpeF.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 134168
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "panda",
+      "name": "Panda",
+      "alt_names": [
+        "パンダ"
+      ],
+      "role": "supporting",
+      "description": "__Species:__ Cursed Corpse (varies among 3 personalities)\n__Occupation:__ Jujutsu Sorcerer, Student\n__Affiliation:__ Jujutsu High\n__Grade:__ 2\n\nHe is a second-year at Tokyo Prefectural Jujutsu High. As a Metamorphosed Cursed Corpse, he is the best creation of Principal [Masamichi Yaga](https://anilist.co/character/189237/Masamichi-Yaga). He is sentient and has three cores inside the doll body: the youngest brother \"Panda\", the eldest brother \"Gorilla\" and a sister.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b137974-9qnK3DPrvLKh.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 137974
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "aoi-toudou",
+      "name": "Aoi Toudou",
+      "alt_names": [
+        "東堂葵",
+        "Aoi Todo"
+      ],
+      "role": "supporting",
+      "description": "__Species:__ Human\n__Height:__ 190 cm\n__Occupation:__ Sorcerer, Student\n__Affiliation:__ Kyoto Jujutsu Technical High School\n__Grade:__ Grade 1 Sorcerer\n\nToudou is a third-year student at Kyoto Jujutsu Technical High School who possesses inhuman physical strength, durability, and speed. \n\n~!He is able to use a technique called Boogie Woogie, in which he can switch the position of two things that posses a certain amount of curse energy within his range.!~",
+      "metadata": {
+        "gender": "male",
+        "age": "18",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b137975-6TH7PiLWJaqy.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 137975
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kasumi-miwa",
+      "name": "Kasumi Miwa",
+      "alt_names": [
+        "三輪霞"
+      ],
+      "role": "supporting",
+      "description": "__Species:__ Human\n__Occupation:__ Jujutsu Sorcerer, Student\n__Affiliation:__ Kyoto Metropolitan Curse Technical College\n__Grade:__ Grade 3 Sorcerer\n\nA second-year at Kyoto Metropolitan Curse Technical College. Kasumi is a hard-working, restrained, and considerate pacifist. She is also a big fan of [Satoru Gojo](https://anilist.co/character/127691).\n\n~!She has a very close bond with Mechamaru, their friendship is first seen in the Tournament Arc when Miwa offers him a battery telling him not to eat it as Mai and Momo laugh in the background. In the Shibuya Arc, she is seen mourning his death on the train. Over the course of the Tournament Arc and Shibuya Arc it is very apparent their friendship grows as they both strived towards becoming closer to one another. As she mourns his death on the train she holds a mini Mechamaru speaker which tells her to find her happiness. After the recording finishes, she holds the speaker to her heart and cries. The entire Kyoto program seems very distressed by his death on the train. When later entering the battle Miwa is quick to activate her technique out of rage and sadness towards Mahito.!~",
+      "metadata": {
+        "gender": "female",
+        "age": "17",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b156848-Rf0tuoQCNyZV.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 156848
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "jougo",
+      "name": "Jougo",
+      "alt_names": [
+        "漏瑚",
+        "Jogo"
+      ],
+      "role": "supporting",
+      "description": "__Grade:__ Special Grade Cursed Spirit\n\nJogou is an unregistered special grade cursed spirit aligned with Mahito, Hanami, and Dagon. He was born of humanity's fear and negative association with volcanoes and other fire-related natural disasters. This resulted in a highly intelligent cursed spirit with massive levels of cursed energy even for a special grade. Jogou believes curses are the true humans and desires a world where his kind dominates the earth.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b156991-niYjdp9CxO4w.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 156991
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "toge-inumaki",
+      "name": "Toge Inumaki",
+      "alt_names": [
+        "狗巻棘"
+      ],
+      "role": "supporting",
+      "description": "__Species:__ Human\n__Occupation:__ Sorcerer, Student\n__Affiliation:__ Jujutsu High\n__Grade:__ Grade 2 Sorcerer\n__Cursed Technique:__ Cursed Speech\n\nHe is a second-year at Tokyo Metropolitan Jujutsu Technical High School. Due to his curse ability, he is only willing to communicate with ingredients used to make rice balls.",
+      "metadata": {
+        "gender": "male",
+        "age": "17",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157115-kdhRYQdVhH95.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157115
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "chousou",
+      "name": "Chousou",
+      "alt_names": [
+        "脹相",
+        "Choso"
+      ],
+      "role": "supporting",
+      "description": "Chousou is half human and half cursed spirit and the first of the Death Painting Wombs with a Special Grade rank. He and his two brothers, Kechizu and Eso are Cursed Womb: Death Paintings who have sided with Mahito's group.\n\nChousou bears strong attachments to his brothers and is very overprotective of them. ~!However, after receiving a vision during his battle with Itadori, Chousou was eventually convinced that Sukuna's vessel was actually one of his younger brothers. He then became furious at Mahito and the other cursed spirits for manipulating him into harming Itadori.!~\n\n~!Chousou is one of nine death painting wombs that came from a woman capable of giving birth to cursed spirit children. At some point, Chousou and his brothers were stored at the Jujutsu High, along with some of Sukuna's fingers.\n\nAs stated by Chousou himself, Noritoshi Kamo, the man who experimented on his mother is in fact his third \"parent\" due to him having mixed in his own blood into Chousou when his mother was pregnant with him. Although seemingly not remembering much about his own past, it is evident that Chousou himself remembers Noritoshi and holds a grudge against him for toying with his mother and siblings' lives.!~",
+      "metadata": {
+        "gender": "male",
+        "age": "150+",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157116-2jYQf3y8NeTZ.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157116
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "takuma-ino",
+      "name": "Takuma Ino",
+      "alt_names": [
+        "猪野琢真"
+      ],
+      "role": "supporting",
+      "description": "__Species:__ Human\n__Occupation:__ Sorcerer\n__Affiliation:__ Jujutsu High\n__Grade:__ Grade 2 Sorcerer\n\nTakuma Ino is a grade 2 jujutsu sorcerer and a close associate of Kento Nanami who operates out of Tokyo Jujutsu High.\n\nTakuma Ino is a genuine and cheerful person with a more positive outlook on things than most jujutsu sorcerers. He doesn't believe he's the smartest person around and has a lot of respect for Nanami. Whenever Ino finds himself in a tough situation, he asks himself what would Nanami do.",
+      "metadata": {
+        "gender": "male",
+        "age": "21",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157865-X9ENX9OzWevS.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157865
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "yoshinobu-gakuganji",
+      "name": "Yoshinobu Gakuganji",
+      "alt_names": [
+        "楽巌寺嘉伸"
+      ],
+      "role": "supporting",
+      "description": "The principal of Kyoto Jujutsu Technical High School.",
+      "metadata": {
+        "gender": "male",
+        "age": "76",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157867-dHdd8ZECuzHx.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157867
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "hanami",
+      "name": "Hanami",
+      "alt_names": [
+        "花御 "
+      ],
+      "role": "supporting",
+      "description": "__Species:__ Cursed Spirit\n\nHanami is an antagonist intent on ridding the Earth of Humans and reviving Sukuna.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b172743-4Y5SXqED6A3G.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 172743
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "dagon",
+      "name": "Dagon",
+      "alt_names": [
+        "陀艮",
+        "だごん "
+      ],
+      "role": "supporting",
+      "description": "__Affiliation:__ Mahito’s group\n\nDagon is a antagonist who starts off as a cursed womb but later turns into a powerful cursed spirit.  He starts off by being accompanied by Jogo and Hanami.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b204383-5oTlVPpaCnM2.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 204383
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "naobito-zenin",
+      "name": "Naobito Zenin",
+      "alt_names": [
+        "禪院直毘人"
+      ],
+      "role": "supporting",
+      "description": "__Species:__ Human\n__Height:__ 184 cm\n__Age:__ Unknown\n__Hair Color:__ Grey\n__Occupation:__ The 26th head of House Zenin\n__Affiliation:__ House Zenin\n__Grade:__ Grade 1 Sorcerer",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b188432-WePQBJsEuSts.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 188432
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kiyotaka-ijichi",
+      "name": "Kiyotaka Ijichi",
+      "alt_names": [
+        "伊地知潔高"
+      ],
+      "role": "supporting",
+      "description": "An assistant manager at Tokyo Prefectural Jujutsu High School.",
+      "metadata": {
+        "gender": "male",
+        "age": "27",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b189238-ItSLams6lRk9.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 189238
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "tsumiki-fushiguro",
+      "name": "Tsumiki Fushiguro",
+      "alt_names": [
+        "伏黒津美紀"
+      ],
+      "role": "supporting",
+      "description": "~! Megumi's older sister.!~\n\n~! Tsumiki was unknowingly chosen by Kenjaku to be a participant of the Culling Game and made into the incarnated host of Yorozu !~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b193479-aGNRmbU5jNwR.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 193479
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "yuki-tsukumo",
+      "name": "Yuki Tsukumo",
+      "alt_names": [
+        "九十九由基",
+        "つくもゆき"
+      ],
+      "role": "supporting",
+      "description": "One of the four Special Grade Sorcerers.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b196502-aBvtPFr9lGm2.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 196502
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "atsuya-kusakabe",
+      "name": "Atsuya Kusakabe",
+      "alt_names": [
+        "日下部篤也"
+      ],
+      "role": "supporting",
+      "description": "Atsuya Kusakabe is a character in Jujutsu Kaisen. He is a Grade 1 Sorcerer, and a teacher at Jujutsu High.\n\n~!At the end of the Shibuya Incident Arc he blocks Kenjaku's Maximum Uzumaki Technique.!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b205234-nrush17kFWaE.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 205234
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "haruta-shigemo",
+      "name": "Haruta Shigemo",
+      "alt_names": [
+        "重面春太"
+      ],
+      "role": "supporting",
+      "description": "A curse user working with Mahito. He loves picking on the weak.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b209694-xSS6FxN4al3l.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 209694
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "koukichi-muta",
+      "name": "Koukichi Muta",
+      "alt_names": [
+        "与幸吉",
+        "Ultimate Mechamaru (究極メカ丸)"
+      ],
+      "role": "supporting",
+      "description": "Koukichi Muta is a Semi-Grade 1 sorcerer and a second-year student at Kyoto Jujutsu High. He attends school by controlling the cursed corpse Ultimate Mechamaru, as Muta was born with a sickly and fragile body due to a Heavenly Restriction. In exchange, he has a nearly boundless amount of cursed energy that spreads over a vast range.",
+      "metadata": {
+        "gender": "male",
+        "age": "17-",
+        "dateOfBirth": "2001-10-04"
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b210154-nIn9DX39GFKP.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 210154
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "uraume",
+      "name": "Uraume",
+      "alt_names": [
+        "裏梅",
+        "Shiraga no Jusoshi (白髪の呪詛師)"
+      ],
+      "role": "supporting",
+      "description": "__Gender:__ Unknown \n\nA  curse user from a thousand years ago who is a direct subordinate to Sukuna.",
+      "metadata": {
+        "age": "1000+",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b210830-rJ8LVEvLUqjE.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 210830
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "akari-nitta",
+      "name": "Akari Nitta",
+      "alt_names": [
+        "新田明"
+      ],
+      "role": "supporting",
+      "description": "Akari Nitta is an Auxiliary Manager at Jujutsu High.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b210846-XcRQ643Ne8Pb.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 210846
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "ui-ui",
+      "name": "Ui Ui",
+      "alt_names": [
+        "憂憂"
+      ],
+      "role": "supporting",
+      "description": "Ui Ui is a sorcerer and the younger brother of Mei Mei.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b217290-dEovi2HxGOnV.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 217290
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "mimiko-hasaba",
+      "name": "Mimiko Hasaba",
+      "alt_names": [
+        "枷場美々子"
+      ],
+      "role": "supporting",
+      "description": "Mimiko Hasaba is a character in Jujutsu Kaisen and Jujutsu Kaisen 0: Jujutsu High. She is an ally of Suguru Geto.",
+      "metadata": {
+        "gender": "female",
+        "age": "15",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b228986-TXJuABOhrxRA.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 228986
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "nanako-hasaba",
+      "name": "Nanako Hasaba",
+      "alt_names": [
+        "枷場菜々子"
+      ],
+      "role": "supporting",
+      "description": "Nanako Hasaba is a character in Jujutsu Kaisen and Jujutsu Kaisen 0: Jujutsu High. She is [Mimiko](https://anilist.co/character/228986/Mimiko-Hasaba)'s twin sister and they were both allies of Suguru Geto.",
+      "metadata": {
+        "gender": "female",
+        "age": "15",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b228987-Su63YTP33b6W.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 228987
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kenjaku",
+      "name": "Kenjaku",
+      "alt_names": [
+        "羂索"
+      ],
+      "role": "supporting",
+      "description": "__Species:__ Human\n__Height:__ 183 cm\n__Occupation:__ Curse User\n__Cursed Technique:__ Cursed Spirit Manipulation\n\nKenjaku is one of the primary antagonists of the Jujutsu Kaisen series. He is an ancient sorcerer who pursues the goal of \"evolving\" humanity via cursed energy, thereby ushering in a new golden age of jujutsu sorcery paralleling the Heian Era.\n\n~!Using his cursed technique that allows him to transplant his brain into different bodies to possess them, he has inhabited different people throughout the centuries, assuming different identities.!~",
+      "metadata": {
+        "gender": "male",
+        "age": "1000+",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b289584-KndGudJZm5Ik.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 289584
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kuchisake-onna",
+      "name": "Kuchisake-Onna",
+      "alt_names": [
+        "口裂け女"
+      ],
+      "role": "supporting",
+      "description": "Kuchisake-Onna was an imaginary vengeful cursed spirit controlled and used by [Suguru Getou](https://anilist.co/character/133699/Suguru-Getou)'s Cursed Spirit Manipulation technique.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b306192-Xo6IC6JP7LwG.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 306192
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "mago",
+      "name": "Mago",
+      "alt_names": [
+        "孫",
+        "Ogami no Mago (オガミの孫)",
+        "Ogami's Grandson"
+      ],
+      "role": "supporting",
+      "description": "~!He is not actually Ogami's grandson, but rather one of the numerous children she kidnapped and raised after falsifying their relationship.!~",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b306248-NefuODIxBeG1.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 306248
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "niji-ebina",
+      "name": "Niji Ebina",
+      "alt_names": [
+        "蛯名仁次"
+      ],
+      "role": "supporting",
+      "description": "Niji Ebina is a minor antagonist in the Jujutsu Kaisen series. He was a curse user who aligned himself with [Kenjaku](https://anilist.co/character/289584/Kenjaku) during the Shibuya Incident.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b306250-JBBTTynIbY7r.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 306250
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "ogami",
+      "name": "Ogami",
+      "alt_names": [
+        "オガミ",
+        "Ogami-baba (オガミ婆)"
+      ],
+      "role": "supporting",
+      "description": "Ogami is a minor antagonist in the Jujutsu Kaisen series. She was a curse user who worked with Jirou Awasaka in the past to make money. ~!However, their freedom to commit crimes and curse people stopped with [Satoru Gojou](https://anilist.co/character/127691/Satoru-Gojou)'s birth. Determined to reclaim their past lives, Ogami, Awasaka, and her grandson aligned themselves with [Kenjaku](https://anilist.co/character/289584/Kenjaku) during the Shibuya Incident.!~",
+      "metadata": {
+        "gender": "female",
+        "age": "87",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b306252-YS8dqn5XWzgT.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 306252
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "jirou-awasaka",
+      "name": "Jirou Awasaka",
+      "alt_names": [
+        "粟坂二良"
+      ],
+      "role": "supporting",
+      "description": "Jirou Awasaka is a minor antagonist in the Jujutsu Kaisen series. He is a curse user who used to kill and collect money as much as he pleased until [Satoru Gojou](https://anilist.co/character/127691/Satoru-Gojou) was born. ~!He was recruited for the Shibuya Incident by [Kenjaku](https://anilist.co/character/289584/Kenjaku) and Uraume to guard a set of commissioned curtains and kill jujutsu sorcerers.!~",
+      "metadata": {
+        "gender": "male",
+        "age": "61",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b306253-PYrfBHAfYvsb.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 306253
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "batta-no-noroi",
+      "name": "Batta no Noroi",
+      "alt_names": [
+        "バッタの呪い",
+        "Grasshopper Curse",
+        "Ko-guy (蝗GUY)"
+      ],
+      "role": "supporting",
+      "description": "Grade 2 Cursed Spirit born from humanity's hatred of the grasshopper plague. ~![Yuuji Itadori](https://anilist.co/character/127212/Yuuji-Itadori) encountered it on B2F of Meiji-Jingumae Station while it was guarding the commissioned curtain there.!~",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b306261-Ms5bd10bi0Ug.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 306261
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "housougami",
+      "name": "Housougami",
+      "alt_names": [
+        "疱瘡神",
+        "Smallpox Deity",
+        "Housou-baba (疱瘡婆)"
+      ],
+      "role": "supporting",
+      "description": "Housougami was a special grade disease cursed spirit ~!summoned by Pseudo-Getou ([Kenjaku](https://anilist.co/character/289584/Kenjaku)) using Cursed Spirit Manipulation.!~",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b306263-P94VBlsmRYOb.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 306263
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "shigeru-sonoda",
+      "name": "Shigeru Sonoda",
+      "alt_names": [
+        "園田茂"
+      ],
+      "role": "supporting",
+      "description": "A non-curse user representative of the Time Vessel Association in 2006.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b306269-fPh6fXzI2WZO.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 306269
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "yuuko-ozawa",
+      "name": "Yuuko Ozawa",
+      "alt_names": [
+        "小沢優子"
+      ],
+      "role": "supporting",
+      "description": "Former middle school classmate of [Yuuji Itadori](https://anilist.co/character/127212/Yuuji-Itadori).",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b306283-w4REAX4BaEzv.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 306283
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kamibukuro-jusoshi",
+      "name": "Kamibukuro Jusoshi",
+      "alt_names": [
+        "紙袋呪詛師",
+        "Paper Bag Curse User"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b310091-M3rC4FXthPtm.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 310091
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "rourei-jusoshi",
+      "name": "Rourei Jusoshi",
+      "alt_names": [
+        "老齢呪詛師",
+        "Elderly Curse User"
+      ],
+      "role": "supporting",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b310092-WElPSHDHTZDc.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 310092
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "kakunou-jurei",
+      "name": "Kakunou Jurei",
+      "alt_names": [
+        "格納呪霊",
+        "Kakunou-gata Jurei (格納型呪霊)",
+        "Inventory Curse",
+        "Storage Type Curse"
+      ],
+      "role": "supporting",
+      "description": "A cursed spirit that can store many different objects within its body. First seen as the servant of Touji Fushiguro, it contains Touji's entire wide arsenal of weapons.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b311131-OS4dUGlxR6OH.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 311131
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "larue",
+      "name": "Larue",
+      "alt_names": [
+        "ラルゥ"
+      ],
+      "role": "supporting",
+      "description": "A large, shirtless muscular man and an ally of [Suguru Getou](https://anilist.co/character/133699/).",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b268297-zQ48F3PoVldl.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 268297
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "manami-suda",
+      "name": "Manami Suda",
+      "alt_names": [
+        "菅田真奈美"
+      ],
+      "role": "supporting",
+      "description": "Curse user who used to be [Suguru Getou](https://anilist.co/character/133699/Suguru-Getou)'s secretary as well as a commander in his \"family\" of sorcerers. ~!After Suguru's death, Manami and Toshihisa Negi both decided to carry on his will by joining the entity to who stole his body.!~",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b306254-rcw8cnkJlTak.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 306254
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "toshihisa-negi",
+      "name": "Toshihisa Negi",
+      "alt_names": [
+        "祢木利久"
+      ],
+      "role": "supporting",
+      "description": "Curse user who used to be a commander in [Suguru Getou](https://anilist.co/character/133699/Suguru-Getou)'s \"family\" of sorcerers. After Suguru's death, Negi and Manami Suda both decided to carry on his will by joining the entity to who stole his body.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b306257-XmeYJw91idBY.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 306257
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "noritoshi-kamo",
+      "name": "Noritoshi Kamo",
+      "alt_names": [
+        "加茂憲紀",
+        "憲倫加茂 "
+      ],
+      "role": "minor",
+      "description": "A shaman who lived around 150 years ago, known as the most evil shaman in history.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157866-UWDtYBoG71PD.png",
+          "type": "portrait",
+          "source": "AniList"
+        },
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b196503-wThFUu5XPqO2.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 196503
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "momo-nishimiya",
+      "name": "Momo Nishimiya",
+      "alt_names": [
+        "西宮桃"
+      ],
+      "role": "supporting",
+      "description": "__Species:__ Human\n__Occupation:__ Jujutsu Sorcerer\n__Affiliation:__  Kyoto Magic Technical College\n__Grade:__ Semi-Grade 2 Sorcerer\n__Cursed Technique:__ Tool Manipulation\n\nShe is a third-year at Kyoto Magic Technical College.",
+      "metadata": {
+        "gender": "female",
+        "age": "18",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157868-Ui2Wht3M6tlM.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157868
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "wasuke-itadori",
+      "name": "Wasuke Itadori",
+      "alt_names": [
+        "虎杖倭助",
+        "祖父 (Jii)",
+        "Yuji's Grandfather"
+      ],
+      "role": "supporting",
+      "description": "Yuji's Grandfather is shown to be a selfless, caring man who taught Yuji to help others. He was also short tempered and stubborn, to the point he would yell at Yuji for visiting him every day and buying him flowers. This temper meant that nobody else wanted to visit him and he tells his grandson to avoid dying alone.",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b194074-SnbrUkHIyM62.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 194074
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "nobuko-takada",
+      "name": "Nobuko Takada",
+      "alt_names": [
+        "高田延子"
+      ],
+      "role": "supporting",
+      "description": "__Height:__ 180 cm\n\nAoi Toudou's favorite idol.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b197119-Z2EBJXGTATzN.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 197119
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "fumi",
+      "name": "Fumi",
+      "alt_names": [
+        "ふみ"
+      ],
+      "role": "supporting",
+      "description": "Fumi is a minor character in the Jujutsu Kaisen series. She is [Nobara Kugisaki](https://anilist.co/character/133700/Nobara-Kugisaki)'s childhood friend.",
+      "metadata": {
+        "gender": "female",
+        "age": "15",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b306270-nVoUKYUK7IsP.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 306270
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "saori",
+      "name": "Saori",
+      "alt_names": [
+        "沙織"
+      ],
+      "role": "supporting",
+      "description": "Saori was a good friend of [Nobara Kugisaki](https://anilist.co/character/133700/Nobara-Kugisaki), before she left her village.",
+      "metadata": {
+        "gender": "female",
+        "age": "23",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b306279-l9Y1HkUViIUc.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 306279
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "yatsuka-no-tsurugi-ikaishinshou-makora",
+      "name": "Yatsuka no Tsurugi Ikaishinshou Makora",
+      "alt_names": [
+        "八握剣異戒神将魔虚羅",
+        "Eight-Handled Sword Divergent Sila Divine General Mahoraga"
+      ],
+      "role": "supporting",
+      "description": "The most powerful shikigami of the Ten Shadows Technique.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b319339-B50Yn0NHXCua.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 319339
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "arata-nitta",
+      "name": "Arata Nitta",
+      "alt_names": [
+        "新田新"
+      ],
+      "role": "supporting",
+      "description": "Arata Nitta is a first-year student at Kyoto Jujutsu High and the younger brother of Akari Nitta.",
+      "metadata": {
+        "gender": "male",
+        "age": "16",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b320325-uGhurK5IhUeO.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 320325
+      },
+      "rarity": "rare"
+    },
+    {
+      "id": "tengen",
+      "name": "Tengen",
+      "alt_names": [
+        "天元",
+        "Star",
+        "Master Tengen"
+      ],
+      "role": "minor",
+      "description": "Tengen, often referred to as Master Tengen is a supporting character in Jujutsu Kaisen. They are an immortal jujutsu sorcerer that remains within their chamber; the Tombs of the Star Corridor at all times in order to reinforce the barriers that protect both Jujutsu High locations.\n\nMaster Tengen is also known as the \"Star\". They were responsible for preaching the foundation of jujutsu sorcerers and spawning religious groups that worship the Star as their deity.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b217291-zKcyXtXLZZJy.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 217291
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "tv-announcer-a",
+      "name": "TV Announcer A",
+      "alt_names": [
+        "TVアナウンス"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b310093-rpR1k9b4mwmA.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 310093
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "hojo-kantoku",
+      "name": "Hojo Kantoku",
+      "alt_names": [
+        "補助監督"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b310094-wBu961BkvgDh.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 310094
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "kyoushi",
+      "name": "Kyoushi",
+      "alt_names": [
+        "教師",
+        "Teacher"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b310095-1eFH14WWCMGm.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 310095
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "kyouteiba-announcer",
+      "name": "Kyouteiba Announcer",
+      "alt_names": [
+        "競艇場アナウンス",
+        "Boat Racing Announcer"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b310096-tvpojanATUT7.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 310096
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "tv-announcer-b",
+      "name": "TV Announcer B",
+      "alt_names": [
+        "TVアナウンス"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b310097-BwEyLvR2pytS.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 310097
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "seito-a",
+      "name": "Seito A",
+      "alt_names": [
+        "生徒"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 310099
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "seito-b",
+      "name": "Seito B",
+      "alt_names": [
+        "生徒"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 310101
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "seito-c",
+      "name": "Seito C",
+      "alt_names": [
+        "生徒"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 310098
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "seito-d",
+      "name": "Seito D",
+      "alt_names": [
+        "生徒"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 310100
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "seito-e",
+      "name": "Seito E",
+      "alt_names": [
+        "生徒"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 310102
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "seito-f",
+      "name": "Seito F",
+      "alt_names": [
+        "生徒"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 310103
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "alt_names": [
+        "ナレーター",
+        "語り手",
+        "ナレーション",
+        "Narrador",
+        "Rozprávač",
+        "Vyprávěč",
+        "Dış ses",
+        "Narratore",
+        "Pripovjedač",
+        "Narradora",
+        "Рассказчик",
+        "Người dẫn chuyện",
+        "Tagapagsalaysay",
+        "내레이터",
+        "Narratore",
+        "Erzählperson",
+        "מספר",
+        "Narrátor",
+        "讲述人",
+        "راوي",
+        "Forteller",
+        "Berättare",
+        "Αφηγητής",
+        "Narrateur",
+        "なれーしょん",
+        "旁白",
+        "Narrato"
+      ],
+      "role": "minor",
+      "description": "This character page is set to represent and list all narrators, which haven't been given a visual representation of themselves in their respective work. \n\nPlease add other narrator characters, which were given a visual representation of themselves, separately from this narrator page.",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-6KM0riV4lqfN.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 36309
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "shinja-a",
+      "name": "Shinja A",
+      "alt_names": [
+        "信者"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 310646
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "shinja-b",
+      "name": "Shinja B",
+      "alt_names": [
+        "信者"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 310647
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "murabito-a",
+      "name": "Murabito A",
+      "alt_names": [
+        "村人",
+        "Villager"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 311663
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "murabito-b",
+      "name": "Murabito B",
+      "alt_names": [
+        "村人"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 311664
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "mimizu-ningen",
+      "name": "Mimizu Ningen",
+      "alt_names": [
+        "ミミズ人間",
+        "Human Earthworm"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b313479-NiVfKC37cCqC.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 313479
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "mechamaru-kinai-onsei",
+      "name": "Mechamaru Kinai Onsei",
+      "alt_names": [
+        "メカ丸機内音声"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b313854-HizkpsQVaZBp.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 313854
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "musume",
+      "name": "Musume",
+      "alt_names": [
+        "娘"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b316361-q9bN34t79FDt.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 316361
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "chichioya",
+      "name": "Chichioya",
+      "alt_names": [
+        "父親"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b316362-wrLsiKCwHwtD.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 316362
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "negi-no-ippa",
+      "name": "Negi no Ippa",
+      "alt_names": [
+        "祢木の一派"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b319095-uXWGXXV0CeYZ.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 319095
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "megumi-no-haha",
+      "name": "Megumi no Haha",
+      "alt_names": [
+        "恵の母",
+        "Megumi's Mother"
+      ],
+      "role": "minor",
+      "description": "[Megumi Fushiguro](https://anilist.co/character/126635/Megumi-Fushiguro)'s mother.",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b319096-Z6DT35iprvsi.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 319096
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "junpei-yoshino",
+      "name": "Junpei Yoshino",
+      "alt_names": [
+        "吉野順平"
+      ],
+      "role": "minor",
+      "description": "A student at Satozakura High School.",
+      "metadata": {
+        "gender": "male",
+        "age": "17",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b157214-ROBNoXVEXRNy.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 157214
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "esou",
+      "name": "Esou",
+      "alt_names": [
+        "壊相",
+        "Eso"
+      ],
+      "role": "minor",
+      "description": "__Cursed Technique__ Rot\n\nEso is an antagonist in the Jujutsu Kaisen series. He is a Cursed Womb: Death Painting and the middle brother of Choso and Kechizu.",
+      "metadata": {
+        "gender": "male",
+        "age": "150+",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b210831-wsucHRbSZjbV.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 210831
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "kechizu",
+      "name": "Kechizu",
+      "alt_names": [
+        "血塗"
+      ],
+      "role": "minor",
+      "description": "__Cursed Technique:__ Rot\n\nKechizu is an antagonist in the Jujutsu Kaisen series. He is a Cursed Womb: Death Painting and the youngest brother of Choso and Eso. Kechizu and Eso serve as the primary antagonists of the Death Painting Arc.",
+      "metadata": {
+        "gender": "male",
+        "age": "150+",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b210832-d1Fg0CePSU86.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 210832
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "sensei",
+      "name": "Sensei",
+      "alt_names": [
+        "先生",
+        "Teacher"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b319993-Iki1xUpXx71t.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 319993
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "fumi-chichi",
+      "name": "Fumi Chichi",
+      "alt_names": [
+        "ふみ父",
+        "Fumi's Father"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b319994-c6uTfYkQjiaT.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 319994
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "saori-no-senpai",
+      "name": "Saori no Senpai",
+      "alt_names": [
+        "沙織の先輩"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b319995-gPil5v82S3Ys.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 319995
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "cameraman",
+      "name": "Cameraman",
+      "alt_names": [
+        "カメラマン"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 322288
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "shoujo",
+      "name": "Shoujo",
+      "alt_names": [
+        "少女"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b322289-kyM6VP3Qx7lH.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 322289
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "hito-no-sugata-no-jurei",
+      "name": "Hito no Sugata no Jurei",
+      "alt_names": [
+        "人の姿の呪霊"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b322290-ZveNAymdiFKd.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 322290
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "announcer",
+      "name": "Announcer",
+      "alt_names": [
+        "アナウンサー"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 322291
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "reporter",
+      "name": "Reporter",
+      "alt_names": [
+        "リポーター"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b322292-JES7sUh6cuPA.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 322292
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "itadori-no-doukyuusei-a",
+      "name": "Itadori no Doukyuusei A",
+      "alt_names": [
+        "虎杖の同級生A"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b327842-8a9t5RPDsJL0.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 327842
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "kinoko-no-noroi",
+      "name": "Kinoko no Noroi",
+      "alt_names": [
+        "キノコの呪い"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b327843-hMhuLeAMoF8s.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 327843
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "jujutsu-keibu",
+      "name": "Jujutsu Keibu",
+      "alt_names": [
+        "柔術警部"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b327844-IbBjfNPOPaXb.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 327844
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "assistant",
+      "name": "Assistant",
+      "alt_names": [
+        "アシスタント"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b327845-r0ykkAC335Oz.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 327845
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "teen",
+      "name": "Teen",
+      "alt_names": [
+        "ティーン"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "female",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b327846-3Og1Sa1Qy0VO.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 327846
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "itadori-no-doukyuusei-b",
+      "name": "Itadori no Doukyuusei B",
+      "alt_names": [
+        "虎杖の同級生B"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "gender": "male",
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/b327847-3lIwLsGSXppL.png",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 327847
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "ippanjin",
+      "name": "Ippanjin",
+      "alt_names": [
+        "一般人"
+      ],
+      "role": "minor",
+      "description": "",
+      "metadata": {
+        "dateOfBirth": null
+      },
+      "images": [
+        {
+          "url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "type": "portrait",
+          "source": "AniList"
+        }
+      ],
+      "external_ids": {
+        "anilist": 331890
+      },
+      "rarity": "uncommon"
+    }
+  ],
+  "updated_at": "2025-12-23T02:49:41.004Z"
+}

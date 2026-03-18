@@ -1,60 +1,115 @@
 version: '3.8'
 
 services:
-  bot:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: anime-bot
-    restart: unless-stopped
-    depends_on:
-      postgres:
-        condition: service_healthy
-      redis:
-        condition: service_healthy
-    environment:
-      - NODE_ENV=production
-      - DATABASE_URL=postgresql://${DB_USER:-animebot}:${DB_PASSWORD:-animebot123}@postgres:5432/${DB_NAME:-animebot}
-      - REDIS_URL=redis://redis:6379
-      - DISCORD_TOKEN=${DISCORD_TOKEN}
-      - DISCORD_CLIENT_ID=${DISCORD_CLIENT_ID}
-      - DISCORD_GUILD_ID=${DISCORD_GUILD_ID}
-    volumes:
-      - ./logs:/app/logs
-
+  # PostgreSQL Database
   postgres:
     image: postgres:16-alpine
-    container_name: anime-bot-db
+    container_name: anime-bot-postgres
     restart: unless-stopped
-    ports:
-      - "11999:5432"
     environment:
-      POSTGRES_USER: ${DB_USER:-animebot}
-      POSTGRES_PASSWORD: ${DB_PASSWORD:-animebot123}
-      POSTGRES_DB: ${DB_NAME:-animebot}
+      POSTGRES_DB: ${POSTGRES_DB:-waifubot}
+      POSTGRES_USER: ${POSTGRES_USER:-waifu}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changeme}
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ./database/init:/docker-entrypoint-initdb.d
+    networks:
+      - anime-bot-network
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-animebot} -d ${DB_NAME:-animebot}"]
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-waifu}"]
       interval: 10s
       timeout: 5s
       retries: 5
 
+  # Redis Cache
   redis:
     image: redis:7-alpine
     container_name: anime-bot-redis
     restart: unless-stopped
-    ports:
-      - "11998:6379"
+    command: redis-server --appendonly yes
     volumes:
       - redis_data:/data
-    command: redis-server --appendonly yes
+    networks:
+      - anime-bot-network
     healthcheck:
       test: ["CMD", "redis-cli", "ping"]
       interval: 10s
       timeout: 5s
       retries: 5
+
+  # NestJS API
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: anime-bot-api
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: 3071
+      DATABASE_URL: postgres://${POSTGRES_USER:-waifu}:${POSTGRES_PASSWORD:-changeme}@postgres:5432/${POSTGRES_DB:-waifubot}
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: ${JWT_SECRET:-changeme}
+      CORS_ORIGIN: ${DOMAIN:-https://your-domain.com}
+      DISCORD_CLIENT_ID: ${DISCORD_CLIENT_ID}
+      DISCORD_CLIENT_SECRET: ${DISCORD_CLIENT_SECRET}
+      DISCORD_BOT_TOKEN: ${DISCORD_BOT_TOKEN}
+      API_URL: ${API_URL:-https://api.your-domain.com}
+      DASHBOARD_URL: ${DASHBOARD_URL:-https://your-domain.com}
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - anime-bot-network
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.api.rule=Host(`${TRAEFIK_API_HOST:-api.your-domain.com}`)"
+      - "traefik.http.routers.api.entrypoints=websecure"
+      - "traefik.http.routers.api.tls.certresolver=cloudflare"
+      - "traefik.http.services.api.loadbalancer.server.port=3071"
+      - "traefik.docker.network=anime-bot-network"
+
+  # Discord Bot
+  bot:
+    build:
+      context: .
+      dockerfile: Dockerfile.bot
+    container_name: anime-bot-discord
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      DISCORD_TOKEN: ${DISCORD_BOT_TOKEN}
+      CLIENT_ID: ${DISCORD_CLIENT_ID}
+      API_URL: http://api:3071
+    depends_on:
+      - api
+    networks:
+      - anime-bot-network
+
+  # SvelteKit Dashboard
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile.dashboard
+    container_name: anime-bot-dashboard
+    restart: unless-stopped
+    environment:
+      PUBLIC_API_URL: ${API_URL:-https://api.your-domain.com}
+      PUBLIC_DASHBOARD_URL: ${DASHBOARD_URL:-https://your-domain.com}
+    networks:
+      - anime-bot-network
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.dashboard.rule=Host(`${TRAEFIK_DASHBOARD_HOST:-your-domain.com}`)"
+      - "traefik.http.routers.dashboard.entrypoints=websecure"
+      - "traefik.http.routers.dashboard.tls.certresolver=cloudflare"
+      - "traefik.http.services.dashboard.loadbalancer.server.port=3173"
+      - "traefik.docker.network=anime-bot-network"
+
+networks:
+  anime-bot-network:
+    driver: bridge
 
 volumes:
   postgres_data:
