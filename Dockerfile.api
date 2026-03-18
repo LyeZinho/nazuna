@@ -23,7 +23,12 @@ WORKDIR /app
 COPY --from=deps /app/ ./
 COPY packages/db ./packages/db
 COPY apps/api ./apps/api
-COPY data/unified ./data/unified
+# Create empty data/unified directory if it doesn't exist (for seeding)
+RUN mkdir -p data/unified && \
+    mkdir -p data/unified/characters && \
+    mkdir -p data/unified/works && \
+    echo "[]" > data/unified/characters/.gitkeep && \
+    echo "[]" > data/unified/works/.gitkeep || true
 WORKDIR /app/packages/db
 RUN pnpm build
 WORKDIR /app/apps/api

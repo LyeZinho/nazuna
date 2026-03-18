@@ -39,8 +39,10 @@ coverage/
 *.temp
 .cache/
 
-# Data (keep sample)
-data/unified/
+# Data (keep sample structure, ignore actual data files)
+data/unified/*.json
+data/unified/*/*.json
+data/unified/*/*/*.json
 data/raw/
 scripts/
 
