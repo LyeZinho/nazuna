@@ -23,13 +23,11 @@ WORKDIR /app
 COPY --from=deps /app/ ./
 COPY packages/db ./packages/db
 COPY apps/api ./apps/api
-# Create empty data/unified directory if it doesn't exist (for seeding)
-RUN mkdir -p data/unified && \
-    mkdir -p data/unified/characters && \
-    mkdir -p data/unified/works && \
-    echo "[]" > data/unified/characters/.gitkeep && \
-    echo "[]" > data/unified/works/.gitkeep || true
+# Copy seed data directory with .gitkeep files (prevents Docker COPY error)
+COPY data/unified ./data/unified
 WORKDIR /app/packages/db
+RUN pnpm build
+WORKDIR /app/apps/api
 RUN pnpm build
 WORKDIR /app/apps/api
 RUN pnpm build
