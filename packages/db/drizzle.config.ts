@@ -3,7 +3,7 @@ import { resolve } from 'path';
 import { config } from 'dotenv';
 
 // Load .env from project root (where docker-compose.yml lives)
-config({ path: resolve(__dirname, '../../.env') });
+config({ path: resolve(process.cwd(), '.env') });
 
 export default defineConfig({
   schema: './src/schema.ts',

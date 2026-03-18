@@ -5,7 +5,7 @@ import { join } from 'path';
 import { resolve } from 'path';
 import { config } from 'dotenv';
 
-config({ path: resolve(__dirname, '../../.env') });
+config({ path: resolve(process.cwd(), '.env') });
 
 async function main() {
   const connectionString = process.env.DATABASE_URL;
