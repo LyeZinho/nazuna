@@ -27,7 +27,7 @@ if (!process.env.DISCORD_CLIENT_ID) {
 const DISCORD_TOKEN: string = process.env.DISCORD_BOT_TOKEN;
 const CLIENT_ID: string = process.env.DISCORD_CLIENT_ID;
 
-const API_URL = process.env.API_URL || 'http://localhost:3071/api/v1';
+const API_URL = `${process.env.API_URL || 'http://localhost:3071'}/api/v1`;
 
 const commands = [
   new SlashCommandBuilder()
@@ -91,6 +91,11 @@ async function main() {
     logger.info(`🤖 Bot logged in as ${client.user?.tag}`);
 
     try {
+      for (const guild of client.guilds.cache.values()) {
+        await rest.put(Routes.applicationGuildCommands(CLIENT_ID, guild.id), { body: [] });
+        logger.info(`🧹 Cleared guild commands for ${guild.name}`);
+      }
+
       await rest.put(
         Routes.applicationCommands(CLIENT_ID),
         { body: commands.map(c => c.toJSON()) }

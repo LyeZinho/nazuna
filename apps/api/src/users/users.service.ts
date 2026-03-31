@@ -1,5 +1,5 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { db, users, userFavorites, userCollections, userRatings, characters, works, eq, desc, sql } from '@anime-bot/db';
+import { db, users, userFavorites, userCollections, userRatings, characters, works, eq, desc, sql, and } from '@anime-bot/db';
 
 @Injectable()
 export class UsersService {
@@ -25,7 +25,11 @@ export class UsersService {
   }
 
   async getCollections(userId: string, serverId?: string) {
-    let query = db.select({
+    const whereCondition = serverId
+      ? and(eq(userCollections.userId, userId), eq(userCollections.serverId, serverId))
+      : eq(userCollections.userId, userId);
+
+    return db.select({
       anilistId: characters.anilistId,
       name: characters.name,
       imageUrl: characters.imageUrl,
@@ -37,13 +41,8 @@ export class UsersService {
     .from(userCollections)
     .leftJoin(characters, eq(userCollections.characterId, characters.anilistId))
     .leftJoin(works, eq(characters.workId, works.id))
-    .where(eq(userCollections.userId, userId));
-
-    if (serverId) {
-      query = query.where(eq(userCollections.serverId, serverId)) as any;
-    }
-
-    return query.orderBy(desc(userCollections.obtainedAt));
+    .where(whereCondition)
+    .orderBy(desc(userCollections.obtainedAt));
   }
 
   async getRatings(userId: string) {

@@ -78,8 +78,8 @@ export class RankingsService {
       averageRating: characterRatings.averageRating,
       workTitle: works.title,
     })
-    .from(characterRatings)
-    .leftJoin(characters, eq(characterRatings.characterId, characters.anilistId))
+    .from(characters)
+    .leftJoin(characterRatings, eq(characters.anilistId, characterRatings.characterId))
     .leftJoin(works, eq(characters.workId, works.id))
     .orderBy(desc(characters.popularity))
     .limit(limit)

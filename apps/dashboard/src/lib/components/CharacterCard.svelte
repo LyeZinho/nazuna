@@ -21,7 +21,13 @@
     'Legendary': 'rarity-legendary'
   };
   
-  const displayImage = image || `https://picsum.photos/seed/${name.replace(/\s+/g, '-')}/600/800`;
+  const fallbackImage = `https://picsum.photos/seed/${name.replace(/\s+/g, '-')}/600/800`;
+  const displayImage = image || fallbackImage;
+
+  function onImgError(e: Event) {
+    const img = e.currentTarget as HTMLImageElement;
+    if (img.src !== fallbackImage) img.src = fallbackImage;
+  }
 </script>
 
 <div class="character-card neobrutal-card">
@@ -30,6 +36,7 @@
       src={displayImage} 
       alt={name}
       loading="lazy"
+      onerror={onImgError}
     />
     
     {#if rank}

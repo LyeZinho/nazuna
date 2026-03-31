@@ -42,6 +42,7 @@
         <img 
           src={char.imageUrl || char.image || `https://picsum.photos/seed/${char.name}/600/800`}
           alt={char.name}
+          onerror={(e) => { const img = e.currentTarget as HTMLImageElement; const fb = `https://picsum.photos/seed/${char.name}/600/800`; if (img.src !== fb) img.src = fb; }}
         />
       </div>
       <div class="image-shadow"></div>
