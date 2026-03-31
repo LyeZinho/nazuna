@@ -77,7 +77,7 @@
         <div class="item-stats">
           <div class="stat">
             <span class="stat-label">Score</span>
-            <span class="stat-value">{(char.score || char.rating || 0).toFixed(1)}</span>
+            <span class="stat-value">{Number(char.score || char.averageRating || (typeof char.rating === 'number' ? char.rating : char.rating?.averageRating) || 0).toFixed(1)}</span>
           </div>
           <div class="stat">
             <span class="stat-label">Popularity</span>

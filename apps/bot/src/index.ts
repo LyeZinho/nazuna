@@ -72,6 +72,10 @@ async function main() {
   const logger = new Logger();
   const api = new ApiService(API_URL);
 
+  process.on('unhandledRejection', (error) => {
+    logger.error('Unhandled promise rejection', error);
+  });
+
   const client = new Client({
     intents: [
       GatewayIntentBits.Guilds,
@@ -83,7 +87,7 @@ async function main() {
 
   const rest = new REST({ version: '10' }).setToken(DISCORD_TOKEN);
 
-  client.once('ready', async () => {
+  client.once('clientReady', async () => {
     logger.info(`🤖 Bot logged in as ${client.user?.tag}`);
 
     try {

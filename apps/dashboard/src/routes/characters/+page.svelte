@@ -256,7 +256,7 @@
               series={char.series || char.work?.title}
               image={char.imageUrl || char.image}
               rank={char.rank}
-              rating={char.score || char.rating || 0}
+              rating={char.score || (typeof char.rating === 'number' ? char.rating : char.rating?.averageRating) || 0}
               rarity={char.rarity || 'Common'}
             />
           {/each}

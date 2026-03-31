@@ -40,7 +40,7 @@ export class ApiService {
 
   async getRandomCharacter(filters: Record<string, string> = {}) {
     const params = new URLSearchParams(filters).toString();
-    return this.request<any>(`/characters/random?${params}`);
+    return this.request<any>(`/characters/random${params ? '?' + params : ''}`);
   }
 
   async getCharacter(id: number) {
@@ -54,7 +54,8 @@ export class ApiService {
   async getUserCollections(userId: string, serverId?: string) {
     const params = new URLSearchParams({ userId });
     if (serverId) params.append('serverId', serverId);
-    return this.request<any>(`/users/me/collections?${params}`);
+    const qs = params.toString();
+    return this.request<any>(`/users/me/collections${qs ? '?' + qs : ''}`);
   }
 
   async addToCollection(userId: string, serverId: string, characterId: number, source = 'roulette') {

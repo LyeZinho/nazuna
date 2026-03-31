@@ -78,7 +78,7 @@
               series={char.work?.title || char.series}
               image={char.imageUrl || char.image}
               rank={char.rank}
-              rating={char.score || char.rating}
+              rating={char.score || (typeof char.rating === 'number' ? char.rating : char.rating?.averageRating) || 0}
               rarity={char.rarity}
             />
           {/each}
@@ -102,7 +102,7 @@
               series={char.work?.title || char.series}
               image={char.imageUrl || char.image}
               rank={char.rank}
-              rating={char.score || char.rating}
+              rating={char.score || (typeof char.rating === 'number' ? char.rating : char.rating?.averageRating) || 0}
               rarity={char.rarity}
             />
           {/each}
