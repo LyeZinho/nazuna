@@ -1,12 +1,16 @@
 // API Client for Nazuna Bot Backend
 import { env } from '$env/dynamic/public';
 
-const API_BASE = `${env.PUBLIC_API_URL || 'http://localhost:3071'}/api/v1`;
+function apiOrigin(): string {
+  return (env.PUBLIC_API_URL || 'http://localhost:3071')
+    .replace(/\/api\/v1\/?$/, '')
+    .replace(/\/$/, '');
+}
 
-// Helper for server-side fetches with correct API URL
+const API_BASE = `${apiOrigin()}/api/v1`;
+
 export function getServerApiUrl(endpoint: string): string {
-  const baseUrl = env.PUBLIC_API_URL || 'http://localhost:3071';
-  return `${baseUrl}/api/v1${endpoint}`;
+  return `${apiOrigin()}/api/v1${endpoint}`;
 }
 
 interface FetchOptions {

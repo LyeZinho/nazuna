@@ -1,5 +1,6 @@
 import { ChatInputCommandInteraction, ButtonInteraction, EmbedBuilder, ButtonBuilder, ButtonStyle, ActionRowBuilder } from 'discord.js';
 import { ApiService } from '../services/api';
+import { SafebooruService } from '../services/safebooru';
 import { Logger } from '../services/logger';
 
 const ROULETTE_COLORS = [
@@ -37,7 +38,17 @@ async function doSpin(
       })
       .setTimestamp();
 
-    if (character.imageUrl) embed.setImage(character.imageUrl);
+    if (character.imageUrl) {
+      embed.setImage(character.imageUrl);
+    } else {
+      try {
+        const safebooru = new SafebooruService();
+        const posts = await safebooru.searchByCharacterName(character.name, 5);
+        if (posts.length > 0) {
+          embed.setImage(safebooru.formatPostForDiscord(posts[0]).url);
+        }
+      } catch {}
+    }
 
     embed.addFields(
       { name: '📚 Work', value: character.work?.title || 'Unknown', inline: true },
