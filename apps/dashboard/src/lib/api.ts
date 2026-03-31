@@ -1,13 +1,11 @@
 // API Client for Nazuna Bot Backend
-// Server-side: Use PUBLIC_API_URL environment variable (set in docker-compose)
-// Client-side: Fall back to relative path (SvelteKit dev server handles proxy)
-const API_BASE = typeof window === 'undefined'
-  ? (process.env.PUBLIC_API_URL || 'http://localhost:3071') + '/api/v1'
-  : '/api/v1';
+import { env } from '$env/dynamic/public';
+
+const API_BASE = `${env.PUBLIC_API_URL || 'http://localhost:3071'}/api/v1`;
 
 // Helper for server-side fetches with correct API URL
 export function getServerApiUrl(endpoint: string): string {
-  const baseUrl = process.env.PUBLIC_API_URL || 'http://localhost:3071';
+  const baseUrl = env.PUBLIC_API_URL || 'http://localhost:3071';
   return `${baseUrl}/api/v1${endpoint}`;
 }
 
